@@ -1,5 +1,13 @@
 import React from "react";
 import bismillah from "./images/bismillah.png";
+import vbEmail420 from "./images/vbEmail420.png";
+import FacebookPlayer from 'react-facebook-player';
+import leif420email1 from "./images/leif420email1.png";
+import leif420email2 from "./images/leif420email2.png";
+import thumb13Reasons from "./images/thumb13Reasons.png";
+import ogIPhone from "./images/ogIPhone.png";
+import trumpElection from "./images/trumpElection.png";
+import Charter from "charter-webfont";
 
 const onboarding = [
   {
@@ -88,6 +96,191 @@ const verses = [
     classes: "verse",
     html: (
       <p>
+
+        It was the week after April 20, 2017. I was prancing around my shoebox of an apartment in New York City, tripping on acid, and pondering over the nature of reality – you know, the usual thing to do when you have just skipped a major midterm of a very important course in your final semester of college, and failed to turn in a very important paper of the only course that you found meaningful by lying about the death of a grandparent that was still paying for this so called "educational endeavour" of yours – all for what? So that you could fuck off to the capital of the country you had slowly come to despise, to celebrate the freedom of debauchery, in a hotel room paid for with loyalty points you had not earned, with friends whose only true connection to you was that you indulged in illicit substances together, to celebrate the unoffical cultural holiday of 4/20. 
+        </p>
+    ),
+  },
+  {
+    classes: "verse image",
+    html: (
+      <img src={vbEmail420}/>
+    ),
+  },
+  {
+    classes: "verse",
+    html: (
+      <p>
+          It had already been a very challenging year for me. After repeatedly failing, dropping out, and letting a certain important courses remain incompleted, I had put my plans for graduating with the rest of my class in jeopardy by pulling this stunt. I hadn't been able to study, given all the emotional "trauma" that I was supposedly going through, but even so – who in their right mind goes off to smoke marijuana in the capital city of a foreign country, on what was, quite possibly, the single most important day of their entire undergraduate career? This detour was more important to the "boys" than they could have realised in the moment, or even years after the moment. 
+          </p>
+    ),
+  },
+  {
+    classes: "verse image",
+    html: (
+      <img src={leif420email1}/>
+    ),
+  },
+  {
+    classes: "verse",
+    html: (
+      <p>
+          My professor, being a civilised, kind-hearted person, graciously involved his assistant to the thread, and we agreed that I would be allowed an extension until the end of the week. I really tried to submit the paper within the given timeframe, but as fate would have it, and my will would allow it, the paper grew into something larger than life, into a sort of emergency that had to be dealt with as soon as humanly possible – all other things happening in my life at the time, had to wait, my intuition said. 
+          </p>
+    ),
+  },
+  {
+    classes: "verse image",
+    html: (
+      <img src={leif420email2}/>
+    ),
+  },
+  {
+    classes: "verse",
+    html: (
+      <p>
+          Now, a blog post might not mean much to experienced writers, or even the avid readers that frivously scroll through the endless stream of content in each waking moment, but to me, this article encompassed almost all aspects of what I had supposedly come to learn in this strange, but visually familiar land. As you have now read, it was a very lengthy read, so really, nobody other than my professor and his assistant really took notice of it – now that you're here, this is the perfect place to begin. </p>
+    ),
+  },
+  {
+    classes: "verse image",
+    html: (
+      <a href={"https://medium.com/@SonOfGod/sock-puppets-383fc33da8a7"}><img src={thumb13Reasons} /></a>
+    ),
+  },
+  {
+    classes: "verse",
+    html: (
+      <p>
+          <h1>13 Reasons Why I am afraid of the Cloud</h1>
+          <h2>The Legacy of Cybernetics in a Data-Driven World</h2>
+          </p>
+    ),
+  },
+  {
+    classes: "verse",
+    html: (
+      <p>
+
+If communication is to be considered a game played in partnership by the speaker & the listener, against the <strong>forces of confusion</strong> as stated by Norbert Wiener in <em>Human Use of Human Beings</em>, then – in a closed social ecosystem our desire to gain more information only gives us a bloated sense of awareness (read: education and entitlement) where the easier option is to surrender control to anything that holds our attention the longest through our screens as our disposition to propagate opinion using affect heuristic increasingly sets the scene for reality of alternative facts (read: <a href={"https://en.wikipedia.org/wiki/Alternative_facts"}>alt-facts</a>).
+
+</p>
+    ),
+  },
+  {
+    classes: "verse",
+    html: (
+      <p>
+          <strong>To explain our existence as sock puppets in a data driven world, I thought I’d share my <a href={"https://twitter.com/hashtag/13ReasonsWhy?src=hash"}>#13ReasonsWhy</a> I am afraid of the cloud:</strong>
+          </p>
+    ),
+  },
+  {
+    classes: "verse quote",
+    html: (
+      <p>
+          <h2>1. Revolution: Apple</h2>
+          </p>
+    ),
+  },
+  {
+    classes: "verse",
+    html: (
+      <p>
+          A decade ago, in 2007 when Steve Jobs <a href={"https://www.youtube.com/watch?v=wGoM_wVrwng"}>unveiled the iPhone</a> to the world as the intellectual offspring of the <em>1997/Think Different</em> campaign — hardly anyone anticipated the tectonic shift that keynote would trigger in the technological landscape. Just to recall — this was a time of flip-phones and limited text-messages; and Obama was a cool president because he used a Blackberry.
+          </p>
+    ),
+  },
+  {
+    classes: "verse image",
+    html: (
+      <img src={ogIPhone}/>
+    ),
+  },
+  {
+    classes: "verse",
+    html: (
+      <p>
+          The iPhone was marketed as a touch controlled iPod that you could make calls and surf the internet with. Cut to 2017 — chances are you are reading this on a rectangular aluminum-glass Apple device connected to high-speed unlimited internet, still recovering from the hate-spewing tweet that the Leader of the Free World sent out at 3 AM. Yes, times have changed.
+Even back in 1984, when Apple was the David to the Goliath of corporations, they wanted the Mac to symbolize empowerment — the Mac being a tool to combat conformity. They aired the <a href={"https://www.youtube.com/watch?v=2zfqw8nhUwA"}><em>1984</em></a> ad, which is arguably the most memorable Super Bowl commercial of all time. To jog your memory, here’s a transcript:
+          </p>
+    ),
+  },
+  {
+    classes: "verse image",
+    html: (
+      <img src={trumpElection}/>
+    ),
+  },
+  {
+    classes: "verse",
+    html: (
+      <p>
+          [Apple’s rebel enters, pursued by police]<br/><br/>
+Today, we celebrate the first glorious anniversary of the Information Purification Directives. We have created, for the first time in all history, a <em><strong>garden of pure ideology — where each worker may bloom, secure from the pests purveying contradictory truths</strong></em>. Our Unification of Thoughts is more powerful a weapon than any fleet or army on earth. We are one people, with one will, one resolve, one cause. <em><strong>Our enemies shall talk themselves to death, and we will bury them with their own confusion</strong></em>. <br/><br/>
+We shall prevail!<br/><br/>
+[Hammer is thrown at the screen: Boom!]<br/><br/>
+On January 24th Apple Computer will introduce Macintosh. <strong>And you’ll see why 1984 won’t be like ‘1984.’</strong>
+          </p>
+    ),
+  },
+  {
+    classes: "verse",
+    html: (
+      <p>
+          What I love about Apple is that they have always advocated for technology as an instrument for change. Maybe Steve Jobs had a <a href={"https://www.youtube.com/watch?v=lSiQA6KKyJo"}>genuine vision</a> to change the world — maybe he didn’t. What I know for sure, is that the rest of the company, rather, corporate America blindly incorporated this strategy to feed their bottom line.
+
+          </p>
+    ),
+  },
+  {
+    classes: "verse",
+    html: (
+      <p>
+          The iPhone certainly had the flair of the <em>Think Different</em> campaign, and I sincerely wish Jobs himself would have been around to see the technology mature. Otherwise, who could have imagined that decades later, Apple would be instrumental in creating the same Orwellian future it said it would fight against?
+          </p>
+    ),
+  },
+  {
+    classes: "verse",
+    html: (
+      <p>
+          </p>
+    ),
+  },
+  {
+    classes: "verse",
+    html: (
+      <p>
+          </p>
+    ),
+  },
+  {
+    classes: "verse",
+    html: (
+      <p>
+          </p>
+    ),
+  },
+  {
+    classes: "verse",
+    html: (
+      <p>
+
+        Everything after this point is metaphysical gibberish. Email me at anhad@scova.org if you are reading this, and would love to chat. 
+
+</p>
+    ),
+  },
+  {
+    classes: "verse",
+    html: (
+      <p>
+
+
+
+
+
         God? In this day and age?
         <br />
         Am I crazy?
@@ -115,10 +308,10 @@ const verses = [
         Often with works of scripture, painstaking translations need to occur so
         as to preserve the original meaning, and not distort the valuable
         lessons and information, in light of personal biases. Especially in a
-        work of scripture, however, this pain is worthless if the entity engaged
-        in said translation did not know the intent of the words in the first
-        place. Rearranging the word order of a simple sentence to suit the
-        traits of the different language can lend to the sentence meaning
+        work of scripture, however, this pain is worthless, if the entity
+        engaged in said translation did not know the intent of the words in the
+        first place. Rearranging the word order of a simple sentence to suit the
+        traits of a <em>different language</em> can lend to the sentence meaning
         something entirely different. Exchanging the subject and the predicate
         is not something that can be taken lightly in scriptures.
       </p>
@@ -129,11 +322,38 @@ const verses = [
     html: (
       <p>
         The oppression that this debacle has thereon caused, was probably not
-        the original aim of the scribes. So there's your first lesson – do not
-        trust blindly any theological material that does not directly come from
-        the <em>entity connected to the source</em>. Always be wary of the{" "}
-        <em>human errors </em>that might stem from the personal biases of the
-        entities making that translation. Be sufficiently watchful of what you
+        the original aim of the scribes. I'm quite sure that they had the best
+        intentions at heart, but as they say,{" "}
+        <em>"All roads to hell are paved with good intentions."</em> I truly
+        believe that such was the case over centuries of translations, and
+        mistranslations. For a visual example of how this can occur, see the
+        video below.
+      </p>
+    ),
+  },
+  {
+    classes: "verse",
+    html: (
+      <p>
+        <FacebookPlayer
+          appId={"295988795097494"}
+          videoId={"573899893124700"}
+          allowfullscreen={true}
+          autoplay={false}
+          width={200}
+          showText={true}
+          showCaptions={true}
+        />
+      </p>
+    ),
+  },
+  {
+    classes: "verse",
+    html: (
+      <p>
+        {" "}
+        So there's your first lesson – do not trust blindly any theological
+        material that does not directly come from the  <em>entity connected to the source</em>. Always be wary of the <em>human errors </em>that might stem from the personal biases of the entities making that translation. Be sufficiently watchful of what you
         interpret after reading someone else's commentary of a particular
         scripture of reverence. They might not be aware of the distortions they
         are weaving in the minor creative liberties they are taking.

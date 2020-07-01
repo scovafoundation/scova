@@ -12,6 +12,7 @@ import {
   Table
 } from "react-bootstrap";
 import "bootstrap/dist/css/bootstrap.min.css";
+import FacebookPlayer from 'react-facebook-player';
 
 import {verses, onboarding } from './Scova';
 
