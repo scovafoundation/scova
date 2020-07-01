@@ -1,25 +1,41 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+import logo from "./logo.png";
+import "./App.css";
+import "./Chapters.css";
+// import Parallax from "./components/Parallax/Parallax.js";
+import {
+  Button,
+  Navbar,
+  Nav,
+  Form,
+  FormControl,
+  Table
+} from "react-bootstrap";
+import "bootstrap/dist/css/bootstrap.min.css";
+
+import verses from './Scova'
+
 
 function App() {
+  const versesNumbered = verses.map((verse, index) => 
+  <tr>
+    <td colSpan="2" style={{fontWeight: "bolder"}}>{index+1}</td>
+    <td colSpan="27" className={verse.classes}>{verse.html}</td>
+    </tr>
+  );
+
+
   return (
     <div className="App">
-      <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+
+        <table>
+          {versesNumbered}
+        </table>
+
+
+      </div>
+      
   );
 }
 

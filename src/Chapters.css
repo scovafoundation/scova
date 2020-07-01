@@ -1,0 +1,59 @@
+table {
+    table-layout: fixed;
+    max-width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.equation {
+    text-align: center;
+    align-items: center;
+}
+
+.image img {
+    width: 100%;
+}
+
+.title-image img {
+    width: 95%;
+}
+
+.verse {
+    width: 100%;
+}
+
+.quran {
+    text-align: center;
+    font-size: 2.5rem;
+}
+
+.bible {
+    text-align: center;
+}
+
+.quote {
+    text-align: center;
+}
+
+.quran em {
+    font-size: 1.5rem;
+    text-align: center;
+}
+
+.title-quote {
+    font-size: 1.5rem;
+    color: red;
+}
+
+td {
+    padding-top: 1.5em;
+}
+
+tr {
+    text-align: justify;
+    font-size: 1.5rem;
+}
+
+.salutation {
+    text-align: right;
+}
