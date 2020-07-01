@@ -3,7 +3,6 @@ table {
     max-width: 80%;
     margin-left: auto;
     margin-right: auto;
-    font-family: 'Grad';
 }
 
 .equation {
@@ -16,7 +15,7 @@ table {
 }
 
 .title-image img {
-    width: 95%;
+    width: 85%;
 }
 
 .verse {
@@ -34,6 +33,9 @@ table {
 
 .quote {
     text-align: center;
+    font-size: 1.5rem;
+    font-family: 'Grad', 'Cheltenham';
+    padding: 1rem;
 }
 
 .quran em {
@@ -45,12 +47,16 @@ table {
     font-size: 1.5rem;
     color: red;
     text-align: center;
+    font-family: 'Grad', 'Cheltenham';
+    padding: 1rem;
 }
 
 .block-quote {
-    font-size: 2.5rem;
+    font-size: 2rem;
     text-align: center;
     font-style: italic;
+    font-family: 'Grad', 'Cheltenham';
+    padding: 1rem;
 }
 
 td {
@@ -61,6 +67,7 @@ td {
 tr {
     text-align: justify;
     font-size: 1.5rem;
+    font-family: 'Grad', 'Cheltenham';
 }
 
 .salutation {
@@ -68,7 +75,8 @@ tr {
 }
 
 .heading {
-    font-size: 5rem;
+    font-size: 7rem;
     color: red;
     text-align: center;
+    opacity: 0.5;
 }
