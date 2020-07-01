@@ -20,8 +20,10 @@ table {
     width: 85%;
 }
 
-.verse {
+td .verse {
     width: 100%;
+    padding-top: 1.5rem;
+    padding-left: 1rem;
 }
 
 .quran {
@@ -59,11 +61,6 @@ table {
     font-style: italic;
     font-family: 'Charter', 'Grad', 'Cheltenham';
     padding: 1rem;
-}
-
-td {
-    padding-top: 1.5rem;
-    padding-left: 1rem;
 }
 
 tr {
