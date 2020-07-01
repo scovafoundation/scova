@@ -3,6 +3,7 @@ table {
     max-width: 80%;
     margin-left: auto;
     margin-right: auto;
+    font-family: 'Grad';
 }
 
 .equation {
@@ -43,10 +44,18 @@ table {
 .title-quote {
     font-size: 1.5rem;
     color: red;
+    text-align: center;
+}
+
+.block-quote {
+    font-size: 2.5rem;
+    text-align: center;
+    font-style: italic;
 }
 
 td {
-    padding-top: 1.5em;
+    padding-top: 1.5rem;
+    padding-left: 1rem;
 }
 
 tr {
@@ -56,4 +65,10 @@ tr {
 
 .salutation {
     text-align: right;
+}
+
+.heading {
+    font-size: 5rem;
+    color: red;
+    text-align: center;
 }

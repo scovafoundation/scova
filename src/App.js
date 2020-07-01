@@ -19,8 +19,8 @@ import verses from './Scova'
 function App() {
   const versesNumbered = verses.map((verse, index) => 
   <tr>
-    <td colSpan="2" style={{fontWeight: "bolder"}}>{index+1}</td>
-    <td colSpan="27" className={verse.classes}>{verse.html}</td>
+    <td colSpan="8" style={{fontWeight: "bolder", textAlign:"left"}}>{index+1}</td>
+    <td colSpan="42" className={verse.classes}>{verse.html}</td>
     </tr>
   );
 
