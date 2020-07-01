@@ -97,7 +97,7 @@ const verses = [
     html: (
       <p>
 
-        It was the week after April 20, 2017. I was prancing around my shoebox of an apartment in New York City, tripping on acid, and pondering over the nature of reality – you know, the usual thing to do when you have just skipped a major midterm of a very important course in your final semester of college, and failed to turn in a very important paper of the only course that you found meaningful by lying about the death of a grandparent that was still paying for this so called "educational endeavour" of yours – all for what? So that you could fuck off to the capital of the country you had slowly come to despise, to celebrate the freedom of debauchery, in a hotel room paid for with loyalty points you had not earned, with friends whose only true connection to you was that you indulged in illicit substances together, to celebrate the unoffical cultural holiday of 4/20. 
+        It was the week following April 20, 2017. I was prancing around my shoebox of an apartment in New York City, tripping on acid, and pondering over the nature of reality – you know, the usual thing to do when you have just skipped a major midterm of a very important course in your final semester of college, and failed to turn in a very important paper of the only course that you found meaningful by lying about the death of a grandparent that was still paying for this so called "educational endeavour" of yours – so that you could fuck off to the capital of the country you had slowly come to despise, to celebrate the freedom of debauchery, in a hotel room paid for with loyalty points you had not earned, with friends whose only true connection to you was that you indulged in illicit substances together, to celebrate the unoffical cultural holiday of 4/20. 
         </p>
     ),
   },
@@ -125,7 +125,7 @@ const verses = [
     classes: "verse",
     html: (
       <p>
-          My professor, being a civilised, kind-hearted person, graciously involved his assistant to the thread, and we agreed that I would be allowed an extension until the end of the week. I really tried to submit the paper within the given timeframe, but as fate would have it, and my will would allow it, the paper grew into something larger than life, into a sort of emergency that had to be dealt with as soon as humanly possible – all other things happening in my life at the time, had to wait, my intuition said. 
+          My professor, being a civilised, kind-hearted person, graciously involved his assistant in the thread, and we agreed that I would be allowed an extension until the end of the week. I really tried to submit the paper within the given timeframe, but as fate would have it, and my will would allow it, the paper grew into something larger than life, into a sort of emergency that had to be dealt with as soon as humanly possible – all other things happening in my life at the time, had to wait, my intuition said. 
           </p>
     ),
   },
@@ -139,7 +139,7 @@ const verses = [
     classes: "verse",
     html: (
       <p>
-          Now, a blog post might not mean much to experienced writers, or even the avid readers that frivously scroll through the endless stream of content in each waking moment, but to me, this article encompassed almost all aspects of what I had supposedly come to learn in this strange, but visually familiar land. As you have now read, it was a very lengthy read, so really, nobody other than my professor and his assistant really took notice of it – now that you're here, this is the perfect place to begin. </p>
+          Now, a blog post might not mean much to experienced writers, or even the avid readers that frivolously scroll through the endless stream of content in each waking moment, but to me, this article encompassed almost all aspects of what I had supposedly come to learn in this strange, but visually familiar land. As you have now read, it was a very lengthy read, so really, nobody other than my professor and his assistant really took notice of it – now that you're here, this is the perfect place to begin. Mind you, this is the entirety of my article from 2017, so you have to go back to what US of America was up to, during this fated year. </p>
     ),
   },
   {
