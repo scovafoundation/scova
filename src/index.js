@@ -5,7 +5,7 @@ import App from "./App";
 import Home from "./Home";
 import Blog from "./Blog";
 import * as serviceWorker from "./serviceWorker";
-import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
+import { BrowserRouter as Router, Switch, Route, Link, HashRouter } from "react-router-dom";
 
 // import {IndexRoute} from 'react-router';
 
@@ -79,19 +79,9 @@ ReactDOM.render(
     {/* <IndexRoute component={Home} /> */}
 
     <Route exact path="/" component={Home} />
-    <Route path="/home">
-      {" "}
-      {/* {"/" | "/home"}> */}
-      <Home />
-    </Route>
-    <Route path="/book">
-      {" "}
-      {/* {"/" | "/home"}> */}
-      <App />
-    </Route>
-    <Route path="/blog">
-      <Blog />
-    </Route>
+    <Route path="/home" component={Home} />
+    <Route path="/book" component={App} />
+    <Route path="/blog" component={Blog} />
   </Router>,
   document.getElementById("root")
 );
