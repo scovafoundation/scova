@@ -6,8 +6,7 @@ import Home from "./Home";
 import Blog from "./Blog";
 import * as serviceWorker from "./serviceWorker";
 import { BrowserRouter as Router, Switch, Route, Link, HashRouter } from "react-router-dom";
-
-// import {IndexRoute} from 'react-router';
+import Headroom from 'react-headroom';
 
 import {
   Button,
@@ -27,7 +26,8 @@ import ScaleText from "react-scale-text";
 
 ReactDOM.render(
   <Router>
-    <Navbar bg="clear" variant="light" sticky="top" expand='true'>
+    <Headroom>
+    <Navbar bg="clear" variant="light" expand='true'>
       <Navbar.Brand className="Navbar-brand">
         <Link to="/home" style={{ color: "black" }}>
         <span class="full-text">Scova Foundation</span>
@@ -75,6 +75,8 @@ ReactDOM.render(
         </InputGroup>
       </Form> */}
     </Navbar>
+    </Headroom>
+    
 
     {/* <IndexRoute component={Home} /> */}
 
@@ -82,6 +84,7 @@ ReactDOM.render(
     <Route path="/home" component={Home} />
     <Route path="/book" component={App} />
     <Route path="/blog" component={Blog} />
+    
   </Router>,
   document.getElementById("root")
 );
