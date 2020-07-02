@@ -141,7 +141,7 @@ const verses = [
       <p>
         It had already been a very challenging year for me. After repeatedly
         failing, dropping out, and letting a certain important courses remain
-        incompleted, I had put my plans for graduating with the rest of my class
+        incomplete, I had put my plans for graduating with the rest of my class
         in jeopardy by pulling this stunt. I hadn't been able to study, given
         all the emotional "trauma" that I was supposedly going through, but even
         so – who in their right mind goes off to smoke marijuana in the capital
@@ -729,14 +729,14 @@ const verses = [
     classes: "verse block-quote",
     html: (
       <h2>
-        Google. Netflix. Spotify.
+        <strong>Google. Netflix. Spotify.</strong>
         </h2>),
   },
   {
     classes: "verse",
     html: (
     <p>
-    Devices are getting smarter at predicting what you intended to find — finally delivering the promises of artificially intelligent code predicting individually optimised results.
+    Devices are getting smarter at predicting what you intended to find — finally delivering the promises of <em>artificially intelligent</em> code predicting individually optimised results.
     </p>
     ),
   },
@@ -749,10 +749,10 @@ const verses = [
     ),
   },
   {
-    classes: "verse",
+    classes: "verse quote",
     html: (
       <p>
-        If you are really scared of AI taking over the world, then think about this: at what point does the machine’s suggestion become our default selection? And who is actually controlling what we choose to see? Does the algorithm only learn from our choices, or does it contribute to our bias?
+        If you are really scared of AI taking over the world, then think about this: at what point does the machine’s suggestion become our default selection? And who is actually controlling what we choose to see? <strong>Does the algorithm only learn from our choices, or does it contribute to our bias?</strong>
       </p>
     ),
   },
@@ -784,7 +784,7 @@ const verses = [
     classes: "verse",
     html: (
       <p>
-        Entropy in a closed system always increases — hence decreasing the amount of effective information available in the system. The system, for our purposes is simply some social web service that provides utility to users in the form of informational requests & responses. The more you tie yourself into the system, and stop reaching out for different stuff, the more likely are you to fall in an infinite loop of confirmation bias — it’s what Democrats are calling peak-liberalism.
+        Entropy in a closed system always increases — hence decreasing the amount of effective information available in the system. The <em>system</em>, for our purposes is simply some social web service that provides utility to users in the form of informational requests & responses. The more you tie yourself into the system, and stop reaching out for different stuff, the more likely are you to fall in an infinite loop of confirmation bias — it’s what Democrats are calling peak-liberalism.
       </p>
     ),
   },
@@ -816,7 +816,7 @@ const verses = [
     classes: "verse",
     html: (
       <p>
-        Before Trump, I never quite realized the propaganda I was devouring. Presidents come and go but it is the spirit of democracy that keeps the system intact, right? Trump is no ordinary president. No matter how much the left denies it, even I really hate to say it — but Trump is a leader.
+        Before Trump, I never quite realized the propaganda I was devouring. Presidents come and go but it is the spirit of democracy that keeps the system intact, right? Trump is no ordinary president. No matter how much the left denies it, even I really hate to say it — but <em>Trump is a leader</em>.
       </p>
     ),
   },
@@ -838,7 +838,7 @@ const verses = [
     classes: "verse",
     html: (
       <p>
-        For him, it is a game in the Von Neumann sense. Donald Trump managed to stay in the limelight consistently for abundant forgotten reasons throughout his campaign, just liked he wanted—by introducing confusion into the messages of the side he opposed, and news outlets took the bait every single time — as they continue to do so to this day. I can personally vouch for this from the meagre effort I put in that qualifies as research to explore Trump’s manipulations of the media narrative. In Trump’s Von Neumann game, concealing the strategy of the sender is not only permitted but encouraged.
+        For him, it is a game in the Von Neumann sense. Donald Trump managed to stay in the limelight consistently for abundant forgotten reasons throughout his campaign, just liked he wanted—by introducing confusion into the messages of the side he opposed, and news outlets took the bait every single time — as they continue to do so to this day. I can personally vouch for this from the meagre effort I put in that <a href={"https://github.com/anhadarora/NLP/blob/master/Anhad%20Arora%20-%20NLP%20-%20Project%20Report.pdf"}>qualifies as research</a> to explore Trump’s manipulations of the media narrative. In Trump’s Von Neumann game, concealing the strategy of the sender is not only permitted but encouraged.
       </p>
     ),
   },
@@ -846,7 +846,7 @@ const verses = [
     classes: "verse",
     html: (
       <p>
-        Trump’s special skill in selling himself is his uncanny ability to intuit crowd mood. He understands that he has to reach past the nitty-gritty social-media issues to the American people’s sense of themselves. Regaining the feeling of greatness is the key. Trump’s quote on exaggeration, from his Art of the Deal explains this succinctly:
+        Trump’s special skill in selling himself is his uncanny ability to intuit crowd mood. He understands that he has to reach past the nitty-gritty social-media issues to the American people’s sense of themselves. Regaining the <em>feeling of greatness</em> is the key. Trump’s quote on exaggeration, from his <em>Art of the Deal</em> explains this succinctly:
       </p>
     ),
   },
@@ -854,7 +854,7 @@ const verses = [
     classes: "verse quote",
     html: (
       <p>
-        “The final key to the way I promote is bravado. I play to people’s fantasies. People may not always think big themselves, but they can still get very excited by those who do. That’s why a little hyperbole never hurts. People want to believe that something is the biggest and the greatest and the most spectacular. I call it truthful hyperbole. It’s an innocent form of exaggeration, and a very effective form of promotion.”
+        “The final key to the way I promote is bravado. I play to people’s fantasies. People may not always think big themselves, but they can still get very excited by those who do. That’s why <strong>a little hyperbole never hurts</strong>. People want to believe that something is the biggest and the greatest and the most spectacular. I call it truthful hyperbole. It’s an innocent form of exaggeration, and a very effective form of promotion.”
       </p>
     ),
   },
@@ -862,7 +862,7 @@ const verses = [
     classes: "verse",
     html: (
       <p>
-        What if he steps up his rhetoric? That’s what everyone is constantly thinking — what’s on the Donald’s mind? Nobody knows. And that’s his game. You’re not supposed to know what he might do, were a situation to occur. I understand that, you have the element of surprise. It is pretty neat actually. All you need to do is tweet out different permutations of the same rhetoric phrases at strange hours of the night. Always keep the people guessing — keep them on edge.
+        What if he steps up his rhetoric? That’s what everyone is constantly thinking — what’s on the Donald’s mind? <em>Nobody knows. And that’s his game</em>. You’re not supposed to know what he might do, were a situation to occur. I understand that, you have the element of surprise. It is pretty neat actually. All you need to do is tweet out different permutations of the same rhetoric phrases at strange hours of the night. Always keep the people guessing — <strong>keep them on edge</strong>.
       </p>
     ),
   },
@@ -878,7 +878,7 @@ const verses = [
     classes: "verse",
     html: (
       <p>
-        Why are you constantly tweeting about North Korea? Why are you calling the free press fake? What do you mean by fake? Why don’t you ever clarify yourself? Will you ever tone down your rhetoric? Will you stop confusing issues of nuclear stability, with religious radicalism, with police brutality, with promises of a healthcare plan you don’t have, and jobs you can’t deliver?
+        Why are you constantly tweeting about North Korea? Why are you calling the free press <em>fake</em>? What do you mean by <em>fake</em>? Why don’t you ever clarify yourself? Will you ever tone down your rhetoric? Will you stop confusing issues of nuclear stability, with religious radicalism, with police brutality, with promises of a healthcare plan you don’t have, and jobs you can’t deliver?
       </p>
     ),
   },
@@ -887,7 +887,6 @@ const verses = [
     html: (
       <p>
         Why are we still debating legitimacy of climate change, evolution and the civil war when it should be your presidency that should be challenged?
-
       </p>
     ),
   },
@@ -926,7 +925,7 @@ const verses = [
     classes: "verse",
     html: (
       <p>
-        Many critics still fail to get this point. There is a famous quote from Les Moonves, the head of CBS, “Donald Trump is horrible for America but he’s amazing for this network.” He has made his demographic feel comfortable — if only by preying on their fears multiples times each day. He probably tweets out every time he has a literal itch. Everyone else, will stay distracted.
+        Many critics still fail to get this point. There is a <a href={"http://www.independent.co.uk/voices/donald-trump-might-not-be-good-news-for-america-but-hes-great-news-for-the-tv-networks-a6941441.html"}>famous quote from Les Moonves</a>, the head of CBS, “Donald Trump is horrible for America but he’s amazing for this network.” He has made his demographic feel comfortable — if only by preying on their fears multiples times each day. He probably tweets out every time he has a literal itch. Everyone else, will stay distracted.
       </p>
     ),
   },
@@ -958,7 +957,7 @@ const verses = [
     classes: "verse quote",
     html: (
       <p>
-        "What is news? What is it that we believe is important?<br/>Carl Bernstein
+        "What is news? What is it that we believe is important?"<br/>Carl Bernstein
       </p>
     ),
   },
@@ -1012,7 +1011,7 @@ const verses = [
     classes: "verse",
     html: (
       <p>
-        There is a lot of room for misunderstanding and the mistreatment of information if the intention is only to move on to the next piece of information without ever fully grasping all available data at hand. If you see an article from a seemingly trustworthy website, shared and commented on by a lot of people, then you are likely to believe it too right? If human experiences are irrelevant and metadata is enough to corroborate your actions in real life, then does it really matter if it happened in real life? Then does it really matter if the news was legitimate? Or the commenting users real? Imagine this for users of varied demographic, with numbers in millions. You’ve generated fake opinion. It’s how Reddit grew.
+        There is a lot of room for misunderstanding and the mistreatment of information if the intention is only to move on to the next piece of information without ever fully grasping all available data at hand. If you see an article from a seemingly trustworthy website, shared and commented on by a lot of people, then you are likely to believe it too right? If human experiences are irrelevant and metadata is enough to corroborate your actions in real life, then does it really matter if it happened in real life? Then does it really matter if the news was legitimate? Or the commenting users real? Imagine this for users of varied demographic, with numbers in millions. You’ve generated fake opinion. It’s how <a href={"https://www.youtube.com/watch?v=zmeDzx4SUME"}><em>Reddit</em></a> grew.
       </p>
     ),
   },
@@ -1404,7 +1403,7 @@ We write AFK (away from keyboard)
         The oppression that this debacle has thereon caused, was probably not
         the original aim of the scribes. I'm quite sure that they had the best
         intentions at heart, but as they say,{" "}
-        <em>"All roads to hell are paved with good intentions."</em> I truly
+        <em>"all roads to hell are paved with good intentions."</em> I truly
         believe that such was the case over centuries of translations, and
         mistranslations. For a visual example of how this can occur, see the
         video below.
@@ -1412,7 +1411,7 @@ We write AFK (away from keyboard)
     ),
   },
   {
-    classes: "verse",
+    classes: "verse quote",
     html: (
       <p>
         <FacebookPlayer
@@ -1420,7 +1419,7 @@ We write AFK (away from keyboard)
           videoId={"573899893124700"}
           allowfullscreen={true}
           autoplay={false}
-          width={200}
+          width={420}
           showText={true}
           showCaptions={true}
         />
