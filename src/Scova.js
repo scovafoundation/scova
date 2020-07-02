@@ -7,6 +7,10 @@ import leif420email2 from "./images/leif420email2.png";
 import thumb13Reasons from "./images/thumb13Reasons.png";
 import ogIPhone from "./images/ogIPhone.png";
 import trumpElection from "./images/trumpElection.png";
+import orm from "./images/orm.png";
+import analytics from "./images/analytics.png";
+import marsMeme from "./images/marsMeme.png";
+import bunnyInBubble from "./images/bunnyInBubble.png";
 import Charter from "charter-webfont";
 
 const onboarding = [
@@ -96,191 +100,608 @@ const verses = [
     classes: "verse",
     html: (
       <p>
-
-        It was the week following April 20, 2017. I was prancing around my shoebox of an apartment in New York City, tripping on acid, and pondering over the nature of reality – you know, the usual thing to do when you have just skipped a major midterm of a very important course in your final semester of college, and failed to turn in a very important paper of the only course that you found meaningful by lying about the death of a grandparent that was still paying for this so called "educational endeavour" of yours – so that you could fuck off to the capital of the country you had slowly come to despise, to celebrate the freedom of debauchery, in a hotel room paid for with loyalty points you had not earned, with friends whose only true connection to you was that you indulged in illicit substances together, to celebrate the unoffical cultural holiday of 4/20. 
-        </p>
+        It was the week following April 20, 2017. I was prancing around my
+        shoebox of an apartment in New York City, tripping on acid, and
+        pondering over the nature of reality – you know, the usual thing to do
+        when you have just skipped a major midterm of a very important course in
+        your final semester of college, and failed to turn in a very important
+        paper of the only course that you found meaningful by lying about the
+        death of a grandparent that was still paying for this so called
+        "educational endeavour" of yours – so that you could fuck off to the
+        capital of the country you had slowly come to despise, to celebrate the
+        freedom of debauchery, in a hotel room paid for with loyalty points you
+        had not earned, with friends whose only true connection to you was that
+        you indulged in illicit substances together, to celebrate the unoffical
+        cultural holiday of 4/20.
+      </p>
+    ),
+  },
+  {
+    classes: "verse image",
+    html: <img src={vbEmail420} />,
+  },
+  {
+    classes: "verse",
+    html: (
+      <p>
+        It had already been a very challenging year for me. After repeatedly
+        failing, dropping out, and letting a certain important courses remain
+        incompleted, I had put my plans for graduating with the rest of my class
+        in jeopardy by pulling this stunt. I hadn't been able to study, given
+        all the emotional "trauma" that I was supposedly going through, but even
+        so – who in their right mind goes off to smoke marijuana in the capital
+        city of a foreign country, on what was, quite possibly, the single most
+        important day of their entire undergraduate career? This detour was more
+        important to the "boys" than they could have realised in the moment, or
+        even years after the moment.
+      </p>
+    ),
+  },
+  {
+    classes: "verse image",
+    html: <img src={leif420email1} />,
+  },
+  {
+    classes: "verse",
+    html: (
+      <p>
+        My other professor, was kind-hearted enough, that he graciously involved
+        his assistant in the thread, and we agreed that I would be allowed an
+        extension until the end of the week. I really tried to submit the paper
+        within the given timeframe, but as fate would have it, and my will would
+        allow it, the paper grew into something larger than life, into a sort of
+        emergency that had to be dealt with as soon as humanly possible – all
+        other things happening in my life at the time, had to wait, my intuition
+        said.
+      </p>
+    ),
+  },
+  {
+    classes: "verse image",
+    html: <img src={leif420email2} />,
+  },
+  {
+    classes: "verse",
+    html: (
+      <p>
+        Now, a blog post might not mean much to experienced writers, or even the
+        avid readers that frivolously scroll through the endless stream of
+        content in each waking moment, but to me, this article encompassed
+        almost all aspects of what I had supposedly come to learn in this
+        strange, but visually familiar land. As you have now read, it was a very
+        lengthy read, so really, nobody other than my professor and his
+        assistant really took notice of it – now that you're here, this is the
+        perfect place to begin. Mind you, this is the entirety of my article
+        from 2017, so you have to go back to what the bourgeoisie of the US of
+        America, and the rest of their people, were up to, during this fated
+        year.{" "}
+      </p>
     ),
   },
   {
     classes: "verse image",
     html: (
-      <img src={vbEmail420}/>
+      <a href={"https://medium.com/@SonOfGod/sock-puppets-383fc33da8a7"}>
+        <img src={thumb13Reasons} />
+      </a>
     ),
   },
   {
     classes: "verse",
     html: (
       <p>
-          It had already been a very challenging year for me. After repeatedly failing, dropping out, and letting a certain important courses remain incompleted, I had put my plans for graduating with the rest of my class in jeopardy by pulling this stunt. I hadn't been able to study, given all the emotional "trauma" that I was supposedly going through, but even so – who in their right mind goes off to smoke marijuana in the capital city of a foreign country, on what was, quite possibly, the single most important day of their entire undergraduate career? This detour was more important to the "boys" than they could have realised in the moment, or even years after the moment. 
-          </p>
+        <h1>13 Reasons Why I am afraid of the Cloud</h1>
+        <h2>The Legacy of Cybernetics in a Data-Driven World</h2>
+      </p>
+    ),
+  },
+  {
+    classes: "verse",
+    html: (
+      <p>
+        If communication is to be considered a game played in partnership by the
+        speaker & the listener, against the <strong>forces of confusion</strong>{" "}
+        as stated by Norbert Wiener in <em>Human Use of Human Beings</em>, then
+        – in a closed social ecosystem our desire to gain more information only
+        gives us a bloated sense of awareness (read: education and entitlement)
+        where the easier option is to surrender control to anything that holds
+        our attention the longest through our screens as our disposition to
+        propagate opinion using affect heuristic increasingly sets the scene for
+        reality of alternative facts (read:{" "}
+        <a href={"https://en.wikipedia.org/wiki/Alternative_facts"}>
+          alt-facts
+        </a>
+        ).
+      </p>
+    ),
+  },
+  {
+    classes: "verse",
+    html: (
+      <p>
+        <strong>
+          To explain our existence as sock puppets in a data driven world, I
+          thought I’d share my{" "}
+          <a href={"https://twitter.com/hashtag/13ReasonsWhy?src=hash"}>
+            #13ReasonsWhy
+          </a>{" "}
+          I am afraid of the cloud:
+        </strong>
+      </p>
+    ),
+  },
+  {
+    classes: "verse block-quote",
+    html: (
+      <p>
+        <h2>1. Revolution: Apple</h2>
+      </p>
+    ),
+  },
+  {
+    classes: "verse",
+    html: (
+      <p>
+        A decade ago, in 2007 when Steve Jobs{" "}
+        <a href={"https://www.youtube.com/watch?v=wGoM_wVrwng"}>
+          unveiled the iPhone
+        </a>{" "}
+        to the world as the intellectual offspring of the{" "}
+        <em>1997/Think Different</em> campaign — hardly anyone anticipated the
+        tectonic shift that keynote would trigger in the technological
+        landscape. Just to recall — this was a time of flip-phones and limited
+        text-messages; and Obama was a cool president because he used a
+        Blackberry.
+      </p>
     ),
   },
   {
     classes: "verse image",
-    html: (
-      <img src={leif420email1}/>
-    ),
+    html: <img src={ogIPhone} />,
   },
   {
     classes: "verse",
     html: (
       <p>
-          My professor, being a civilised, kind-hearted person, graciously involved his assistant in the thread, and we agreed that I would be allowed an extension until the end of the week. I really tried to submit the paper within the given timeframe, but as fate would have it, and my will would allow it, the paper grew into something larger than life, into a sort of emergency that had to be dealt with as soon as humanly possible – all other things happening in my life at the time, had to wait, my intuition said. 
-          </p>
+        The iPhone was marketed as a touch controlled iPod that you could make
+        calls and surf the internet with. Cut to 2017 — chances are you are
+        reading this on a rectangular aluminum-glass Apple device connected to
+        high-speed unlimited internet, still recovering from the hate-spewing
+        tweet that the Leader of the Free World sent out at 3 AM. Yes, times
+        have changed. Even back in 1984, when Apple was the David to the Goliath
+        of corporations, they wanted the Mac to symbolize empowerment — the Mac
+        being a tool to combat conformity. They aired the{" "}
+        <a href={"https://www.youtube.com/watch?v=2zfqw8nhUwA"}>
+          <em>1984</em>
+        </a>{" "}
+        ad, which is arguably the most memorable Super Bowl commercial of all
+        time. To jog your memory, here’s a transcript:
+      </p>
     ),
   },
   {
     classes: "verse image",
+    html: <img src={trumpElection} />,
+  },
+  {
+    classes: "verse",
     html: (
-      <img src={leif420email2}/>
+      <p>
+        [Apple’s rebel enters, pursued by police]
+        <br />
+        <br />
+        Today, we celebrate the first glorious anniversary of the Information
+        Purification Directives. We have created, for the first time in all
+        history, a{" "}
+        <em>
+          <strong>
+            garden of pure ideology — where each worker may bloom, secure from
+            the pests purveying contradictory truths
+          </strong>
+        </em>
+        . Our Unification of Thoughts is more powerful a weapon than any fleet
+        or army on earth. We are one people, with one will, one resolve, one
+        cause.{" "}
+        <em>
+          <strong>
+            Our enemies shall talk themselves to death, and we will bury them
+            with their own confusion
+          </strong>
+        </em>
+        . <br />
+        <br />
+        We shall prevail!
+        <br />
+        <br />
+        [Hammer is thrown at the screen: Boom!]
+        <br />
+        <br />
+        On January 24th Apple Computer will introduce Macintosh.{" "}
+        <strong>And you’ll see why 1984 won’t be like ‘1984.’</strong>
+      </p>
     ),
   },
   {
     classes: "verse",
     html: (
       <p>
-          Now, a blog post might not mean much to experienced writers, or even the avid readers that frivolously scroll through the endless stream of content in each waking moment, but to me, this article encompassed almost all aspects of what I had supposedly come to learn in this strange, but visually familiar land. As you have now read, it was a very lengthy read, so really, nobody other than my professor and his assistant really took notice of it – now that you're here, this is the perfect place to begin. Mind you, this is the entirety of my article from 2017, so you have to go back to what US of America was up to, during this fated year. </p>
-    ),
-  },
-  {
-    classes: "verse image",
-    html: (
-      <a href={"https://medium.com/@SonOfGod/sock-puppets-383fc33da8a7"}><img src={thumb13Reasons} /></a>
-    ),
-  },
-  {
-    classes: "verse",
-    html: (
-      <p>
-          <h1>13 Reasons Why I am afraid of the Cloud</h1>
-          <h2>The Legacy of Cybernetics in a Data-Driven World</h2>
-          </p>
+        What I love about Apple is that they have always advocated for
+        technology as an instrument for change. Maybe Steve Jobs had a{" "}
+        <a href={"https://www.youtube.com/watch?v=lSiQA6KKyJo"}>
+          genuine vision
+        </a>{" "}
+        to change the world — maybe he didn’t. What I know for sure, is that the
+        rest of the company, rather, corporate America blindly incorporated this
+        strategy to feed their bottom line.
+      </p>
     ),
   },
   {
     classes: "verse",
     html: (
       <p>
-
-If communication is to be considered a game played in partnership by the speaker & the listener, against the <strong>forces of confusion</strong> as stated by Norbert Wiener in <em>Human Use of Human Beings</em>, then – in a closed social ecosystem our desire to gain more information only gives us a bloated sense of awareness (read: education and entitlement) where the easier option is to surrender control to anything that holds our attention the longest through our screens as our disposition to propagate opinion using affect heuristic increasingly sets the scene for reality of alternative facts (read: <a href={"https://en.wikipedia.org/wiki/Alternative_facts"}>alt-facts</a>).
-
-</p>
+        The iPhone certainly had the flair of the <em>Think Different</em>{" "}
+        campaign, and I sincerely wish Jobs himself would have been around to
+        see the technology mature. Otherwise, who could have imagined that
+        decades later, Apple would be instrumental in creating the same
+        Orwellian future it said it would fight against?
+      </p>
+    ),
+  },
+  {
+    classes: "verse block-quote",
+    html: <p>2. Corporations: Apps</p>,
+  },
+  {
+    classes: "verse",
+    html: (
+      <p>
+        Apple made technology accessible in a way that had not been done before.
+        This wasn't a personal computer for the geeks, or a music player for
+        hipsters — this was a <em>communication window</em> for the masses. How
+        many people do you know who don’t have an iPhone?
+      </p>
     ),
   },
   {
     classes: "verse",
     html: (
       <p>
-          <strong>To explain our existence as sock puppets in a data driven world, I thought I’d share my <a href={"https://twitter.com/hashtag/13ReasonsWhy?src=hash"}>#13ReasonsWhy</a> I am afraid of the cloud:</strong>
-          </p>
+        For this technology to be ever more personal and accessible, it had to
+        be dynamic. The people at Apple initially built an accelerometer into
+        the iPhone only so it could readjust when you switched from portrait to
+        landscape and that lone sensor planted the seed for fitness tracking
+        through sensors. Only because those phones were programmed to track one
+        extra data-point, wearable tech is a real industry and{" "}
+        <em>Internet of Things</em> is not just an abstract concept anymore.
+        This is only one such example.
+      </p>
+    ),
+  },
+  {
+    classes: "verse",
+    html: (
+      <p>
+        The mobile app economy today is driven by such personal, social and
+        engaging digital information. When the iPhone first came out, it seemed
+        ridiculous that a phone would have so many extraneous uses. Now, there
+        is rarely anything that doesn’t have an App anymore. There’s a{" "}
+        <em>facebook for… uber for… tinder for…</em> It is such an abstract
+        concept, but if you are like most people, you too definitely have an
+        imaginary app idea. I can keep writing ad nauseam about the iPhone, it’s
+        engineering, the genius behind its marketing, and the change it
+        triggered in in entrepreneurial landscape—I did write my college essay
+        on it. The point is that Apple has exponentially sped up the
+        technological advancement — placing the mother lode of information
+        sending & receiving in people’s hands, so much so that that societal and
+        political progress seems glacially slow.
+      </p>
+    ),
+  },
+  {
+    classes: "verse block-quote",
+    html: <p>3. Data: cloud of the internet: Google</p>,
+  },
+  {
+    classes: "verse",
+    html: (
+      <p>
+        There is an an illusion of knowledge when all the world’s information is
+        a command away. You never fully grasp a concept because it is always at
+        your fingertips. We all “research” everything so well, to try and be
+        prepared in advance for everything. It is such a millennial belief too:
+        “I’ll just <em>google</em> it” This leads us to falsely believing that
+        we know everything.
+      </p>
+    ),
+  },
+  {
+    classes: "verse",
+    html: (
+      <p>
+        Shout a question out loud preceded by <em>“Hey Siri/Alexa/Cortana”</em>{" "}
+        or the gender-neutral omnipresent <em>“Ok Google!”</em> and see if a mic
+        is currently on standby for any query you might have. We’re letting
+        Amazon’s Alexa record all private conversations inside our house only so
+        we can miscommunicate the name of our favorite playlist 657 times and
+        enjoy the extra comfort of shouting at a machine to snooze the alarm for
+        the 787th time.
+      </p>
     ),
   },
   {
     classes: "verse quote",
     html: (
       <p>
-          <h2>1. Revolution: Apple</h2>
-          </p>
+        "The commands through which we exercise our con­trol over our
+        environment are a kind of information which we impart to it…Information
+        is a name for the content of what is exchanged with the outer world as
+        we adjust to it, and make our adjustment felt upon it … To live
+        effectively is to live with adequate information."
+        <br />
+        (Norbert Wiener, Cybernetics & Society)
+      </p>
     ),
   },
   {
     classes: "verse",
     html: (
       <p>
-          A decade ago, in 2007 when Steve Jobs <a href={"https://www.youtube.com/watch?v=wGoM_wVrwng"}>unveiled the iPhone</a> to the world as the intellectual offspring of the <em>1997/Think Different</em> campaign — hardly anyone anticipated the tectonic shift that keynote would trigger in the technological landscape. Just to recall — this was a time of flip-phones and limited text-messages; and Obama was a cool president because he used a Blackberry.
-          </p>
+        It is the exchange of this data through an interface — visual, auditory
+        or tactile — with the internet that makes all this possible. This
+        continued exchange of information is important as more collected
+        information leads to more insightful results. It only makes sense that
+        Norbert Wiener in <em>Human Use of Human Beings</em> wrote that, “the
+        fate of information in the typically American world is to become
+        something which can be bought or sold.”
+      </p>
     ),
   },
   {
     classes: "verse image",
+    html: <img src={orm} />,
+  },
+  {
+    classes: "verse",
     html: (
-      <img src={ogIPhone}/>
+      <p>
+        Not that I, am any special — I have backed up all my personal and work
+        information to Google Drive because they offer unlimited storage to
+        students. I trust them with my deepest moments because Google Photos
+        offered to backup all my old pictures in high definition for free to
+        clean up space on my low cost low physical space phone. Even though it
+        is fun to have a world map that puts a pin on every location I have ever
+        travelled to, this also means that — Big Brother also always knows where
+        I am — courtesy of the latest fitness tracker I am using to watch how
+        little steps I am taking towards accomplishing a goal. I have no qualms
+        against all this too, I just want to pose this question:
+      </p>
+    ),
+  },
+  {
+    classes: "verse quote",
+    html: (
+      <p>
+        <strong>
+          How protected is my data from misuse under the
+          <br />
+          *Terms & Conditions that I never read but agreed to?
+        </strong>
+      </p>
     ),
   },
   {
     classes: "verse",
     html: (
       <p>
-          The iPhone was marketed as a touch controlled iPod that you could make calls and surf the internet with. Cut to 2017 — chances are you are reading this on a rectangular aluminum-glass Apple device connected to high-speed unlimited internet, still recovering from the hate-spewing tweet that the Leader of the Free World sent out at 3 AM. Yes, times have changed.
-Even back in 1984, when Apple was the David to the Goliath of corporations, they wanted the Mac to symbolize empowerment — the Mac being a tool to combat conformity. They aired the <a href={"https://www.youtube.com/watch?v=2zfqw8nhUwA"}><em>1984</em></a> ad, which is arguably the most memorable Super Bowl commercial of all time. To jog your memory, here’s a transcript:
-          </p>
+        We blindly accept whatever data an app requests to receive; accept terms
+        and conditions solely to consume freemium — never acknowledging the
+        repercussions of misuse of data on the other end — trusting a
+        corporation that only ultimately sees us as a data-point in a
+        multidimensional matrix of millions.
+      </p>
+    ),
+  },
+  {
+    classes: "verse block-quote",
+    html: <p>4. Social Media: Facebook & Twitter</p>,
+  },
+  {
+    classes: "verse quote",
+    html: (
+      <p>
+        “to be alive is to continuously exchange information with the world.”
+      </p>
+    ),
+  },
+  {
+    classes: "verse",
+    html: (
+      <p>
+        The only decision you make on the internet is where you choose to click.
+        Every social network’s revenue and valuation depends on how frequently{" "}
+        <strong>YOU, the user</strong> checks the screen. They especially hire
+        psychologists to understand our minds better, and more often than not,
+        they choose to employ our ‘Fear of Missing Out’ to their advantage.
+      </p>
+    ),
+  },
+  {
+    classes: "verse",
+    html: (
+      <p>
+        Did you think you were the only one who judged people by looking at
+        their profile? When was the last time you stalked someone’s Instagram
+        profile without <em>double tapping</em> on any picture?
+      </p>
     ),
   },
   {
     classes: "verse image",
+    html: <img src={analytics} />,
+  },
+  {
+    classes: "verse",
     html: (
-      <img src={trumpElection}/>
+      <p>
+        Autoplay videos, disappearing stories, they all have the same goal —
+        that you either don’t leave or you keep coming back to it as many times
+        as possible. <strong>Social Media is our mental junk food.</strong>
+      </p>
     ),
   },
   {
     classes: "verse",
     html: (
       <p>
-          [Apple’s rebel enters, pursued by police]<br/><br/>
-Today, we celebrate the first glorious anniversary of the Information Purification Directives. We have created, for the first time in all history, a <em><strong>garden of pure ideology — where each worker may bloom, secure from the pests purveying contradictory truths</strong></em>. Our Unification of Thoughts is more powerful a weapon than any fleet or army on earth. We are one people, with one will, one resolve, one cause. <em><strong>Our enemies shall talk themselves to death, and we will bury them with their own confusion</strong></em>. <br/><br/>
-We shall prevail!<br/><br/>
-[Hammer is thrown at the screen: Boom!]<br/><br/>
-On January 24th Apple Computer will introduce Macintosh. <strong>And you’ll see why 1984 won’t be like ‘1984.’</strong>
-          </p>
+        It definitely is working to their advantage. Google, Facebook, Instagram
+        — all get paid for advertised keywords. Each impression is worth
+        something. So even if you are mindlessly scrolling through your feed 10
+        times a day, not even clicking on anything, you are still helping social
+        networks mint money — and if you click on the ad, then that is just a
+        classic financial transaction.
+      </p>
+    ),
+  },
+  {
+    classes: "verse block-quote",
+    html: <p>5. Engagement: see Glitter & give Gold</p>,
+  },
+  {
+    classes: "verse",
+    html: <p>
+        How did you land onto this article? Did you type in the link? Of course not. The link is too long. Maybe you clicked on it while browsing your social feed perhaps? Was it Facebook or Twitter or good ol’ email? You have definitely come to this website from some other place. It’s how the internet is built. Bits of information linking to each other. <em>One moment you’re inching closer to nirvana — discovering the meaning of life in the vibrational energy of the universe and a few clicks later you’re self-pleasuring to humans in demeaning positions.</em>
+    </p>,
+  },
+  {
+    classes: "verse block-quote",
+    html: <p>Your attention has some inherent value according to a method calculated by an ad agency which, they figure is contingent on the likelihood of you clicking on that ad, and further contingent on the likelihood of you converting that ad click into a transaction — isn’t that just the most cybernetic thing you’ve ever heard?
+    </p>,
+  },
+  {
+    classes: "verse image",
+    html: <img src={marsMeme} />,
+  },
+  {
+    classes: "verse",
+    html: <p>
+        <em>Content is King,</em> and the longer any online content can keep you glaring at a screen, the better chances of it converting into a financial transaction. People have a <em>fear of missing out</em> because they have looked at so much good content. Real life never quite matching up to imagination can be detrimental to us both physically and mentally.
+    </p>,
+  },
+  {
+    classes: "verse block-quote",
+    html: <h2>Separate us from our phones, and watch us crumble under the itch to scroll.</h2>,
+  },
+  {
+    classes: "verse",
+    html: <p>
+        We watch movies to find out what kind of experiences are possible in the world — align ourselves with a character in the storyline, and follow along their story making decisions if we were in that situation. We judge people who think like the characters we hated, or rather, <em>the-protagonist-whom-we-associated-with</em> hated. We might convince ourselves that this is educational, but in reality it is substituting <em>virtual storylines</em> for actual <em>human experiences</em>.
+    </p>,
+  },
+  {
+    classes: "verse",
+    html: <p>
+        I haven’t even begun to talk about Virtual Reality and how it might affect our our development as social beings. As these experiences become more and more real, and the more online content that you trade in for your time — the more time you take away from your real life. Granted real life isn’t that interesting, but <strong>that’s the problem</strong>. Only last week, Facebook announced Facebook Spaces: a place in virtual reality so you can engage in totally normal activities that would otherwise be too boring and uneventful in real life. I can’t help but feel like Nicole Stenger as she wrote in <em>The Mind is a Leaking Rainbow:</em>
+    </p>,
+  },
+  {
+    classes: "verse quote",
+    html: <p>
+        “As those vessels of reality communicate, you feel that any level of commitment is possible: that you can answer the phone, drink your coffee and yawn, as you drag yourself as a grasshopper in the greens of cyberspace. Or that you can pull yourself entirely into the Blue Lagoon and get drowned. “The real can be turned inside out like a glove,” says Virilio (1984: 148). On the other side of our data gloves, we become creatures of colored light in motion, pulsing with golden particles. Forget about Andy Warhol’s petty promise of fame for fifteen minutes. We will all become angels, and for eternity.”
+    </p>,
+  },
+  {
+    classes: "verse image",
+    html: <img src={bunnyInBubble}/>,
+  },
+  {
+    classes: "verse block-quote",
+    html: <p><strong>Always struggling to keep up. Never really there.</strong></p>,
+  },
+  {
+    classes: "verse",
+    html: <p>
+        <em>FOMO</em> causes real feelings of dissatisfaction, and this constant fear of missing out means you are not participating as a real person in your own world — too distracted living the content instead of living actual experience. If virtual-reality is more interesting than our shared 3-D reality, and there is an endless supply of content that gets more real with each iteration, with offers of increasingly varied choices, and very low involvement from the consumer — <em>if this isn’t utopia, then what is?</em>
+    </p>,
+  },
+  {
+    classes: "verse quote",
+    html: <p>
+        "What is surfing? surfing (or browsing) is the activity of engaging in a series of glimpses, each of which exposes the browser to objects of potential interest; depending on interest, the browser may or may not examine more closely one or more of the (physical or represented) objects; this examination, depending on interest, may or may not lead the browser to (physically or conceptually) acquire the object."<br/>
+(Marcia J. Bates)
+    </p>,
+  },
+  {
+    classes: "verse",
+    html: <p>
+        In the age of virtual reality and instant gratification, we have come to expect the same standards for rewards elsewhere in life. Surfing around from experience to experience just like on the web. In the land of social jerk-offs, when was the last time you had a completely engaging conversation in real life where you weren’t inclined to be in contact with more than one person?
+    </p>,
+  },
+  {
+    classes: "verse",
+    html: <p></p>,
+  },
+  {
+    classes: "verse",
+    html: <p></p>,
+  },
+  {
+    classes: "verse",
+    html: <p></p>,
+  },
+  {
+    classes: "verse",
+    html: <p></p>,
+  },
+  {
+    classes: "verse",
+    html: <p></p>,
+  },
+  {
+    classes: "verse",
+    html: <p></p>,
+  },
+  {
+    classes: "verse",
+    html: <p></p>,
+  },
+  {
+    classes: "verse",
+    html: <p></p>,
+  },
+  {
+    classes: "verse",
+    html: <p></p>,
+  },
+  {
+    classes: "verse",
+    html: <p></p>,
+  },
+  {
+    classes: "verse",
+    html: <p></p>,
+  },
+  {
+    classes: "verse",
+    html: <p></p>,
+  },
+  {
+    classes: "verse",
+    html: <p></p>,
+  },
+  {
+    classes: "verse",
+    html: (
+      <p>
+        Everything after this point is metaphysical gibberish. Email me at
+        anhad@scova.org if you are reading this, and would love to chat.
+      </p>
     ),
   },
   {
     classes: "verse",
     html: (
       <p>
-          What I love about Apple is that they have always advocated for technology as an instrument for change. Maybe Steve Jobs had a <a href={"https://www.youtube.com/watch?v=lSiQA6KKyJo"}>genuine vision</a> to change the world — maybe he didn’t. What I know for sure, is that the rest of the company, rather, corporate America blindly incorporated this strategy to feed their bottom line.
-
-          </p>
-    ),
-  },
-  {
-    classes: "verse",
-    html: (
-      <p>
-          The iPhone certainly had the flair of the <em>Think Different</em> campaign, and I sincerely wish Jobs himself would have been around to see the technology mature. Otherwise, who could have imagined that decades later, Apple would be instrumental in creating the same Orwellian future it said it would fight against?
-          </p>
-    ),
-  },
-  {
-    classes: "verse",
-    html: (
-      <p>
-          </p>
-    ),
-  },
-  {
-    classes: "verse",
-    html: (
-      <p>
-          </p>
-    ),
-  },
-  {
-    classes: "verse",
-    html: (
-      <p>
-          </p>
-    ),
-  },
-  {
-    classes: "verse",
-    html: (
-      <p>
-
-        Everything after this point is metaphysical gibberish. Email me at anhad@scova.org if you are reading this, and would love to chat. 
-
-</p>
-    ),
-  },
-  {
-    classes: "verse",
-    html: (
-      <p>
-
-
-
-
-
         God? In this day and age?
         <br />
         Am I crazy?
@@ -353,7 +774,10 @@ On January 24th Apple Computer will introduce Macintosh. <strong>And you’ll se
       <p>
         {" "}
         So there's your first lesson – do not trust blindly any theological
-        material that does not directly come from the  <em>entity connected to the source</em>. Always be wary of the <em>human errors </em>that might stem from the personal biases of the entities making that translation. Be sufficiently watchful of what you
+        material that does not directly come from the{" "}
+        <em>entity connected to the source</em>. Always be wary of the{" "}
+        <em>human errors </em>that might stem from the personal biases of the
+        entities making that translation. Be sufficiently watchful of what you
         interpret after reading someone else's commentary of a particular
         scripture of reverence. They might not be aware of the distortions they
         are weaving in the minor creative liberties they are taking.
@@ -603,18 +1027,10 @@ On January 24th Apple Computer will introduce Macintosh. <strong>And you’ll se
         If the world thus far has told you that you are special, do you want to
         deny yourself the sole thing in the universe that makes you, and{" "}
         <em>you alone</em>, very special? Has this not been you entire life's
-        narrative thus far – that you
-        <em>are special</em>? If you <em>attach yourself</em> to Him, He makes{" "}
-        <strong>
-          <em>your entire world</em>
-        </strong>{" "}
-        revolve around you – altering the spacetime ever so slightly, and
-        nudging the thoughts, and unthought-of actions, of those within your
-        confine of influence ever so discreetly that really, all you have to do,
+        narrative thus far – that you <em>are special</em>? If you <em>attach yourself</em> to Him, He makes <strong><em>your entire world</em></strong> revolve around you – altering the spacetime ever so slightly, and nudging the thoughts, and unthought-of actions, of those within your confine of influence ever so discreetly that really, all you have to do,
         is just – <em>Be Your True Self</em>, and things just happen to
         facilitate you being your true Self, in the way that you know best, and
-        in a way that only you,{" "}
-        <em>the specific instance of you in the current spacetime</em> could
+        in a way that only you, <em>the specific instance of you in the current spacetime</em> could
         have.
       </p>
     ),
