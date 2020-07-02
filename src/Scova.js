@@ -11,6 +11,21 @@ import orm from "./images/orm.png";
 import analytics from "./images/analytics.png";
 import marsMeme from "./images/marsMeme.png";
 import bunnyInBubble from "./images/bunnyInBubble.png";
+import pageRank from "./images/pageRank.png";
+import aws from "./images/aws.png";
+import trumpMeme from "./images/trumpMeme.png";
+import lwtTrump from "./images/lwtTrump.png";
+import affectHeuristic from "./images/affectHeuristic.png";
+import sockPuppet from "./images/sockPuppet.png";
+import nsaNYC from "./images/nsaNYC.png";
+import nsaNYCNews from "./images/nsaNYCNews.png";
+import sockPuppetsShowTime from "./images/sockPuppetsShowTime.png";
+import civilWar from "./images/civilWar.png";
+import sockPuppets from "./images/sockPuppets.png";
+
+
+
+
 import Charter from "charter-webfont";
 
 const onboarding = [
@@ -628,7 +643,7 @@ const verses = [
     classes: "verse quote",
     html: <p>
         "What is surfing? surfing (or browsing) is the activity of engaging in a series of glimpses, each of which exposes the browser to objects of potential interest; depending on interest, the browser may or may not examine more closely one or more of the (physical or represented) objects; this examination, depending on interest, may or may not lead the browser to (physically or conceptually) acquire the object."<br/>
-(Marcia J. Bates)
+        (Marcia J. Bates)
     </p>,
   },
   {
@@ -638,62 +653,706 @@ const verses = [
     </p>,
   },
   {
-    classes: "verse",
-    html: <p></p>,
+    classes: "verse block-quote",
+    html: <p>
+      6. Filters: gardens of pure ideology
+    </p>,
   },
   {
     classes: "verse",
-    html: <p></p>,
+    html: <p>
+      Are you constantly staying updated through news alerts — hopelessly trying be to be smarter, more aware, more caring about the world? With social interactions delegated through social media, haven’t the unfiltered barrage of notifications only left you desensitized?
+    </p>,
   },
   {
     classes: "verse",
-    html: <p></p>,
+    html: <p>
+      Have you tried to speak up, and reach out to the other side to resolve your differences? Were you instantly labelled with an <strong>“-ist”</strong>? You would think that with all this data, people would educate themselves, and get smarter — but they have only gotten worse.
+    </p>,
   },
   {
     classes: "verse",
-    html: <p></p>,
+    html: <p>
+      In this environment of political correctness and <em>safe spaces</em>, we aren’t doing any favour to the communities that have been harmed and hurt by obsessing over semantic indiscretions. How will an argument ever be resolved if neither side hears a nuanced and detailed advocation from the other side? This won’t happen unless those people have a civil conversation as grown adults — in REAL life. You can’t expect that to happen on social media. Even a simple comment will have you lynched by trolls & fanatics.
+    </p>,
   },
   {
     classes: "verse",
-    html: <p></p>,
+    html: <p>
+      If social networks were to be considered a parallel half-dimension to our 3-D reality, then what would the <a href={"http://art.yale.edu/file_columns/0000/8696/galloway-ch4.pdf"}>Protocol</a> be in this new half-dimension? Even Political Correctness, like all protocols, is a technique for achieving voluntary regulation within a contingent environment.
+    </p>,
   },
   {
     classes: "verse",
-    html: <p></p>,
+    html: <p>
+      So how do you ever clarify your stance if the nuances can’t be debated, and decisions and judgements are made without fully processing all available information in its entirety? <strong>Does anyone even have the time?</strong>
+    </p>,
+  },
+  {
+    classes: "verse quote",
+    html: <p>
+      “Confirmation Bias is the mother of all misconceptions. It is the tendency to interpret new information so that it becomes compatible with our existing theories, beliefs and convictions. In other words, we filter out any new information (disconfirming evidence) that contradicts our existing views, such that prior conclusions remain intact.”<br/>
+      (Rolf Dobelli, The Art of Thinking Clearly)
+    </p>,
+  },
+  {
+    classes: "verse block-quote",
+    html: <p>7. PageRank: machines take over your thought process</p>,
   },
   {
     classes: "verse",
-    html: <p></p>,
+    html: <p>
+      The more machines aid in extending our thoughts, more control we surrender. What actually is the <em>best</em> result? How does the machine render anything important? <strong><em>Rather: what was the programmer’s intent for the machine to deem important?</em></strong> The associations that you naturally make in your mind, as you transcribe your thoughts on the screen — if the machine starts to predict what you are going to type next, how instantly regressive is that?
+    </p>,
+  },
+  {
+    classes: "verse image",
+    html: <img src={pageRank}/>,
   },
   {
     classes: "verse",
-    html: <p></p>,
+    html: <p>
+      If you see recommendation services as machines feeding us information, then as the <strong><em>source of information</em></strong>, they — and by extension, whoever controls the machine you are currently looking at — has a certain <strong><em>control over you</em></strong>.
+    </p>,
   },
   {
     classes: "verse",
-    html: <p></p>,
+    html: <p>
+      In most cases, it is a server out of a thousand similar in an entire colony of servers performing thousands of permutations per second — constantly 24 x 7 x 365 with minimal downtime. They are only just <em>computers</em> left automated to find optimized content for millions of users without human intervention.
+      </p>,
+  },
+  {
+    classes: "verse image",
+    html: <img src={aws}/>,
+  },
+  {
+    classes: "verse block-quote",
+    html: (
+      <h2>
+        Google. Netflix. Spotify.
+        </h2>),
   },
   {
     classes: "verse",
-    html: <p></p>,
-  },
-  {
-    classes: "verse",
-    html: <p></p>,
-  },
-  {
-    classes: "verse",
-    html: <p></p>,
-  },
-  {
-    classes: "verse",
-    html: <p></p>,
+    html: (
+    <p>
+    Devices are getting smarter at predicting what you intended to find — finally delivering the promises of artificially intelligent code predicting individually optimised results.
+    </p>
+    ),
   },
   {
     classes: "verse",
     html: (
       <p>
-        Everything after this point is metaphysical gibberish. Email me at
+        Mechanisms are perfectly in place to feed us our freemium. Corporations don’t need to know what you’re actually thinking. They just use metrics to single out remarketing segments that lead to high conversion rates. They know what you want; and have an inherent need to manipulate public perception using basic social psychology. It’s called marketing. It is not necessary for a product to be good, it needs properly marketed — otherwise in all this noise of social media, the consumer would never find them. That’s fine — it is Capitalism 101. Know your consumer. It’s only natural, and probably even comes from a place of good intent.
+      </p>
+    ),
+  },
+  {
+    classes: "verse",
+    html: (
+      <p>
+        If you are really scared of AI taking over the world, then think about this: at what point does the machine’s suggestion become our default selection? And who is actually controlling what we choose to see? Does the algorithm only learn from our choices, or does it contribute to our bias?
+      </p>
+    ),
+  },
+  {
+    classes: "verse quote",
+    html: (
+      <p>
+        I don’t think we have asked ourselves these questions.
+      </p>
+    ),
+  },
+  {
+    classes: "verse block-quote",
+    html: (
+      <p>
+        8. Closed Social Ecosystem: fall into the loop
+      </p>
+    ),
+  },
+  {
+    classes: "verse",
+    html: (
+      <p>
+        With everybody hyperfocused on their particular issues, the internet becomes a particularly fertile ground for confirmation bias. To stay informed, we continually browse pages & blogs, almost always forgetting that our favoured pages mirror our existing values, be they liberal, conservative or somewhere in between. With tailored content being delivered with least resistance, the chance to engage with a divergent opinion altogether disappears.
+      </p>
+    ),
+  },
+  {
+    classes: "verse",
+    html: (
+      <p>
+        Entropy in a closed system always increases — hence decreasing the amount of effective information available in the system. The system, for our purposes is simply some social web service that provides utility to users in the form of informational requests & responses. The more you tie yourself into the system, and stop reaching out for different stuff, the more likely are you to fall in an infinite loop of confirmation bias — it’s what Democrats are calling peak-liberalism.
+      </p>
+    ),
+  },
+  {
+    classes: "verse",
+    html: (
+      <p>
+        This situation obscurely corresponds to an experiment by British cybernetician Stafford Beer in 1970’s socialist Chile. Project Cybersyn advocated for democratic participation of factory workers in the process of data-driven decision making in a factory system. Stemming from good intent, the experiment ultimately revealed a lot of the design biases that continue to exist as we transition into a new system with the rules of the previous one — and how that can lead to exclusion and marginalization of sectors of the population.
+      </p>
+    ),
+  },
+  {
+    classes: "verse block-quote",
+    html: (
+      <p>
+        9. Trump: force of confusion
+      </p>
+    ),
+  },
+  {
+    classes: "verse quote",
+    html: (
+      <p>
+        “seduction represents mastery over the symbolic universe.”
+      </p>
+    ),
+  },
+  {
+    classes: "verse",
+    html: (
+      <p>
+        Before Trump, I never quite realized the propaganda I was devouring. Presidents come and go but it is the spirit of democracy that keeps the system intact, right? Trump is no ordinary president. No matter how much the left denies it, even I really hate to say it — but Trump is a leader.
+      </p>
+    ),
+  },
+  {
+    classes: "verse image",
+    html: (
+      <img src={trumpMeme}/>
+    ),
+  },
+  {
+    classes: "verse",
+    html: (
+      <p>
+        He was thought to be temperamentally unfit for the Presidency— and even rallied against by politicians from both sides of the aisle at some point or the other during the past year. Yet he won; and that’s scary, since his public perception is that of a trigger-happy-carpet-bombing-white nationalist to his enemies. A person of such temperament is just one bad decision from assuming dictatorship and leading the world into apocalyptic oblivion.
+      </p>
+    ),
+  },
+  {
+    classes: "verse",
+    html: (
+      <p>
+        For him, it is a game in the Von Neumann sense. Donald Trump managed to stay in the limelight consistently for abundant forgotten reasons throughout his campaign, just liked he wanted—by introducing confusion into the messages of the side he opposed, and news outlets took the bait every single time — as they continue to do so to this day. I can personally vouch for this from the meagre effort I put in that qualifies as research to explore Trump’s manipulations of the media narrative. In Trump’s Von Neumann game, concealing the strategy of the sender is not only permitted but encouraged.
+      </p>
+    ),
+  },
+  {
+    classes: "verse",
+    html: (
+      <p>
+        Trump’s special skill in selling himself is his uncanny ability to intuit crowd mood. He understands that he has to reach past the nitty-gritty social-media issues to the American people’s sense of themselves. Regaining the feeling of greatness is the key. Trump’s quote on exaggeration, from his Art of the Deal explains this succinctly:
+      </p>
+    ),
+  },
+  {
+    classes: "verse quote",
+    html: (
+      <p>
+        “The final key to the way I promote is bravado. I play to people’s fantasies. People may not always think big themselves, but they can still get very excited by those who do. That’s why a little hyperbole never hurts. People want to believe that something is the biggest and the greatest and the most spectacular. I call it truthful hyperbole. It’s an innocent form of exaggeration, and a very effective form of promotion.”
+      </p>
+    ),
+  },
+  {
+    classes: "verse",
+    html: (
+      <p>
+        What if he steps up his rhetoric? That’s what everyone is constantly thinking — what’s on the Donald’s mind? Nobody knows. And that’s his game. You’re not supposed to know what he might do, were a situation to occur. I understand that, you have the element of surprise. It is pretty neat actually. All you need to do is tweet out different permutations of the same rhetoric phrases at strange hours of the night. Always keep the people guessing — keep them on edge.
+      </p>
+    ),
+  },
+  {
+    classes: "verse block-quote",
+    html: (
+      <p>
+        These guesses are the same questions we are all asking.
+      </p>
+    ),
+  },
+  {
+    classes: "verse",
+    html: (
+      <p>
+        Why are you constantly tweeting about North Korea? Why are you calling the free press fake? What do you mean by fake? Why don’t you ever clarify yourself? Will you ever tone down your rhetoric? Will you stop confusing issues of nuclear stability, with religious radicalism, with police brutality, with promises of a healthcare plan you don’t have, and jobs you can’t deliver?
+      </p>
+    ),
+  },
+  {
+    classes: "verse quote",
+    html: (
+      <p>
+        Why are we still debating legitimacy of climate change, evolution and the civil war when it should be your presidency that should be challenged?
+
+      </p>
+    ),
+  },
+  {
+    classes: "verse image",
+    html: (
+      <img src={lwtTrump}/>
+    ),
+  },
+  {
+    classes: "verse block-quote",
+    html: (
+      <p>
+        <a href={"https://medium.com/@HooperDrivesTheBoatChief/18-lessons-i-learned-from-reading-trumps-art-of-the-deal-66d67e94ab23"}>Rhetoric over Substance.</a>
+      </p>
+    ),
+  },
+  {
+    classes: "verse quote",
+    html: (
+      <p>
+        “The whole technique of secrecy, message jamming, and bluff, is concerned with ensuring that one’s own side can make use of the forces and agencies of communication more effectively than the other side”<br/>
+        (Norbert Weiner)
+      </p>
+    ),
+  },
+  {
+    classes: "verse",
+    html: (
+      <p>
+        A dictator, to be successful, gives their people an impression of law and order, and a belief in themselves. To those who truly support him, Trump is a businessman first, who will renegotiate America’s true place in the world — what matters is the perception that he has created through targeted marketing to passionate supporters. If you don’t see the Presidential side of the Donald, it is because you might not be his target demographic, they are the people whom you silently judge when you spot them wearing a #MAGA hat.
+      </p>
+    ),
+  },
+  {
+    classes: "verse",
+    html: (
+      <p>
+        Many critics still fail to get this point. There is a famous quote from Les Moonves, the head of CBS, “Donald Trump is horrible for America but he’s amazing for this network.” He has made his demographic feel comfortable — if only by preying on their fears multiples times each day. He probably tweets out every time he has a literal itch. Everyone else, will stay distracted.
+      </p>
+    ),
+  },
+  {
+    classes: "verse",
+    html: (
+      <p>
+        I’m sure if Trump tweeted this out once, we could all rest and move on:
+      </p>
+    ),
+  },
+  {
+    classes: "verse quote",
+    html: (
+      <p>
+        I am a reasonable man, I will not trigger a worldwide nuclear apocalypse.
+      </p>
+    ),
+  },
+  {
+    classes: "verse block-quote",
+    html: (
+      <p>
+        10. Fake News
+      </p>
+    ),
+  },
+  {
+    classes: "verse quote",
+    html: (
+      <p>
+        "What is news? What is it that we believe is important?<br/>Carl Bernstein
+      </p>
+    ),
+  },
+  {
+    classes: "verse",
+    html: (
+      <p>
+        That the media could be used to manipulate the mass unconscious, is no big secret. Since, entropy in a closed system always increases, this means that the effective information available in the system decreases. Currently, the Democrats are trying to pin down whatever Donald’s game is, especially with respect to his plans for the next four years.
+      </p>
+    ),
+  },
+  {
+    classes: "verse quote",
+    html: (
+      <p>
+        A manual of the public relations industry by one of its leading figures, Eddie Bernays, opens by observing that “The conscious and intelligent manipulations of the organized habits and opinions of the masses is an important element in democratic society.”
+      </p>
+    ),
+  },
+  {
+    classes: "verse",
+    html: (
+      <p>
+        In my opinion, with the Russian connection, Trump’s opposition is going too far. There is no ulterior motive — the real estate mogul is seeing the value of his properties appreciate worldwide, and that is the only deal he was ever interested in. Our game is to keep guessing, and stay engaged without ever taking the time to process anything — while you secretly hope that all your crazy theories about the world aren’t true.
+      </p>
+    ),
+  },
+  {
+    classes: "verse",
+    html: (
+      <p>
+        If you don’t trust the paid media, then you probably believe what your social connections tell you. Even in that case, if you read some person’s opinion online, and find their views agreeable — you might be inclined to share it with your network. Maybe you even add a clarification on where you stand on specific details if they differ from the author’s view. You can do this for some articles, not all. You don’t have that kind of time, or energy. Many times you might even share something with opinions drastically different from yours, but that was probably not why you shared it. It doesn’t matter what the inclination to share, everybody reads — and everybody shares.
+      </p>
+    ),
+  },
+  {
+    classes: "verse",
+    html: (
+      <p>
+        Are more people likely to share a viral tweet, or a 4000-word thinkpiece? Since most of this information is shared without context, anything with a negative connotation spreads faster than any fire. We still continue to share — more content consumed somehow feels more satisfying.
+      </p>
+    ),
+  },
+  {
+    classes: "verse image",
+    html: (
+      <img src={affectHeuristic}/>
+    ),
+  },
+  {
+    classes: "verse",
+    html: (
+      <p>
+        There is a lot of room for misunderstanding and the mistreatment of information if the intention is only to move on to the next piece of information without ever fully grasping all available data at hand. If you see an article from a seemingly trustworthy website, shared and commented on by a lot of people, then you are likely to believe it too right? If human experiences are irrelevant and metadata is enough to corroborate your actions in real life, then does it really matter if it happened in real life? Then does it really matter if the news was legitimate? Or the commenting users real? Imagine this for users of varied demographic, with numbers in millions. You’ve generated fake opinion. It’s how Reddit grew.
+      </p>
+    ),
+  },
+  {
+    classes: "verse quote",
+    html: (
+      <h2>Spread this around effectively, and you’ve generated fake news.</h2>
+    ),
+  },
+  {
+    classes: "verse",
+    html: (
+      <p>
+        The data from our social engagements can be used to build fake profiles, and propagate malicious opinions — sometimes sock puppets could influence you, sometimes you propagate their alternative-facts. In the age of Trump & 24-hour news cycle and unbreakable feedback loops, who even knows what’s what anymore?
+      </p>
+    ),
+  },
+  {
+    classes: "verse quote",
+    html: (
+      <p>
+        It is not really fake news, it is just you who is going crazy thinking about it.
+      </p>
+    ),
+  },
+  {
+    classes: "verse block-quote",
+    html: (
+      <p>
+        11. Sock Puppets: engineering consent
+      </p>
+    ),
+  },
+  {
+    classes: "verse",
+    html: (
+      <p>
+        Sock Puppets are more damaging and confusing than just noise. By design, they spread their opinion with malicious intent. In the old days they called it Sabotage — the kind seen in cloak and dagger political dramas—bribing actual humans to align with a political interest through exchange and barter and coercion. Sock Puppets just need to be fed the required variables — and you’ve generated buzz about an issue that no person even talked about.
+      </p>
+    ),
+  },
+  {
+    classes: "verse image",
+    html: (
+      <img src={sockPuppet}/>
+    ),
+  },
+  {
+    classes: "verse",
+    html: (
+      <p>
+        On the subject of manipulating opinion through information control in a system that is the state, Noam Chomsky in his book Masters of Mankind writes of “democratic” process of consent without consent, quoting Walter Lippman, he states that the public must “be put in its place”, and that its “function in a democracy is to be “spectators of action,” not participants, acting “only by aligning itself as the partisan of someone in a position to act executively,” in periodic electoral exercises. Evidently, propaganda works best when influencing a reluctant or indifferent majority.
+      </p>
+    ),
+  },
+  {
+    classes: "verse image",
+    html: (
+      <img src={nsaNYC}/>
+    ),
+  },
+  {
+    classes: "verse",
+    html: (
+      <p>
+        The Critical Art Ensemble somehow prophesied in 1996 on the subject of transfer from a disciplinary society to one of control:
+      </p>
+    ),
+  },
+  {
+    classes: "verse image",
+    html: (
+      <img src={nsaNYCNews}/>
+    ),
+  },
+  {
+    classes: "verse",
+    html: (
+      <p>
+        “…the conspicuous appearance of halls of power was used to regimes to maintain their hegemony…Even though the monuments of power still stand, visibly in stable locations, the agency that maintains power is visible nor stable. Power no longer permanently resides in these monuments, and command and control now move about as desired.”
+      </p>
+    ),
+  },
+  {
+    classes: "verse",
+    html: (
+      <p>
+        When the government gives the people an illusion of progress and prosperity, that’s propaganda.
+      </p>
+    ),
+  },
+  {
+    classes: "verse quote",
+    html: (
+      <h2>It’s all about the optics, isn’t it?</h2>
+    ),
+  },
+  {
+    classes: "verse",
+    html: (
+      <p>
+        The more technology becomes an extension of who we are — the less you would need humans to influence mass behavior. You learn to control the narrative in the medium that garners the most attention (engagement) from your target audience — and then you feed them what you want, with the added advantage of propaganda optimized especially for individual consumer.
+      </p>
+    ),
+  },
+  {
+    classes: "verse image",
+    html: (
+      <img src={sockPuppetsShowTime}/>
+    ),
+  },
+  {
+    classes: "verse",
+    html: (
+      <p>
+        This way, everyone gets a right to their opinion so they can feel special while consuming the same nonsense content as everyone else. Better yet, if the content is merely suggested to them — they will learn to associate with the suggestion as their default choice and possibly do your work for you by defending opinions that were never their own to begin with.
+      </p>
+    ),
+  },
+  {
+    classes: "verse block-quote",
+    html: (
+      <p>
+        12. Reality of Alternative-Facts
+      </p>
+    ),
+  },
+  {
+    classes: "verse",
+    html: (
+      <p>
+        Facts do not cease to exist because they are ignored. — Aldous Huxley
+      </p>
+    ),
+  },
+  {
+    classes: "verse",
+    html: (
+      <p>
+        If there are so many conflicting versions of the same truth, then how will we ever reach a consensus, let alone a collective consciousness? Meanwhile, the mass unconscious is well open to manipulation — like the Freudian devil that it is. Engaging content has kept us occupied, with almost no difference between entertainment and education, and then we ask ourselves how we ended up with a President who doesn’t believe in Climate Change and a Vice President who wants Evolution to be taught as a theory — as if all of science is just people getting baked and merely suggesting their Alternative-Facts.
+      </p>
+    ),
+  },
+  {
+    classes: "verse",
+    html: (
+      <p>
+        The election is over. Republicans won. Everyone should move on — I want to. I can’t yet, I still don’t have the answers to posed question — meanwhile, life calls and there is not much anybody can really do — and what about the next season of House of Cards? I can’t deal with all this real stuff right now. Makes me very compliant doesn’t it? Not being able to keep up.
+      </p>
+    ),
+  },
+  {
+    classes: "verse",
+    html: (
+      <p>
+        Norbert Wiener wrote of such a thing that kept the masses compliant:
+      </p>
+    ),
+  },
+  {
+    classes: "verse",
+    html: (
+      <p>
+        “The loyalty to humanity which can be subverted by a skillful distribution of administrative plums will be followed by a loyalty to official superiors lasting just so long as we have the bigger sugar plums to distribute. The day may well come when it constitutes the biggest potential threat to our own security.”
+      </p>
+    ),
+  },
+  {
+    classes: "verse",
+    html: (
+      <p>
+        With the internet being a fertile ground for confirmation bias, and everyone sharing half-baked versions of their truths — living in their bubbles, thinking they are smart — we are probably just being led by machines in search for more content. Our interaction with technology has certainly brought about more polarization than connectivity. In our frivolous attempts to never offend anyone, we often don’t say the things we should have said. Likewise, when we err on the side of caution, we sound overzealous and borderline conspiracy theorist. Although, I did see this viral meme, so I’m not the only person to acknowledge social media’s importance:
+      </p>
+    ),
+  },
+  {
+    classes: "verse",
+    html: (
+      <p>
+        We don’t write IRL (in real life) anymore.
+We write AFK (away from keyboard)
+– internet is real life.
+      </p>
+    ),
+  },
+  {
+    classes: "verse",
+    html: (
+      <p>
+        In a closed system, where we are increasingly getting accustomed to passive organized habits based on primitive heuristics — because there is so much information to go around — people see what they want to see. Often, they are backed by skewed information — especially now, with the speed of social media, decisions made on snap judgments are plenty, and more often than not, we don’t have the time to convince the intelligent ignorant otherwise. This very well could be a factor in the rise of this “wall” that really divides two sides of any issue.
+      </p>
+    ),
+  },
+  {
+    classes: "verse",
+    html: (
+      <p>
+        The presence of a force of confusion in such a closed system is almost always accompanied by chaos.
+      </p>
+    ),
+  },
+  {
+    classes: "verse block-quote",
+    html: (
+      <p>
+        13. Chaos
+      </p>
+    ),
+  },
+  {
+    classes: "verse",
+    html: (
+      <p>
+        You know you’re onto something when you wake up to find that topic trending on twitter, on #LoyaltyDay of all days.
+      </p>
+    ),
+  },
+  {
+    classes: "verse image",
+    html: (
+      <img src={civilWar}/>
+    ),
+  },
+  {
+    classes: "verse",
+    html: (
+      <p>
+        The Information Purification Directive requires assault on any source of information that does not conform to the Center’s dictation of Truth: “Our enemies shall talk themselves to death. And we will bury them with their own confusion.”
+      </p>
+    ),
+  },
+  {
+    classes: "verse",
+    html: (
+      <p>
+        This sounds like the doctrine that authoritarian and totalitarian governments feed their people: telling them to not think as the chaos of disorder will enslave them. People are expected to forfeit their freedom of thought and action to the State so they get taken care of.
+      </p>
+    ),
+  },
+  {
+    classes: "verse",
+    html: (
+      <p>
+        Sounds like America to me. Not to single you out America, my homeland India is the same — we love the same content you do, we just have to wait for the content to buffer sometimes. We did elect Modi, and he was actually tried for abuse of power against religious minorities — so I could just as well have said the same things back home. And this is what troubles me. In the context of our mobile-first world, I believe Nicole Stenger said it better:
+      </p>
+    ),
+  },
+  {
+    classes: "verse quote",
+    html: (
+      <p>
+        "Cyberspace, both open and closed, would be our last shelter… We would celebrate in cyberspace💃🏻, rocking and humming in televirtuality, inhabitants of a country that is nowhere, above the networks of busy money laundering.<br/>
+        Over the rainbow." 🌈
+      </p>
+    ),
+  },
+  {
+    classes: "verse",
+    html: (
+      <p>
+        The US recently dropped their largest non-nuclear bomb only to kill ~90 ISIS militants. The orange missile was quaintly titled Mother of All Bombs. Just to give you a perspective, if not nuclear, which triggers a worldwide apocalypse, this was just a close second. This is at the beginning of their offensive. Imagine how this ends, if ever.
+      </p>
+    ),
+  },
+  {
+    classes: "verse",
+    html: (
+      <p>
+        What did America do? Laughed at the fact that it looked like an orange cheeto, tagged a couple friends in a meme, and moved on to kitten watching.
+      </p>
+    ),
+  },
+  {
+    classes: "verse image",
+    html: (
+      <img src={sockPuppets}/>
+    ),
+  },
+  {
+    classes: "verse",
+    html: (
+      <p>
+        Pause for a second and think. Do you really know anything? If you couldn’t google tomorrow — How smart is your brain really without the comfort of the white search bar? Meanwhile, somebody is collecting all this data that you generate to construct an alternate person in the virtual world (sock puppet) to push their own agenda. If all of us real humans are just metrics in cyberspace — a data point in a multidimensional dataset of millions, nobody needs to hire street vandals anymore. Use your sock puppets — which we might be feeding with all this data that we generate and leave online — free for anyone to use, alter, and propagate.
+      </p>
+    ),
+  },
+  {
+    classes: "verse",
+    html: (
+      <p>
+        It was probably stupid to buy into Apple’s change the world philosophy, because even as they set out to ‘smash the old canard that the computer will enslave us,’ as an Apple spokesperson said at the time of the 1984 ad, they were just doing their job — ‘We did not say the computer will set us free
+— I have no idea how it will work out. This was strictly a marketing position.’
+      </p>
+    ),
+  },
+  {
+    classes: "verse",
+    html: (
+      <p>
+        We’re so distracted in trying to know everything about the world, that we lose out on the details. Political theater exists only in screens of continuous engagement, only to serve as an object of entertainment. We’re fighting amongst ourselves in this garden of pure ideology — while the grown ups have taken back control, with populist leaders popping up all over the globe — closing borders and retracting from trade deals.
+      </p>
+    ),
+  },
+  {
+    classes: "verse",
+    html: (
+      <p>
+        Ask yourself this: How much of your life do you really control?
+      </p>
+    ),
+  },
+  {
+    classes: "verse",
+    html: (
+      <p>
+        I’m glad at the end of the day I can pack up and move back to a disciplinary society where I am well aware of the forces of control. While America figures out the controlling forces in play in their new system, the world patiently hopes that your internal conflict doesn’t pour over onto the rest of the globe. As for the Donald, I hope he peacefully delivers on his campaign promises, because if he follows his own ideology, he will get a good deal:
+      </p>
+    ),
+  },
+  {
+    classes: "verse",
+    html: (
+      <p>
+        “You can’t con people, at least not for long. You can create excitement, you can do wonderful promotion and get all kinds of press, and you can throw in a little hyperbole. But if you don’t deliver the goods, people will eventually catch on.”
+      </p>
+    ),
+  },
+  {
+    classes: "verse",
+    html: (
+      <p>
+        Unless Marine Le Pen wins the French election — then it’s WWIII for real. (God, I hope not).
+      </p>
+    ),
+  },
+  {
+    classes: "verse",
+    html: (
+      <p>
+      Everything after this point is metaphysical gibberish. Email me at
         anhad@scova.org if you are reading this, and would love to chat.
       </p>
     ),
