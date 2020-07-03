@@ -193,6 +193,13 @@ const verses = [
       </p>
     ),
   },
+  
+  {
+    classes: "demarcator",
+    html: (
+      <hr/>
+    ),
+  },
   {
     classes: "verse image",
     html: (
@@ -202,7 +209,7 @@ const verses = [
     ),
   },
   {
-    classes: "verse block-quote",
+    classes: "block-quote",
     html: (
       <p>
         <h1>13 Reasons Why I am afraid of the Cloud</h1>
@@ -722,7 +729,7 @@ const verses = [
       </p>,
   },
   {
-    classes: "verse image",
+    classes: "image",
     html: <img src={aws}/>,
   },
   {
@@ -821,7 +828,7 @@ const verses = [
     ),
   },
   {
-    classes: "verse image",
+    classes: "image",
     html: (
       <img src={trumpMeme}/>
     ),
@@ -1230,7 +1237,7 @@ const verses = [
     ),
   },
   {
-    classes: "verse image",
+    classes: "image",
     html: (
       <img src={civilWar}/>
     ),
@@ -1285,7 +1292,7 @@ const verses = [
     ),
   },
   {
-    classes: "verse image",
+    classes: "image",
     html: (
       <img src={sockPuppets}/>
     ),

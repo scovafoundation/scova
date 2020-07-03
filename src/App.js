@@ -17,7 +17,7 @@ import FacebookPlayer from 'react-facebook-player';
 import {verses, onboarding } from './Scova';
 
 function App() {
-  var vi = 1;
+  var vi = 0;
   const versesNumbered = verses.map((verse, index) => 
   
   {
