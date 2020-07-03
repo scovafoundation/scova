@@ -5,6 +5,13 @@ table {
     margin-right: auto;
 }
 
+.demarcator hr {
+    border-top: 3px dotted black;
+    width: 100%;
+    align-self: center;
+    padding-bottom: 2rem;
+}
+
 .equation {
     text-align: center;
     align-items: center;
@@ -24,6 +31,7 @@ td .verse {
     width: 100%;
     padding-top: 1.5rem;
     padding-left: 1rem;
+    padding-bottom: 2rem;
 }
 
 .quran {

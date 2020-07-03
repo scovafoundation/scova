@@ -1347,6 +1347,197 @@ const verses = [
     ),
   },
   {
+    classes: "demarcator",
+    html: (
+      <hr/>
+    ),
+  },
+  {
+    classes: "verse",
+    html: (
+      <p>
+        To be fair, I had no prior knowledge about LePenn's political leanings, or the domestic politics of France in general. I only came across LePenn from barely working on an experiment during my oh-so-brief stint at a psychology research lab at NYU. There too, I barely made through a week before I panicked about not being sufficiently qualified, or trained, to hold a job whose only purpose was training. I had gotten fired from that job too, only a week prior to 420 – so LePenn was still very fresh in my mind. 
+      </p>
+    ),
+  },
+  {
+    classes: "verse",
+    html: (
+      <p>
+        Even more important than the President that France didn't choose at the time, was the President that America had chosen. After all the political dramas that I had so ferociously absorbed in all of my time in New York, the borders between real and reel life were so precariously blurred, that it had become all the more harder to keep up with the political scenario. 
+      </p>
+    ),
+  },
+  {
+    classes: "verse",
+    html: (
+      <p>
+        As a young, "woke" person of my time, I felt that it was my civic duty to stay current with the affairs of the country where I had wished to set my roots. I had come to USA from India, with a couple suitcases of clothes and paraphernalia, that may have seemed overkill at the time, but, in my mind, I had packed up and left the country. Education was my only way out, and I had taken it. 
+      </p>
+    ),
+  },
+  {
+    classes: "verse bible",
+    html: (
+      <p>
+        <em>
+          “Trouble and anguish shall make him afraid; <br />
+          they shall prevail against him, as a king ready to the battle.” <br />
+          (Job 15:24)
+        </em>
+      </p>
+    ),
+  },
+  {
+    classes: "verse",
+    html: (
+      <p>
+        I wanted to be free from my current societal constructs, the
+        expectations of what I was <em>supposed to be doing</em>, and most of
+        all – I needed to get away from this family of mine who I had come to
+        detest. It didn’t help that over 90% of my high-school class had
+        boycotted me over their childish insecurities. In my mind, I had packed
+        up and left a life behind, to which I had no intentions of coming back.
+      </p>
+    ),
+  },
+  
+
+
+  {
+    classes: "verse",
+    html: (
+      <p>
+      </p>
+    ),
+  },
+  {
+    classes: "verse",
+    html: (
+      <p>
+      </p>
+    ),
+  },
+  {
+    classes: "verse",
+    html: (
+      <p>
+      </p>
+    ),
+  },
+  {
+    classes: "verse",
+    html: (
+      <p>
+      </p>
+    ),
+  },
+  {
+    classes: "verse",
+    html: (
+      <p>
+      </p>
+    ),
+  },
+  {
+    classes: "verse",
+    html: (
+      <p>
+      </p>
+    ),
+  },
+  {
+    classes: "verse",
+    html: (
+      <p>
+      </p>
+    ),
+  },
+  {
+    classes: "verse",
+    html: (
+      <p>
+      </p>
+    ),
+  },
+  {
+    classes: "verse",
+    html: (
+      <p>
+      </p>
+    ),
+  },
+  {
+    classes: "verse",
+    html: (
+      <p>
+      </p>
+    ),
+  },
+  {
+    classes: "verse",
+    html: (
+      <p>
+      </p>
+    ),
+  },
+  {
+    classes: "verse",
+    html: (
+      <p>
+      </p>
+    ),
+  },
+  {
+    classes: "verse",
+    html: (
+      <p>
+      </p>
+    ),
+  },
+  {
+    classes: "verse",
+    html: (
+      <p>
+      </p>
+    ),
+  },
+  {
+    classes: "verse",
+    html: (
+      <p>
+      </p>
+    ),
+  },
+  {
+    classes: "verse",
+    html: (
+      <p>
+      </p>
+    ),
+  },
+  {
+    classes: "verse",
+    html: (
+      <p>
+      </p>
+    ),
+  },
+  {
+    classes: "verse",
+    html: (
+      <p>
+      </p>
+    ),
+  },
+  {
+    classes: "verse",
+    html: (
+      <p>
+      </p>
+    ),
+  },
+  {
     classes: "verse",
     html: (
       <p>
@@ -8506,31 +8697,7 @@ const verses = [
       </p>
     ),
   },
-  {
-    classes: "verse bible",
-    html: (
-      <p>
-        <em>
-          “Trouble and anguish shall make him afraid; <br />
-          they shall prevail against him, as a king ready to the battle.” <br />
-          (Job 15:24)
-        </em>
-      </p>
-    ),
-  },
-  {
-    classes: "verse",
-    html: (
-      <p>
-        I wanted to be free from my current societal constructs, the
-        expectations of what I was <em>supposed to be doing</em>, and most of
-        all – I needed to get away from this family of mine who I had come to
-        detest. It didn’t help that over 90% of my high-school class had
-        boycotted me over their childish insecurities. In my mind, I had packed
-        up and left a life behind, to which I had no intentions of coming back.
-      </p>
-    ),
-  },
+
   {
     classes: "verse",
     html: (
@@ -8563,6 +8730,10 @@ const verses = [
       </p>
     ),
   },
+
+
+
+
   {
     classes: "verse",
     html: (

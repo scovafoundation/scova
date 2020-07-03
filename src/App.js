@@ -17,15 +17,41 @@ import FacebookPlayer from 'react-facebook-player';
 import {verses, onboarding } from './Scova';
 
 function App() {
+  var vi = 1;
   const versesNumbered = verses.map((verse, index) => 
-  <tr>
-    <td colSpan="8" style={{fontWeight: "bolder", textAlign:"left"}}>
-      {index+1}
-    </td>
-    <td colSpan="42" className={verse.classes} id={index+1}>
-      {verse.html}
-    </td>
-    </tr>
+  
+  {
+    if (verse.classes.includes("verse")) {
+      vi = vi + 1;
+    return (
+      <tr>
+        <td colSpan="8" style={{fontWeight: "bolder", textAlign:"left"}}>
+          {vi}
+        </td>
+        <td colSpan="42" className={verse.classes} id={vi}>
+          {verse.html}
+        </td>
+        </tr>
+        )
+    } else {
+      return (
+        <tr>
+          <td colSpan="8" style={{fontWeight: "bolder", textAlign:"left"}}>
+            {" "}
+          </td>
+          <td colSpan="42" className={verse.classes}>
+            {verse.html}
+          </td>
+          </tr>
+      )
+    }
+  }
+  
+  
+  
+
+    
+  
   );
 
   const onboardingFormatted = onboarding.map((verse, index) => 
