@@ -202,7 +202,7 @@ const verses = [
     ),
   },
   {
-    classes: "verse",
+    classes: "verse block-quote",
     html: (
       <p>
         <h1>13 Reasons Why I am afraid of the Cloud</h1>
@@ -1049,7 +1049,7 @@ const verses = [
     classes: "verse",
     html: (
       <p>
-        Sock Puppets are more damaging and confusing than just noise. By design, they spread their opinion with malicious intent. In the old days they called it Sabotage — the kind seen in cloak and dagger political dramas—bribing actual humans to align with a political interest through exchange and barter and coercion. Sock Puppets just need to be fed the required variables — and you’ve generated buzz about an issue that no person even talked about.
+        Sock Puppets are more damaging and confusing than just noise. By design, they spread their opinion with malicious intent. In the old days they called it <strong>Sabotage</strong> — the kind seen in cloak and dagger political dramas—bribing actual humans to align with a political interest through exchange and barter and coercion. Sock Puppets just need to be fed the required variables — and you’ve generated buzz about an issue that no person even talked about.
       </p>
     ),
   },
@@ -1063,7 +1063,7 @@ const verses = [
     classes: "verse",
     html: (
       <p>
-        On the subject of manipulating opinion through information control in a system that is the state, Noam Chomsky in his book Masters of Mankind writes of “democratic” process of consent without consent, quoting Walter Lippman, he states that the public must “be put in its place”, and that its “function in a democracy is to be “spectators of action,” not participants, acting “only by aligning itself as the partisan of someone in a position to act executively,” in periodic electoral exercises. Evidently, propaganda works best when influencing a reluctant or indifferent majority.
+        On the subject of manipulating opinion through information control in a system that is the state, Noam Chomsky in his book Masters of Mankind writes of “democratic” process of <em>consent without consent</em>, quoting Walter Lippman, he states that the public must “be put in its place”, and that its “function in a democracy is to be “spectators of action,” not participants, acting “only by aligning itself as the partisan of someone in a position to act executively,” in periodic electoral exercises. Evidently, propaganda works best when influencing a reluctant or indifferent majority.
       </p>
     ),
   },
@@ -1088,7 +1088,7 @@ const verses = [
     ),
   },
   {
-    classes: "verse",
+    classes: "verse quote",
     html: (
       <p>
         “…the conspicuous appearance of halls of power was used to regimes to maintain their hegemony…Even though the monuments of power still stand, visibly in stable locations, the agency that maintains power is visible nor stable. Power no longer permanently resides in these monuments, and command and control now move about as desired.”
@@ -1099,7 +1099,7 @@ const verses = [
     classes: "verse",
     html: (
       <p>
-        When the government gives the people an illusion of progress and prosperity, that’s propaganda.
+        When the government gives the people an <em>illusion</em> of progress and prosperity, that’s propaganda.
       </p>
     ),
   },
@@ -1113,7 +1113,7 @@ const verses = [
     classes: "verse",
     html: (
       <p>
-        The more technology becomes an extension of who we are — the less you would need humans to influence mass behavior. You learn to control the narrative in the medium that garners the most attention (engagement) from your target audience — and then you feed them what you want, with the added advantage of propaganda optimized especially for individual consumer.
+        The more technology becomes an extension of who we are — the less you would need humans to influence mass behavior. You learn to <em>control the narrative</em> in the medium that garners the most attention (engagement) from your target audience — and then you feed them what you want, with the added advantage of propaganda optimized especially for individual consumer.
       </p>
     ),
   },
@@ -1140,10 +1140,10 @@ const verses = [
     ),
   },
   {
-    classes: "verse",
+    classes: "verse quote",
     html: (
       <p>
-        Facts do not cease to exist because they are ignored. — Aldous Huxley
+        "Facts do not cease to exist because they are ignored."<br/> (Aldous Huxley)
       </p>
     ),
   },
@@ -1151,7 +1151,7 @@ const verses = [
     classes: "verse",
     html: (
       <p>
-        If there are so many conflicting versions of the same truth, then how will we ever reach a consensus, let alone a collective consciousness? Meanwhile, the mass unconscious is well open to manipulation — like the Freudian devil that it is. Engaging content has kept us occupied, with almost no difference between entertainment and education, and then we ask ourselves how we ended up with a President who doesn’t believe in Climate Change and a Vice President who wants Evolution to be taught as a theory — as if all of science is just people getting baked and merely suggesting their Alternative-Facts.
+        If there are so many conflicting versions of the same truth, then how will we ever reach a consensus, let alone a <em>collective consciousness</em>? Meanwhile, the mass unconscious is well open to manipulation — like the Freudian devil that it is. Engaging content has kept us occupied, with almost no difference between entertainment and education, and then we ask ourselves how we ended up with a President who doesn’t believe in Climate Change and a Vice President who wants Evolution to be taught as a theory — as if all of science is just people getting baked and merely <em>suggesting</em> their Alternative-Facts.
       </p>
     ),
   },
@@ -1159,7 +1159,7 @@ const verses = [
     classes: "verse",
     html: (
       <p>
-        The election is over. Republicans won. Everyone should move on — I want to. I can’t yet, I still don’t have the answers to posed question — meanwhile, life calls and there is not much anybody can really do — and what about the next season of House of Cards? I can’t deal with all this real stuff right now. Makes me very compliant doesn’t it? Not being able to keep up.
+        The election is over. Republicans won. Everyone should move on — I want to. I can’t yet, I still don’t have the answers to posed question — meanwhile, life calls and there is not much anybody can really do — and what about the next season of House of Cards? I can’t deal with all this real stuff right now. <em>Makes me very compliant doesn’t it? Not being able to keep up.</em>
       </p>
     ),
   },
@@ -1172,7 +1172,7 @@ const verses = [
     ),
   },
   {
-    classes: "verse",
+    classes: "verse quote",
     html: (
       <p>
         “The loyalty to humanity which can be subverted by a skillful distribution of administrative plums will be followed by a loyalty to official superiors lasting just so long as we have the bigger sugar plums to distribute. The day may well come when it constitutes the biggest potential threat to our own security.”
@@ -1188,12 +1188,12 @@ const verses = [
     ),
   },
   {
-    classes: "verse",
+    classes: "verse quote",
     html: (
       <p>
-        We don’t write IRL (in real life) anymore.
-We write AFK (away from keyboard)
-– internet is real life.
+        We don’t write <strong>IRL</strong> (in real life) anymore.<br/>
+        We write <strong>AFK</strong> (away from keyboard)<br/>
+        – internet is real life.
       </p>
     ),
   },
@@ -1239,7 +1239,7 @@ We write AFK (away from keyboard)
     classes: "verse",
     html: (
       <p>
-        The Information Purification Directive requires assault on any source of information that does not conform to the Center’s dictation of Truth: “Our enemies shall talk themselves to death. And we will bury them with their own confusion.”
+        The <em>Information Purification Directive</em> requires assault on any source of information that does not conform to the Center’s dictation of Truth: “Our enemies shall talk themselves to death. And we will bury them with their own confusion.”
       </p>
     ),
   },
@@ -1247,7 +1247,7 @@ We write AFK (away from keyboard)
     classes: "verse",
     html: (
       <p>
-        This sounds like the doctrine that authoritarian and totalitarian governments feed their people: telling them to not think as the chaos of disorder will enslave them. People are expected to forfeit their freedom of thought and action to the State so they get taken care of.
+        This sounds like the doctrine that authoritarian and totalitarian governments feed their people: telling them to <em>not think</em> as the chaos of disorder will enslave them. People are expected to forfeit their freedom of thought and action to the State so they get taken care of.
       </p>
     ),
   },
@@ -1272,7 +1272,7 @@ We write AFK (away from keyboard)
     classes: "verse",
     html: (
       <p>
-        The US recently dropped their largest non-nuclear bomb only to kill ~90 ISIS militants. The orange missile was quaintly titled Mother of All Bombs. Just to give you a perspective, if not nuclear, which triggers a worldwide apocalypse, this was just a close second. This is at the beginning of their offensive. Imagine how this ends, if ever.
+        The US recently dropped their largest non-nuclear bomb only to kill ~90 ISIS militants. The orange missile was quaintly titled <em>Mother of All Bombs</em>. Just to give you a perspective, if not nuclear, which triggers a worldwide apocalypse, this was just a close second. This is at the beginning of their offensive. Imagine how this ends, <em>if ever</em>.
       </p>
     ),
   },
@@ -1294,7 +1294,7 @@ We write AFK (away from keyboard)
     classes: "verse",
     html: (
       <p>
-        Pause for a second and think. Do you really know anything? If you couldn’t google tomorrow — How smart is your brain really without the comfort of the white search bar? Meanwhile, somebody is collecting all this data that you generate to construct an alternate person in the virtual world (sock puppet) to push their own agenda. If all of us real humans are just metrics in cyberspace — a data point in a multidimensional dataset of millions, nobody needs to hire street vandals anymore. Use your sock puppets — which we might be feeding with all this data that we generate and leave online — free for anyone to use, alter, and propagate.
+        Pause for a second and think. Do you really know anything? If you couldn’t google tomorrow — <strong>How smart is your brain really without the comfort of the white search bar?</strong> Meanwhile, somebody is collecting all this data that you generate to construct an alternate person in the virtual world (sock puppet) to push their own agenda. If all of us real humans are just metrics in cyberspace — a data point in a multidimensional dataset of millions, nobody needs to hire street vandals anymore. Use your sock puppets — which we might be feeding with all this data that we generate and leave online — free for anyone to use, alter, and propagate.
       </p>
     ),
   },
@@ -1302,8 +1302,7 @@ We write AFK (away from keyboard)
     classes: "verse",
     html: (
       <p>
-        It was probably stupid to buy into Apple’s change the world philosophy, because even as they set out to ‘smash the old canard that the computer will enslave us,’ as an Apple spokesperson said at the time of the 1984 ad, they were just doing their job — ‘We did not say the computer will set us free
-— I have no idea how it will work out. This was strictly a marketing position.’
+        It was probably stupid to buy into Apple’s change the world philosophy, because even as they set out to ‘smash the old canard that the computer will enslave us,’ as an Apple spokesperson said at the time of the <em>1984 ad</em>, they were just doing their job — <em>‘We did not say the computer will set us free — I have no idea how it will work out. This was strictly a marketing position.’</em>
       </p>
     ),
   },
@@ -1316,10 +1315,10 @@ We write AFK (away from keyboard)
     ),
   },
   {
-    classes: "verse",
+    classes: "verse quote",
     html: (
       <p>
-        Ask yourself this: How much of your life do you really control?
+        <strong>Ask yourself this:</strong> How much of your life do you really control?
       </p>
     ),
   },
@@ -1332,7 +1331,7 @@ We write AFK (away from keyboard)
     ),
   },
   {
-    classes: "verse",
+    classes: "verse quote",
     html: (
       <p>
         “You can’t con people, at least not for long. You can create excitement, you can do wonderful promotion and get all kinds of press, and you can throw in a little hyperbole. But if you don’t deliver the goods, people will eventually catch on.”
