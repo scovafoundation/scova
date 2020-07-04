@@ -3,6 +3,10 @@ import React from "react";
 // Players
 import FacebookPlayer from 'react-facebook-player';
 import SpotifyPlayer from 'react-spotify-player';
+import { FacebookProvider, EmbeddedPost } from 'react-facebook';
+import InstagramEmbed from 'react-instagram-embed';
+
+
 
 // Images
 import bismillah from "./images/bismillah.png";
@@ -125,7 +129,7 @@ const verses = [
       </p>
     ),
   },
-  
+
   {
     classes: "verse",
     html: (
@@ -2479,8 +2483,12 @@ const verses = [
     classes: "verse",
     html: (
       <p>
-        Even still, I had asked people for accommodations, and they had made provisions to the best of their abilities in many cases – it was still, just not enough. I did not have enough support, and despite other people around me trying their level best, it all just felt – <em>inadequate</em>. 
-        </p>
+        Even still, I had asked people for accommodations, and they had made
+        provisions to the best of their abilities in many cases – it was still,
+        just not enough. I did not have enough support, and despite other people
+        around me trying their level best, it all just felt –{" "}
+        <em>inadequate</em>.
+      </p>
     ),
   },
   {
@@ -2489,8 +2497,12 @@ const verses = [
       <p>
         I was just in a hopeless state, psychologically, but physically, a sort
         of serenity was taking over me gently. An experienced psychologist might
-        call it dissociation, or the uninitiated might try to pass it off as a hallucination, and in the moment, I would've been at a loss for words when trying to rebut their claim. I felt dizzy, so I laid down on my bed, and started to look at the sunlight refracting through my decorative curtains – lo and behold, an image of Guru Nanak emanating through the floral patterns
-        of the curtains.
+        call it dissociation, or the uninitiated might try to pass it off as a
+        hallucination, and in the moment, I would've been at a loss for words
+        when trying to rebut their claim. I felt dizzy, so I laid down on my
+        bed, and started to look at the sunlight refracting through my
+        decorative curtains – lo and behold, an image of Guru Nanak emanating
+        through the floral patterns of the curtains.
       </p>
     ),
   },
@@ -2512,15 +2524,18 @@ const verses = [
     classes: "verse",
     html: (
       <p>
-        I wasn't shocked, or even on my feet running around muttering <strong><em>"Eureka, I
-        found God"</em></strong> because like I've just said, a serenity was taking over me
-        gently. Guru Nanak's image in the curtain, slowly started to move, and
-        then spin – and then, appeared a Gautam-eque <em>mudra</em> of the hands
-        covering his face. In that hand, was a joint, that this spinning image
-        of this holy person seemed to be smoking. My mind began to wonder about
-        all of history's holy men being just dudes tripping in caves, but the
-        image immediately signalled me to shush – the finger on lips gesture internationally
-        interpreted as the command "Be Quiet."
+        I wasn't shocked, or even on my feet running around muttering{" "}
+        <strong>
+          <em>"Eureka, I found God"</em>
+        </strong>{" "}
+        because like I've just said, a serenity was taking over me gently. Guru
+        Nanak's image in the curtain, slowly started to move, and then spin –
+        and then, appeared a Gautam-eque <em>mudra</em> of the hands covering
+        his face. In that hand, was a joint, that this spinning image of this
+        holy person seemed to be smoking. My mind began to wonder about all of
+        history's holy men being just dudes tripping in caves, but the image
+        immediately signalled me to shush – the finger on lips gesture
+        internationally interpreted as the command "Be Quiet."
       </p>
     ),
   },
@@ -2562,10 +2577,85 @@ const verses = [
     ),
   },
   {
+    classes: "verse quote",
+    html: (
+      <FacebookProvider appId="295988795097494">
+        <EmbeddedPost
+          href="https://www.facebook.com/anhadarora/posts/10212133203226339"
+          width="600"
+        />
+      </FacebookProvider>
+    ),
+  },
+  {
+    classes: "verse",
+    html: (
+      <p>
+        As the serenity of Nanak's presence started to fade away, I felt an
+        unusual anxiety creeping up my spine. This wasn't just my usual
+        life-sucks-I-want-to-die anxiety, this was so much more ominous than
+        that. It wasn't just my own sorry existence that I was beginning to
+        doubt, I had started to question the nature of reality itself.
+      </p>
+    ),
+  },
+  {
+    classes: "verse",
+    html: (
+      <p>
+        The clearheadedness of LSD faded away over the coming week, and in its
+        wake, began a series of unfortunate coincidences that could not possibly
+        be explained by mere chance alone. There was a colloquial working theory
+        floated famously by Elon Musk, that all of human reality was just a
+        simulation, controlled by higher order beings, much less sinister than
+        the one portrayed in the Matrix Trilogy, but something with a more
+        apathetic intent, a Grand Experiment, if you will.
+      </p>
+    ),
+  },
+  {
+    classes: "verse quote",
+    html: (
+      <p><InstagramEmbed
+        url="https://www.instagram.com/p/BTvvgU2FiNC/?utm_source=ig_web_copy_link"
+        maxWidth={350}
+        hideCaption={false}
+        containerTagName='span'
+        protocol=''
+      /></p>
+    ),
+  },
+  {
+    classes: "verse",
+    html: (
+      <p>
+        According to my version of events at the time, America, and its people,
+        were being prepared for a long, unattached war that would undoubtedly
+        encompass most of their allies, and by extension, their declared enemy
+        states. To say that I was scared would be the understatement of the
+        Millennium – I had started to shake to the bone. Sure, that could also
+        just be a side-effect of my indulgences – I had known LSD to have that
+        effect on my physical body.{" "}
+      </p>
+    ),
+  },
+  {
+    classes: "verse",
+    html: (
+      <p>
+        What I witnessed that day, lying down casually, and anxiously, drugged
+        in my apartment on that sunny afternoon, could really, ideally, be
+        snubbed off as a hallucination – a figment of my elevated conscious
+        state, and my twisted, sick brain, as a result of having taken in so
+        much visual information while in the elevated state.
+      </p>
+    ),
+  },
+  {
     classes: "verse",
     html: (
       <SpotifyPlayer
-        uri="spotify:track:6bYjclvTLjcmZZC5GhmSFQ" // Barns Courtney, Glitter & Gold
+        uri="spotify:track:7jStM0aMv8WoG91YrrDMbw" // MUNA, Around U
         size={{
           width: "100%",
           height: 300,
@@ -2577,36 +2667,51 @@ const verses = [
   },
   {
     classes: "verse",
-    html: <p></p>,
+    html: (
+      <p>
+        In fact, that's exactly what I did when the drug washed away from my
+        system. I went about my daily routines, went back to college for the
+        final week of classes, and sanitised my apartment as my parents were due
+        to come into town for my "Graduation." At the time, they knew nothing
+        about my indulgences in this foreign country, and I intended to uphold
+        the status quo. <em>Why fix what ain't broke</em>, I thought; rather,
+        why upset the balance when the alternative is pure chaos?
+      </p>
+    ),
+  },
+  {
+    classes: "verse quote",
+    html: (
+      <FacebookProvider appId="295988795097494">
+        <EmbeddedPost
+          href="https://www.facebook.com/anhadarora/posts/10212360541149645"
+          width="600"
+        />
+      </FacebookProvider>
+    ),
   },
   {
     classes: "verse",
-    html: <p></p>,
+    html: (
+      <p>
+        Exams went by nicely, all things considered. Unsurprisingly, I failed
+        Linear Algebra, and had to repeat the course over the summer, with the
+        same professor. I took it in my stride, and put up mandatory
+        ecstatic-about-graduation posts across all my social channels. Of
+        course, my original facebook post was just a continuation of this
+        ongoing facade – what else could I do? Drop everything and announce I
+        was going home, because "death to America"? I wasn't suddenly going to
+        turn into a radical religious fanatic because Nanak had shushed me.{" "}
+        <strong>
+          <em>I needed to know more</em>
+        </strong>
+        . I couldn't just blindly trust. I had to verify. I needed time, and
+        access to more of this magical potion that was causing the structure of
+        reality to fall apart.
+      </p>
+    ),
   },
-  {
-    classes: "verse",
-    html: <p></p>,
-  },
-  {
-    classes: "verse",
-    html: <p></p>,
-  },
-  {
-    classes: "verse",
-    html: <p></p>,
-  },
-  {
-    classes: "verse",
-    html: <p></p>,
-  },
-  {
-    classes: "verse",
-    html: <p></p>,
-  },
-  {
-    classes: "verse",
-    html: <p></p>,
-  },
+
   {
     classes: "verse",
     html: <p></p>,
@@ -2636,6 +2741,21 @@ const verses = [
     classes: "verse",
     html: <p></p>,
   },
+  {
+    classes: "verse",
+    html: (
+      <SpotifyPlayer
+        uri="spotify:track:6bYjclvTLjcmZZC5GhmSFQ" // Barns Courtney, Glitter & Gold
+        size={{
+          width: "100%",
+          height: 300,
+        }}
+        view={"coverart"}
+        theme={"white"}
+      />
+    ),
+  },
+
   {
     classes: "verse",
     html: <p></p>,

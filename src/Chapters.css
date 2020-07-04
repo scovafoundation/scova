@@ -31,6 +31,11 @@ table {
     padding-left: 1rem;
 }
 
+.quote InstagramEmbed {
+    text-align: center;
+    align-self: center;
+}
+
 .quran {
     text-align: center;
     font-size: 2.5rem;
@@ -42,6 +47,7 @@ table {
 
 .quote {
     text-align: center;
+    align-items: center;
     font-size: 1.5rem;
     font-family: 'Charter', 'Grad', 'Cheltenham';
     padding: 1rem;
