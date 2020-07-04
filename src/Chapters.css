@@ -17,22 +17,18 @@ table {
     align-items: center;
 }
 
-.image img {
-    width: 100%;
-    padding-left: 1rem;
-    padding-top: 2rem;
-    padding-bottom: 2rem;
-}
-
 .title-image img {
     width: 85%;
 }
 
-td .verse {
+.image img {
     width: 100%;
-    padding-top: 1.5rem;
+}
+
+.verse {
+    width: 100%;
+    padding: 2rem;
     padding-left: 1rem;
-    padding-bottom: 2rem;
 }
 
 .quran {
@@ -62,7 +58,6 @@ td .verse {
     color: red;
     text-align: center;
     font-family: 'Charter', 'Grad', 'Cheltenham';
-    padding: 1rem;
 }
 
 .block-quote {
@@ -78,13 +73,13 @@ td .verse {
     text-align: center;
     font-style: italic bold;
     font-family: 'Charter', 'Grad', 'Cheltenham';
-    padding: 1rem;
 }
 
 tr {
     text-align: justify;
     font-size: 1.5rem;
     font-family: 'Charter', 'Grad', 'Cheltenham';
+    padding: 1em;
 }
 
 .salutation {

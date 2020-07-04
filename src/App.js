@@ -3,77 +3,57 @@ import logo from "./logo.png";
 import "./App.css";
 import "./Chapters.css";
 // import Parallax from "./components/Parallax/Parallax.js";
-import {
-  Button,
-  Navbar,
-  Nav,
-  Form,
-  FormControl,
-  Table
-} from "react-bootstrap";
+import { Button, Navbar, Nav, Form, FormControl, Table } from "react-bootstrap";
 import "bootstrap/dist/css/bootstrap.min.css";
-import FacebookPlayer from 'react-facebook-player';
+import FacebookPlayer from "react-facebook-player";
 
-import {verses, onboarding } from './Scova';
+import { verses, onboarding } from "./Scova";
 
 function App() {
   var vi = 0;
-  const versesNumbered = verses.map((verse, index) => 
-  
-  {
+  const versesNumbered = verses.map((verse, index) => {
     if (verse.classes.includes("verse")) {
       vi = vi + 1;
-    return (
-      <tr>
-        <td colSpan="8" style={{fontWeight: "bolder", textAlign:"left"}}>
-          {vi}
-        </td>
-        <td colSpan="42" className={verse.classes} id={vi}>
-          {verse.html}
-        </td>
+      return (
+        <tr>
+          <td colSpan="8" style={{ fontWeight: "bolder", textAlign: "left" }}>
+            {vi}
+          </td>
+          <td colSpan="42" className={verse.classes} id={vi}>
+            {verse.html}
+          </td>
         </tr>
-        )
+      );
     } else {
       return (
         <tr>
-          <td colSpan="8" style={{fontWeight: "bolder", textAlign:"left"}}>
+          <td colSpan="8" style={{ fontWeight: "bolder", textAlign: "left" }}>
             {" "}
           </td>
           <td colSpan="42" className={verse.classes}>
             {verse.html}
           </td>
-          </tr>
-      )
+        </tr>
+      );
     }
-  }
-  
-  
-  
+  });
 
-    
-  
-  );
-
-  const onboardingFormatted = onboarding.map((verse, index) => 
-  <p className={verse.classes}>
-    <br/><br/>{verse.html}<br/>
-  </p>
-  );
-
+  const onboardingFormatted = onboarding.map((verse, index) => (
+    <p className={verse.classes}>
+      <br />
+      <br />
+      {verse.html}
+      <br />
+    </p>
+  ));
 
   return (
     <div className="App">
-        <img src={logo} className="App-logo" alt="logo" />
+      <img src={logo} className="App-logo" alt="logo" />
 
-
-        {onboardingFormatted}
-        <table>
-          {versesNumbered}
-        </table>
-
-
-      </div>
-      
+      {onboardingFormatted}
+      <table>{versesNumbered}</table>
+    </div>
   );
 }
 

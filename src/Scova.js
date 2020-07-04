@@ -110,7 +110,7 @@ const verses = [
     ),
   },
   {
-    classes: "title-quote",
+    classes: "verse title-quote",
     html: (
       <p>
         <strong>
@@ -1521,7 +1521,7 @@ const verses = [
     classes: "verse",
     html: (
       <p>
-        While doing this, also
+        While doing this, also{" "}
         <em>
           accept that you are only just a human, and as such, have limitations{" "}
         </em>
@@ -1869,7 +1869,7 @@ const verses = [
     ),
   },
   {
-    classes: "title-quote",
+    classes: "verse title-quote",
     html: (
       <p>
         <strong>
