@@ -22,23 +22,13 @@ import nsaNYCNews from "./images/nsaNYCNews.png";
 import sockPuppetsShowTime from "./images/sockPuppetsShowTime.png";
 import civilWar from "./images/civilWar.png";
 import sockPuppets from "./images/sockPuppets.png";
-
-
+import martaResignation from "./images/martaResignation.png";
+import gottlieb1 from "./images/gottlieb1.png";
 
 
 import Charter from "charter-webfont";
 
 const onboarding = [
-  {
-    classes: "title-quote",
-    html: (
-      <p>
-        <strong>
-          <em>dis aliter visum</em>
-        </strong>
-      </p>
-    ),
-  },
   {
     classes: "quote",
     html: (
@@ -111,6 +101,24 @@ const onboarding = [
 ];
 
 const verses = [
+  {
+    classes: "chapter-title",
+    html: (
+      <p>
+        1. The Glimpse
+      </p>
+    ),
+  },
+  {
+    classes: "title-quote",
+    html: (
+      <p>
+        <strong>
+          <em>dis aliter visum</em>
+        </strong>
+      </p>
+    ),
+  },
   {
     classes: "verse",
     html: (
@@ -1406,6 +1414,538 @@ const verses = [
         boycotted me over their childish insecurities. In my mind, I had packed
         up and left a life behind, to which I had no intentions of coming back.
       </p>
+    ),
+  },
+  {
+    classes: "verse",
+    html: (
+      <p>
+        Here’s the thing though: before going out, and finding faults in the
+        world – look inwards and correct yourself. Ask why <em>you</em> are the
+        way you are. What are the things, the experiences, the people that made
+        you the person you are today? When you explore all that, and more, and
+        still don’t manage to find an answer to solve all your life’s problems,
+        then, and only then choose to blame the world, and ask why the world is
+        the way it is. Don’t, until then, discount even a single negative habit
+        that you have – not one negative behaviour you partake in.{" "}
+        <strong>
+          Everything matters, and be damn sure – that every action does count
+        </strong>
+        .
+      </p>
+    ),
+  },
+  {
+    classes: "verse",
+    html: (
+      <p>
+        Put yourself in a position to change your circumstances; and if you want
+        to change the world – put yourself in a position to bring change into
+        the world – whether that is your own <em>self-centred</em> bubble of a
+        world, or the entire human populace as we know it. Don’t be an ignorant
+        protester, cursing from the bottom of the ladder.
+      </p>
+    ),
+  },
+  {
+    classes: "verse",
+    html: (
+      <p>
+        Climb on top of the ladder first, understand what it takes to climb the
+        ladder, and only then point out the negativities that exist in the
+        system of climbing that ladder. If for some reason, you cannot climb the
+        ladder, don’t fault the system before you have had the chance to
+        properly experience it. You might only have witnessed the hardships of
+        the beginning, but don’t complain before you have had a chance to taste
+        the fruits of the end. If there exists a system in the world, it must be
+        because it works. You can find faults in it for not being perfect, for
+        not being the best implementation of what it could be –{" "}
+        <em>nothing ever will be</em>. You can’t find faults in it because it
+        has not worked for you so far.
+      </p>
+    ),
+  },
+  {
+    classes: "verse",
+    html: (
+      <p>
+        In a similar manner, you can’t find faults in a person whose life you
+        have not lived – whose hardships you have not experienced. You can’t
+        simply hate or despise another entity for having a particular opinion,
+        for engaging in a particular behaviour, and simply interpret their
+        actions from your own perspective. There are reasons for why people are
+        the way they are and why they engage in certain behaviours in the way
+        that they do – you will never truly understand those reasons if you keep
+        looking at things from <em>your</em> point of view.
+      </p>
+    ),
+  },
+  {
+    classes: "verse",
+    html: (
+      <p>
+        Therefore, whenever you feel the urge to express hate, or your
+        disposition, or your disappointment, or any other negative emotion - the
+        first thing to do is to break down the issue at hand to the tiniest
+        indivisible components. Then, psychoanalyse those issues ad nauseam.
+      </p>
+    ),
+  },
+  {
+    classes: "verse",
+    html: (
+      <p>
+        You could do this with a professional, but it will always help if you
+        know the theory for yourself. People with domain knowledge are far
+        better at finding actionable insights than people who only know how to
+        interpret, and have access to the data, but are working without domain
+        specific expertise. It is <em>always</em>{" "}
+        better if you exist at the intersection of this Venn diagram.
+      </p>
+    ),
+  },
+  {
+    classes: "verse",
+    html: (
+      <p>
+        Ask yourself why each component is relevant to the problem at hand, and
+        locate its source down to the most basic <em>fractal origin</em>. Run
+        scenarios in your head, explore alternative strategies and formulate a
+        game plan. When you do this exercise, and if you do it very well, you’ll
+        realise that the problems really, actually, stem from within your own
+        self and manifest outward into your confine of influence.
+      </p>
+    ),
+  },
+  {
+    classes: "verse",
+    html: (
+      <p>
+        While doing this, also
+        <em>
+          accept that you are only just a human, and as such, have limitations{" "}
+        </em>
+        – in your scope of understanding and execution of said method. Do this,
+        knowing full well, that you may be wrong.{" "}
+        <em>
+          Nothing you will ever know, or understand, or comprehend, will ever be
+          truly absolute – an end unto itself
+        </em>
+        .
+      </p>
+    ),
+  },
+  {
+    classes: "verse",
+    html: (
+      <p>
+        Even after you do all that, and the answer to your initial problem comes
+        from a <em>source seemingly separate from your own self</em>, then, by
+        all means available to you - channel your negativity into the world.
+      </p>
+    ),
+  },
+  {
+    classes: "verse quote",
+    html: (
+      <p>
+        <em>You will most definitely be proven wrong, correctly so. </em>I did, and I was.
+      </p>
+    ),
+  },
+  {
+    classes: "verse",
+    html: (
+      <p>
+        Even then, one of the things about humans though, that truly gets to me,
+        is how easily we pass judgements – on each other, on situations, on any
+        and all entities that we ever come across. I have often wondered what
+        life would’ve been like if we just did not have the ability to judge.
+        Seemed majorly antithetical, given that this is{" "}
+        <em>the very evolutionary trait</em> that has kept us on top of the food
+        chain despite our physical shortcomings.
+      </p>
+    ),
+  },
+  {
+    classes: "verse",
+    html: (
+      <p>
+        Here I was, shying away from my personal responsibilities, and ranting into the void of the internet with all my puny might, getting nowhere. What was I expecting? Did I think that this singular thinkpiece that outlined our collective ignorant surrender of control to an invisible force had the potential to trigger a global revolution on the scale that had never before been witnessed? I sure wrote it with that intensity.
+        </p>
+    ),
+  },
+  {
+    classes: "verse",
+    html: (
+      <p>
+        The question then I had was not why I, personally, wrote it with that connotation; the question on my mind was why every single article that I encountered on the web was reverberating the same intensity? Was this the archetypal definition of passion? Was this what people meant when they said – "put your heart and soul into what you do"?
+        </p>
+    ),
+  },
+  {
+    classes: "verse",
+    html: (
+      <p>
+        An incalculable number of thoughts along these lines were coursing through my brain at the time – each having an infinite depth that was begging to be explored, no matter the topic I chose to give attention to. It didn't help that I was sufficiently baked at the time, because <em>sativa</em> strain of marijuana does that to you. Usually I wouldv'e been ecstatic at such a coherent realisation of my own accord, but this was different. </p>
+    ),
+  },
+  {
+    classes: "verse",
+    html: (
+      <p>
+        I was usually debating vague philosophical arguments with my self when the mood called for it, but I wasn't <em>just baked</em> at the time that I had this realisation. For the first time ever in my life, I had written them down in a coherent, empirically verifiable manner. I should've been proud. Perhaps if I had gotten my fifteen minutes of fame following my posting of this article, I would've been content.
+        </p>
+    ),
+  },
+  {
+    classes: "verse",
+    html: (
+      <p>
+        As a tangent to the above thought, I was also thinking about the fact that I had written all of this down while under the influence of LSD, so there was a part of me that wondered about the rise of this new trend in Silicon Valley of microdosing on LSD – taking miniscule amounts of this chemical each day to incrimentally increase one's productivity. I was wondering whether I should move to Silicon Valley after graduation, where, for once in my life, I would fit right in. 
+        </p>
+    ),
+  },
+  {
+    classes: "verse",
+    html: (
+      <p>
+        I had moved from Ludhiana, to Mussoorie, and then back to Ludhiana, and then to New York City – maybe that's where my life would take me next. I was going to be a graduate in Computer Science, so I thought it'd be a perfect fit. Little did I realise in that moment, that being social creatures that we are, if I was escaping one model of society, I would have to put more efforts into adjusting into a different societal model. After having written the article that you have just read, you would expect that I, of all people, should not have been thinking about further entwining myself into this decadent system that I had just rallied against. 
+      </p>
+    ),
+  },
+  {
+    classes: "verse",
+    html: (
+      <p>
+        On a personal note to, <em>I had already I altered my entire persona to <strong>fit</strong> into the new dynamic</em> of New York City, of America. I had so desperately wanted to be a part of this galmourous life, of the Land of the Free, and the Home of the Brave, that I had just reduced all of my entire upbringing to zero. Doing this, and more, hadn't gotten me to a particularly exciting position. 
+      </p>
+    ),
+  },
+  {
+    classes: "verse bible",
+    html: (
+      <p>
+        <em>
+          “And he dwelleth in desolate cities, and in houses which no man
+          inhabiteth, which are ready to become heaps.”
+          <br />
+          (Job 15:28)
+        </em>
+      </p>
+    ),
+  },
+
+
+
+
+  {
+    classes: "verse",
+    html: (
+      <p>
+        It is a very famous cliché that ‘
+        <em>change is inevitable – nothing is constant but change</em>.’ It is
+        true, but the true beauty of human nature is in retaining the{" "}
+        <em>essence</em> <em>of what was</em> in the face of{" "}
+        <em>what could be</em>. No matter how much circumstances change, how
+        much you change yourself to adapt according to those circumstances – you
+        still remain <em>You</em> – changing ever so slightly, yet remaining
+        constant in the midst of evolution.
+      </p>
+    ),
+  },
+
+
+
+  {
+    classes: "verse",
+    html: (
+      <p>
+        Thinking this, I started to wonder about my true essence – what was I, if there was no internet tomorrow? What skills had I gained in life, that would help me survive in a world with no computers? What connections had I personally fostered in my own life that made me eligible to cast metaphorical stones at every single person in the world?
+        </p>
+    ),
+  },
+  {
+    classes: "verse",
+    html: (
+      <p>
+        What did I really know about the nature of reality, or the workings of the world? What experience did I have in the human condition that qualified me to talk at length about the nudging of the collective consciousness? Was I truly awake, or more incohrently, "woke"? Wasn't I also, truly, just an ignorant
+        protester, cursing from the bottom of the ladder?
+        </p>
+    ),
+  },
+  {
+    classes: "verse",
+    html: (
+      <p>
+        I was worried, anxious, and in complete disarray, but my outward manner was calm, composed, and apparently, <em>in control</em>. It was at this moment, that my gaze was directed at the very last line of this mind-bending article that I had somehow written, onto the words <strong>"God, I hope not."</strong>
+        </p>
+    ),
+  },
+  {
+    classes: "verse",
+    html: (
+      <p>
+        Here's where I was, at that point in spacetime – for most of my college
+        life, I was clinically depressed, and hopelessly suicidal. Every single
+        night, as every single day, was to me, the same. I'd start the day
+        mildly hopeful, every other day I'd make a plan to revive my life's
+        trajectory towards positivity, and every single night I'd disappoint
+        myself.
+      </p>
+    ),
+  },
+  {
+    classes: "verse",
+    html: (
+      <p>
+        To constantly avoid feeling like a disappointment, to my own self, and
+        to others that I held dear – I had stopped feeling any negative emotions
+        altogether, and saturated myself with physical relievers. I never wanted
+        to feel bad, so I did the opposite – tried to feel good all the time,
+        because, like I've already said, I was ecstatic when I was able to form a coherent thought that people could relate to – this habit started because I wanted to explore more of what the world had to offer, and see if life was really worth living. 
+        </p>
+    ),
+  },
+  {
+    classes: "verse",
+    html: (
+      <p>
+        Then, because I had kept this facade up for longer than needed, I lost the true essence of myself altogether. I was it, and it was me. It was as if I hadn't let go of the mindless garbage that I was trying to get over, but instead, stuffed it deep down into wherever these thoughts went, and slapped a fancy band-aid on top of it all. This facade, was how others that saw me, defined me. 
+      </p>
+    ),
+  },
+  {
+    classes: "verse",
+    html: (
+      <p>
+        I do not know when exactly I lost faith in God as a concept – I remember
+        for sure, that I never believed in God as an anthropomorphic being –
+        that's one thing I'm eternally grateful for, for having been born in a
+        home where Sikhism was the faith in practice. I believed that, an
+        omnipresent, all powerful entity surely couldn't take the fragile human
+        form – it was just the most stupid notion that never remotely made
+        sense.{" "}
+      </p>
+    ),
+  },
+  {
+    classes: "verse",
+    html: (
+      <p>
+        God, as a trusted guide too, had ceased to exist for me – perhaps when I realised that nothing I ever truly wished for in prayers ever came true. I never prayed in a superstitious manner anyway, so it couldn't be that. I had always referred to Him internally as "Babaji" – a revered guru, because that's what my mother called Him.{" "}
+      </p>
+    ),
+  },
+  {
+    classes: "verse",
+    html: (
+      <p>
+        I never truly understood why she used that specific term – perhaps
+        because she cannot imagine God not being an anthropomorphic figure – she
+        was exposed more to Hindu mythology, so that might be my best guess as
+        to why. It was very clear that my mom revered God, whatever his form, or
+        lack thereof, may be. That was nurtured in me, even though I had not
+        accepted it for a very long time.
+      </p>
+    ),
+  },
+  {
+    classes: "verse",
+    html: (
+      <p>
+        Here I was, in my fancy shoe-box of an apartment, in the most talked
+        about place on Earth – unhappy to the deepest recessions of my
+        conscious, and arguably subconscious, being. I was not going to graduated on
+        time, and I had just been fired from a menial job, and the one that I still had, I really didn't want to go back to. 
+        </p>
+    ),
+  },
+  {
+    classes: "verse",
+    html: (
+      <p>
+        In that moment, I wrote another email. This time, to my boss, at the only job that could guarantee my further stay in this country that I was slowly coming to detest. 
+        </p>
+    ),
+  },
+  {
+    classes: "verse image",
+    html: (
+      <img src={martaResignation}/>
+    ),
+  },
+  {
+    classes: "verse",
+    html: (
+      <p>
+        Now, I truly had no further job prospects, and the classes I was still
+        in, just felt pointlessly tiresome. Couple that with hopeless
+        addictions, widely unaccepted proclivities of sexual nature, an immense
+        amount of deception towards the self, and the world, and finally – a
+        recognition of being unfinished – of being an unfinished version of myself,
+        of being a rip-off of the real thing, of being, utterly, hopelessly,
+        outrageously, inadequate. 
+        </p>
+    ),
+  },
+  {
+    classes: "verse",
+    html: (
+      <p>
+        For the past four years, I had felt that way –
+        as if an impending catastrophe was going to befall me, and the more I
+        read the news, the world at large. I was not one to pretend that I did
+        not have any problems. I had many. More than I could recount at any
+        given point in time. I had sought help, and the system had truly failed
+        to work for me; as it had failed for countless others in a position
+        similar to mine.
+      </p>
+    ),
+  },
+
+  {
+    classes: "verse",
+    html: (
+      <p>
+        During the third year of my college, I had received a conclusive
+        diagnosis of Clinical Depression. To say that I was shocked would be
+        untrue, because being a Psychology major myself, I had sort of seen this
+        coming. It was not a matter of if, but when. Before this diagnosis, I
+        had voiced out my concerns to all the people I thought I could confide
+        in – some were inexperienced, some ill-equipped, but what it really was
+        – was that people were too lost in their own problems to adequately be
+        able to deal with mine.
+      </p>
+    ),
+  },
+  {
+    classes: "verse image",
+    html: (
+      <img src={gottlieb1} />
+    ),
+  },
+  {
+    classes: "verse",
+    html: (
+      <p>
+        I sent multiple emails like this, and had multiple in-person conversations like this, and they all said the same thing – seek help. Arguably, it didn't take a genius to figure out that I needed help – I used the actual words that "I need help." I asked friends – they were the same age as me, so of course they were clueless. How could they know more? They were also limited in their exposure to
+        the right information. I asked family – they were the root cause of most
+        of my problems, and me, being their first-born, they had no clue as to
+        how to deal with someone my age. They too, were limited in their
+        exposure, and experience.{" "}
+      </p>
+    ),
+  },
+
+  {
+    classes: "verse",
+    html: (
+      <p>
+        I was just in a hopeless state, psychologically, but physically, a sort of serenity was taking over me gently. An experienced psychologist might call it dissociation, and I'd be at a loss for words when trying to rebut their claim. I felt dizzy, so I laid down on my bed, and started to look at the sunlight refracting through my decorative curtains – lo and behold, an image of Guru Nanak emanating through the floral patterns of the curtains.
+        </p>
+    ),
+  },
+  {
+    classes: "verse",
+    html: (
+      <p>
+        I wasn't shocked, or even on my feet running around muttering "Eureka, I found God" because like I've just said, a serenity was taking over me gently. Guru Nanak's image in the curtain, slowly started to move, and then spin – and then, appeared a Gautam-eque <em>mudra</em> of the hands covering his face. In that hand, was a joint, that this spinning image of this holy person seemed to be smoking. My mind began to wonder about all of history's holy men being just dudes tripping in caves, but the image signalled me to shush – the finger on lips gesture internationally interpreted as the command "Be Quiet."
+        </p>
+    ),
+  },
+  {
+    classes: "demarcator",
+    html: (
+      <hr/>
+    ),
+  },
+  {
+    classes: "chapter-title",
+    html: (
+      <p>
+        2. Naked
+      </p>
+    ),
+  },
+  {
+    classes: "title-quote",
+    html: (
+      <p>
+        <strong>
+          <em>dolce far niente</em>
+        </strong>
+      </p>
+    ),
+  },
+  {
+    classes: "verse",
+    html: (
+      <p>
+        </p>
+    ),
+  },
+  {
+    classes: "verse",
+    html: (
+      <p>
+        </p>
+    ),
+  },
+  {
+    classes: "verse",
+    html: (
+      <p>
+        </p>
+    ),
+  },
+  {
+    classes: "verse",
+    html: (
+      <p>
+        </p>
+    ),
+  },
+  {
+    classes: "verse",
+    html: (
+      <p>
+        </p>
+    ),
+  },
+  {
+    classes: "verse",
+    html: (
+      <p>
+        </p>
+    ),
+  },
+  {
+    classes: "verse",
+    html: (
+      <p>
+        </p>
+    ),
+  },
+  {
+    classes: "verse",
+    html: (
+      <p>
+        </p>
+    ),
+  },
+  {
+    classes: "verse",
+    html: (
+      <p>
+        </p>
+    ),
+  },
+  {
+    classes: "verse",
+    html: (
+      <p>
+        </p>
     ),
   },
   
@@ -8705,57 +9245,10 @@ const verses = [
     ),
   },
 
-  {
-    classes: "verse",
-    html: (
-      <p>
-        Little did I realise in that moment, that being social creatures that we
-        are, if I was escaping one model of society, I would have to put more
-        efforts into adjusting into a different societal model.
-      </p>
-    ),
-  },
-  {
-    classes: "verse",
-    html: (
-      <p>
-        <em>And so I did. </em>I altered my entire persona to <em>fit</em> into
-        this new dynamic that I was now to be a part of.
-      </p>
-    ),
-  },
-  {
-    classes: "verse bible",
-    html: (
-      <p>
-        <em>
-          “And he dwelleth in desolate cities, and in houses which no man
-          inhabiteth, which are ready to become heaps.”
-          <br />
-          (Job 15:28)
-        </em>
-      </p>
-    ),
-  },
+  
 
 
 
-
-  {
-    classes: "verse",
-    html: (
-      <p>
-        It is a very famous cliché that ‘
-        <em>change is inevitable – nothing is constant but change</em>.’ It is
-        true, but the true beauty of human nature is in retaining the{" "}
-        <em>essence</em> <em>of what was</em> in the face of{" "}
-        <em>what could be</em>. No matter how much circumstances change, how
-        much you change yourself to adapt according to those circumstances – you
-        still remain <em>You</em> – changing ever so slightly, yet remaining
-        constant in the midst of evolution.
-      </p>
-    ),
-  },
   {
     classes: "verse",
     html: (
@@ -8788,228 +9281,7 @@ const verses = [
       </p>
     ),
   },
-  {
-    classes: "verse",
-    html: (
-      <p>
-        Here’s the thing though: before going out, and finding faults in the
-        world – look inwards and correct yourself. Ask why <em>you</em> are the
-        way you are. What are the things, the experiences, the people that made
-        you the person you are today? When you explore all that, and more, and
-        still don’t manage to find an answer to solve all your life’s problems,
-        then, and only then choose to blame the world, and ask why the world is
-        the way it is. Don’t, until then, discount even a single negative habit
-        that you have – not one negative behaviour you partake in.
-        <strong>
-          Everything matters, and be damn sure – that every action does count
-        </strong>
-        .
-      </p>
-    ),
-  },
-  {
-    classes: "verse",
-    html: (
-      <p>
-        Put yourself in a position to change your circumstances; and if you want
-        to change the world – put yourself in a position to bring change into
-        the world – whether that is your own <em>self-centred</em> bubble of a
-        world, or the entire human populace as we know it. Don’t be an ignorant
-        protester, cursing from the bottom of the ladder.
-      </p>
-    ),
-  },
-  {
-    classes: "verse",
-    html: (
-      <p>
-        Climb on top of the ladder first, understand what it takes to climb the
-        ladder, and only then point out the negativities that exist in the
-        system of climbing that ladder. If for some reason, you cannot climb the
-        ladder, don’t fault the system before you have had the chance to
-        properly experience it. You might only have witnessed the hardships of
-        the beginning, but don’t complain before you have had a chance to taste
-        the fruits of the end. If there exists a system in the world, it must be
-        because it works. You can find faults in it for not being perfect, for
-        not being the best implementation of what it could be –{" "}
-        <em>nothing ever will be</em>. You can’t find faults in it because it
-        has not worked for you so far.
-      </p>
-    ),
-  },
-  {
-    classes: "verse",
-    html: (
-      <p>
-        In a similar manner, you can’t find faults in a person whose life you
-        have not lived – whose hardships you have not experienced. You can’t
-        simply hate or despise another entity for having a particular opinion,
-        for engaging in a particular behaviour, and simply interpret their
-        actions from your own perspective. There are reasons for why people are
-        the way they are and why they engage in certain behaviours in the way
-        that they do – you will never truly understand those reasons if you keep
-        looking at things from <em>your</em> point of view.
-      </p>
-    ),
-  },
-  {
-    classes: "verse",
-    html: (
-      <p>
-        Therefore, whenever you feel the urge to express hate, or your
-        disposition, or your disappointment, or any other negative emotion - the
-        first thing to do is to break down the issue at hand to the tiniest
-        indivisible components. Then, psychoanalyse those issues ad nauseam.
-      </p>
-    ),
-  },
-  {
-    classes: "verse",
-    html: (
-      <p>
-        You could do this with a professional, but it will always help if you
-        know the theory for yourself. People with domain knowledge are far
-        better at finding actionable insights than people who only know how to
-        interpret, and have access to the data, but are working without domain
-        specific expertise. It is <em>always</em>
-        better if you exist at the intersection of this Venn diagram.
-      </p>
-    ),
-  },
-  {
-    classes: "verse",
-    html: (
-      <p>
-        Ask yourself why each component is relevant to the problem at hand, and
-        locate its source down to the most basic <em>fractal origin</em>. Run
-        scenarios in your head, explore alternative strategies and formulate a
-        game plan. When you do this exercise, and if you do it very well, you’ll
-        realise that the problems really, actually, stem from within your own
-        self and manifest outward into your own sphere (read: skew apeirohedron.
-        Limitations of the English language).
-      </p>
-    ),
-  },
-  {
-    classes: "verse",
-    html: (
-      <p>
-        While doing this, also
-        <em>
-          accept that you are only just a human, and as such, have limitations
-        </em>
-        - in your scope of understanding and execution of said method. Do this,
-        knowing full well, that you may be wrong.
-        <em>
-          Nothing you will ever know, or understand, or comprehend, will ever be
-          truly absolute - an end unto itself
-        </em>
-        .
-      </p>
-    ),
-  },
-  {
-    classes: "verse",
-    html: (
-      <p>
-        Even after you do all that, and the answer to your initial problem comes
-        from a <em>source seemingly separate from your own self</em>, then, by
-        all means available to you - channel your negativity into the world.
-      </p>
-    ),
-  },
-  {
-    classes: "verse",
-    html: (
-      <p>
-        <em>You will most definitely be proven wrong, correctly so. </em>
-      </p>
-    ),
-  },
-  {
-    classes: "verse",
-    html: (
-      <p>
-        Even then, one of the things about humans though, that truly gets to me,
-        is how easily we pass judgements – on each other, on situations, on any
-        and all entities that we ever come across. I have often wondered what
-        life would’ve been like if we just did not have the ability to judge.
-        Seemed majorly antithetical, given that this is{" "}
-        <em>the very evolutionary trait</em> that has kept us on top of the food
-        chain despite our physical shortcomings.
-      </p>
-    ),
-  },
-  {
-    classes: "verse",
-    html: (
-      <p>
-        Maybe then, the problem is <em>not that we judge</em>, but that{" "}
-        <em>we judge in absolute, superlative terms</em>. To give you an idea of
-        the scale at which we mentally operate in our internal fiefdoms, it is
-        as if, each personal scorn by our tiny selves equals an excommunication
-        within our own Kingdom of Self. To be the supreme entity in your own
-        internal world does have a lot of disadvantages.
-      </p>
-    ),
-  },
-  {
-    classes: "verse",
-    html: (
-      <p>
-        Some would argue that operating at such a scale was not justified, as it
-        leads to a puffed up perception of the self, and that it implied deep
-        narcissistic and ego-maniacal character flaws. I would partly agree with
-        those people; but that’s not the whole story.
-      </p>
-    ),
-  },
-  {
-    classes: "verse",
-    html: (
-      <p>
-        Some would, on the opposite end of the spectrum, argue that if a person
-        had rightfully earned their place in the world, they had a certain level
-        of <em>entitlement</em> when it came to their mode of operation – that
-        to be at the place they are in their personal spacetime, and the world
-        at large – they had to have a certain degree of self-worth, and
-        self-importance which would, in most cases, be firmly warranted – as
-        without such a high stature of the internal self, other entities
-        seemingly separate from this self would not allow this internal self to
-        operate as fluidly as it would like to. I would agree with those people
-        as well.
-      </p>
-    ),
-  },
-  {
-    classes: "verse",
-    html: (
-      <p>
-        This too, leaves a void about the persons who seemingly have no elevated
-        status to speak of, but also, are not really operating from a place of
-        narcissistic bravado and puffed up machismo. They are people who have
-        not truly realised their true selves and have yet to find something in
-        the world that makes them feel like they have found their place in it –
-        like they truly belong. There exists in them, a sort of mental divide on
-        where they truly are in their mental journey, and where they seem to be
-        in the physical realm.
-      </p>
-    ),
-  },
-  {
-    classes: "verse",
-    html: (
-      <p>
-        To be truly rational about this situation, we must recognise the faint
-        possibility of all things that we do not know, even if we logically find
-        them extraordinarily improbable. This accord on such a mentally divisive
-        issue has not come out of the goodness of my heart, or the amicability
-        of the diplomat in me – rather, careful consideration of facts, and
-        deliberated judgement.
-      </p>
-    ),
-  },
-  {
+    {
     classes: "verse",
     html: (
       <p>
@@ -15125,35 +15397,25 @@ const verses = [
         this system, then I'd rather just check out of life the moment I'm born
         every single time – because I'd like to have at least some notion of
         control, rather than leave it to random chance.{" "}
-      </p>
+
+        </p>
     ),
   },
+  
+
+
+
+
+
+
+
+
+
   {
     classes: "verse",
     html: (
       <p>
-        That's where I was at that point in spacetime – for most of my college
-        life, I was clinically depressed, and hopelessly suicidal. Every single
-        night, as every single day, was to me, the same. I'd start the day
-        mildly hopeful, every other day I'd make a plan to revive my life's
-        trajectory towards positivity, and every single night I'd disappoint
-        myself.
-      </p>
-    ),
-  },
-  {
-    classes: "verse",
-    html: (
-      <p>
-        To avoid feeling constantly like a disappointment, to my own self, and
-        to others that I held dear – I stopped feeling any negative emotions
-        altogether, and saturated myself with physical relievers. I never wanted
-        to feel bad, so I did the opposite – tried to feel good all the time,
-        because, like I've already said, it started because I wanted to explore
-        more of what the world had to offer, and see if life was really worth
-        living. Then, because I had kept this facade up for longer than needed,
-        I lost the true essence of myself altogether. I was it, and it was me.
-        It was how others that saw me, defined me. This, and more, I have
+        This, and more, I have
         already discussed ad nauseam in the previous chapter – I was afraid
         because I knew that I had not <em>earned the comfort</em> that I was so
         wilfully enjoying. If I hadn't been stopped at that point by God, I
@@ -15164,68 +15426,16 @@ const verses = [
       </p>
     ),
   },
-  {
-    classes: "verse",
-    html: (
-      <p>
-        I do not know when exactly I lost faith in God as a concept – I remember
-        for sure, that I never believed in God as an anthropomorphic being –
-        that's one thing I'm eternally grateful for, for having been born in a
-        home where Sikhism was the faith in practice. Like I said, an
-        omnipresent, all powerful entity surely couldn't take the fragile human
-        form – it was just the most stupid notion that never remotely made
-        sense.{" "}
-      </p>
-    ),
-  },
-  {
-    classes: "verse",
-    html: (
-      <p>
-        Anyhow, God, as a trusted guide too, had ceased to exist for me –
-        perhaps when I realised that nothing I ever truly wished for in prayers
-        ever came true. I never prayed in a superstitious manner anyway, so it
-        couldn't be that. I had always referred to Him internally as "Babaji" –
-        a revered guru, because that's what my mother called Him.{" "}
-      </p>
-    ),
-  },
-  {
-    classes: "verse",
-    html: (
-      <p>
-        I never truly understood why she used that specific term – perhaps
-        because she cannot imagine God not being an anthropomorphic figure – she
-        was exposed more to Hindu mythology, so that might be my best guess as
-        to why. It was very clear that my mom revered God, whatever his form, or
-        lack thereof, may be. That was nurtured in me, even though I had not
-        accepted it for a very long time.
-      </p>
-    ),
-  },
-  {
-    classes: "verse",
-    html: (
-      <p>
-        Here I was, in my fancy shoe-box of an apartment, in the most talked
-        about place on Earth – unhappy to the deepest recessions of my
-        conscious, and arguably, subconscious being. I had not graduated on
-        time, and I had no further job prospects, and the classes I was still
-        in, just felt pointlessly tiresome. Couple that with hopeless
-        addictions, widely unaccepted proclivities of sexual nature, an immense
-        amount of deception towards the self, and the world, and finally – a
-        desire of being unfinished – of being an unfinished version of myself,
-        of being a rip-off of the real thing, of being, utterly, hopelessly,
-        outrageously, inadequate. For the past four years, I had felt that way –
-        as if an impending catastrophe was going to befall me, and the more I
-        read the news, the world at large. I was not one to pretend that I did
-        not have any problems. I had many. More than I could recount at any
-        given point in time. I had sought help, and the system had truly failed
-        to work for me; as it had failed for countless others in a position
-        similar to mine.
-      </p>
-    ),
-  },
+  
+
+
+
+
+
+
+
+
+
   {
     classes: "verse",
     html: (
@@ -15264,46 +15474,7 @@ const verses = [
       </p>
     ),
   },
-  {
-    classes: "verse",
-    html: (
-      <p>
-        During the third year of my college, I had received a conclusive
-        diagnosis of Clinical Depression. To say that I was shocked would be
-        untrue, because being a Psychology major myself, I had sort of seen this
-        coming. It was not a matter of if, but when. Before this diagnosis, I
-        had voiced out my concerns to all the people I thought I could confide
-        in – some were inexperienced, some ill-equipped, but what it really was
-        – was that people were too lost in their own problems to adequately be
-        able to deal with mine.
-      </p>
-    ),
-  },
-  {
-    classes: "verse image",
-    html: (
-      <p>
-        <img src={"./images/gottlieb_first.png"} />
-      </p>
-    ),
-  },
-  {
-    classes: "verse",
-    html: (
-      <p>
-        I say the system failed me, because I sent multiple emails like this,
-        and had multiple conversations like this, and they all said the same
-        thing – seek help. Arguably, it didn't take a genius to figure out that
-        I needed help – I used the actual words that "I need help." I asked
-        friends – they were the same age as me, so of course they were clueless.
-        How could they know more? They were also limited in their exposure to
-        the right information. I asked family – they were the root cause of most
-        of my problems, and me, being their first-born, they had no clue as to
-        how to deal with someone my age. They too, were limited in their
-        exposure, and experience.{" "}
-      </p>
-    ),
-  },
+  
   {
     classes: "verse",
     html: <p>Of course then, I sought professional help.</p>,
@@ -15329,6 +15500,78 @@ const verses = [
       </p>
     ),
   },
+
+  {
+    classes: "verse",
+    html: (
+      <p>
+        Maybe then, the problem is <em>not that we judge</em>, but that{" "}
+        <em>we judge in absolute, superlative terms</em>. To give you an idea of
+        the scale at which we mentally operate in our internal fiefdoms, it is
+        as if, each personal scorn by our tiny selves equals an excommunication
+        within our own Kingdom of Self. To be the supreme entity in your own
+        internal world does have a lot of disadvantages.
+      </p>
+    ),
+  },
+  {
+    classes: "verse",
+    html: (
+      <p>
+        Some would argue that operating at such a scale was not justified, as it
+        leads to a puffed up perception of the self, and that it implied deep
+        narcissistic and ego-maniacal character flaws. I would partly agree with
+        those people; but that’s not the whole story.
+      </p>
+    ),
+  },
+  {
+    classes: "verse",
+    html: (
+      <p>
+        Some would, on the opposite end of the spectrum, argue that if a person
+        had rightfully earned their place in the world, they had a certain level
+        of <em>entitlement</em> when it came to their mode of operation – that
+        to be at the place they are in their personal spacetime, and the world
+        at large – they had to have a certain degree of self-worth, and
+        self-importance which would, in most cases, be firmly warranted – as
+        without such a high stature of the internal self, other entities
+        seemingly separate from this self would not allow this internal self to
+        operate as fluidly as it would like to. I would agree with those people
+        as well.
+      </p>
+    ),
+  },
+  {
+    classes: "verse",
+    html: (
+      <p>
+        This too, leaves a void about the persons who seemingly have no elevated
+        status to speak of, but also, are not really operating from a place of
+        narcissistic bravado and puffed up machismo. They are people who have
+        not truly realised their true selves and have yet to find something in
+        the world that makes them feel like they have found their place in it –
+        like they truly belong. There exists in them, a sort of mental divide on
+        where they truly are in their mental journey, and where they seem to be
+        in the physical realm.
+      </p>
+    ),
+  },
+  {
+    classes: "verse",
+    html: (
+      <p>
+        To be truly rational about this situation, we must recognise the faint
+        possibility of all things that we do not know, even if we logically find
+        them extraordinarily improbable. This accord on such a mentally divisive
+        issue has not come out of the goodness of my heart, or the amicability
+        of the diplomat in me – rather, careful consideration of facts, and
+        deliberated judgement.
+      </p>
+    ),
+  },
+
+
   {
     classes: "verse",
     html: <p>mechanical workers</p>,

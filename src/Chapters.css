@@ -73,6 +73,14 @@ td .verse {
     padding: 1rem;
 }
 
+.chapter-title {
+    font-size: 4rem;
+    text-align: center;
+    font-style: italic bold;
+    font-family: 'Charter', 'Grad', 'Cheltenham';
+    padding: 1rem;
+}
+
 tr {
     text-align: justify;
     font-size: 1.5rem;
