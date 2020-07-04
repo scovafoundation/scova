@@ -1785,7 +1785,7 @@ const verses = [
         amount of deception towards the self, and the world, and finally – a
         recognition of being unfinished – of being an unfinished version of myself,
         of being a rip-off of the real thing, of being, utterly, hopelessly,
-        outrageously, inadequate. 
+        outrageously, <strong><em>inadequate</em></strong>. 
         </p>
     ),
   },
