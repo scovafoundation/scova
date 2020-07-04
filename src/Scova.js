@@ -5098,7 +5098,7 @@ const verses = [
     ),
   },
   {
-    classes: "verse",
+    classes: "salutation",
     html: (
       <p>
         – Anhad Singh Arora,
