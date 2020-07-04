@@ -105,7 +105,7 @@ const verses = [
     classes: "chapter-title",
     html: (
       <p>
-        1. The Glimpse
+        1 <br/>Glimpse
       </p>
     ),
   },
@@ -1864,7 +1864,7 @@ const verses = [
     classes: "chapter-title",
     html: (
       <p>
-        2. Naked
+        2 <br/>Naked
       </p>
     ),
   },
