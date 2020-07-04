@@ -2614,15 +2614,14 @@ const verses = [
     ),
   },
   {
-    classes: "verse quote",
+    classes: "verse",
     html: (
-      <p><InstagramEmbed
+      <InstagramEmbed
         url="https://www.instagram.com/p/BTvvgU2FiNC/?utm_source=ig_web_copy_link"
-        maxWidth={350}
-        hideCaption={false}
-        containerTagName='span'
-        protocol=''
-      /></p>
+        containerTagName='div'
+        maxWidth={320}
+        align='center'
+      />
     ),
   },
   {
