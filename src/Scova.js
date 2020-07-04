@@ -2512,14 +2512,14 @@ const verses = [
     classes: "verse",
     html: (
       <p>
-        I wasn't shocked, or even on my feet running around muttering "Eureka, I
-        found God" because like I've just said, a serenity was taking over me
+        I wasn't shocked, or even on my feet running around muttering <strong><em>"Eureka, I
+        found God"</em></strong> because like I've just said, a serenity was taking over me
         gently. Guru Nanak's image in the curtain, slowly started to move, and
         then spin – and then, appeared a Gautam-eque <em>mudra</em> of the hands
         covering his face. In that hand, was a joint, that this spinning image
         of this holy person seemed to be smoking. My mind began to wonder about
         all of history's holy men being just dudes tripping in caves, but the
-        image signalled me to shush – the finger on lips gesture internationally
+        image immediately signalled me to shush – the finger on lips gesture internationally
         interpreted as the command "Be Quiet."
       </p>
     ),
