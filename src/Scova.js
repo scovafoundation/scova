@@ -2479,14 +2479,33 @@ const verses = [
     classes: "verse",
     html: (
       <p>
+        Even still, I had asked people for accommodations, and they had made provisions to the best of their abilities in many cases – it was still, just not enough. I did not have enough support, and despite other people around me trying their level best, it all just felt – <em>inadequate</em>. 
+        </p>
+    ),
+  },
+  {
+    classes: "verse",
+    html: (
+      <p>
         I was just in a hopeless state, psychologically, but physically, a sort
         of serenity was taking over me gently. An experienced psychologist might
-        call it dissociation, and I'd be at a loss for words when trying to
-        rebut their claim. I felt dizzy, so I laid down on my bed, and started
-        to look at the sunlight refracting through my decorative curtains – lo
-        and behold, an image of Guru Nanak emanating through the floral patterns
+        call it dissociation, or the uninitiated might try to pass it off as a hallucination, and in the moment, I would've been at a loss for words when trying to rebut their claim. I felt dizzy, so I laid down on my bed, and started to look at the sunlight refracting through my decorative curtains – lo and behold, an image of Guru Nanak emanating through the floral patterns
         of the curtains.
       </p>
+    ),
+  },
+  {
+    classes: "verse",
+    html: (
+      <SpotifyPlayer
+        uri="spotify:track:3VRlXNkZXwodUYo6DU8puS" // Fitz and the Tantrums, HandClap Spotify Sessions
+        size={{
+          width: "100%",
+          height: 300,
+        }}
+        view={"coverart"}
+        theme={"white"}
+      />
     ),
   },
   {
