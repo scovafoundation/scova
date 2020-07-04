@@ -15280,7 +15280,7 @@ const verses = [
     ),
   },
   {
-    classes: "verse quote",
+    classes: "verse image",
     html: (
       <p>
         <img src={"./images/gottlieb_first.png"} />
