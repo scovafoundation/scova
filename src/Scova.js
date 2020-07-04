@@ -2619,6 +2619,7 @@ const verses = [
       <InstagramEmbed
         url="https://www.instagram.com/p/BTvvgU2FiNC/?utm_source=ig_web_copy_link"
         containerTagName='div'
+        hideCaption={false}
         maxWidth={320}
         align='center'
       />
