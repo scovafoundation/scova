@@ -2634,7 +2634,7 @@ const verses = [
         states. To say that I was scared would be the understatement of the
         Millennium – I had started to shake to the bone. Sure, that could also
         just be a side-effect of my indulgences – I had known LSD to have that
-        effect on my physical body.{" "}
+        effect on my physical body. Still, the Devil's Advocate in me couldn't just pass this off as a coincidence. <em>Either I had stumbled upon the Divine path, or I had definitively discovered that the concept of religion itself was a global conspiracy, dudes tripping balls in caves and whatnot</em>. 
       </p>
     ),
   },
