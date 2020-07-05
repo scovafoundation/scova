@@ -5,7 +5,7 @@ import FacebookPlayer from 'react-facebook-player';
 import SpotifyPlayer from 'react-spotify-player';
 import { FacebookProvider, EmbeddedPost } from 'react-facebook';
 import InstagramEmbed from 'react-instagram-embed';
-
+import YouTube from 'react-youtube';
 
 
 // Images
@@ -2562,7 +2562,7 @@ const verses = [
     html: (
       <p>
         2 <br />
-        Naked
+        Empty
       </p>
     ),
   },
@@ -2672,7 +2672,7 @@ const verses = [
         In fact, that's exactly what I did when the drug washed away from my
         system. I went about my daily routines, went back to college for the
         final week of classes, and sanitised my apartment as my parents were due
-        to come into town for my "Graduation." At the time, they knew nothing
+        to come into town for my <em>Graduation.</em> At the time, they knew nothing
         about my indulgences in this foreign country, and I intended to uphold
         the status quo. <em>Why fix what ain't broke</em>, I thought; rather,
         why upset the balance when the alternative is pure chaos?
@@ -2698,29 +2698,608 @@ const verses = [
         Linear Algebra, and had to repeat the course over the summer, with the
         same professor. I took it in my stride, and put up mandatory
         ecstatic-about-graduation posts across all my social channels. Of
-        course, my original facebook post was just a continuation of this
-        ongoing facade – what else could I do? Drop everything and announce I
-        was going home, because "death to America"? I wasn't suddenly going to
-        turn into a radical religious fanatic because Nanak had shushed me.{" "}
+        course, my original facebook post was just a continuation of my
+        ongoing facade, prior to this Glimpse, but what else could I do? Drop everything and announce I was going home, because "death to America"? I wasn't suddenly going to turn into a radical religious fanatic because Nanak had shushed me.{" "}
         <strong>
-          <em>I needed to know more</em>
-        </strong>
-        . I couldn't just blindly trust. I had to verify. I needed time, and
+          <em>I needed to know more.</em>
+        </strong> I couldn't just blindly trust. I had to verify. I needed time, and
         access to more of this magical potion that was causing the structure of
         reality to fall apart.
       </p>
     ),
   },
+  {
+    classes: "verse",
+    html: <p>
+      My parents came, happy, but not content – I had been avoiding talking to them for months now, and all of a sudden they were here. Could I tell them anything? Where would I start? How would I frame the sentences? What mindset were they supposed to be in to be truly acceptant of my revelry? Was I really prepared for all the questions that they would most definitely throw at me? I knew I was at fault, but wasn't I the victim once? Wasn't this why I began this whole charade? Wasn't this why I essentially ran away from home, desperately trying to escape? How did I end up in the worst possible position, given all of my actions? I had done no harm to any other person, but myself, why was I being punished more, and repeatedly?
+    </p>,
+  },
+  {
+    classes: "verse",
+    html: (
+      <InstagramEmbed
+        url="https://www.instagram.com/p/BT0KQaPFyyu/?utm_source=ig_web_copy_link"
+        containerTagName='div'
+        hideCaption={false}
+        maxWidth={320}
+        align='center'
+      />
+    ),
+  },
 
   {
     classes: "verse",
-    html: <p></p>,
+    html: (
+      <p>
+        Like I mentioned, I wasn’t equipped to maintain this balance between the
+        self and situational control for a very long time. In college, I was on
+        a different continent. I had some childish desires and pent-up
+        frustrations that I needed to blow-off. I <strong>needed</strong> to let
+        loose, and experience what it meant to be<em> truly free</em>.
+      </p>
+    ),
+  },
+  {
+    classes: "verse bible",
+    html: (
+      <p>
+        <em>
+          “He shall shake off his unripe grape as the vine, <br />
+          and shall cast off his flower as the olive.” <br />
+          (Job 15:33)
+        </em>
+      </p>
+    ),
+  },
+  {
+    classes: "verse",
+    html: (
+      <p>
+        I knew I was addicted to <em>stimulation</em> – via chemical inducing
+        drugs or other dopamine related acts – didn’t matter. I liked my
+        isolation. Having found this alternative world where I was the master,
+        and where with each command, I could only make my life seemingly better
+        – I never wanted to get out of it.
+      </p>
+    ),
+  },
+  {
+    classes: "verse",
+    html: (
+      <p>
+        People say that addiction to drugs and other illicit substances is
+        largely because the partaker wants to escape the mundane life that they
+        have built for themselves. That is largely true; but look around the
+        world.
+      </p>
+    ),
+  },
+  {
+    classes: "verse",
+    html: (
+      <p>
+        How many things are offered to you in the form of media representations
+        that you cannot really have? How many images are you exposed to, to make
+        you think that the life you are currently living is only just mediocre?
+      </p>
+    ),
+  },
+  {
+    classes: "verse quote",
+    html: (
+      <p>
+        How many advertisements tell you that you only deserve the <em>best</em>
+        ?
+      </p>
+    ),
+  },
+  {
+    classes: "verse",
+    html: (
+      <p>
+        You might not think so highly of yourself, but you are surely made to
+        feel like you should. All the gourmet food, all the nice material
+        things, all the exotic adventures in unexplored lands, and all the
+        beautiful people – why wouldn’t you want to surround yourself with only
+        the <em>best</em>? And if you cannot have the best in the outside world,
+        then why would you deprive yourself of the best stuff in the comfort of
+        your own house?
+      </p>
+    ),
+  },
+  {
+    classes: "verse",
+    html: <p>
+      I liked that idea, for a while, and it was fun while it was good. As my college life neared its end, and reality came knocking, I was starting to feel an existential dread hover over me. I spent so much time thinking, pondering, and revising my ideas about life – but then all of a sudden, this? Where did this holy person, the founder of my faith, appear out of? Was it the specific placement of the drapes at that very moment, in that very spot – was it just a massive coincidence, or was this a recurrent pattern, or something, really, wholly, truly, larger than life? What kind of sorcery had I gotten myself mixed up in? 
+    </p>,
+  },
+  {
+    classes: "verse",
+    html: (
+      <InstagramEmbed
+        url="https://www.instagram.com/p/BUIXviOltSp/?utm_source=ig_web_copy_link"
+        containerTagName='div'
+        hideCaption={false}
+        maxWidth={320}
+        align='center'
+      />
+    ),
+  },
+  {
+    classes: "verse",
+    html: <p>
+      All I really wanted to do, was enjoy my free time, and I did it in the best was I knew how. Then, was my way truly so great that I had found the ultimate respite – the Absolute Truth? Is this what Nanak spent his life singing about? Were the 10 gurus, just a closed cult of hedonistic nepotists, who passed on the secret to a pleasurable life over generations to close relatives, and then in the end, composed a cryptic symphony that was in some way related to the rituals that a person in that elevated state was bound to have established for their own self anyway? Over a month went by, and I was just – processing. 
+    </p>,
+  },
+  {
+    classes: "verse",
+    html: (
+      <InstagramEmbed
+        url="https://www.instagram.com/p/BUQpZs-FigS/?utm_source=ig_web_copy_link"
+        containerTagName='div'
+        hideCaption={false}
+        maxWidth={320}
+        align='center'
+      />
+    ),
+  },
+  {
+    classes: "verse",
+    html: <p>
+      Over a month went by, and by then, I had almost forgotten about this Glimpse. Yes, I was processing it for a very long time, but as is the nature of life, other stuff that is currently ongoing, takes precedence. The parts of life that do not have a proper storyline, the parts that are dissonant, and involve a boatload of brain power are often kept on the backburner – making their existence felt only when relevant. 
+    </p>,
+  },
+  {
+    classes: "verse",
+    html: <p>
+      Three odd things did happen which I have managed to remember to this day. The first one being the unavailability of LSD, but also, of time to indulge in such a long trip that required a good portion of the day, and left you so exhausted that you really had to set aside a whole weekend for just a single trip. I usually had the luxury for such indulgences when I easily cancelled plans with the "boys." To be really honest, I wasn't very keen on calling LSD an indulgence at that moment. At the time, it was more of a life-exploration, mind-expanding treatment that I was flirting with. The Glimpse had happened on what was essentially my fourth acid trip. 
+    </p>,
+  },
+  {
+    classes: "verse",
+    html: <p>
+      I had made a mental commitment that I was going to get the best grades I possibly could, and with a little flattery and presenting myself as an ideal student, impress my Analytics professor and cajole him into getting me a job somewhere not in the US. I was most definitely not ready to go home yet, or ever. I may have seen Nanak's face, but that really didn't change anything. I had written that article, but that also, just had tainted America for me – other caucasian countries still had a fair chance. 
+    </p>,
+  },
+  {
+    classes: "verse",
+    html: <p>
+      The second odd thing was very miniscule, something which I would've disregarded, had it not been for the impeccable timing of it. The boys and I were at a club, and one of them had just ordered a bottle of champagne to celebrate his admission into a prestigious MBA program. This was hardly surprising, given that he was genuinely book-smart. I was, also slightly unsure about this news, given this person's history of lying. Whatever the case, I wasn't one to turn down a free drink – the more the merrier. 
+    </p>,
+  },
+  {
+    classes: "verse",
+    html: <p>
+      We sat down, and began to chat about our future prospects. I, at the time, had already given up all of my prospects, by will or by circumstance, and was left with nothing to talk about, but this latest introspective adventure of whose meaning, I had no way of explaining. I began to talk anyway. I started of with declaring that I wasn't entirely sober, and he scoffed, because what else was expected of me anyway? I skipped over the dates of this trip, because then he would know why I had missed our senior formal. Being sufficiently vague, I skipped the segment about my article, and moved ahead to the part about lying down on my bed and looking at the drapes.
+    </p>,
+  },
+  {
+    classes: "verse",
+    html: <p>I mentioned that I saw an image of Guru Nanak while tripping on acid, and that the face in the image was obscured by a mudra of the hands. I was about to get to the part about Him consciously shushing me, but we just got interrupted by another friend of ours who dragged him away. </p>,
+  },
+  {
+    classes: "verse",
+    html: <p>Later that night, before going to bed, I was led to searching the meaning of the word, "syncronicity" and my intuiton told me that that's probably what was beginning to occur with me. A slight shiver went down my entire body – not the kind that makes one scared, but the kind that slightly arouses one's sense, in a sort of awakening, in the presence of something novel, and breathtaking. </p>,
+  },
+  {
+    classes: "verse",
+    html: <p>
+      The third oddity was probably the major turning point that would form a prelude to what was to come later. It was one of the boys' last night in New York, before leaving for India after college had ended for them. I, on the other hand, was going to be in New York for at least that summer, as I still had those failed classes to retake. He wanted to have a sober night out, after his own carousal journey. The one who was not leaving, wanted to celebrate equally on finally getting a permanent, paying gig that would sponsor his stay in the country for years to come. 
+    </p>,
+  },
+  {
+    classes: "verse",
+    html: <p>
+      I can undoubtedly say, that they both deserved it. They had partied, but also balanced their responsibilities with a clear head. I admired their gumption, and their focus – which is why I liked having them around. They made me want to be better, to do better, to try harder, and to give my own life, my own ambitions, and my own narrative, the grit with which I engrossed myself in this exploratory parallel life wherein I was always looking for ways to be more comfortable than my actual, physical stature had warranted. 
+    </p>,
+  },
+  {
+    classes: "verse",
+    html: <p>
+      So to celebrate earnestly, in a manner that suited all of our mellow temperaments, my friend who was staying in New York and myself, decided to take ecstacy. We were accompanied by our friend who was leaving, and another one of their friends, with whom I had never actually had a chance to properly bond. He was more of a delicate whiskey admirer, who couldn't indulge in illicit substances to the level that three of us "boys" could. 
+    </p>,
+  },
+  {
+    classes: "verse",
+    html: <p>
+      We were all not the kind to dance all night, and party till the sun came up, so we just decided to walk around East Village, in an attempt that was reminiscent of a beautiful walking around acid trip that my friend partaking in ecstacy with me had had with me a couple months prior. 
+    </p>,
+  },
+  {
+    classes: "verse",
+    html: <p>
+      Throughout the night, we were split into combinations of pairs, walking side by side, just calmly chatting about where we came from, and reflected on how far we had come, and how we still, had miles to go before we slept. All three of the guys had fabulous prospects in every sense of the word. The one in finance was going to work for a major multinational bank, the one in tech was going to work for a social media behemoth, and the business oriented one was going to take up his position in his family business. 
+    </p>,
+  },
+  {
+    classes: "verse",
+    html: (<p>
+      It seemed that life was panning out very well according to the aspirations that they said they had in the beginning of their respective undergraduate journeys. Myself on the other hand, had vague ideas about exploring life, and escaping home; and to be really honest, I had actually done well too – given the mind-shattering Glimpse. 
+    </p>)
+  },
+  {
+    classes: "verse",
+    html: (<p>
+      It wasn't as if my existence thus far had been just of a pathetic addict, who was rolling around in the mud because he didn't know better. I had learnt, I had failed, and I had always gotten the courage to get back up, no matter how flailingly. If the summer went well, I would only be three months behind the rest of my class, and would've graduated with a double major, that too in the vastly uncommon combination of Computer Science and Psychology. If I played my cards right over the summer, I could still land a paying gig in the field of my choice. 
+    </p>)
+  },
+  {
+    classes: "verse",
+    html: (<p>
+      Ofcourse my start would be a little harder than these three compatriots for the night, but then again, I had much more emotional maturity than them three combined. My emotional stability, however, was an altogether different matter. The fact that I had come this far, without any emotional support system to carry me across throughout my days, was an issue that I had yet, not acknowledged properly. 
+      </p>
+      )
+  },
+  {
+    classes: "verse",
+    html: (
+      <p>
+        I had come to New York City from Ludhiana, with no friends, or relatives to guide me, and stand by me, in this strange country. Most of the people who had supposedly doing well in college, had some kind of support system. Whether it was friends from the same school, or the same town, at NYU, or in neighbouring colleges, or visiting repeatedly from different citites in the States, or relatives to spend the weekend at, and guide through the bureaucratic complexes that are a major challenge for anyone willing to relocate. Even though my education and living expenses were paid for, I was starting from nothing, a true outsider. 
+        </p>
+    )
+  },
+  {
+    classes: "verse",
+    html: (
+      <p>
+        Even back in Ludhiana, my birthplace, and the residence of my parents since their marriage, I never felt at home. I was never really there. My thoughts, my dreams, my hopes, my aspirations, and my desires had always been elsewhere. I had never truly accepted Ludhiana as my home, and in turn, Ludhiana had never truly accepted me. It made sense then, that wherever I went in this city, and whoever I talked to, thought of me as an outsider.
+      </p>
+    ),
+  },
+  {
+    classes: "verse",
+    html: (
+      <p>
+        To add to the outsider complex, I was also not a social kid when I was
+        young – I made one friend in kinder garden and then stuck to that person
+        until I left that school. I don’t really remember much from that time,
+        other than the fact that I was a socially awkward, wallflower type kid
+        who cried a lot because most things were too hurtful. I looked back last
+        night, at some of my pictures from that time. They were all taken at
+        some competition, or at some social event – looking at them, you surely
+        wouldn't not be able to verify my description of that time – because who
+        takes a picture of their kid when they come home from school, having
+        crapped their shorts? It is of empirical importance, that kids have a
+        happy childhood, or at the very least, the appearance of it.
+      </p>
+    ),
+  },
+  {
+    classes: "verse",
+    html: (
+      <p>
+        I have seen similarly sensitive traits in my sister over the years, so from this
+        limited observation, I am concluding that these habits were inherited
+        from the{" "}
+        <em>familial environment (some of it nature, most of it nurture)</em>.
+        This, I remember, because these mannerisms had followed me to my
+        boarding school in Mussoorie. I was, at the time, a cranky kid, in a
+        boys’ school – imagine how I would be treated.
+      </p>
+    ),
+  },
+  {
+    classes: "verse",
+    html: (
+      <p>
+        My parents and I have taken a lot of decisions together since then, but
+        I clearly remember this one as being the first. Not that they didn’t
+        adhere to my likings whenever I asked them for something – this
+        particular decision was one that would shape the rest of my path. For
+        the first time, I was outside Ludhiana on my own. I didn’t know it yet,
+        but in St George’s College, I would be known and associated with the{" "}
+        <em>space</em> I had never myself associated with, all my life.
+      </p>
+    ),
+  },
+  {
+    classes: "verse",
+    html: (
+      <p>
+        I was one of the few Indian Sikh kids, and out of that very small group,
+        I was the only turbaned Sikh kid from Punjab in my class. At the time, a
+        class was the biggest social group a kid could hope to be a part of. So,
+        for the first time – my also mind wandered towards defining myself in
+        terms of my religion, the only group that I could be a part of and yet
+        stay my unique self. I had for the first time, heard myself being called
+        by my full name, with Singh in the middle.
+      </p>
+    ),
+  },
+  {
+    classes: "verse",
+    html: (
+      <p>
+        It is a particularly enervating emotion when you want to be a part of a
+        group, yet stay your distinct self. What is one such group? The answer
+        is <em>always religion</em>. Your relationship with God makes you one
+        out of a million others (read: similar) who relate to God in the way
+        that you do, but also, because of your personal relationship with Him,
+        you still remain one in a million (read: unique).
+      </p>
+    ),
+  },
+  {
+    classes: "verse",
+    html: (
+      <p>
+        I remember the first time we, as a family, went out of the country – to
+        our supposed "enemy" country of Pakistan. We went there for a couple
+        days to watch a single cricket match that spanned a couple days. I want
+        to call it a test-match, but I'm not sure cricket will remain relevant
+        for posterity. Maybe it will, so I will not be talking about why an
+        actual competitive game is called a "test" match. My family (apart from
+        my father) were not particularly interested in cricket, but we went
+        along anyway, because travel was convenient (we literally crossed the
+        border on foot), and the tickets for the match didn't cost all that much
+        (can't say the same for our accommodation). Really though, we went
+        because we weren't aware of the instability that was the norm within the
+        country at the time. This was before the internet had saturated our
+        lives.
+      </p>
+    ),
+  },
+  {
+    classes: "verse",
+    html: (
+      <p>
+        Outside the stadium, where our cab driver dropped us off, there was a
+        group of young guys, doing <em>bhangra</em> with the traditional{" "}
+        <em>dhol</em>. They were <em>Punjabi</em>, just like us, so this was a
+        welcome sight. They called out to my father with the calls of{" "}
+        <em>"oho sardarji, aao ji,"</em> signalling to my turbaned father, to
+        come and join them in the dance. My father, who appeared to me an
+        ignorant simpleton at the time, wilfully complied. After the deed was
+        done, and we were making our way to the stadium again, all of us
+        realized at nearly the same moment, that they were actually making fun
+        of my father, and told him to not partake in such tomfoolery again – to
+        which my father replied that he didn't really have a choice. He didn't
+        want to turn the group into an angry mob, so he plastered a smile, and
+        indulged them.
+      </p>
+    ),
+  },
+  {
+    classes: "verse",
+    html: (
+      <p>
+        A couple of obvious things stand out to me now, when this incident has
+        been brought to my attention at this particular junction in the chapter.
+        The first being that my father was only called at, because of his
+        perceived difference. Had he not been wearing a turban, the crowd would
+        not have realised that we were different from them, and hence, would not
+        have had any reason to bother a family to partake in their diversion.
+        The second being that he was called at, with full knowledge that he was
+        essentially the same as them, as our religion was associated with the
+        province of Punjab, and hence, the dance of bhangra was native to us.
+        The third being, that he was called out with kind salutations of "ji,"
+        which is used when you are referring to someone respectfully. Fourth,
+        the use of the term "sardar," which, initially adopted for its revered
+        stature, was now often used in a derogatory context, alluding to the
+        supposed stereotype of a stupid-sardar, who couldn't understand the
+        nuances of a situation, and was often looked at as a simpleton.
+      </p>
+    ),
+  },
+  {
+    classes: "verse",
+    html: (
+      <p>
+        It is weird, that this idea of the simpleton sardar originated towards
+        the end of Mughal India, almost definitely during the period of
+        annexation of Delhi, by the Iranian Muslim ruler, Nader Shah. The story
+        goes, that around the year 1739 CE, the Shah's men were not only looting
+        treasures during their conquests, but also taking Hindu women hostage.
+        Sardar Jassa Singh, commander of the Sikh army at that time, decided to
+        attack Nader Shah’s troops at midnight. It began a series of
+        extractions, where the Sikh army would attack Muslim raiders at
+        midnight, and bring back the women to their homes. That whole series of
+        occurrences began a smear campaign, probably starting of as a
+        deprecating joke arising out of insecurity and contempt, about sardars
+        going mad at midnight. To this day, turbaned sikhs, all over the world
+        have to be the butt of those jokes about being stupid, especially more
+        so, when the clock is about to strike 12.
+      </p>
+    ),
+  },
+  {
+    classes: "verse",
+    html: (
+      <p>
+        I mention this, not to gain sympathy, certainly not to reignite
+        religious tensions – 11 year old me was mightily affected by the riots
+        that broke out in the city on the day we were scheduled to leave
+        Pakistan, than by this minor brush with discrimination. Markets were
+        closed, not a single uninvolved bystander was to be seen, every turn we
+        took just led to a wall of lynching crowd – cracking windows, and
+        burning tyres. My father had to remove his turban, and my sisters were
+        hidden from outside view. God knows what their issue was at the time,
+        but years later when I recounted this issue to a Pakistani friend of
+        mine, he scoffed "unka roz ka hai, aap hamare ghar aaye, khatirdaari
+        karenge" –{" "}
+        <em>
+          this is usual for them, you should come to our house sometime, you'll
+          be well taken care of.
+        </em>{" "}
+        I'm assuming he meant people of Lahore in general, but he could very
+        well be talking about a particular faction. I can't remember, we were
+        sufficiently baked. The trip to Pakistan too, would've been erased from
+        memory, had it not been for these two occurrences. We had a pre-planned
+        vacation to Malaysia and Singapore just a day later, so that overwrote a
+        bunch of trauma. To be quite honest, our family was doing very well in
+        life, all things considered.{" "}
+      </p>
+    ),
+  },
+  {
+    classes: "verse",
+    html: (
+      <p>
+        I really don't care for sympathy by mentioning this interaction with the
+        dancing group of ignorant simpletons, which is probably the reason why I
+        mentioned that we were well-off. Perhaps I wanted to incite a certain
+        amount of dissonance in you? Maybe. Really though, I wanted to point out
+        the intricate irrationality that is reflected in each of our ignorant
+        actions, especially more so in the case of discrimination, positive or
+        negative. Think about all the different ways in which we have to alter
+        the flow of our regular routines to accommodate others who aren't aware
+        of the implications of their own actions. I'm absolutely sure, that
+        there isn't a single person on this planet, who has not faced
+        discrimination – it is the baggage that we inherited, but were not born
+        with. It is time to let that go. We are all the same here. Why don't we
+        treat each other well? What's the point of enemity when all known
+        territory has been conquered, and is under some administration? Why is
+        it still about us and them, and not just us?
+      </p>
+    ),
+  },
+  {
+    classes: "verse",
+    html: <p>
+      Despite everything that could be going on in a different setting, this group had no such predispositions to speak of, at least superficially. I don't particularly remember the specifics of that night (as I do not remember most of my college details), but I do remember the feeling I had when I got back home – <em>emptiness.</em>
+    </p>,
+  },
+  {
+    classes: "verse",
+    html: <p>
+      I had spent so much time in this place, hung out with so many different kinds of people, given so much of my time, effort, energy, and commitment to thse people – but to what end?
+    </p>,
+  },
+  {
+    classes: "verse",
+    html: <p>
+      The conversations we had that night, barely scratched the surface of what it was that I had to offer. All of us were so busy telling our own stories, that we never heard what the other person was really saying. We understood their situation instantly, given the amount of information that we absorb on a daily basis, so we "knew of" that situation – but because we were all so young, we did not know how to deal with those situations, not adequately. 
+    </p>,
+  },
+  {
+    classes: "verse",
+    html: (
+      <p>
+        Humans are weak. We try something that gives us relief from the
+        mundaneness of our regular lives – something that gives us a break from
+        our current sense-perception and transfers us into an alternate version
+        of what could be.
+      </p>
+    ),
+  },
+  {
+    classes: "verse",
+    html: (
+      <p>
+        In this version, not everything changes – depending on the potency of
+        the drug, much stays the same; but in a very subjective sense – things
+        appear better. Our lives appear better. The sensory overload that we all
+        experience, especially in the modern century, lightens.
+      </p>
+    ),
+  },
+  {
+    classes: "verse",
+    html: (
+      <p>
+        There is a release from pain that is almost always hindering us from
+        being our <em>true selves</em>. That does not mean that we should all
+        partake in drugs all the time – I can see why that would appear as the
+        only way to express your true self.
+      </p>
+    ),
+  },
+  {
+    classes: "verse bible",
+    html: (
+      <p>
+        <em>
+          “It shall be accomplished before his time, <br />
+          and his branch shall not be green.” <br />
+          (Job 15:32)
+        </em>
+      </p>
+    ),
+  },
+  {
+    classes: "verse",
+    html: (
+      <p>
+        All that you consume, all that you take in, all that goes inside your
+        body – is a sort of a drug. The air that you breathe, the light that you
+        absorb, the food you intake, the flowers you smell – in their true
+        essence, they’re all drugs. Doing drugs is not a problem. Taking drugs
+        is not a problem. Sure. You cannot survive normally without oxygen, or
+        water. That’s alright. God has meant for it to be that way. God, has
+        also created tobacco. He has also created marijuana. He has given you
+        grapes to ferment wine. The printing press was invented because of a
+        wine enthusiast monk. Most of the great works of human art were done
+        under the influence of some sort of drug. Music is a drug. Fruits are
+        drugs. Bread is a drug. When your body starts to feel like something is
+        lacking in <em>life</em> without them, that’s the problem. Most of my
+        adult life, has been based around drugs. The first part around their
+        over consumption, and the next around their over aversion. Neither
+        works. Sometimes you want drugs, sometimes you need them. Sex is a drug.
+        Pleasure itself is a drug. In their true form, they are all just
+        molecular interactions with internal bodily chemistry that gives you a
+        sensation of being <em>more </em>alive. I say more, because the humdrum
+        life in most moments doesn’t feel like being alive. Adrenalin is a drug.
+        Productivity is a rush. Escapism is a rush. Every upper is a rush, and
+        every downer in a rush in its own right. At the time of writing this
+        text, I don’t think I could ever be fit enough to judge another human
+        being for partaking in the use of drugs, whatever their kind may be
+        (drugs, I mean).
+      </p>
+    ),
+  },
+  {
+    classes: "verse",
+    html: <p>
+      In that moment, when I got back home, out of habit, I started rolling a joint. I was tired to the bone, but I did not want to go to sleep like this, at least not depressed again. I was doing so well after my parents had left after graduation, that I just did not want to start the vicious cycle yet again. 
+    </p>,
+  },
+  {
+    classes: "verse",
+    html: <p>
+      I just did not have enough courage in me to face another day with this dread, this loneliness, this emptiness, this feeling that if I were to end my life tonight, people wouldn't find out for weeks. I was once again, out of touch with my family, and the friends that I had, were busy enough to stay unaware, and given my unexplained absences from social events, nobody would realise that something had gone awry. 
+    </p>,
+  },
+  {
+    classes: "verse",
+    html: <p>
+      It was in that moment, that I realised, that if I were to die, nobody would've known the true Me – nobody would tell them of the things that I had discovered, or rather, re-discovered in the modern context. Granted that what I had discovered was not much, but it was something – it was the starting point, the universe had given me a new path.
+    </p>,
+  },
+  {
+    classes: "verse",
+    html: <p>
+      Sitting on my couch, in the dark, listening to sad, hindi music in my ears, and smoking a joint, I leaned back – and as I did, my wrists guided my hands, outside of my conscious control, back towards the wall, with the palms facing forward – in the hand wave that you have seen literally EVERY SINGLE HOLY PERSON BEING DEPICTED THROUGHOUT ALL OF HUMAN HISTORY. AND THEN A VOICE:
+      </p>,
+  },
+  {
+    classes: "verse",
+    html: <p>
+      <strong><em>"It's Me. Your intuition is correct. I'm here."</em></strong>
+    </p>,
+  },
+  {
+    classes: "verse",
+    html: <p>
+      The music switched, and the song "Channa Mereya" started to play seamlessly. My feet were guided onto the empty space in the kitchen area of my apartment, and my feet and hands started a well coordinated Sufi Whirling movement that went along with the song. The music got more crisp, the tempo of the beats lowered, and the vibrations of the instruments was felt to the deepest roots of my sensory organs. I was spinning around, in an unusually choreographed manner (I am a characteristically bad dancer), and although my eyes were looking at everything around me, my head was not spinning – that although my feet were moving, and my body was turning, the surrounding world seemed uncannily stable – as if the whole world was spinning with me, and us, as a result, were at rest, with respect to each other. I spun around for the entire duration of the song, and for the first time, understood what this song meant, and who was it addressed to, and who were the subject and predicate of each couplet. 
+    </p>,
+  },
+  {
+    classes: "verse quote",
+    html: (
+    <YouTube
+      videoId={"https://www.youtube.com/watch?v=PYzFp5o4lhE"}
+      opts={{width: '400'}}
+      />
+      ),
+  },
+  {
+    classes: "demarcator",
+    html: <hr />,
   },
   {
     classes: "verse",
     html: <p></p>,
   },
-
   {
     classes: "verse",
     html: <p></p>,
@@ -8801,226 +9380,7 @@ const verses = [
       </p>
     ),
   },
-  {
-    classes: "verse",
-    html: (
-      <p>
-        Of course, I was born in Ludhiana, and this is where my parents had been
-        since they got married; but I was never really here. My thoughts, my
-        dreams, my hopes, my aspirations, and my desires were elsewhere. I had
-        never truly accepted Ludhiana as my home, and in turn, Ludhiana had
-        never truly accepted me. It made sense then, that wherever I went in
-        this city, and whoever I talked to, thought of me as an outsider.
-      </p>
-    ),
-  },
-  {
-    classes: "verse",
-    html: (
-      <p>
-        To add to the outsider complex, I was also not a social kid when I was
-        young – I made one friend in kinder garden and then stuck to that person
-        until I left that school. I don’t really remember much from that time,
-        other than the fact that I was a socially awkward, wallflower type kid
-        who cried a lot because most things were too hurtful. I looked back last
-        night, at some of my pictures from that time. They were all taken at
-        some competition, or at some social event – looking at them, you surely
-        wouldn't not be able to verify my description of that time – because who
-        take a picture of their kid when they come home from school, having
-        crapper their shorts? It is of empirical importance, that kids have a
-        happy childhood, or at the very least, the appearance of it.
-      </p>
-    ),
-  },
-  {
-    classes: "verse",
-    html: (
-      <p>
-        I have seen the same traits in my sister over the years, so from this
-        limited observation, I am concluding that these habits were inherited
-        from the{" "}
-        <em>familial environment (some of it nature, most of it nurture)</em>.
-        This, I remember, because these mannerisms had followed me to my
-        boarding school in Mussoorie. I was, at the time, a cranky kid, in a
-        boys’ school – imagine how I would be treated.
-      </p>
-    ),
-  },
-  {
-    classes: "verse",
-    html: (
-      <p>
-        My parents and I have taken a lot of decisions together since then, but
-        I clearly remember this one as being the first. Not that they didn’t
-        adhere to my likings whenever I asked them for something – this
-        particular decision was one that would shape the rest of my path. For
-        the first time, I was outside Ludhiana on my own. I didn’t know it yet,
-        but in St George’s College, I would be known and associated with the{" "}
-        <em>space</em> I had never myself associated with, all my life.
-      </p>
-    ),
-  },
-  {
-    classes: "verse",
-    html: (
-      <p>
-        I was one of the few Indian Sikh kids, and out of that very small group,
-        I was the only turbaned Sikh kid from Punjab in my class. At the time, a
-        class was the biggest social group a kid could hope to be a part of. So,
-        for the first time – my also mind wandered towards defining myself in
-        terms of my religion, the only group that I could be a part of and yet
-        stay my unique self. I had for the first time, heard myself being called
-        by my full name, with Singh in the middle.
-      </p>
-    ),
-  },
-  {
-    classes: "verse",
-    html: (
-      <p>
-        It is a particularly enervating emotion when you want to be a part of a
-        group, yet stay your distinct self. What is one such group? The answer
-        is <em>always religion</em>. Your relationship with God makes you one
-        out of a million others (read: similar) who relate to God in the way
-        that you do, but also, because of your personal relationship with Him,
-        you still remain one in a million (read: unique).
-      </p>
-    ),
-  },
-  {
-    classes: "verse",
-    html: (
-      <p>
-        I remember the first time we, as a family, went out of the country – to
-        our supposed "enemy" country of Pakistan. We went there for a couple
-        days to watch a single cricket match that spanned a couple days. I want
-        to call it a test-match, but I'm not sure cricket will remain relevant
-        for posterity. Maybe it will, so I will not be talking about why an
-        actual competitive game is called a "test" match. My family (apart from
-        my father) were not particularly interested in cricket, but we went
-        along anyway, because travel was convenient (we literally crossed the
-        border on foot), and the tickets for the match didn't cost all that much
-        (can't say the same for our accommodation). Really though, we went
-        because we weren't aware of the instability that was the norm within the
-        country at the time. This was before the internet had saturated our
-        lives.
-      </p>
-    ),
-  },
-  {
-    classes: "verse",
-    html: (
-      <p>
-        Outside the stadium, where our cab driver dropped us off, there was a
-        group of young guys, doing <em>bhangra</em> with the traditional{" "}
-        <em>dhol</em>. They were <em>Punjabi</em>, just like us, so this was a
-        welcome sight. They called out to my father with the calls of{" "}
-        <em>"oho sardarji, aao ji,"</em> signalling to my turbaned father, to
-        come and join them in the dance. My father, who appeared to me an
-        ignorant simpleton at the time, wilfully complied. After the deed was
-        done, and we were making our way to the stadium again, all of us
-        realized at nearly the same moment, that they were actually making fun
-        of my father, and told him to not partake in such tomfoolery again – to
-        which my father replied that he didn't really have a choice. He didn't
-        want to turn the group into an angry mob, so he plastered a smile, and
-        indulged them.
-      </p>
-    ),
-  },
-  {
-    classes: "verse",
-    html: (
-      <p>
-        A couple of obvious things stand out to me now, when this incident has
-        been brought to my attention at this particular junction in the chapter.
-        The first being that my father was only called at, because of his
-        perceived difference. Had he not been wearing a turban, the crowd would
-        not have realised that we were different from them, and hence, would not
-        have had any reason to bother a family to partake in their diversion.
-        The second being that he was called at, with full knowledge that he was
-        essentially the same as them, as our religion was associated with the
-        province of Punjab, and hence, the dance of bhangra was native to us.
-        The third being, that he was called out with kind salutations of "ji,"
-        which is used when you are referring to someone respectfully. Fourth,
-        the use of the term "sardar," which, initially adopted for its revered
-        stature, was now often used in a derogatory context, alluding to the
-        supposed stereotype of a stupid-sardar, who couldn't understand the
-        nuances of a situation, and was often looked at as a simpleton.
-      </p>
-    ),
-  },
-  {
-    classes: "verse",
-    html: (
-      <p>
-        It is weird, that this idea of the simpleton sardar originated towards
-        the end of Mughal India, almost definitely during the period of
-        annexation of Delhi, by the Iranian Muslim ruler, Nader Shah. The story
-        goes, that around the year 1739 CE, the Shah's men were not only looting
-        treasures during their conquests, but also taking Hindu women hostage.
-        Sardar Jassa Singh, commander of the Sikh army at that time, decided to
-        attack Nader Shah’s troops at midnight. It began a series of
-        extractions, where the Sikh army would attack Muslim raiders at
-        midnight, and bring back the women to their homes. That whole series of
-        occurrences began a smear campaign, probably starting of as a
-        deprecating joke arising out of insecurity and contempt, about sardars
-        going mad at midnight. To this day, turbaned sikhs, all over the world
-        have to be the butt of those jokes about being stupid, especially more
-        so, when the clock is about to strike 12.
-      </p>
-    ),
-  },
-  {
-    classes: "verse",
-    html: (
-      <p>
-        I mention this, not to gain sympathy, certainly not to reignite
-        religious tensions – 11 year old me was mightily affected by the riots
-        that broke out in the city on the day we were scheduled to leave
-        Pakistan, than by this minor brush with discrimination. Markets were
-        closed, not a single uninvolved bystander was to be seen, every turn we
-        took just led to a wall of lynching crowd – cracking windows, and
-        burning tyres. My father had to remove his turban, and my sisters were
-        hidden from outside view. God knows what their issue was at the time,
-        but years later when I recounted this issue to a Pakistani friend of
-        mine, he scoffed "unka roz ka hai, aap hamare ghar aaye, khatirdaari
-        karenge" –{" "}
-        <em>
-          this is usual for them, you should come to our house sometime, you'll
-          be well taken care of.
-        </em>{" "}
-        I'm assuming he meant people of Lahore in general, but he could very
-        well be talking about a particular faction. I can't remember, we were
-        sufficiently baked. The trip to Pakistan too, would've been erased from
-        memory, had it not been for these two occurrences. We had a pre-planned
-        vacation to Malaysia and Singapore just a day later, so that overwrote a
-        bunch of trauma. To be quite honest, our family was doing very well in
-        life, all things considered.{" "}
-      </p>
-    ),
-  },
-  {
-    classes: "verse",
-    html: (
-      <p>
-        I really don't care for sympathy by mentioning this interaction with the
-        dancing group of ignorant simpletons, which is probably the reason why I
-        mentioned that we were well-off. Perhaps I wanted to incite a certain
-        amount of dissonance in you? Maybe. Really though, I wanted to point out
-        the intricate irrationality that is reflected in each of our ignorant
-        actions, especially more so in the case of discrimination, positive or
-        negative. Think about all the different ways in which we have to alter
-        the flow of our regular routines to accommodate others who aren't aware
-        of the implications of their own actions. I'm absolutely sure, that
-        there isn't a single person on this planet, who has not faced
-        discrimination – it is the baggage that we inherited, but were not born
-        with. It is time to let that go. We are all the same here. Why don't we
-        treat each other well? What's the point of enemity when all known
-        territory has been conquered, and is under some administration? Why is
-        it still about us and them, and not just us?
-      </p>
-    ),
-  },
+  
   {
     classes: "verse",
     html: (
@@ -9968,18 +10328,7 @@ const verses = [
       </p>
     ),
   },
-  {
-    classes: "verse",
-    html: (
-      <p>
-        Like I mentioned, I wasn’t equipped to maintain this balance between the
-        self and situational control for a very long time. In college, I was on
-        a different continent. I had some childish desires and pent-up
-        frustrations that I needed to blow-off. I <strong>needed</strong> to let
-        loose, and experience what it meant to be<em> truly free</em>.
-      </p>
-    ),
-  },
+  
 
   {
     classes: "verse",
@@ -15299,51 +15648,7 @@ const verses = [
       </p>
     ),
   },
-  {
-    classes: "verse",
-    html: (
-      <p>
-        Humans are weak. We try something that gives us relief from the
-        mundaneness of our regular lives – something that gives us a break from
-        our current sense-perception and transfers us into an alternate version
-        of what could be.
-      </p>
-    ),
-  },
-  {
-    classes: "verse",
-    html: (
-      <p>
-        In this version, not everything changes – depending on the potency of
-        the drug, much stays the same; but in a very subjective sense – things
-        appear better. Our lives appear better. The sensory overload that we all
-        experience, especially in the modern century, lightens.
-      </p>
-    ),
-  },
-  {
-    classes: "verse",
-    html: (
-      <p>
-        There is a release from pain that is almost always hindering us from
-        being our <em>true selves</em>. That does not mean that we should all
-        partake in drugs all the time – I can see why that would appear as the
-        only way to express your true self.
-      </p>
-    ),
-  },
-  {
-    classes: "verse bible",
-    html: (
-      <p>
-        <em>
-          “It shall be accomplished before his time, <br />
-          and his branch shall not be green.” <br />
-          (Job 15:32)
-        </em>
-      </p>
-    ),
-  },
+  
   {
     classes: "verse",
     html: (
@@ -15430,74 +15735,7 @@ const verses = [
       </p>
     ),
   },
-  {
-    classes: "verse bible",
-    html: (
-      <p>
-        <em>
-          “He shall shake off his unripe grape as the vine, <br />
-          and shall cast off his flower as the olive.” <br />
-          (Job 15:33)
-        </em>
-      </p>
-    ),
-  },
-  {
-    classes: "verse",
-    html: (
-      <p>
-        I knew I was addicted to <em>stimulation</em> – via chemical inducing
-        drugs or other dopamine related acts – didn’t matter. I liked my
-        isolation. Having found this alternative world where I was the master,
-        and where with each command, I could only make my life seemingly better
-        – I never wanted to get out of it.
-      </p>
-    ),
-  },
-  {
-    classes: "verse",
-    html: (
-      <p>
-        People say that addiction to drugs and other illicit substances is
-        largely because the partaker wants to escape the mundane life that they
-        have built for themselves. That is largely true; but look around the
-        world.
-      </p>
-    ),
-  },
-  {
-    classes: "verse",
-    html: (
-      <p>
-        How many things are offered to you in the form of media representations
-        that you cannot really have? How many images are you exposed to, to make
-        you think that the life you are currently living is only just mediocre?
-      </p>
-    ),
-  },
-  {
-    classes: "verse",
-    html: (
-      <p>
-        How many advertisements tell you that you only deserve the <em>best</em>
-        ?
-      </p>
-    ),
-  },
-  {
-    classes: "verse",
-    html: (
-      <p>
-        You might not think so highly of yourself, but you are surely made to
-        feel like you should. All the gourmet food, all the nice material
-        things, all the exotic adventures in unexplored lands, and all the
-        beautiful people – why wouldn’t you want to surround yourself with only
-        the <em>best</em>? And if you cannot have the best in the outside world,
-        then why would you deprive yourself of the best stuff in the comfort of
-        your own house?
-      </p>
-    ),
-  },
+  
   {
     classes: "verse",
     html: (
@@ -17754,37 +17992,7 @@ const verses = [
       </p>
     ),
   },
-  {
-    classes: "verse",
-    html: (
-      <p>
-        All that you consume, all that you take in, all that goes inside your
-        body – is a sort of a drug. The air that you breathe, the light that you
-        absorb, the food you intake, the flowers you smell – in their true
-        essence, they’re all drugs. Doing drugs is not a problem. Taking drugs
-        is not a problem. Sure. You cannot survive normally without oxygen, or
-        water. That’s alright. God has meant for it to be that way. God, has
-        also created tobacco. He has also created marijuana. He has given you
-        grapes to ferment wine. The printing press was invented because of a
-        wine enthusiast monk. Most of the great works of human art were done
-        under the influence of some sort of drug. Music is a drug. Fruits are
-        drugs. Bread is a drug. When your body starts to feel like something is
-        lacking in <em>life</em> without them, that’s the problem. Most of my
-        adult life, has been based around drugs. The first part around their
-        over consumption, and the next around their over aversion. Neither
-        works. Sometimes you want drugs, sometimes you need them. Sex is a drug.
-        Pleasure itself is a drug. In their true form, they are all just
-        molecular interactions with internal bodily chemistry that gives you a
-        sensation of being <em>more </em>alive. I say more, because the humdrum
-        life in most moments doesn’t feel like being alive. Adrenalin is a drug.
-        Productivity is a rush. Escapism is a rush. Every upper is a rush, and
-        every downer in a rush in its own right. At the time of writing this
-        text, I don’t think I could ever be fit enough to judge another human
-        being for partaking in the use of drugs, whatever their kind may be
-        (drugs, I mean).
-      </p>
-    ),
-  },
+  
   {
     classes: "verse",
     html: (
