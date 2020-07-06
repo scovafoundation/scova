@@ -6,7 +6,7 @@ import SpotifyPlayer from 'react-spotify-player';
 import { FacebookProvider, EmbeddedPost } from 'react-facebook';
 import InstagramEmbed from 'react-instagram-embed';
 import YouTube from 'react-youtube';
-
+import ReactPlayer from "react-player";
 
 // Images
 import bismillah from "./images/bismillah.png";
@@ -2058,7 +2058,7 @@ const verses = [
         through my brain at the time – each having an infinite depth that was
         begging to be explored, no matter the topic I chose to give attention
         to. It didn't help that I was sufficiently baked at the time, because{" "}
-        <em>sativa</em> strain of marijuana does that to you. Usually I wouldv'e
+        <em>sativa</em> strain of marijuana does that to you. Usually I would've
         been ecstatic at such a coherent realisation of my own accord, but this
         was different.{" "}
       </p>
@@ -2154,14 +2154,14 @@ const verses = [
     classes: "verse",
     html: (
       <p>
-        On a personal note to,{" "}
+        On a personal note too,{" "}
         <em>
           I had already I altered my entire persona to <strong>fit</strong> into
           the new dynamic
         </em>{" "}
-        of New York City, of America. I had so desperately wanted to be a part
-        of this galmourous life, of the Land of the Free, and the Home of the
-        Brave, that I had just reduced all of my entire upbringing to zero.
+        of New York City, and of America. I had so desperately wanted to be a part
+        of this galmourous life, of the <em>Land of the Free, and the Home of the
+        Brave,</em> that I had just reduced all of my entire upbringing to zero.
         Doing this, and more, hadn't gotten me to a particularly exciting
         position.
       </p>
@@ -2257,7 +2257,7 @@ const verses = [
         life, I was clinically depressed, and hopelessly suicidal. Every single
         night, as every single day, was to me, the same. I'd start the day
         mildly hopeful, every other day I'd make a plan to revive my life's
-        trajectory towards positivity, and every single night I'd disappoint
+        trajectory towards positivity, and every single night, I'd disappoint
         myself.
       </p>
     ),
@@ -2271,9 +2271,7 @@ const verses = [
         altogether, and saturated myself with physical relievers. I never wanted
         to feel bad, so I did the opposite – tried to feel good all the time,
         because, like I've already said, I was ecstatic when I was able to form
-        a coherent thought that people could relate to – this habit started
-        because I wanted to explore more of what the world had to offer, and see
-        if life was really worth living.
+        a coherent thought that people could relate to. This habit of mine had started because I wanted to explore more of what the world had to offer, and see if life was really worth living.
       </p>
     ),
   },
@@ -2282,10 +2280,9 @@ const verses = [
     html: (
       <p>
         Then, because I had kept this facade up for longer than needed, I lost
-        the true essence of myself altogether. I was it, and it was me. It was
-        as if I hadn't let go of the mindless garbage that I was trying to get
+        the true essence of myself altogether. <strong><em>I was it, and it was me.</em></strong> It was as if I hadn't let go of the mindless garbage that I was trying to get
         over, but instead, stuffed it deep down into wherever these thoughts
-        went, and slapped a fancy band-aid on top of it all. This facade, was
+        went, and slapped a fancy band-aid on top of it all. This facade was
         how others that saw me, defined me.
       </p>
     ),
@@ -2364,7 +2361,7 @@ const verses = [
         Here I was, in my fancy shoe-box of an apartment, in the most talked
         about place on Earth – unhappy to the deepest recessions of my
         conscious, and arguably subconscious, being. I was not going to
-        graduated on time, and I had just been fired from a menial job, and the
+        graduate on time, and I had just been fired from a menial job, and the
         one that I still had, I really didn't want to go back to.
       </p>
     ),
@@ -2466,13 +2463,13 @@ const verses = [
     html: (
       <p>
         I sent multiple emails like this, and had multiple in-person
-        conversations like this, and they all said the same thing – seek help.
+        conversations like this, and they all said the same thing – <em>seek help.</em>
         Arguably, it didn't take a genius to figure out that I needed help – I
         used the actual words that "I need help." I asked friends – they were
         the same age as me, so of course they were clueless. How could they know
         more? They were also limited in their exposure to the right information.
-        I asked family – they were the root cause of most of my problems, and
-        me, being their first-born, they had no clue as to how to deal with
+        I asked my parents – they were the root cause of most of my problems, and
+        because I was their first-born, they had no clue as to how to deal with
         someone my age. They too, were limited in their exposure, and
         experience.{" "}
       </p>
@@ -2502,7 +2499,7 @@ const verses = [
         when trying to rebut their claim. I felt dizzy, so I laid down on my
         bed, and started to look at the sunlight refracting through my
         decorative curtains – lo and behold, an image of Guru Nanak emanating
-        through the floral patterns of the curtains.
+        through the floral patterns of the curtains as beams of light passed through them.
       </p>
     ),
   },
@@ -2870,7 +2867,7 @@ const verses = [
   {
     classes: "verse",
     html: <p>
-      We sat down, and began to chat about our future prospects. I, at the time, had already given up all of my prospects, by will or by circumstance, and was left with nothing to talk about, but this latest introspective adventure of whose meaning, I had no way of explaining. I began to talk anyway. I started of with declaring that I wasn't entirely sober, and he scoffed, because what else was expected of me anyway? I skipped over the dates of this trip, because then he would know why I had missed our senior formal. Being sufficiently vague, I skipped the segment about my article, and moved ahead to the part about lying down on my bed and looking at the drapes.
+      We sat down, and began to chat about our future prospects. I, at the time, had already given up all of my prospects, by will or by circumstance, and was left with nothing to talk about, but this latest introspective adventure of whose meaning, I had no way of explaining. I began to talk anyway. I started off with declaring that I wasn't entirely sober when said occurence took place, and he scoffed, because what else was expected of me anyway? I skipped over the dates of this trip, because then he would know why I had missed our senior formal. Being sufficiently vague, I skipped the segment about my article, and moved ahead to the part about lying down on my bed and looking at the drapes.
     </p>,
   },
   {
@@ -2934,7 +2931,7 @@ const verses = [
     classes: "verse",
     html: (
       <p>
-        I had come to New York City from Ludhiana, with no friends, or relatives to guide me, and stand by me, in this strange country. Most of the people who had supposedly doing well in college, had some kind of support system. Whether it was friends from the same school, or the same town, at NYU, or in neighbouring colleges, or visiting repeatedly from different citites in the States, or relatives to spend the weekend at, and guide through the bureaucratic complexes that are a major challenge for anyone willing to relocate. Even though my education and living expenses were paid for, I was starting from nothing, a true outsider. 
+        I had come to New York City from Ludhiana, with no friends, or relatives to guide me, and stand by me, in this strange country. Most of the people who had supposedly been doing well in college, had some kind of support system. Whether it was friends from the same school, or the same town, at NYU, or in neighbouring colleges, or visiting repeatedly from different citites in the States, or relatives to spend the weekend at, and guide through the bureaucratic complexes that are a major challenge for anyone willing to relocate. Even though my education and living expenses were paid for, I was starting from nothing, a true outsider. 
         </p>
     )
   },
@@ -2957,7 +2954,7 @@ const verses = [
         who cried a lot because most things were too hurtful. I looked back last
         night, at some of my pictures from that time. They were all taken at
         some competition, or at some social event – looking at them, you surely
-        wouldn't not be able to verify my description of that time – because who
+        wouldn't be able to verify my description of that time – because who
         takes a picture of their kid when they come home from school, having
         crapped their shorts? It is of empirical importance, that kids have a
         happy childhood, or at the very least, the appearance of it.
@@ -3065,7 +3062,7 @@ const verses = [
       <p>
         A couple of obvious things stand out to me now, when this incident has
         been brought to my attention at this particular junction in the chapter.
-        The first being that my father was only called at, because of his
+        The first being, that my father was only called at, because of his
         perceived difference. Had he not been wearing a turban, the crowd would
         not have realised that we were different from them, and hence, would not
         have had any reason to bother a family to partake in their diversion.
@@ -3156,13 +3153,13 @@ const verses = [
   {
     classes: "verse",
     html: <p>
-      Despite everything that could be going on in a different setting, this group had no such predispositions to speak of, at least superficially. I don't particularly remember the specifics of that night (as I do not remember most of my college details), but I do remember the feeling I had when I got back home – <em>emptiness.</em>
+      Despite everything that could be going on in a different setting, this particular group had no such predispositions to speak of, at least superficially. I don't particularly remember the specifics of that night (as I do not remember most of my college details), but I do remember the feeling I had when I got back home – <em>emptiness.</em>
     </p>,
   },
   {
     classes: "verse",
     html: <p>
-      I had spent so much time in this place, hung out with so many different kinds of people, given so much of my time, effort, energy, and commitment to thse people – but to what end?
+      I had spent so much time in this place, hung out with so many different kinds of people, given so much of my time, effort, energy, and commitment to these people – but to what end?
     </p>,
   },
   {
@@ -3239,8 +3236,7 @@ const verses = [
         molecular interactions with internal bodily chemistry that gives you a
         sensation of being <em>more </em>alive. I say more, because the humdrum
         life in most moments doesn’t feel like being alive. Adrenalin is a drug.
-        Productivity is a rush. Escapism is a rush. Every upper is a rush, and
-        every downer in a rush in its own right. At the time of writing this
+        Productivity is a rush. Escapism is a rush. Every upper is a rush that excites, and every downer in a rush that mellows, all very potent in their own right. At the time of writing this
         text, I don’t think I could ever be fit enough to judge another human
         being for partaking in the use of drugs, whatever their kind may be
         (drugs, I mean).
@@ -3272,7 +3268,7 @@ const verses = [
       </p>,
   },
   {
-    classes: "verse",
+    classes: "verse quote",
     html: <p>
       <strong><em>"It's Me. Your intuition is correct. I'm here."</em></strong>
     </p>,
@@ -3280,25 +3276,779 @@ const verses = [
   {
     classes: "verse",
     html: <p>
-      The music switched, and the song "Channa Mereya" started to play seamlessly. My feet were guided onto the empty space in the kitchen area of my apartment, and my feet and hands started a well coordinated Sufi Whirling movement that went along with the song. The music got more crisp, the tempo of the beats lowered, and the vibrations of the instruments was felt to the deepest roots of my sensory organs. I was spinning around, in an unusually choreographed manner (I am a characteristically bad dancer), and although my eyes were looking at everything around me, my head was not spinning – that although my feet were moving, and my body was turning, the surrounding world seemed uncannily stable – as if the whole world was spinning with me, and us, as a result, were at rest, with respect to each other. I spun around for the entire duration of the song, and for the first time, understood what this song meant, and who was it addressed to, and who were the subject and predicate of each couplet. 
+      The music switched, and a previously unheard rendition of the song "Channa Mereya" started to play seamlessly. My feet were guided onto the empty space in the kitchen area of my apartment, and my feet and hands started a well coordinated Sufi Whirling movement that went along with the song. The music got more crisp, the tempo of the beats lowered, and the vibrations of the instruments was felt to the deepest roots of my sensory organs. I was spinning around, in an unusually choreographed manner (I am a characteristically bad dancer), and although my eyes were looking at everything around me, my head was not spinning – that although my feet were moving, and my body was turning, the surrounding world seemed uncannily stable – as if the whole world was spinning with me, and us, as a result, were at rest, with respect to each other. I spun around for the entire duration of the song, and for the first time, understood what this song meant, and who was it addressed to, and who were the subject and predicate of each couplet. 
     </p>,
   },
   {
-    classes: "verse quote",
+    classes: "verse",
     html: (
-    <YouTube
-      videoId={"https://www.youtube.com/watch?v=PYzFp5o4lhE"}
-      opts={{width: '400'}}
+      <ReactPlayer
+        url="https://www.youtube.com/watch?v=IF6ZN0Wa3tM"
+        width='100%'
       />
       ),
+  },
+{
+  classes: "verse",
+  html: (
+    <p>
+      The basis for observing the world <em>must</em> come to be shaped by the
+      understanding that things need to be proven absolutely to be considered
+      certainly true, but also that they need to be disproven absolutely to be
+      considered certainly false.
+    </p>
+  ),
+},
+{
+  classes: "verse",
+  html: (
+    <p>
+      All things between, and indeed, such would be the vast majority of
+      things, must be considered in the context of probability – based on the
+      evidence we have seen surrounding them, and also be malleable in the
+      presentation of new evidence, until the truth or falsehood of a thing
+      becomes irrefutable (which may be very rare).
+      </p>
+  ),
+  },
+  {
+    classes: "verse",
+    html: <SpotifyPlayer
+    uri="spotify:track:0zswVEAFordAn8lbrgWsb6" // Henry Jamison, Real Peach
+    size={{
+      width: "100%",
+      height: 300,
+    }}
+    view={"coverart"}
+    theme={"white"}
+  />,
+  },{
+    classes: "verse",
+    html: <p>
+      What in fuck's name was that voice? What was that dance I just did? I wasn't even on a psychedlic this time? Could any psychotropic drug do this? Why hadn't it happened before? Did my brain somehow unlock a new capability? Or had I fried my brain beyond repair as a result of all the concoctions that I had partaken in? How did my hand just move and start waving? Why was this specific wave so important? 
+    </p>,
+  },{
+    classes: "verse",
+    html: <p>
+      Questions like this were just buzzing through my brain, and then I remembered this scene from <em>Jodha Akbar,</em> where the actor playing the part of the Mughal emperor, Akbar, gets up in the middle of the qawalli <em>Khwaja Mere Khwaja,</em> and joins the Sufi mystics in their trance in perfect synchrony.
+    </p>,
+  },
+  {
+    classes: "verse",
+    html: (
+      <ReactPlayer
+        url="https://youtu.be/3dG2FK3_NfQ?t=319"
+        width='100%'
+      />
+      ),
+  },
+  {
+    classes: "verse",
+    html: <p>
+      Did I just do that? There was no bright light emanating form the sky, so it didn't look as advertised. My hands didn't have the same exact movements, so it definitely was similar, but not the same. Then I realised that the people depicting the dance were also not depicting this from first-hand experience. Maybe the ppoper movements got lost across the expanse of time?
+    </p>,
+  },
+  {
+    classes: "verse",
+    html: <p>
+      Was I being facetious about this whole thing? Should I have been more serious? Should I have been scared? What did I have to fear? I had just heard a nonverbal voice, and I did not know how that was possible. It wasn't my internal anxious ranting for sure. This was much more serene. It was non-verbal, so there was definitely no sound. I was confused; but also, ecstatic? Despite all the dissonating questions, I was just – calm, as if this was the most natural thing to have done. Ofcourse, my mind was still wandering, trying to find a light switch in the dark – but also, it felt like wandering around in the dark in my own home – a feeling of knowing exactly where everything was. I hadn't any memories of having felt this way, in all of my life. I wanted more. 
+    </p>,
+  },{
+    classes: "verse quote",
+    html: (<p>
+      The voice said again, <em>"tu mera hi bacha hai, zaroor milega."</em>
+    </p>),
+  },{
+    classes: "verse",
+    html: <p>
+      This time, I replied back, with a "ya, sure."
+    </p>,
+  },{
+    classes: "verse",
+    html: <p>
+      There was no follow-up, so I went back to my joint, and lit it up again. <em>"Life would be so much better if all I had to do to get through tough moments was dance to a song by myself, and know that if all else failed, I would still have me, and I'd be okay"</em> – I said to myself. 
+    </p>,
+  },{
+    classes: "verse",
+    html: <p>
+      Around 10 days passed, before I had enough time on my hands to ponder deeply over what I had performed. Rather, what I was made to perform, because I surely hadn't done this of my own accord. No amount of drugs just makes a person do things that they don't already know how to do. 
+    </p>,
+  },{
+    classes: "verse",
+    html: <p>
+      My masi was in town that weekend, with my cousin sisters, hoping to do some back to school shopping, and finalise some logistics before she could properly drop off her elder daughter to her boarding school in Ohio. It was a tiring trip for all of us, more so for me I think because I really did not want to be around family at that point. I was just not in the right headspace. Given all that was happening, how could I have been?
+    </p>,
+  },{
+    classes: "verse",
+    html: <p>
+      Towards the end of the day, she asked me for my genuine opinion on choosing America as a future prospect country for my sister. I told her outright that it was a bad decison. I had been planning on leaving the country, so I couldn't, in good conscience, advise anyone to stay. Certainly not my sister. This was a bad place to be for at least the next couple years. Ofcourse, I myself was still on the fence about leaving, and would've probably stayed, had things gone according to this sparely hatched out plan of mine. 
+    </p>,
+  },{
+    classes: "verse",
+    html: <p>
+      As I was walking back home, this existential dread started to hover over me again. This time, my vision too, started to get blurry and gray, as if a literaly cloud was afloat on the top periphery of my vision. I looked at the Empire State building, and the sky over it was much clearer than the last time I saw it. I snapped a picture, and kept moving. 
+    </p>,
+  },{
+    classes: "verse",
+    html: <p>
+      By the time I got home, this hovering dread transformed into a full blown breakdown. What the hell was I doing? I should've just dropped everything and gone back home the next morning with masi. I didn't want to be here. This place was pretty, and glamourous – but I hated it here. I just hated it to the core. I hated myself when I was here, and I hated what I was going to become if I stayed here any longer. I was not getting along with the people, and they sure as hell weren't bothered enough to want to keep me around. I had lost all that made me special, and in this drive to "fit-in" with the rest of the crowd, I had gotten lost in the crowd. 
+    </p>,
+  },{
+    classes: "verse",
+    html: <p>
+      In grade 7, us boys had to run a marathon, an event that took place every year, for all the kids in the school. The terrain, and the distance were decided by our respective classes. I had lost my balance in the very beginning, fallen flat on my face, and skid downhill in the hilly terrains of Mussoorie. I wasn't able to even take part in the rest of the event because I had gotten hurt so badly. Considering the fact that I wasn't an athletic kid to being with, my morale was too badly wounded that the physical pain of it was merely a welcome excuse at that point. This was like that, even more hard hitting since this one time in college I was so drunk that I just fell face first, and broke two teeth in the center of my face. I was so drunk that I couldn't use my hands to break my fall. I wasn't just a metaphor of a disaster, my life was a literal example. 
+    </p>,
+  },{
+    classes: "verse quote",
+    html: <p>I wanted an out; and I wanted it ASAP. </p>,
+  },
+  {
+    classes: "verse",
+    html: (
+      <SpotifyPlayer
+        uri="spotify:track:7z72BGlsE21horfWo8hG4d" // Wingtip, Rewind (feat. Sophie Strauss)
+        size={{
+          width: "100%",
+          height: 300,
+        }}
+        view={"coverart"}
+        theme={"white"}
+      />
+    ),
+  },
+  {
+    classes: "verse",
+    html: (<p>
+      Where could I go? What could I do? What would I say? How would I start? From when would I even begin? If I could have gone back in that moment, I would've gone back long ago. My life was a broken mess, and I just did no trust anybody else enough, and revere anybody else enough, to take the time up to pick up the pieces, and present to me a coherent version of my self. 
+    </p>),
+  }, {
+    classes: "verse",
+    html: (<p>
+      Nobody else could truly value myself, the way I could; but I had lost the ability to value myself altogether. I just couldn't go on. All the vagaries about life that I had pondered over, all the kinds of people and situations that I had observed, had just left such a huge void in me, that I didn't know where Anhad existed anymore. I was just – <strong><em>lost.</em></strong> 
+    </p>),
+  }, {
+    classes: "verse",
+    html: (<p>
+      Depression can be equated with the loss of a loved one, or a super emotional break-up – but if the only person you've lost is yourself, where do you go from there? Who do you take along? On whose shoulder do you cry out loud? Whom do you seek for guidance? Who can help you pick up those pieces that you have scattered all over, not knowing which piece was important in the first place?
+    </p>),
+  }, 
+  {
+    classes: "verse",
+    html: (
+      <SpotifyPlayer
+        uri="spotify:track:6wsMVa2M6Ktea2UbnVoMvO" // Shafqat Amanat Ali, Kyun Main Jaagoon'
+        size={{
+          width: "100%",
+          height: 300,
+        }}
+        view={"coverart"}
+        theme={"white"}
+      />
+    ),
+  },
+  {
+    classes: "verse",
+    html: (<p>
+      Out of an unbreakable routine, I lit up another joint. What else could I have done in the moment? I had closed every avenue available to me as a result of my own actions – who else did I have to share the blame, but my own self? 
+    </p>),
+  }, {
+    classes: "verse",
+    html: (<p>
+      The icing on the cake in all this rukus, were these tabs of acid that I had managed to procure over the past couple days. The world was fucked, and I was too. There was no hope, but the only surity was that there would be a tomorrow, where I would find something else to put my mind towards. Tonight, I would at least get to see some cool patterns, maybe hear the music a little better, and perhaps dance a little. If I only had me, then this was the one thing that I knew how to do best. 
+    </p>),
+  }, {
+    classes: "verse",
+    html: (<p>
+      Pop; and wait. 
+    </p>),
+  }, 
+  {
+    classes: "verse",
+    html: (
+      <SpotifyPlayer
+        uri="spotify:track:1uahtMMjNzfo4854aTvbXE" // pronoun, a million other things
+        size={{
+          width: "100%",
+          height: 300,
+        }}
+        view={"coverart"}
+        theme={"white"}
+      />
+    ),
   },
   {
     classes: "demarcator",
     html: <hr />,
   },
   {
+    classes: "chapter-title",
+    html: (
+      <p>
+        3 <br />
+        Calling
+      </p>
+    ),
+  },
+  {
+    classes: "verse title-quote",
+    html: (
+      <p>
+        <em>
+          “Blessed is that servant, whom his lord when he cometh shall find so
+          doing.” <br />
+          (Matthew 24:46)
+        </em>
+      </p>
+    ),
+  },
+  {
     classes: "verse",
-    html: <p></p>,
+    html: (<p>
+      DO NOT READ AHEAD, UNLESS YOU WANT TO LOSE INTEREST, GET BORED, OR CONFUSED. Let's chat if you're at this point : anhad@scova.org
+    </p>),
+  }, {
+    classes: "verse",
+    html: (<p>
+      
+    </p>),
+  }, {
+    classes: "verse",
+    html: (<p>
+      
+    </p>),
+  }, {
+    classes: "verse",
+    html: (<p>
+      
+    </p>),
+  }, {
+    classes: "verse",
+    html: (<p>
+      
+    </p>),
+  }, 
+  
+  {
+    classes: "verse",
+    html: (
+      <SpotifyPlayer
+        uri="spotify:track:14h21ca9CFwmBRXL8SgHBl" // Dirty Palm, Keep It Goin'
+        size={{
+          width: "100%",
+          height: 300,
+        }}
+        view={"coverart"}
+        theme={"white"}
+      />
+    ),
+  },
+  {
+    classes: "verse",
+    html: (
+      <SpotifyPlayer
+        uri="spotify:track:36c4JohayB9qd64eidQMBi" // Daft Punk, Doin' It Right
+        size={{
+          width: "100%",
+          height: 300,
+        }}
+        view={"coverart"}
+        theme={"white"}
+      />
+    ),
+  },
+  {
+    classes: "verse",
+    html: (
+      <SpotifyPlayer
+        uri="spotify:track:1eix9LUHO4UdBT9jNvAMxm" // EC Twins, Won't Let You Down
+        size={{
+          width: "100%",
+          height: 300,
+        }}
+        view={"coverart"}
+        theme={"white"}
+      />
+    ),
+  },
+  
+  
+  
+  
+  
+  {
+    classes: "verse",
+    html: (<p>
+      
+    </p>),
+  }, {
+    classes: "verse",
+    html: (<p>
+      
+    </p>),
+  }, {
+    classes: "verse",
+    html: (<p>
+      
+    </p>),
+  }, {
+    classes: "verse",
+    html: (<p>
+      
+    </p>),
+  }, {
+    classes: "verse",
+    html: (<p>
+      
+    </p>),
+  }, {
+    classes: "verse",
+    html: (<p>
+      
+    </p>),
+  }, {
+    classes: "verse",
+    html: (<p>
+      
+    </p>),
+  }, {
+    classes: "verse",
+    html: (<p>
+      
+    </p>),
+  }, {
+    classes: "verse",
+    html: (<p>
+      
+    </p>),
+  }, {
+    classes: "verse",
+    html: (<p>
+      
+    </p>),
+  }, {
+    classes: "verse",
+    html: (<p>
+      
+    </p>),
+  }, {
+    classes: "verse",
+    html: (<p>
+      
+    </p>),
+  }, {
+    classes: "verse",
+    html: (<p>
+      
+    </p>),
+  }, {
+    classes: "verse",
+    html: (<p>
+      
+    </p>),
+  },
+  {
+    classes: "verse",
+    html: (
+      <p>
+        It wasn’t however, all warm and fuzzy for the entire Journey. As the
+        night is darkest before dawn, so was the beginning of my romance with
+        the hidden nature of reality. If I was to be the true judge of all
+        humankind, and execute The Day of Judgement for all souls, it was only
+        fair that I had one of my own – well before I was given any chance to
+        repent.
+      </p>
+    ),
+  },
+  
+  {
+    classes: "verse",
+    html: (
+      <p>
+        How could I have known to repent? I wasn’t brought up indoctrinated in
+        the Gospel, or the Quran. In our house, we barely practiced the rituals
+        of the Guru Granth Sahib – let alone some foreign religions which did
+        not originate in our homeland.
+      </p>
+    ),
+  },
+  {
+    classes: "verse bible",
+    html: (
+      <p>
+        <em>
+          “The lord of that servant shall come in a day <br />
+          when he looketh not for him, <br />
+          and in an hour that he is not aware of, <br />
+          And shall cut him asunder, <br />
+          and appoint him his portion with the hypocrites:
+          <br />
+          <br />
+          there shall be weeping and gnashing of teeth.” <br />
+          (Matthew 24:50-51)
+        </em>
+      </p>
+    ),
+  },
+  {
+    classes: "verse",
+    html: (
+      <p>
+        To call that night, the night of June 12, 2017 CE, a living nightmare
+        would the understatement of the millennium. I was truly judged, and by
+        none other than the Almighty Himself.
+      </p>
+    ),
+  },
+  {
+    classes: "verse",
+    html: (
+      <p>
+        We usually don’t like being judged by random strangers, who know nothing
+        about our person. We hate it when the ones who we think know us, judge
+        us – it almost always seems like a betrayal. Imagine how it feels when
+        an entity who knows you, and keeps track of all that you do, and is
+        truly objective on all matters – judges you.
+      </p>
+    ),
+  },
+  {
+    classes: "verse",
+    html: (
+      <p>
+        I will not go into the gory details of the night here, as I am not here
+        to feed your sadistic fetishes. Humans get off on a lot of things, and
+        one of the foremost of them being the suffering of others. It is the
+        basis of almost all kinds of comedy there is.
+      </p>
+    ),
+  },
+  {
+    classes: "verse",
+    html: (
+      <p>
+        I will, however, say this – I was naked, afraid, embarrassed,
+        remorseful, and broken – in Biblical proportions, specifically, the Old
+        Testament proportions. <em>God does not kid around</em>, and probably,
+        for the sake of all our betterment, <em>neither should I</em>. This
+        thing that I am writing, and this thing that you are currently reading –
+        is the work of a lifetime of struggles, rejections, disappointments,
+        dissonance, and most of all – anger. I may, at times, talk about the
+        wonders, and the promises – but they aren't the whole story, they almost
+        always never are. So, before I proceed, however, I would like to take a
+        time-out and speak to only those readers that are non-believers.
+      </p>
+    ),
+  },
+  {
+    classes: "verse",
+    html: (
+      <p>
+        I have told you that on the Day of my Judgement, I was naked, afraid,
+        embarrassed, remorseful, and broken; but I didn't specify why, or how. I
+        did not want Alethia to just be reduced to the level of a human
+        autobiography, which, in a way, it already is. Regardless, I did not
+        want us to end up in a situation where, either the specific details of
+        my present life were microanalysed ad inifinitum, which would lead to
+        their true substance being lost – because a human life is not just a set
+        of parameters that are introduced in a linear fashion. It could also go
+        the opposite route, which would be worse, where people started to
+        replicate my journey mechanically – thinking that this was one sure-shot
+        way towards salvation. Be assured, that at the time of writing this
+        chapter too, I am not entirely free – that's why the next chapter is
+        entitled in the way that it is.{" "}
+      </p>
+    ),
+  },
+  {
+    classes: "verse",
+    html: (
+      <p>
+        Not maintaining the proper balance between telling a detailed account of
+        events as they occurred, and post-occurrence interpretations of said
+        events was not something I wanted to involve in the equation. Most of
+        what I wanted to talk about life itself, I already have said. Even
+        still, there was left in me, a feeling of this work not being whole.{" "}
+      </p>
+    ),
+  },
+  {
+    classes: "verse",
+    html: (
+      <p>
+        Sure enough, events started to occur in my life to facilitate my
+        thinking, and nudge me towards writing this chapter in a way I knew
+        best, and was now, properly equipped to execute. It's only a bonus then,
+        if readers are enticed into reading Scova because of my personal story,
+        and not despite it. To do that, I could find no other event that has
+        pivoted my life in a way that my Judgement Day did. It is definitely not
+        something that should've been brushed over, and so I certainly will not
+        be providing a sanitised account of events. I will, however, leave room
+        for interpretation, only so that someone in this position in a later
+        spacetime can rewrite the story with their own narrative. Hopefully
+        scribes after my time will not alter anything in Scova to suit their own
+        interpretations.
+      </p>
+    ),
+  },
+  {
+    classes: "verse",
+    html: (
+      <p>
+        The first part of my description of the ill-fated event is not the most
+        striking part of the story by any stretch of the imagination – the fact
+        that I was naked. It is because I literally was. I have it on video, if
+        anyone is masochistic like that, not that I would expect anyone to
+        understand the reason why I was sitting naked, all alone in my apartment
+        at midnight, tired to the bone, exhausted by any reasonable definition,
+        lonely, desolate, smoking marijuana in the dark, and finally deciding to
+        drop some LSD.{" "}
+      </p>
+    ),
+  },
+  {
+    classes: "verse",
+    html: (
+      <p>
+        The first part, really, is the most easy question to answer – I wanted
+        to be as comfortable as possible. Any fabric of clothing that I had on
+        my body, just irked me to the point that it started to interfere with my
+        "high." In the moments I was all alone, and protected in my private
+        oasis, I wanted nothing to do with clothes. I wanted to be as
+        comfortable as I possibly could be in my own skin.{" "}
+      </p>
+    ),
+  },
+  {
+    classes: "verse",
+    html: (
+      <p>
+        It didn't help that I was riddled with all sorts of body image issues,
+        and being naked in a confined space allowed me to learn to accept myself
+        for who I truly was, and not merely what others perceived me to be, or
+        worse – how insanely weird I perceived myself to be. Its bizzare how
+        much damage childhood name calling, and light-hearted remarks on one's
+        appreance can reveal their true face in later years; worse, the way they
+        can stunt one's growth towards their full potential one of the prime
+        reasons why children should be taught kindness, decency, and empathy
+        from the very beginning.
+      </p>
+    ),
+  },
+  {
+    classes: "verse",
+    html: (
+      <p>
+        All sorts of potential arguments could also be made here about me being
+        brown skinned in modern day America, of hailing from a post-colonial
+        country that was at the time, only starting to wake up to the prejudices
+        of Imperial rule that got carried forward into the colloqium, despite
+        each human being declared equal before the law.
+      </p>
+    ),
+  },
+  {
+    classes: "verse",
+    html: (
+      <p>
+        I could go to the very depths of the kind of sociopoliticocultural
+        landscape that allows for a the entire complex of being to become so
+        decadent that there are people are being asked to apologise for the acts
+        that they did not commit because of their heritage, while the ones who
+        commit atrocities in real time are frivolously being ignored – but let's
+        save that part for Neeti. Alethia is about the individual, and as such,
+        I will refrain from the discussions about the collective for the most
+        part until Neeti.
+      </p>
+    ),
+  },
+  {
+    classes: "verse",
+    html: (
+      <p>
+        In the most subtle of ways, I was made to feel less-than in a country
+        where I most definitely did not belong – despite it being world-famous
+        for accepting people of all castes, creeds, colours, cultures, or any
+        confinement of categorisation that your mind could possibly conjure up.{" "}
+      </p>
+    ),
+  },
+  {
+    classes: "verse",
+    html: (
+      <p>
+        In my own country, I was mildly fair-skinned, so I never felt
+        marginalised. As a reason, I never had the mental construct of
+        discrimination by colour built into my mindset. It was that simple. I
+        never experienced it for myself, so I never acknowledged it. Make
+        whatever you want of it, it just never occurred to me, the extent to
+        which the pigmentation of one's skin affected their life, and how
+        persistently, it was the primary driving force behind other entities'
+        treatment of them. It also didn't help that my accent sounded funny to
+        the natives, regardless of their own skin pigmentation – that's a whole
+        other issue that was a key motivator that led me to spend most of my
+        time alone, by myself.{" "}
+      </p>
+    ),
+  },
+  {
+    classes: "verse",
+    html: (
+      <p>
+        I, really, after 4 years of indoctrination, and adaptation, could not
+        find it within myself to speak in the way I wanted. I had always moulded
+        myself, my persona, my language, and my dialect according to what the
+        other person across from me would find comfortable, so this experience
+        wasn't anything particularly novel. I always wanted others to be
+        comfortable with me, because I wanted to be comfortable with them.{" "}
+      </p>
+    ),
+  },
+  {
+    classes: "verse",
+    html: (
+      <p>
+        I told you that I picked up a mixed dialect as a result of being
+        educated in a multi-cultural environment of my Catholic boarding school,
+        with people from all over the country, as a result of which, my language
+        couldn't really be traced back to anywhere specific in the country, but
+        the country itself.{" "}
+      </p>
+    ),
+  },
+  {
+    classes: "verse",
+    html: (
+      <p>
+        That was a problem to me in high-school where I was perceived as an
+        outsider, and that proved to be a problem in college where I literally
+        was an outsider. I grew, I adapted, I tried to switch accents when
+        talking to different sets of people – because of which, I expanded, but
+        at the same time, I lost a little essence of who I really was, because I
+        never really knew much about myself anyway. How could I? I was in my
+        late-teens, early-twenties. Does anyone really expect you to know
+        anything about yourself at that point?{" "}
+      </p>
+    ),
+  },
+  {
+    classes: "verse",
+    html: (
+      <p>
+        How do we then just commit to life-altering decisions at such a young
+        age? We vote for the future our country, we go fight in wars about whose
+        true nature, we don't learn about until decades later – we move entire
+        continents, and leave everything behind that nurtured us, and built all
+        parts of us until that given point in spacetime.{" "}
+      </p>
+    ),
+  },
+  {
+    classes: "verse",
+    html: (
+      <p>
+        We do all this in the name of Freedom, and exploration – we love to use
+        the phrases along the lines of "find myself" as if the self is something
+        that was long lost, and that an archaeological treasure hunt halfway
+        across the globe is needed to truly find <em>our self</em> that has been
+        within us all this time.{" "}
+      </p>
+    ),
+  },
+  {
+    classes: "verse",
+    html: (
+      <p>
+        What is freedom really? Why do we need so much freedom? Why don't we
+        accept the world as it was handed to us? Is it really, always that bad?
+        Was it really all that bad when we didn't know anything about it anyway?{" "}
+      </p>
+    ),
+  },
+  {
+    classes: "verse",
+    html: (
+      <p>
+        Everybody's house has problems. That's the nature of living in a
+        confined space and agreeing to raise more of one's kind in said space.
+        We aren't perfect. We have baggage. Is it so unnatural to assume that
+        the person that we get bound to for the rest of our lives will not have
+        an equivalent, if not more, of the same? If those people do not sort
+        their all their problems, before they bring more of their combinations
+        into the world, it is only natural that the new combination that has
+        just arrived on the scene with zero memories, but some innate intuition,
+        will have newer, and also equivalent, if not more, problems of its own –
+        depending on its eternal internal intuition, and it's compatibility and
+        familiarity with said problems.{" "}
+      </p>
+    ),
+  },
+  {
+    classes: "verse",
+    html: (
+      <p>
+        If this is the case, which it absolutely is, then how is this model of
+        society sustainable? The world is not running on pure chance, because
+        otherwise, we are all astronomically lucky. If God is not modulating
+        this system, then I'd rather just check out of life the moment I'm born
+        every single time – because I'd like to have at least some notion of
+        control, rather than leave it to random chance.{" "}
+      </p>
+    ),
+  },
+
+  {
+    classes: "verse",
+    html: (
+      <p>
+        This, and more, I have already discussed ad nauseam in the previous
+        chapter – I was afraid because I knew that I had not{" "}
+        <em>earned the comfort</em> that I was so wilfully enjoying. If I hadn't
+        been stopped at that point by God, I would've been lost beyond reproach.
+        Well, at the very least, my life would've been geometrically harder. I
+        was afraid because I knew that God came to me, and I was at my lowest
+        point – nakedly indulging, without just cause – and I trembled in fear
+        of what was to follow.
+      </p>
+    ),
+  },
+
+  {
+    classes: "verse",
+    html: (
+      <p>
+        Now you might be inclined to say, to each their own, and as a regular
+        human being, I could try to convince you of how, when my whole world
+        came crashing down, I was left with no other options – but that's a very
+        lengthy discussion, given how much I have psychoanalysed my own self,
+        and given how much I have observed the world, the societies, the
+        cultures, the traditions, and the people of my time. Couple those two
+        things with the fact that I know what is actually up with the world due
+        to this divine ordination that I so generously received in my Freedom
+        Bootcamp. Having all this matter up for discussion with a person who is
+        not even remotely as equipped to handle the truth bombs that I was bound
+        to drop on them, would be inhumane. Also, the entirety of that
+        discussion, would be all of Alethia – which, you are very close to
+        completing anyway – so I'll just talk about the stuff which I could
+        never talk about to, with a real person, in a face to face conversation;
+        because, first, they will never be interested in my life to the depths
+        that I am interested in mine. Second, and this is a big one – even if I
+        managed to do all that in a conversational setting, the person would
+        then ask – "if you know everything about everything, then why haven't
+        you fixed it?"
+      </p>
+    ),
+  },
+  {
+    classes: "verse",
+    html: (
+      <p>
+        Now that's the real kicker, isn't it? All of this realization, and
+        nothing to show for it? What was the whole point of having that
+        discussion if all it was going to acheive was, to make the other person,
+        and myself – feel inadequate? Keep the word inadequate in mind, because
+        that will come in handy in a short while.
+      </p>
+    ),
   },
   {
     classes: "verse",
@@ -3312,14 +4062,37 @@ const verses = [
     classes: "verse",
     html: <p></p>,
   },
+ 
   {
     classes: "verse",
     html: <p></p>,
   },
+
   {
-    classes: "verse",
-    html: <p></p>,
+    classes: "verse bible",
+    html: (
+      <p>
+        <em>
+          Is there not an appointed time to man upon earth? <br />
+          are not his days also like the days of an hireling?
+          <br />
+          As a servant earnestly desireth the shadow, <br />
+          and as an hireling looketh for the reward of his work:
+          <br />
+          So am I made to possess months of vanity, <br />
+          and wearisome nights are appointed to me.
+          <br />
+          <br />
+          When I lie down, I say, When shall I arise, and the night be gone?{" "}
+          <br />
+          and I am full of tossings to and fro unto the dawning of the day.
+          <br />
+          (Job 7:1-4)
+        </em>
+      </p>
+    ),
   },
+  
   {
     classes: "verse",
     html: (
@@ -3391,15 +4164,7 @@ const verses = [
     classes: "verse",
     html: <p></p>,
   },
-  {
-    classes: "verse",
-    html: (
-      <p>
-        Everything after this point is metaphysical gibberish. Email me at
-        anhad@scova.org if you are reading this, and would love to chat.
-      </p>
-    ),
-  },
+
   {
     classes: "verse",
     html: (
@@ -4631,30 +5396,7 @@ const verses = [
       </p>
     ),
   },
-  {
-    classes: "verse",
-    html: (
-      <p>
-        <em>
-          Is there not an appointed time to man upon earth? <br />
-          are not his days also like the days of an hireling?
-          <br />
-          As a servant earnestly desireth the shadow, <br />
-          and as an hireling looketh for the reward of his work:
-          <br />
-          So am I made to possess months of vanity, <br />
-          and wearisome nights are appointed to me.
-          <br />
-          <br />
-          When I lie down, I say, When shall I arise, and the night be gone?{" "}
-          <br />
-          and I am full of tossings to and fro unto the dawning of the day.
-          <br />
-          (Job 7:1-4)
-        </em>
-      </p>
-    ),
-  },
+  
   {
     classes: "verse",
     html: (
@@ -8236,110 +8978,7 @@ const verses = [
       </p>
     ),
   },
-  {
-    classes: "verse",
-    html: (
-      <p>
-        It wasn’t however, all warm and fuzzy for the entire Journey. As the
-        night is darkest before dawn, so was the beginning of my romance with
-        the hidden nature of reality. If I was to be the true judge of all
-        humankind, and execute The Day of Judgement for all souls, it was only
-        fair that I had one of my own – well before I was given any chance to
-        repent.
-      </p>
-    ),
-  },
-  {
-    classes: "verse bible",
-    html: (
-      <p>
-        <em>
-          “Blessed is that servant, whom his lord when he cometh shall find so
-          doing.” <br />
-          (Matthew 24:46)
-        </em>
-      </p>
-    ),
-  },
-  {
-    classes: "verse",
-    html: (
-      <p>
-        How could I have known to repent? I wasn’t brought up indoctrinated in
-        the Gospel, or the Quran. In our house, we barely practiced the rituals
-        of the Guru Granth Sahib – let alone some foreign religions which did
-        not originate in our homeland.
-      </p>
-    ),
-  },
-  {
-    classes: "verse bible",
-    html: (
-      <p>
-        <em>
-          “The lord of that servant shall come in a day <br />
-          when he looketh not for him, <br />
-          and in an hour that he is not aware of, <br />
-          And shall cut him asunder, <br />
-          and appoint him his portion with the hypocrites:
-          <br />
-          <br />
-          there shall be weeping and gnashing of teeth.” <br />
-          (Matthew 24:50-51)
-        </em>
-      </p>
-    ),
-  },
-  {
-    classes: "verse",
-    html: (
-      <p>
-        To call that night, the night of June 12, 2017 CE, a living nightmare
-        would the understatement of the millennium. I was truly judged, and by
-        none other than the Almighty Himself.
-      </p>
-    ),
-  },
-  {
-    classes: "verse",
-    html: (
-      <p>
-        We usually don’t like being judged by random strangers, who know nothing
-        about our person. We hate it when the ones who we think know us, judge
-        us – it almost always seems like a betrayal. Imagine how it feels when
-        an entity who knows you, and keeps track of all that you do, and is
-        truly objective on all matters – judges you.
-      </p>
-    ),
-  },
-  {
-    classes: "verse",
-    html: (
-      <p>
-        I will not go into the gory details of the night here, as I am not here
-        to feed your sadistic fetishes. Humans get off on a lot of things, and
-        one of the foremost of them being the suffering of others. It is the
-        basis of almost all kinds of comedy there is.
-      </p>
-    ),
-  },
-  {
-    classes: "verse",
-    html: (
-      <p>
-        I will, however, say this – I was naked, afraid, embarrassed,
-        remorseful, and broken – in Biblical proportions, specifically, the Old
-        Testament proportions. <em>God does not kid around</em>, and probably,
-        for the sake of all our betterment, <em>neither should I</em>. This
-        thing that I am writing, and this thing that you are currently reading –
-        is the work of a lifetime of struggles, rejections, disappointments,
-        dissonance, and most of all – anger. I may, at times, talk about the
-        wonders, and the promises – but they aren't the whole story, they almost
-        always never are. So, before I proceed, however, I would like to take a
-        time-out and speak to only those readers that are non-believers.
-      </p>
-    ),
-  },
+  
   {
     classes: "verse",
     html: (
@@ -12511,29 +13150,7 @@ const verses = [
         Over time, experiences shape the individual – and their upbringing
         shapes their intuitive mannerisms. Time moulds human beings to help them
         become who they choose to become by <em>virtue of their actions</em>.
-      </p>
-    ),
-  },
-  {
-    classes: "verse",
-    html: (
-      <p>
-        The basis for observing the world <em>must</em> come to be shaped by the
-        understanding that things need to be proven absolutely to be considered
-        certainly true, but also that they need to be disproven absolutely to be
-        considered certainly false.
-      </p>
-    ),
-  },
-  {
-    classes: "verse",
-    html: (
-      <p>
-        All things between, and indeed, such would be the vast majority of
-        things, must be considered in the context of probability – based on the
-        evidence we have seen surrounding them, and also be malleable in the
-        presentation of new evidence, until the truth or falsehood of a thing
-        becomes irrefutable (which may be very rare). This sense of logic is key
+       This sense of logic is key
         to the acquisition of Christ Consciousness, for without it, one would
         surely deny the possibility of many things which seem very strange, but
         are indeed, secretly, true.
@@ -16114,317 +16731,7 @@ const verses = [
       </p>
     ),
   },
-  {
-    classes: "verse",
-    html: (
-      <p>
-        I have told you that on the Day of my Judgement, I was naked, afraid,
-        embarrassed, remorseful, and broken; but I didn't specify why, or how. I
-        did not want Alethia to just be reduced to the level of a human
-        autobiography, which, in a way, it already is. Regardless, I did not
-        want us to end up in a situation where, either the specific details of
-        my present life were microanalysed ad inifinitum, which would lead to
-        their true substance being lost – because a human life is not just a set
-        of parameters that are introduced in a linear fashion. It could also go
-        the opposite route, which would be worse, where people started to
-        replicate my journey mechanically – thinking that this was one sure-shot
-        way towards salvation. Be assured, that at the time of writing this
-        chapter too, I am not entirely free – that's why the next chapter is
-        entitled in the way that it is.{" "}
-      </p>
-    ),
-  },
-  {
-    classes: "verse",
-    html: (
-      <p>
-        Not maintaining the proper balance between telling a detailed account of
-        events as they occurred, and post-occurrence interpretations of said
-        events was not something I wanted to involve in the equation. Most of
-        what I wanted to talk about life itself, I already have said. Even
-        still, there was left in me, a feeling of this work not being whole.{" "}
-      </p>
-    ),
-  },
-  {
-    classes: "verse",
-    html: (
-      <p>
-        Sure enough, events started to occur in my life to facilitate my
-        thinking, and nudge me towards writing this chapter in a way I knew
-        best, and was now, properly equipped to execute. It's only a bonus then,
-        if readers are enticed into reading Scova because of my personal story,
-        and not despite it. To do that, I could find no other event that has
-        pivoted my life in a way that my Judgement Day did. It is definitely not
-        something that should've been brushed over, and so I certainly will not
-        be providing a sanitised account of events. I will, however, leave room
-        for interpretation, only so that someone in this position in a later
-        spacetime can rewrite the story with their own narrative. Hopefully
-        scribes after my time will not alter anything in Scova to suit their own
-        interpretations.
-      </p>
-    ),
-  },
-  {
-    classes: "verse",
-    html: (
-      <p>
-        The first part of my description of the ill-fated event is not the most
-        striking part of the story by any stretch of the imagination – the fact
-        that I was naked. It is because I literally was. I have it on video, if
-        anyone is masochistic like that, not that I would expect anyone to
-        understand the reason why I was sitting naked, all alone in my apartment
-        at midnight, tired to the bone, exhausted by any reasonable definition,
-        lonely, desolate, smoking marijuana in the dark, and finally deciding to
-        drop some LSD.{" "}
-      </p>
-    ),
-  },
-  {
-    classes: "verse",
-    html: (
-      <p>
-        The first part, really, is the most easy question to answer – I wanted
-        to be as comfortable as possible. Any fabric of clothing that I had on
-        my body, just irked me to the point that it started to interfere with my
-        "high." In the moments I was all alone, and protected in my private
-        oasis, I wanted nothing to do with clothes. I wanted to be as
-        comfortable as I possibly could be in my own skin.{" "}
-      </p>
-    ),
-  },
-  {
-    classes: "verse",
-    html: (
-      <p>
-        It didn't help that I was riddled with all sorts of body image issues,
-        and being naked in a confined space allowed me to learn to accept myself
-        for who I truly was, and not merely what others perceived me to be, or
-        worse – how insanely weird I perceived myself to be. Its bizzare how
-        much damage childhood name calling, and light-hearted remarks on one's
-        appreance can reveal their true face in later years; worse, the way they
-        can stunt one's growth towards their full potential one of the prime
-        reasons why children should be taught kindness, decency, and empathy
-        from the very beginning.
-      </p>
-    ),
-  },
-  {
-    classes: "verse",
-    html: (
-      <p>
-        All sorts of potential arguments could also be made here about me being
-        brown skinned in modern day America, of hailing from a post-colonial
-        country that was at the time, only starting to wake up to the prejudices
-        of Imperial rule that got carried forward into the colloqium, despite
-        each human being declared equal before the law.
-      </p>
-    ),
-  },
-  {
-    classes: "verse",
-    html: (
-      <p>
-        I could go to the very depths of the kind of sociopoliticocultural
-        landscape that allows for a the entire complex of being to become so
-        decadent that there are people are being asked to apologise for the acts
-        that they did not commit because of their heritage, while the ones who
-        commit atrocities in real time are frivolously being ignored – but let's
-        save that part for Neeti. Alethia is about the individual, and as such,
-        I will refrain from the discussions about the collective for the most
-        part until Neeti.
-      </p>
-    ),
-  },
-  {
-    classes: "verse",
-    html: (
-      <p>
-        In the most subtle of ways, I was made to feel less-than in a country
-        where I most definitely did not belong – despite it being world-famous
-        for accepting people of all castes, creeds, colours, cultures, or any
-        confinement of categorisation that your mind could possibly conjure up.{" "}
-      </p>
-    ),
-  },
-  {
-    classes: "verse",
-    html: (
-      <p>
-        In my own country, I was mildly fair-skinned, so I never felt
-        marginalised. As a reason, I never had the mental construct of
-        discrimination by colour built into my mindset. It was that simple. I
-        never experienced it for myself, so I never acknowledged it. Make
-        whatever you want of it, it just never occurred to me, the extent to
-        which the pigmentation of one's skin affected their life, and how
-        persistently, it was the primary driving force behind other entities'
-        treatment of them. It also didn't help that my accent sounded funny to
-        the natives, regardless of their own skin pigmentation – that's a whole
-        other issue that was a key motivator that led me to spend most of my
-        time alone, by myself.{" "}
-      </p>
-    ),
-  },
-  {
-    classes: "verse",
-    html: (
-      <p>
-        I, really, after 4 years of indoctrination, and adaptation, could not
-        find it within myself to speak in the way I wanted. I had always moulded
-        myself, my persona, my language, and my dialect according to what the
-        other person across from me would find comfortable, so this experience
-        wasn't anything particularly novel. I always wanted others to be
-        comfortable with me, because I wanted to be comfortable with them.{" "}
-      </p>
-    ),
-  },
-  {
-    classes: "verse",
-    html: (
-      <p>
-        I told you that I picked up a mixed dialect as a result of being
-        educated in a multi-cultural environment of my Catholic boarding school,
-        with people from all over the country, as a result of which, my language
-        couldn't really be traced back to anywhere specific in the country, but
-        the country itself.{" "}
-      </p>
-    ),
-  },
-  {
-    classes: "verse",
-    html: (
-      <p>
-        That was a problem to me in high-school where I was perceived as an
-        outsider, and that proved to be a problem in college where I literally
-        was an outsider. I grew, I adapted, I tried to switch accents when
-        talking to different sets of people – because of which, I expanded, but
-        at the same time, I lost a little essence of who I really was, because I
-        never really knew much about myself anyway. How could I? I was in my
-        late-teens, early-twenties. Does anyone really expect you to know
-        anything about yourself at that point?{" "}
-      </p>
-    ),
-  },
-  {
-    classes: "verse",
-    html: (
-      <p>
-        How do we then just commit to life-altering decisions at such a young
-        age? We vote for the future our country, we go fight in wars about whose
-        true nature, we don't learn about until decades later – we move entire
-        continents, and leave everything behind that nurtured us, and built all
-        parts of us until that given point in spacetime.{" "}
-      </p>
-    ),
-  },
-  {
-    classes: "verse",
-    html: (
-      <p>
-        We do all this in the name of Freedom, and exploration – we love to use
-        the phrases along the lines of "find myself" as if the self is something
-        that was long lost, and that an archaeological treasure hunt halfway
-        across the globe is needed to truly find <em>our self</em> that has been
-        within us all this time.{" "}
-      </p>
-    ),
-  },
-  {
-    classes: "verse",
-    html: (
-      <p>
-        What is freedom really? Why do we need so much freedom? Why don't we
-        accept the world as it was handed to us? Is it really, always that bad?
-        Was it really all that bad when we didn't know anything about it anyway?{" "}
-      </p>
-    ),
-  },
-  {
-    classes: "verse",
-    html: (
-      <p>
-        Everybody's house has problems. That's the nature of living in a
-        confined space and agreeing to raise more of one's kind in said space.
-        We aren't perfect. We have baggage. Is it so unnatural to assume that
-        the person that we get bound to for the rest of our lives will not have
-        an equivalent, if not more, of the same? If those people do not sort
-        their all their problems, before they bring more of their combinations
-        into the world, it is only natural that the new combination that has
-        just arrived on the scene with zero memories, but some innate intuition,
-        will have newer, and also equivalent, if not more, problems of its own –
-        depending on its eternal internal intuition, and it's compatibility and
-        familiarity with said problems.{" "}
-      </p>
-    ),
-  },
-  {
-    classes: "verse",
-    html: (
-      <p>
-        If this is the case, which it absolutely is, then how is this model of
-        society sustainable? The world is not running on pure chance, because
-        otherwise, we are all astronomically lucky. If God is not modulating
-        this system, then I'd rather just check out of life the moment I'm born
-        every single time – because I'd like to have at least some notion of
-        control, rather than leave it to random chance.{" "}
-      </p>
-    ),
-  },
-
-  {
-    classes: "verse",
-    html: (
-      <p>
-        This, and more, I have already discussed ad nauseam in the previous
-        chapter – I was afraid because I knew that I had not{" "}
-        <em>earned the comfort</em> that I was so wilfully enjoying. If I hadn't
-        been stopped at that point by God, I would've been lost beyond reproach.
-        Well, at the very least, my life would've been geometrically harder. I
-        was afraid because I knew that God came to me, and I was at my lowest
-        point – nakedly indulging, without just cause – and I trembled in fear
-        of what was to follow.
-      </p>
-    ),
-  },
-
-  {
-    classes: "verse",
-    html: (
-      <p>
-        Now you might be inclined to say, to each their own, and as a regular
-        human being, I could try to convince you of how, when my whole world
-        came crashing down, I was left with no other options – but that's a very
-        lengthy discussion, given how much I have psychoanalysed my own self,
-        and given how much I have observed the world, the societies, the
-        cultures, the traditions, and the people of my time. Couple those two
-        things with the fact that I know what is actually up with the world due
-        to this divine ordination that I so generously received in my Freedom
-        Bootcamp. Having all this matter up for discussion with a person who is
-        not even remotely as equipped to handle the truth bombs that I was bound
-        to drop on them, would be inhumane. Also, the entirety of that
-        discussion, would be all of Alethia – which, you are very close to
-        completing anyway – so I'll just talk about the stuff which I could
-        never talk about to, with a real person, in a face to face conversation;
-        because, first, they will never be interested in my life to the depths
-        that I am interested in mine. Second, and this is a big one – even if I
-        managed to do all that in a conversational setting, the person would
-        then ask – "if you know everything about everything, then why haven't
-        you fixed it?"
-      </p>
-    ),
-  },
-  {
-    classes: "verse",
-    html: (
-      <p>
-        Now that's the real kicker, isn't it? All of this realization, and
-        nothing to show for it? What was the whole point of having that
-        discussion if all it was going to acheive was, to make the other person,
-        and myself – feel inadequate? Keep the word inadequate in mind, because
-        that will come in handy in a short while.
-      </p>
-    ),
-  },
+  
 
   {
     classes: "verse",
