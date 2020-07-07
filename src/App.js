@@ -6,6 +6,8 @@ import "./Chapters.css";
 import { Button, Navbar, Nav, Form, FormControl, Table } from "react-bootstrap";
 import "bootstrap/dist/css/bootstrap.min.css";
 import FacebookPlayer from "react-facebook-player";
+import SpotifyPlayer from 'react-spotify-player';
+
 
 import { verses, onboarding } from "./Scova";
 

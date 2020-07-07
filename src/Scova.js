@@ -3902,7 +3902,7 @@ const verses = [
     html: (
       <p>
         Around the time I wrote that article, I had started this new practice of
-        addings all the songs that I was vibing with to a specific playlist, and
+        adding all the songs that I was vibing with, to a specific playlist, and
         named it with the first word or phrase that came to mind. Even if I
         hadn't paid attention to the specific lyrics of the songs involved, I'd
         add them anyway, and pay attention later. On the weekend that I wrote
@@ -3971,7 +3971,7 @@ const verses = [
         started to slip away through my body, and in the moment, the only way I
         could keep riding was if I played chords of sorts on a stringed
         instrument. It was equivalent to playing air-guitar, but instead of my
-        palm rolled inwards, towards my own self, it felt more intuitive to
+        palm being rolled inwards, and towards my own self, in the moment, it felt more intuitive to
         focus the face of my palm on the hardwood floor below.
       </p>
     ),
@@ -3985,8 +3985,8 @@ const verses = [
         state. This was familiar, but not the same – the wired patterns started
         to have a sort of glimmer, almost golden in appearance. I vividly
         remember my hearing being focused on the specific lyrics of the song
-        that was playing at the time – Doin' it right, by Daft Punk. This wasn't
-        a usual artist for me, and this surely wasn't the kind of some I'd hear
+        that was playing at the time – <em>Doin' it Right,</em> by Daft Punk. This wasn't
+        a usual artist for me, and this surely wasn't the kind of song I'd hear
         on my long commutes, but I had vibed a little with this song, so it was
         in the playlist. The repetitive lyrics in the beginning of the song got
         me focused on that specific spot on the floor, and I started to feel the
@@ -4030,13 +4030,57 @@ const verses = [
   },
   {
     classes: "verse",
-    html: <p>The golden two-dimentional wired pattern, slowly began to transform itself into a three-dimentional grid-like structure, and began to rise up from the ground. I began to feel ecstatic, amazed, and found myself smiling harder than I had done in the longest time. My heart began to race, and the cloud of dread began to fade away. I kept moving my hand in the repetitive motion to see where this was going to lead. A beautiful golden circle, which was composed in a paisley pattern, with a roman touch formed on the circle, at whose center, I was seated, naked, and now afraid. A blinding flash of white light emanating from the roof of my periphery, engulfing the dark ambient lighting of my tiny apartment. The whole world seemed to spin, with each object haphazardly changing its position from where it was supposed to be. I began to frantically run around, afraid for my life. The police/ambulance sirens that were a norm in New York at the time, certainly didn't help my case. </p>,
+    html: <p>The golden two-dimentional wired pattern, slowly began to transform itself into a three-dimentional grid-like structure, and began to rise up from the ground. I began to feel ecstatic, amazed, and found myself smiling harder than I had done in the longest time. My heart began to race, and the cloud of dread began to fade away. I kept moving my hand in the repetitive motion to see where this was going to lead. A beautiful golden circle, which was composed in a paisley pattern, with a roman touch formed on the circle, at whose center, I was seated – naked, and now afraid. A blinding flash of white light emanated from the roof of my periphery, and engulfed the dark ambient lighting of my tiny apartment. The whole world seemed to spin, with each object haphazardly changing its position from where it was supposed to be. I began to frantically run around, afraid for my life. The police/ambulance sirens that were a norm in New York at the time, certainly didn't help my case. </p>,
   },
   {
     classes: "verse",
     html: <p>
-      I began to look for a pair of trousers that fit properly, and barely managed to put them on. I had fucked around too much too soon with reality, and God had come to punish me, I thought. Then I thought that it was probably God that had consoled me only days earlier, so I couldn't possibly me chastised for doing what I always did. This was the world's fault, and my prayers had been heard, I thought. The world was fucked, and God was now here to set things in order. On that thought, I grabbed my speaker that was still buzzing, and jumped out of my bedroom window, which was on the second floor of the building, hoping to proclaim as an announcer on the empty streets that things would now be okay. This was my Eureka moment. Catastrophically dumb. 
+      I began to look for a pair of trousers that fit properly, and barely managed to put them on. I had fucked around too much too soon with reality, and God had come to punish me, I thought. Then I thought that it was probably God that had consoled me only days earlier, so I couldn't possibly me chastised for doing what I always did. This was the world's fault, and my prayers had been heard, I thought. The world was fucked, and God was now here to set things in order. On that thought, I grabbed my speaker that was still buzzing, and leaped towards my bedroom window, my apartment being on the second floor of the building, hoping to proclaim as an announcer on the empty streets that things would now be okay – and jumped off. This was my Eureka moment. Catastrophically dumb. 
     </p>,
+  },
+
+  {
+    classes: "demarcator",
+    html: <hr />,
+  },
+  {
+    classes: "chapter-title",
+    html: (
+      <p>
+        4 <br />
+        Dwitiya
+      </p>
+    ),
+  },
+
+  {
+    classes: "verse bible",
+    html: (
+      <p>
+        <em>
+          “The lord of that servant shall come in a day <br />
+          when he looketh not for him, <br />
+          and in an hour that he is not aware of, <br />
+          And shall cut him asunder, <br />
+          and appoint him his portion with the hypocrites:
+          <br />
+          <br />
+          there shall be weeping and gnashing of teeth.” <br />
+          (Matthew 24:50-51)
+        </em>
+      </p>
+    ),
+  },
+  {
+    classes: "verse quote",
+    html: (
+      <FacebookProvider appId="295988795097494">
+        <EmbeddedPost
+          href="https://www.facebook.com/anhadarora/posts/10212812682652900"
+          width="600"
+        />
+      </FacebookProvider>
+    ),
   },
 
   {
@@ -4044,7 +4088,7 @@ const verses = [
     html: (
       <p>
         DO NOT READ AHEAD, UNLESS YOU WANT TO LOSE INTEREST, GET BORED, OR
-        CONFUSED. Let's chat if you're at this point : anhad@scova.org
+        BE CONFUSED. Let's chat if you're at this point : anhad@scova.org
       </p>
     ),
   },
@@ -4138,49 +4182,8 @@ const verses = [
     classes: "verse",
     html: <p></p>,
   },
-  {
-    classes: "verse",
-    html: (
-      <p>
-        It wasn’t however, all warm and fuzzy for the entire Journey. As the
-        night is darkest before dawn, so was the beginning of my romance with
-        the hidden nature of reality. If I was to be the true judge of all
-        humankind, and execute The Day of Judgement for all souls, it was only
-        fair that I had one of my own – well before I was given any chance to
-        repent.
-      </p>
-    ),
-  },
 
-  {
-    classes: "verse",
-    html: (
-      <p>
-        How could I have known to repent? I wasn’t brought up indoctrinated in
-        the Gospel, or the Quran. In our house, we barely practiced the rituals
-        of the Guru Granth Sahib – let alone some foreign religions which did
-        not originate in our homeland.
-      </p>
-    ),
-  },
-  {
-    classes: "verse bible",
-    html: (
-      <p>
-        <em>
-          “The lord of that servant shall come in a day <br />
-          when he looketh not for him, <br />
-          and in an hour that he is not aware of, <br />
-          And shall cut him asunder, <br />
-          and appoint him his portion with the hypocrites:
-          <br />
-          <br />
-          there shall be weeping and gnashing of teeth.” <br />
-          (Matthew 24:50-51)
-        </em>
-      </p>
-    ),
-  },
+  
   {
     classes: "verse",
     html: (
@@ -4542,6 +4545,32 @@ const verses = [
       </p>
     ),
   },
+
+  {
+    classes: "verse",
+    html: (
+      <p>
+        As the night is darkest before dawn, so was the beginning of my romance with
+        the hidden nature of reality. If I was to be the true judge of all
+        humankind, and execute The Day of Judgement for all souls, it was only
+        fair that I had one of my own – well before I was given any chance to
+        repent.
+      </p>
+    ),
+  },
+
+  {
+    classes: "verse",
+    html: (
+      <p>
+        How could I have known to repent? I wasn’t brought up indoctrinated in
+        the Gospel, or the Quran. In our house, we barely practiced the rituals
+        of the Guru Granth Sahib – let alone some foreign religions which did
+        not originate in our homeland.
+      </p>
+    ),
+  },
+
   {
     classes: "verse",
     html: <p></p>,
