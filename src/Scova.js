@@ -2159,11 +2159,11 @@ const verses = [
           I had already I altered my entire persona to <strong>fit</strong> into
           the new dynamic
         </em>{" "}
-        of New York City, and of America. I had so desperately wanted to be a part
-        of this galmourous life, of the <em>Land of the Free, and the Home of the
-        Brave,</em> that I had just reduced all of my entire upbringing to zero.
-        Doing this, and more, hadn't gotten me to a particularly exciting
-        position.
+        of New York City, and of America. I had so desperately wanted to be a
+        part of this galmourous life, of the{" "}
+        <em>Land of the Free, and the Home of the Brave,</em> that I had just
+        reduced all of my entire upbringing to zero. Doing this, and more,
+        hadn't gotten me to a particularly exciting position.
       </p>
     ),
   },
@@ -2271,7 +2271,9 @@ const verses = [
         altogether, and saturated myself with physical relievers. I never wanted
         to feel bad, so I did the opposite – tried to feel good all the time,
         because, like I've already said, I was ecstatic when I was able to form
-        a coherent thought that people could relate to. This habit of mine had started because I wanted to explore more of what the world had to offer, and see if life was really worth living.
+        a coherent thought that people could relate to. This habit of mine had
+        started because I wanted to explore more of what the world had to offer,
+        and see if life was really worth living.
       </p>
     ),
   },
@@ -2280,10 +2282,14 @@ const verses = [
     html: (
       <p>
         Then, because I had kept this facade up for longer than needed, I lost
-        the true essence of myself altogether. <strong><em>I was it, and it was me.</em></strong> It was as if I hadn't let go of the mindless garbage that I was trying to get
-        over, but instead, stuffed it deep down into wherever these thoughts
-        went, and slapped a fancy band-aid on top of it all. This facade was
-        how others that saw me, defined me.
+        the true essence of myself altogether.{" "}
+        <strong>
+          <em>I was it, and it was me.</em>
+        </strong>{" "}
+        It was as if I hadn't let go of the mindless garbage that I was trying
+        to get over, but instead, stuffed it deep down into wherever these
+        thoughts went, and slapped a fancy band-aid on top of it all. This
+        facade was how others that saw me, defined me.
       </p>
     ),
   },
@@ -2360,9 +2366,9 @@ const verses = [
       <p>
         Here I was, in my fancy shoe-box of an apartment, in the most talked
         about place on Earth – unhappy to the deepest recessions of my
-        conscious, and arguably subconscious, being. I was not going to
-        graduate on time, and I had just been fired from a menial job, and the
-        one that I still had, I really didn't want to go back to.
+        conscious, and arguably subconscious, being. I was not going to graduate
+        on time, and I had just been fired from a menial job, and the one that I
+        still had, I really didn't want to go back to.
       </p>
     ),
   },
@@ -2463,14 +2469,15 @@ const verses = [
     html: (
       <p>
         I sent multiple emails like this, and had multiple in-person
-        conversations like this, and they all said the same thing – <em>seek help.</em>
+        conversations like this, and they all said the same thing –{" "}
+        <em>seek help.</em>
         Arguably, it didn't take a genius to figure out that I needed help – I
         used the actual words that "I need help." I asked friends – they were
         the same age as me, so of course they were clueless. How could they know
         more? They were also limited in their exposure to the right information.
-        I asked my parents – they were the root cause of most of my problems, and
-        because I was their first-born, they had no clue as to how to deal with
-        someone my age. They too, were limited in their exposure, and
+        I asked my parents – they were the root cause of most of my problems,
+        and because I was their first-born, they had no clue as to how to deal
+        with someone my age. They too, were limited in their exposure, and
         experience.{" "}
       </p>
     ),
@@ -2499,7 +2506,8 @@ const verses = [
         when trying to rebut their claim. I felt dizzy, so I laid down on my
         bed, and started to look at the sunlight refracting through my
         decorative curtains – lo and behold, an image of Guru Nanak emanating
-        through the floral patterns of the curtains as beams of light passed through them.
+        through the floral patterns of the curtains as beams of light passed
+        through them.
       </p>
     ),
   },
@@ -2559,7 +2567,7 @@ const verses = [
     html: (
       <p>
         2 <br />
-        Empty
+        LoST
       </p>
     ),
   },
@@ -2615,10 +2623,10 @@ const verses = [
     html: (
       <InstagramEmbed
         url="https://www.instagram.com/p/BTvvgU2FiNC/?utm_source=ig_web_copy_link"
-        containerTagName='div'
+        containerTagName="div"
         hideCaption={false}
         maxWidth={320}
-        align='center'
+        align="center"
       />
     ),
   },
@@ -2632,7 +2640,14 @@ const verses = [
         states. To say that I was scared would be the understatement of the
         Millennium – I had started to shake to the bone. Sure, that could also
         just be a side-effect of my indulgences – I had known LSD to have that
-        effect on my physical body. Still, the Devil's Advocate in me couldn't just pass this off as a coincidence. <em>Either I had stumbled upon the Divine path, or I had definitively discovered that the concept of religion itself was a global conspiracy, dudes tripping balls in caves and whatnot</em>. 
+        effect on my physical body. Still, the Devil's Advocate in me couldn't
+        just pass this off as a coincidence.{" "}
+        <em>
+          Either I had stumbled upon the Divine path, or I had definitively
+          discovered that the concept of religion itself was a global
+          conspiracy, dudes tripping balls in caves and whatnot
+        </em>
+        .
       </p>
     ),
   },
@@ -2669,10 +2684,10 @@ const verses = [
         In fact, that's exactly what I did when the drug washed away from my
         system. I went about my daily routines, went back to college for the
         final week of classes, and sanitised my apartment as my parents were due
-        to come into town for my <em>Graduation.</em> At the time, they knew nothing
-        about my indulgences in this foreign country, and I intended to uphold
-        the status quo. <em>Why fix what ain't broke</em>, I thought; rather,
-        why upset the balance when the alternative is pure chaos?
+        to come into town for my <em>Graduation.</em> At the time, they knew
+        nothing about my indulgences in this foreign country, and I intended to
+        uphold the status quo. <em>Why fix what ain't broke</em>, I thought;
+        rather, why upset the balance when the alternative is pure chaos?
       </p>
     ),
   },
@@ -2695,11 +2710,15 @@ const verses = [
         Linear Algebra, and had to repeat the course over the summer, with the
         same professor. I took it in my stride, and put up mandatory
         ecstatic-about-graduation posts across all my social channels. Of
-        course, my original facebook post was just a continuation of my
-        ongoing facade, prior to this Glimpse, but what else could I do? Drop everything and announce I was going home, because "death to America"? I wasn't suddenly going to turn into a radical religious fanatic because Nanak had shushed me.{" "}
+        course, my original facebook post was just a continuation of my ongoing
+        facade, prior to this Glimpse, but what else could I do? Drop everything
+        and announce I was going home, because "death to America"? I wasn't
+        suddenly going to turn into a radical religious fanatic because Nanak
+        had shushed me.{" "}
         <strong>
           <em>I needed to know more.</em>
-        </strong> I couldn't just blindly trust. I had to verify. I needed time, and
+        </strong>{" "}
+        I couldn't just blindly trust. I had to verify. I needed time, and
         access to more of this magical potion that was causing the structure of
         reality to fall apart.
       </p>
@@ -2707,19 +2726,31 @@ const verses = [
   },
   {
     classes: "verse",
-    html: <p>
-      My parents came, happy, but not content – I had been avoiding talking to them for months now, and all of a sudden they were here. Could I tell them anything? Where would I start? How would I frame the sentences? What mindset were they supposed to be in to be truly acceptant of my revelry? Was I really prepared for all the questions that they would most definitely throw at me? I knew I was at fault, but wasn't I the victim once? Wasn't this why I began this whole charade? Wasn't this why I essentially ran away from home, desperately trying to escape? How did I end up in the worst possible position, given all of my actions? I had done no harm to any other person, but myself, why was I being punished more, and repeatedly?
-    </p>,
+    html: (
+      <p>
+        My parents came, happy, but not content – I had been avoiding talking to
+        them for months now, and all of a sudden they were here. Could I tell
+        them anything? Where would I start? How would I frame the sentences?
+        What mindset were they supposed to be in to be truly acceptant of my
+        revelry? Was I really prepared for all the questions that they would
+        most definitely throw at me? I knew I was at fault, but wasn't I the
+        victim once? Wasn't this why I began this whole charade? Wasn't this why
+        I essentially ran away from home, desperately trying to escape? How did
+        I end up in the worst possible position, given all of my actions? I had
+        done no harm to any other person, but myself, why was I being punished
+        more, and repeatedly?
+      </p>
+    ),
   },
   {
     classes: "verse",
     html: (
       <InstagramEmbed
         url="https://www.instagram.com/p/BT0KQaPFyyu/?utm_source=ig_web_copy_link"
-        containerTagName='div'
+        containerTagName="div"
         hideCaption={false}
         maxWidth={320}
-        align='center'
+        align="center"
       />
     ),
   },
@@ -2806,140 +2837,299 @@ const verses = [
   },
   {
     classes: "verse",
-    html: <p>
-      I liked that idea, for a while, and it was fun while it was good. As my college life neared its end, and reality came knocking, I was starting to feel an existential dread hover over me. I spent so much time thinking, pondering, and revising my ideas about life – but then all of a sudden, this? Where did this holy person, the founder of my faith, appear out of? Was it the specific placement of the drapes at that very moment, in that very spot – was it just a massive coincidence, or was this a recurrent pattern, or something, really, wholly, truly, larger than life? What kind of sorcery had I gotten myself mixed up in? 
-    </p>,
+    html: (
+      <p>
+        I liked that idea, for a while, and it was fun while it was good. As my
+        college life neared its end, and reality came knocking, I was starting
+        to feel an existential dread hover over me. I spent so much time
+        thinking, pondering, and revising my ideas about life – but then all of
+        a sudden, this? Where did this holy person, the founder of my faith,
+        appear out of? Was it the specific placement of the drapes at that very
+        moment, in that very spot – was it just a massive coincidence, or was
+        this a recurrent pattern, or something, really, wholly, truly, larger
+        than life? What kind of sorcery had I gotten myself mixed up in?
+      </p>
+    ),
   },
   {
     classes: "verse",
     html: (
       <InstagramEmbed
         url="https://www.instagram.com/p/BUIXviOltSp/?utm_source=ig_web_copy_link"
-        containerTagName='div'
+        containerTagName="div"
         hideCaption={false}
         maxWidth={320}
-        align='center'
+        align="center"
       />
     ),
   },
   {
     classes: "verse",
-    html: <p>
-      All I really wanted to do, was enjoy my free time, and I did it in the best was I knew how. Then, was my way truly so great that I had found the ultimate respite – the Absolute Truth? Is this what Nanak spent his life singing about? Were the 10 gurus, just a closed cult of hedonistic nepotists, who passed on the secret to a pleasurable life over generations to close relatives, and then in the end, composed a cryptic symphony that was in some way related to the rituals that a person in that elevated state was bound to have established for their own self anyway? Over a month went by, and I was just – processing. 
-    </p>,
+    html: (
+      <p>
+        All I really wanted to do, was enjoy my free time, and I did it in the
+        best was I knew how. Then, was my way truly so great that I had found
+        the ultimate respite – the Absolute Truth? Is this what Nanak spent his
+        life singing about? Were the 10 gurus, just a closed cult of hedonistic
+        nepotists, who passed on the secret to a pleasurable life over
+        generations to close relatives, and then in the end, composed a cryptic
+        symphony that was in some way related to the rituals that a person in
+        that elevated state was bound to have established for their own self
+        anyway? Over a month went by, and I was just – processing.
+      </p>
+    ),
   },
   {
     classes: "verse",
     html: (
       <InstagramEmbed
         url="https://www.instagram.com/p/BUQpZs-FigS/?utm_source=ig_web_copy_link"
-        containerTagName='div'
+        containerTagName="div"
         hideCaption={false}
         maxWidth={320}
-        align='center'
+        align="center"
       />
     ),
   },
   {
     classes: "verse",
-    html: <p>
-      Over a month went by, and by then, I had almost forgotten about this Glimpse. Yes, I was processing it for a very long time, but as is the nature of life, other stuff that is currently ongoing, takes precedence. The parts of life that do not have a proper storyline, the parts that are dissonant, and involve a boatload of brain power are often kept on the backburner – making their existence felt only when relevant. 
-    </p>,
-  },
-  {
-    classes: "verse",
-    html: <p>
-      Three odd things did happen which I have managed to remember to this day. The first one being the unavailability of LSD, but also, of time to indulge in such a long trip that required a good portion of the day, and left you so exhausted that you really had to set aside a whole weekend for just a single trip. I usually had the luxury for such indulgences when I easily cancelled plans with the "boys." To be really honest, I wasn't very keen on calling LSD an indulgence at that moment. At the time, it was more of a life-exploration, mind-expanding treatment that I was flirting with. The Glimpse had happened on what was essentially my fourth acid trip. 
-    </p>,
-  },
-  {
-    classes: "verse",
-    html: <p>
-      I had made a mental commitment that I was going to get the best grades I possibly could, and with a little flattery and presenting myself as an ideal student, impress my Analytics professor and cajole him into getting me a job somewhere not in the US. I was most definitely not ready to go home yet, or ever. I may have seen Nanak's face, but that really didn't change anything. I had written that article, but that also, just had tainted America for me – other caucasian countries still had a fair chance. 
-    </p>,
-  },
-  {
-    classes: "verse",
-    html: <p>
-      The second odd thing was very miniscule, something which I would've disregarded, had it not been for the impeccable timing of it. The boys and I were at a club, and one of them had just ordered a bottle of champagne to celebrate his admission into a prestigious MBA program. This was hardly surprising, given that he was genuinely book-smart. I was, also slightly unsure about this news, given this person's history of lying. Whatever the case, I wasn't one to turn down a free drink – the more the merrier. 
-    </p>,
-  },
-  {
-    classes: "verse",
-    html: <p>
-      We sat down, and began to chat about our future prospects. I, at the time, had already given up all of my prospects, by will or by circumstance, and was left with nothing to talk about, but this latest introspective adventure of whose meaning, I had no way of explaining. I began to talk anyway. I started off with declaring that I wasn't entirely sober when said occurence took place, and he scoffed, because what else was expected of me anyway? I skipped over the dates of this trip, because then he would know why I had missed our senior formal. Being sufficiently vague, I skipped the segment about my article, and moved ahead to the part about lying down on my bed and looking at the drapes.
-    </p>,
-  },
-  {
-    classes: "verse",
-    html: <p>I mentioned that I saw an image of Guru Nanak while tripping on acid, and that the face in the image was obscured by a mudra of the hands. I was about to get to the part about Him consciously shushing me, but we just got interrupted by another friend of ours who dragged him away. </p>,
-  },
-  {
-    classes: "verse",
-    html: <p>Later that night, before going to bed, I was led to searching the meaning of the word, "syncronicity" and my intuiton told me that that's probably what was beginning to occur with me. A slight shiver went down my entire body – not the kind that makes one scared, but the kind that slightly arouses one's sense, in a sort of awakening, in the presence of something novel, and breathtaking. </p>,
-  },
-  {
-    classes: "verse",
-    html: <p>
-      The third oddity was probably the major turning point that would form a prelude to what was to come later. It was one of the boys' last night in New York, before leaving for India after college had ended for them. I, on the other hand, was going to be in New York for at least that summer, as I still had those failed classes to retake. He wanted to have a sober night out, after his own carousal journey. The one who was not leaving, wanted to celebrate equally on finally getting a permanent, paying gig that would sponsor his stay in the country for years to come. 
-    </p>,
-  },
-  {
-    classes: "verse",
-    html: <p>
-      I can undoubtedly say, that they both deserved it. They had partied, but also balanced their responsibilities with a clear head. I admired their gumption, and their focus – which is why I liked having them around. They made me want to be better, to do better, to try harder, and to give my own life, my own ambitions, and my own narrative, the grit with which I engrossed myself in this exploratory parallel life wherein I was always looking for ways to be more comfortable than my actual, physical stature had warranted. 
-    </p>,
-  },
-  {
-    classes: "verse",
-    html: <p>
-      So to celebrate earnestly, in a manner that suited all of our mellow temperaments, my friend who was staying in New York and myself, decided to take ecstacy. We were accompanied by our friend who was leaving, and another one of their friends, with whom I had never actually had a chance to properly bond. He was more of a delicate whiskey admirer, who couldn't indulge in illicit substances to the level that three of us "boys" could. 
-    </p>,
-  },
-  {
-    classes: "verse",
-    html: <p>
-      We were all not the kind to dance all night, and party till the sun came up, so we just decided to walk around East Village, in an attempt that was reminiscent of a beautiful walking around acid trip that my friend partaking in ecstacy with me had had with me a couple months prior. 
-    </p>,
-  },
-  {
-    classes: "verse",
-    html: <p>
-      Throughout the night, we were split into combinations of pairs, walking side by side, just calmly chatting about where we came from, and reflected on how far we had come, and how we still, had miles to go before we slept. All three of the guys had fabulous prospects in every sense of the word. The one in finance was going to work for a major multinational bank, the one in tech was going to work for a social media behemoth, and the business oriented one was going to take up his position in his family business. 
-    </p>,
-  },
-  {
-    classes: "verse",
-    html: (<p>
-      It seemed that life was panning out very well according to the aspirations that they said they had in the beginning of their respective undergraduate journeys. Myself on the other hand, had vague ideas about exploring life, and escaping home; and to be really honest, I had actually done well too – given the mind-shattering Glimpse. 
-    </p>)
-  },
-  {
-    classes: "verse",
-    html: (<p>
-      It wasn't as if my existence thus far had been just of a pathetic addict, who was rolling around in the mud because he didn't know better. I had learnt, I had failed, and I had always gotten the courage to get back up, no matter how flailingly. If the summer went well, I would only be three months behind the rest of my class, and would've graduated with a double major, that too in the vastly uncommon combination of Computer Science and Psychology. If I played my cards right over the summer, I could still land a paying gig in the field of my choice. 
-    </p>)
-  },
-  {
-    classes: "verse",
-    html: (<p>
-      Ofcourse my start would be a little harder than these three compatriots for the night, but then again, I had much more emotional maturity than them three combined. My emotional stability, however, was an altogether different matter. The fact that I had come this far, without any emotional support system to carry me across throughout my days, was an issue that I had yet, not acknowledged properly. 
+    html: (
+      <p>
+        Over a month went by, and by then, I had almost forgotten about this
+        Glimpse. Yes, I was processing it for a very long time, but as is the
+        nature of life, other stuff that is currently ongoing, takes precedence.
+        The parts of life that do not have a proper storyline, the parts that
+        are dissonant, and involve a boatload of brain power are often kept on
+        the backburner – making their existence felt only when relevant.
       </p>
-      )
+    ),
   },
   {
     classes: "verse",
     html: (
       <p>
-        I had come to New York City from Ludhiana, with no friends, or relatives to guide me, and stand by me, in this strange country. Most of the people who had supposedly been doing well in college, had some kind of support system. Whether it was friends from the same school, or the same town, at NYU, or in neighbouring colleges, or visiting repeatedly from different citites in the States, or relatives to spend the weekend at, and guide through the bureaucratic complexes that are a major challenge for anyone willing to relocate. Even though my education and living expenses were paid for, I was starting from nothing, a true outsider. 
-        </p>
-    )
+        Three odd things did happen which I have managed to remember to this
+        day. The first one being the unavailability of LSD, but also, of time to
+        indulge in such a long trip that required a good portion of the day, and
+        left you so exhausted that you really had to set aside a whole weekend
+        for just a single trip. I usually had the luxury for such indulgences
+        when I easily cancelled plans with the "boys." To be really honest, I
+        wasn't very keen on calling LSD an indulgence at that moment. At the
+        time, it was more of a life-exploration, mind-expanding treatment that I
+        was flirting with. The Glimpse had happened on what was essentially my
+        fourth acid trip.
+      </p>
+    ),
   },
   {
     classes: "verse",
     html: (
       <p>
-        Even back in Ludhiana, my birthplace, and the residence of my parents since their marriage, I never felt at home. I was never really there. My thoughts, my dreams, my hopes, my aspirations, and my desires had always been elsewhere. I had never truly accepted Ludhiana as my home, and in turn, Ludhiana had never truly accepted me. It made sense then, that wherever I went in this city, and whoever I talked to, thought of me as an outsider.
+        I had made a mental commitment that I was going to get the best grades I
+        possibly could, and with a little flattery and presenting myself as an
+        ideal student, impress my Analytics professor and cajole him into
+        getting me a job somewhere not in the US. I was most definitely not
+        ready to go home yet, or ever. I may have seen Nanak's face, but that
+        really didn't change anything. I had written that article, but that
+        also, just had tainted America for me – other caucasian countries still
+        had a fair chance.
+      </p>
+    ),
+  },
+  {
+    classes: "verse",
+    html: (
+      <p>
+        The second odd thing was very miniscule, something which I would've
+        disregarded, had it not been for the impeccable timing of it. The boys
+        and I were at a club, and one of them had just ordered a bottle of
+        champagne to celebrate his admission into a prestigious MBA program.
+        This was hardly surprising, given that he was genuinely book-smart. I
+        was, also slightly unsure about this news, given this person's history
+        of lying. Whatever the case, I wasn't one to turn down a free drink –
+        the more the merrier.
+      </p>
+    ),
+  },
+  {
+    classes: "verse",
+    html: (
+      <p>
+        We sat down, and began to chat about our future prospects. I, at the
+        time, had already given up all of my prospects, by will or by
+        circumstance, and was left with nothing to talk about, but this latest
+        introspective adventure of whose meaning, I had no way of explaining. I
+        began to talk anyway. I started off with declaring that I wasn't
+        entirely sober when said occurence took place, and he scoffed, because
+        what else was expected of me anyway? I skipped over the dates of this
+        trip, because then he would know why I had missed our senior formal.
+        Being sufficiently vague, I skipped the segment about my article, and
+        moved ahead to the part about lying down on my bed and looking at the
+        drapes.
+      </p>
+    ),
+  },
+  {
+    classes: "verse",
+    html: (
+      <p>
+        I mentioned that I saw an image of Guru Nanak while tripping on acid,
+        and that the face in the image was obscured by a mudra of the hands. I
+        was about to get to the part about Him consciously shushing me, but we
+        just got interrupted by another friend of ours who dragged him away.{" "}
+      </p>
+    ),
+  },
+  {
+    classes: "verse",
+    html: (
+      <p>
+        Later that night, before going to bed, I was led to searching the
+        meaning of the word, "syncronicity" and my intuiton told me that that's
+        probably what was beginning to occur with me. A slight shiver went down
+        my entire body – not the kind that makes one scared, but the kind that
+        slightly arouses one's sense, in a sort of awakening, in the presence of
+        something novel, and breathtaking.{" "}
+      </p>
+    ),
+  },
+  {
+    classes: "verse",
+    html: (
+      <p>
+        The third oddity was probably the major turning point that would form a
+        prelude to what was to come later. It was one of the boys' last night in
+        New York, before leaving for India after college had ended for them. I,
+        on the other hand, was going to be in New York for at least that summer,
+        as I still had those failed classes to retake. He wanted to have a sober
+        night out, after his own carousal journey. The one who was not leaving,
+        wanted to celebrate equally on finally getting a permanent, paying gig
+        that would sponsor his stay in the country for years to come.
+      </p>
+    ),
+  },
+  {
+    classes: "verse",
+    html: (
+      <p>
+        I can undoubtedly say, that they both deserved it. They had partied, but
+        also balanced their responsibilities with a clear head. I admired their
+        gumption, and their focus – which is why I liked having them around.
+        They made me want to be better, to do better, to try harder, and to give
+        my own life, my own ambitions, and my own narrative, the grit with which
+        I engrossed myself in this exploratory parallel life wherein I was
+        always looking for ways to be more comfortable than my actual, physical
+        stature had warranted.
+      </p>
+    ),
+  },
+  {
+    classes: "verse",
+    html: (
+      <p>
+        So to celebrate earnestly, in a manner that suited all of our mellow
+        temperaments, my friend who was staying in New York and myself, decided
+        to take ecstacy. We were accompanied by our friend who was leaving, and
+        another one of their friends, with whom I had never actually had a
+        chance to properly bond. He was more of a delicate whiskey admirer, who
+        couldn't indulge in illicit substances to the level that three of us
+        "boys" could.
+      </p>
+    ),
+  },
+  {
+    classes: "verse",
+    html: (
+      <p>
+        We were all not the kind to dance all night, and party till the sun came
+        up, so we just decided to walk around East Village, in an attempt that
+        was reminiscent of a beautiful walking around acid trip that my friend
+        partaking in ecstacy with me had had with me a couple months prior.
+      </p>
+    ),
+  },
+  {
+    classes: "verse",
+    html: (
+      <p>
+        Throughout the night, we were split into combinations of pairs, walking
+        side by side, just calmly chatting about where we came from, and
+        reflected on how far we had come, and how we still, had miles to go
+        before we slept. All three of the guys had fabulous prospects in every
+        sense of the word. The one in finance was going to work for a major
+        multinational bank, the one in tech was going to work for a social media
+        behemoth, and the business oriented one was going to take up his
+        position in his family business.
+      </p>
+    ),
+  },
+  {
+    classes: "verse",
+    html: (
+      <p>
+        It seemed that life was panning out very well according to the
+        aspirations that they said they had in the beginning of their respective
+        undergraduate journeys. Myself on the other hand, had vague ideas about
+        exploring life, and escaping home; and to be really honest, I had
+        actually done well too – given the mind-shattering Glimpse.
+      </p>
+    ),
+  },
+  {
+    classes: "verse",
+    html: (
+      <p>
+        It wasn't as if my existence thus far had been just of a pathetic
+        addict, who was rolling around in the mud because he didn't know better.
+        I had learnt, I had failed, and I had always gotten the courage to get
+        back up, no matter how flailingly. If the summer went well, I would only
+        be three months behind the rest of my class, and would've graduated with
+        a double major, that too in the vastly uncommon combination of Computer
+        Science and Psychology. If I played my cards right over the summer, I
+        could still land a paying gig in the field of my choice.
+      </p>
+    ),
+  },
+  {
+    classes: "verse",
+    html: (
+      <p>
+        Ofcourse my start would be a little harder than these three compatriots
+        for the night, but then again, I had much more emotional maturity than
+        them three combined. My emotional stability, however, was an altogether
+        different matter. The fact that I had come this far, without any
+        emotional support system to carry me across throughout my days, was an
+        issue that I had yet, not acknowledged properly.
+      </p>
+    ),
+  },
+  {
+    classes: "verse",
+    html: (
+      <p>
+        I had come to New York City from Ludhiana, with no friends, or relatives
+        to guide me, and stand by me, in this strange country. Most of the
+        people who had supposedly been doing well in college, had some kind of
+        support system. Whether it was friends from the same school, or the same
+        town, at NYU, or in neighbouring colleges, or visiting repeatedly from
+        different citites in the States, or relatives to spend the weekend at,
+        and guide through the bureaucratic complexes that are a major challenge
+        for anyone willing to relocate. Even though my education and living
+        expenses were paid for, I was starting from nothing, a true outsider.
+      </p>
+    ),
+  },
+  {
+    classes: "verse",
+    html: (
+      <p>
+        Even back in Ludhiana, my birthplace, and the residence of my parents
+        since their marriage, I never felt at home. I was never really there. My
+        thoughts, my dreams, my hopes, my aspirations, and my desires had always
+        been elsewhere. I had never truly accepted Ludhiana as my home, and in
+        turn, Ludhiana had never truly accepted me. It made sense then, that
+        wherever I went in this city, and whoever I talked to, thought of me as
+        an outsider.
       </p>
     ),
   },
@@ -2965,9 +3155,9 @@ const verses = [
     classes: "verse",
     html: (
       <p>
-        I have seen similarly sensitive traits in my sister over the years, so from this
-        limited observation, I am concluding that these habits were inherited
-        from the{" "}
+        I have seen similarly sensitive traits in my sister over the years, so
+        from this limited observation, I am concluding that these habits were
+        inherited from the{" "}
         <em>familial environment (some of it nature, most of it nurture)</em>.
         This, I remember, because these mannerisms had followed me to my
         boarding school in Mussoorie. I was, at the time, a cranky kid, in a
@@ -3152,21 +3342,39 @@ const verses = [
   },
   {
     classes: "verse",
-    html: <p>
-      Despite everything that could be going on in a different setting, this particular group had no such predispositions to speak of, at least superficially. I don't particularly remember the specifics of that night (as I do not remember most of my college details), but I do remember the feeling I had when I got back home – <em>emptiness.</em>
-    </p>,
+    html: (
+      <p>
+        Despite everything that could be going on in a different setting, this
+        particular group had no such predispositions to speak of, at least
+        superficially. I don't particularly remember the specifics of that night
+        (as I do not remember most of my college details), but I do remember the
+        feeling I had when I got back home – <em>emptiness.</em>
+      </p>
+    ),
   },
   {
     classes: "verse",
-    html: <p>
-      I had spent so much time in this place, hung out with so many different kinds of people, given so much of my time, effort, energy, and commitment to these people – but to what end?
-    </p>,
+    html: (
+      <p>
+        I had spent so much time in this place, hung out with so many different
+        kinds of people, given so much of my time, effort, energy, and
+        commitment to these people – but to what end?
+      </p>
+    ),
   },
   {
     classes: "verse",
-    html: <p>
-      The conversations we had that night, barely scratched the surface of what it was that I had to offer. All of us were so busy telling our own stories, that we never heard what the other person was really saying. We understood their situation instantly, given the amount of information that we absorb on a daily basis, so we "knew of" that situation – but because we were all so young, we did not know how to deal with those situations, not adequately. 
-    </p>,
+    html: (
+      <p>
+        The conversations we had that night, barely scratched the surface of
+        what it was that I had to offer. All of us were so busy telling our own
+        stories, that we never heard what the other person was really saying. We
+        understood their situation instantly, given the amount of information
+        that we absorb on a daily basis, so we "knew of" that situation – but
+        because we were all so young, we did not know how to deal with those
+        situations, not adequately.
+      </p>
+    ),
   },
   {
     classes: "verse",
@@ -3236,169 +3444,319 @@ const verses = [
         molecular interactions with internal bodily chemistry that gives you a
         sensation of being <em>more </em>alive. I say more, because the humdrum
         life in most moments doesn’t feel like being alive. Adrenalin is a drug.
-        Productivity is a rush. Escapism is a rush. Every upper is a rush that excites, and every downer in a rush that mellows, all very potent in their own right. At the time of writing this
-        text, I don’t think I could ever be fit enough to judge another human
-        being for partaking in the use of drugs, whatever their kind may be
-        (drugs, I mean).
+        Productivity is a rush. Escapism is a rush. Every upper is a rush that
+        excites, and every downer in a rush that mellows, all very potent in
+        their own right. At the time of writing this text, I don’t think I could
+        ever be fit enough to judge another human being for partaking in the use
+        of drugs, whatever their kind may be (drugs, I mean).
       </p>
     ),
   },
   {
     classes: "verse",
-    html: <p>
-      In that moment, when I got back home, out of habit, I started rolling a joint. I was tired to the bone, but I did not want to go to sleep like this, at least not depressed again. I was doing so well after my parents had left after graduation, that I just did not want to start the vicious cycle yet again. 
-    </p>,
+    html: (
+      <p>
+        In that moment, when I got back home, out of habit, I started rolling a
+        joint. I was tired to the bone, but I did not want to go to sleep like
+        this, at least not depressed again. I was doing so well after my parents
+        had left after graduation, that I just did not want to start the vicious
+        cycle yet again.
+      </p>
+    ),
   },
   {
     classes: "verse",
-    html: <p>
-      I just did not have enough courage in me to face another day with this dread, this loneliness, this emptiness, this feeling that if I were to end my life tonight, people wouldn't find out for weeks. I was once again, out of touch with my family, and the friends that I had, were busy enough to stay unaware, and given my unexplained absences from social events, nobody would realise that something had gone awry. 
-    </p>,
+    html: (
+      <p>
+        I just did not have enough courage in me to face another day with this
+        dread, this loneliness, this emptiness, this feeling that if I were to
+        end my life tonight, people wouldn't find out for weeks. I was once
+        again, out of touch with my family, and the friends that I had, were
+        busy enough to stay unaware, and given my unexplained absences from
+        social events, nobody would realise that something had gone awry.
+      </p>
+    ),
   },
   {
     classes: "verse",
-    html: <p>
-      It was in that moment, that I realised, that if I were to die, nobody would've known the true Me – nobody would tell them of the things that I had discovered, or rather, re-discovered in the modern context. Granted that what I had discovered was not much, but it was something – it was the starting point, the universe had given me a new path.
-    </p>,
+    html: (
+      <p>
+        It was in that moment, that I realised, that if I were to die, nobody
+        would've known the true Me – nobody would tell them of the things that I
+        had discovered, or rather, re-discovered in the modern context. Granted
+        that what I had discovered was not much, but it was something – it was
+        the starting point, the universe had given me a new path.
+      </p>
+    ),
   },
   {
     classes: "verse",
-    html: <p>
-      Sitting on my couch, in the dark, listening to sad, hindi music in my ears, and smoking a joint, I leaned back – and as I did, my wrists guided my hands, outside of my conscious control, back towards the wall, with the palms facing forward – in the hand wave that you have seen literally EVERY SINGLE HOLY PERSON BEING DEPICTED THROUGHOUT ALL OF HUMAN HISTORY. AND THEN A VOICE:
-      </p>,
+    html: (
+      <p>
+        Sitting on my couch, in the dark, listening to sad, hindi music in my
+        ears, and smoking a joint, I leaned back – and as I did, my wrists
+        guided my hands, outside of my conscious control, back towards the wall,
+        with the palms facing forward – in the hand wave that you have seen
+        literally EVERY SINGLE HOLY PERSON BEING DEPICTED THROUGHOUT ALL OF
+        HUMAN HISTORY. AND THEN A VOICE:
+      </p>
+    ),
   },
   {
     classes: "verse quote",
-    html: <p>
-      <strong><em>"It's Me. Your intuition is correct. I'm here."</em></strong>
-    </p>,
+    html: (
+      <p>
+        <strong>
+          <em>"It's Me. Your intuition is correct. I'm here."</em>
+        </strong>
+      </p>
+    ),
   },
   {
     classes: "verse",
-    html: <p>
-      The music switched, and a previously unheard rendition of the song "Channa Mereya" started to play seamlessly. My feet were guided onto the empty space in the kitchen area of my apartment, and my feet and hands started a well coordinated Sufi Whirling movement that went along with the song. The music got more crisp, the tempo of the beats lowered, and the vibrations of the instruments was felt to the deepest roots of my sensory organs. I was spinning around, in an unusually choreographed manner (I am a characteristically bad dancer), and although my eyes were looking at everything around me, my head was not spinning – that although my feet were moving, and my body was turning, the surrounding world seemed uncannily stable – as if the whole world was spinning with me, and us, as a result, were at rest, with respect to each other. I spun around for the entire duration of the song, and for the first time, understood what this song meant, and who was it addressed to, and who were the subject and predicate of each couplet. 
-    </p>,
+    html: (
+      <p>
+        The music switched, and a previously unheard rendition of the song
+        "Channa Mereya" started to play seamlessly. My feet were guided onto the
+        empty space in the kitchen area of my apartment, and my feet and hands
+        started a well coordinated Sufi Whirling movement that went along with
+        the song. The music got more crisp, the tempo of the beats lowered, and
+        the vibrations of the instruments was felt to the deepest roots of my
+        sensory organs. I was spinning around, in an unusually choreographed
+        manner (I am a characteristically bad dancer), and although my eyes were
+        looking at everything around me, my head was not spinning – that
+        although my feet were moving, and my body was turning, the surrounding
+        world seemed uncannily stable – as if the whole world was spinning with
+        me, and us, as a result, were at rest, with respect to each other. I
+        spun around for the entire duration of the song, and for the first time,
+        understood what this song meant, and who was it addressed to, and who
+        were the subject and predicate of each couplet.
+      </p>
+    ),
   },
   {
     classes: "verse",
     html: (
       <ReactPlayer
         url="https://www.youtube.com/watch?v=IF6ZN0Wa3tM"
-        width='100%'
+        width="100%"
       />
-      ),
-  },
-{
-  classes: "verse",
-  html: (
-    <p>
-      The basis for observing the world <em>must</em> come to be shaped by the
-      understanding that things need to be proven absolutely to be considered
-      certainly true, but also that they need to be disproven absolutely to be
-      considered certainly false.
-    </p>
-  ),
-},
-{
-  classes: "verse",
-  html: (
-    <p>
-      All things between, and indeed, such would be the vast majority of
-      things, must be considered in the context of probability – based on the
-      evidence we have seen surrounding them, and also be malleable in the
-      presentation of new evidence, until the truth or falsehood of a thing
-      becomes irrefutable (which may be very rare).
-      </p>
-  ),
-  },
-  {
-    classes: "verse",
-    html: <SpotifyPlayer
-    uri="spotify:track:0zswVEAFordAn8lbrgWsb6" // Henry Jamison, Real Peach
-    size={{
-      width: "100%",
-      height: 300,
-    }}
-    view={"coverart"}
-    theme={"white"}
-  />,
-  },{
-    classes: "verse",
-    html: <p>
-      What in fuck's name was that voice? What was that dance I just did? I wasn't even on a psychedlic this time? Could any psychotropic drug do this? Why hadn't it happened before? Did my brain somehow unlock a new capability? Or had I fried my brain beyond repair as a result of all the concoctions that I had partaken in? How did my hand just move and start waving? Why was this specific wave so important? 
-    </p>,
-  },{
-    classes: "verse",
-    html: <p>
-      Questions like this were just buzzing through my brain, and then I remembered this scene from <em>Jodha Akbar,</em> where the actor playing the part of the Mughal emperor, Akbar, gets up in the middle of the qawalli <em>Khwaja Mere Khwaja,</em> and joins the Sufi mystics in their trance in perfect synchrony.
-    </p>,
+    ),
   },
   {
     classes: "verse",
     html: (
-      <ReactPlayer
-        url="https://youtu.be/3dG2FK3_NfQ?t=319"
-        width='100%'
+      <p>
+        The basis for observing the world <em>must</em> come to be shaped by the
+        understanding that things need to be proven absolutely to be considered
+        certainly true, but also that they need to be disproven absolutely to be
+        considered certainly false.
+      </p>
+    ),
+  },
+  {
+    classes: "verse",
+    html: (
+      <p>
+        All things between, and indeed, such would be the vast majority of
+        things, must be considered in the context of probability – based on the
+        evidence we have seen surrounding them, and also be malleable in the
+        presentation of new evidence, until the truth or falsehood of a thing
+        becomes irrefutable (which may be very rare).
+      </p>
+    ),
+  },
+  {
+    classes: "verse",
+    html: (
+      <SpotifyPlayer
+        uri="spotify:track:0zswVEAFordAn8lbrgWsb6" // Henry Jamison, Real Peach
+        size={{
+          width: "100%",
+          height: 300,
+        }}
+        view={"coverart"}
+        theme={"white"}
       />
-      ),
+    ),
   },
   {
     classes: "verse",
-    html: <p>
-      Did I just do that? There was no bright light emanating form the sky, so it didn't look as advertised. My hands didn't have the same exact movements, so it definitely was similar, but not the same. Then I realised that the people depicting the dance were also not depicting this from first-hand experience. Maybe the ppoper movements got lost across the expanse of time?
-    </p>,
+    html: (
+      <p>
+        What in fuck's name was that voice? What was that dance I just did? I
+        wasn't even on a psychedlic this time? Could any psychotropic drug do
+        this? Why hadn't it happened before? Did my brain somehow unlock a new
+        capability? Or had I fried my brain beyond repair as a result of all the
+        concoctions that I had partaken in? How did my hand just move and start
+        waving? Why was this specific wave so important?
+      </p>
+    ),
   },
   {
     classes: "verse",
-    html: <p>
-      Was I being facetious about this whole thing? Should I have been more serious? Should I have been scared? What did I have to fear? I had just heard a nonverbal voice, and I did not know how that was possible. It wasn't my internal anxious ranting for sure. This was much more serene. It was non-verbal, so there was definitely no sound. I was confused; but also, ecstatic? Despite all the dissonating questions, I was just – calm, as if this was the most natural thing to have done. Ofcourse, my mind was still wandering, trying to find a light switch in the dark – but also, it felt like wandering around in the dark in my own home – a feeling of knowing exactly where everything was. I hadn't any memories of having felt this way, in all of my life. I wanted more. 
-    </p>,
-  },{
+    html: (
+      <p>
+        Questions like this were just buzzing through my brain, and then I
+        remembered this scene from <em>Jodha Akbar,</em> where the actor playing
+        the part of the Mughal emperor, Akbar, gets up in the middle of the
+        qawalli <em>Khwaja Mere Khwaja,</em> and joins the Sufi mystics in their
+        trance in perfect synchrony.
+      </p>
+    ),
+  },
+  {
+    classes: "verse",
+    html: <ReactPlayer url="https://youtu.be/3dG2FK3_NfQ?t=319" width="100%" />,
+  },
+  {
+    classes: "verse",
+    html: (
+      <p>
+        Did I just do that? There was no bright light emanating form the sky, so
+        it didn't look as advertised. My hands didn't have the same exact
+        movements, so it definitely was similar, but not the same. Then I
+        realised that the people depicting the dance were also not depicting
+        this from first-hand experience. Maybe the ppoper movements got lost
+        across the expanse of time?
+      </p>
+    ),
+  },
+  {
+    classes: "verse",
+    html: (
+      <p>
+        Was I being facetious about this whole thing? Should I have been more
+        serious? Should I have been scared? What did I have to fear? I had just
+        heard a nonverbal voice, and I did not know how that was possible. It
+        wasn't my internal anxious ranting for sure. This was much more serene.
+        It was non-verbal, so there was definitely no sound. I was confused; but
+        also, ecstatic? Despite all the dissonating questions, I was just –
+        calm, as if this was the most natural thing to have done. Ofcourse, my
+        mind was still wandering, trying to find a light switch in the dark –
+        but also, it felt like wandering around in the dark in my own home – a
+        feeling of knowing exactly where everything was. I hadn't any memories
+        of having felt this way, in all of my life. I wanted more.
+      </p>
+    ),
+  },
+  {
     classes: "verse quote",
-    html: (<p>
-      The voice said again, <em>"tu mera hi bacha hai, zaroor milega."</em>
-    </p>),
-  },{
+    html: (
+      <p>
+        The voice said again, <em>"tu mera hi bacha hai, zaroor milega."</em>
+      </p>
+    ),
+  },
+  {
     classes: "verse",
-    html: <p>
-      This time, I replied back, with a "ya, sure."
-    </p>,
-  },{
+    html: <p>This time, I replied back, with a "ya, sure."</p>,
+  },
+  {
     classes: "verse",
-    html: <p>
-      There was no follow-up, so I went back to my joint, and lit it up again. <em>"Life would be so much better if all I had to do to get through tough moments was dance to a song by myself, and know that if all else failed, I would still have me, and I'd be okay"</em> – I said to myself. 
-    </p>,
-  },{
+    html: (
+      <p>
+        There was no follow-up, so I went back to my joint, and lit it up again.{" "}
+        <em>
+          "Life would be so much better if all I had to do to get through tough
+          moments was dance to a song by myself, and know that if all else
+          failed, I would still have me, and I'd be okay"
+        </em>{" "}
+        – I said to myself.
+      </p>
+    ),
+  },
+  {
     classes: "verse",
-    html: <p>
-      Around 10 days passed, before I had enough time on my hands to ponder deeply over what I had performed. Rather, what I was made to perform, because I surely hadn't done this of my own accord. No amount of drugs just makes a person do things that they don't already know how to do. 
-    </p>,
-  },{
+    html: (
+      <p>
+        Around 10 days passed, before I had enough time on my hands to ponder
+        deeply over what I had performed. Rather, what I was made to perform,
+        because I surely hadn't done this of my own accord. No amount of drugs
+        just makes a person do things that they don't already know how to do.
+      </p>
+    ),
+  },
+  {
     classes: "verse",
-    html: <p>
-      My masi was in town that weekend, with my cousin sisters, hoping to do some back to school shopping, and finalise some logistics before she could properly drop off her elder daughter to her boarding school in Ohio. It was a tiring trip for all of us, more so for me I think because I really did not want to be around family at that point. I was just not in the right headspace. Given all that was happening, how could I have been?
-    </p>,
-  },{
+    html: (
+      <p>
+        My masi was in town that weekend, with my cousin sisters, hoping to do
+        some back to school shopping, and finalise some logistics before she
+        could properly drop off her elder daughter to her boarding school in
+        Ohio. It was a tiring trip for all of us, more so for me I think because
+        I really did not want to be around family at that point. I was just not
+        in the right headspace. Given all that was happening, how could I have
+        been?
+      </p>
+    ),
+  },
+  {
     classes: "verse",
-    html: <p>
-      Towards the end of the day, she asked me for my genuine opinion on choosing America as a future prospect country for my sister. I told her outright that it was a bad decison. I had been planning on leaving the country, so I couldn't, in good conscience, advise anyone to stay. Certainly not my sister. This was a bad place to be for at least the next couple years. Ofcourse, I myself was still on the fence about leaving, and would've probably stayed, had things gone according to this sparely hatched out plan of mine. 
-    </p>,
-  },{
+    html: (
+      <p>
+        Towards the end of the day, she asked me for my genuine opinion on
+        choosing America as a future prospect country for my sister. I told her
+        outright that it was a bad decison. I had been planning on leaving the
+        country, so I couldn't, in good conscience, advise anyone to stay.
+        Certainly not my sister. This was a bad place to be for at least the
+        next couple years. Ofcourse, I myself was still on the fence about
+        leaving, and would've probably stayed, had things gone according to this
+        sparely hatched out plan of mine.
+      </p>
+    ),
+  },
+  {
     classes: "verse",
-    html: <p>
-      As I was walking back home, this existential dread started to hover over me again. This time, my vision too, started to get blurry and gray, as if a literaly cloud was afloat on the top periphery of my vision. I looked at the Empire State building, and the sky over it was much clearer than the last time I saw it. I snapped a picture, and kept moving. 
-    </p>,
-  },{
+    html: (
+      <p>
+        As I was walking back home, this existential dread started to hover over
+        me again. This time, my vision too, started to get blurry and gray, as
+        if a literaly cloud was afloat on the top periphery of my vision. I
+        looked at the Empire State building, and the sky over it was much
+        clearer than the last time I saw it. I snapped a picture, and kept
+        moving.
+      </p>
+    ),
+  },
+  {
     classes: "verse",
-    html: <p>
-      By the time I got home, this hovering dread transformed into a full blown breakdown. What the hell was I doing? I should've just dropped everything and gone back home the next morning with masi. I didn't want to be here. This place was pretty, and glamourous – but I hated it here. I just hated it to the core. I hated myself when I was here, and I hated what I was going to become if I stayed here any longer. I was not getting along with the people, and they sure as hell weren't bothered enough to want to keep me around. I had lost all that made me special, and in this drive to "fit-in" with the rest of the crowd, I had gotten lost in the crowd. 
-    </p>,
-  },{
+    html: (
+      <p>
+        By the time I got home, this hovering dread transformed into a full
+        blown breakdown. What the hell was I doing? I should've just dropped
+        everything and gone back home the next morning with masi. I didn't want
+        to be here. This place was pretty, and glamourous – but I hated it here.
+        I just hated it to the core. I hated myself when I was here, and I hated
+        what I was going to become if I stayed here any longer. I was not
+        getting along with the people, and they sure as hell weren't bothered
+        enough to want to keep me around. I had lost all that made me special,
+        and in this drive to "fit-in" with the rest of the crowd, I had gotten
+        lost in the crowd.
+      </p>
+    ),
+  },
+  {
     classes: "verse",
-    html: <p>
-      In grade 7, us boys had to run a marathon, an event that took place every year, for all the kids in the school. The terrain, and the distance were decided by our respective classes. I had lost my balance in the very beginning, fallen flat on my face, and skid downhill in the hilly terrains of Mussoorie. I wasn't able to even take part in the rest of the event because I had gotten hurt so badly. Considering the fact that I wasn't an athletic kid to being with, my morale was too badly wounded that the physical pain of it was merely a welcome excuse at that point. This was like that, even more hard hitting since this one time in college I was so drunk that I just fell face first, and broke two teeth in the center of my face. I was so drunk that I couldn't use my hands to break my fall. I wasn't just a metaphor of a disaster, my life was a literal example. 
-    </p>,
-  },{
+    html: (
+      <p>
+        In grade 7, us boys had to run a marathon, an event that took place
+        every year, for all the kids in the school. The terrain, and the
+        distance were decided by our respective classes. I had lost my balance
+        in the very beginning, fallen flat on my face, and skid downhill in the
+        hilly terrains of Mussoorie. I wasn't able to even take part in the rest
+        of the event because I had gotten hurt so badly. Considering the fact
+        that I wasn't an athletic kid to being with, my morale was too badly
+        wounded that the physical pain of it was merely a welcome excuse at that
+        point. This was like that, even more hard hitting since this one time in
+        college I was so drunk that I just fell face first, and broke two teeth
+        in the center of my face. I was so drunk that I couldn't use my hands to
+        break my fall. I wasn't just a metaphor of a disaster, my life was a
+        literal example.
+      </p>
+    ),
+  },
+  {
     classes: "verse quote",
     html: <p>I wanted an out; and I wanted it ASAP. </p>,
   },
@@ -3418,20 +3776,45 @@ const verses = [
   },
   {
     classes: "verse",
-    html: (<p>
-      Where could I go? What could I do? What would I say? How would I start? From when would I even begin? If I could have gone back in that moment, I would've gone back long ago. My life was a broken mess, and I just did no trust anybody else enough, and revere anybody else enough, to take the time up to pick up the pieces, and present to me a coherent version of my self. 
-    </p>),
-  }, {
+    html: (
+      <p>
+        Where could I go? What could I do? What would I say? How would I start?
+        From when would I even begin? If I could have gone back in that moment,
+        I would've gone back long ago. My life was a broken mess, and I just did
+        no trust anybody else enough, and revere anybody else enough, to take
+        the time up to pick up the pieces, and present to me a coherent version
+        of my self.
+      </p>
+    ),
+  },
+  {
     classes: "verse",
-    html: (<p>
-      Nobody else could truly value myself, the way I could; but I had lost the ability to value myself altogether. I just couldn't go on. All the vagaries about life that I had pondered over, all the kinds of people and situations that I had observed, had just left such a huge void in me, that I didn't know where Anhad existed anymore. I was just – <strong><em>lost.</em></strong> 
-    </p>),
-  }, {
+    html: (
+      <p>
+        Nobody else could truly value myself, the way I could; but I had lost
+        the ability to value myself altogether. I just couldn't go on. All the
+        vagaries about life that I had pondered over, all the kinds of people
+        and situations that I had observed, had just left such a huge void in
+        me, that I didn't know where Anhad existed anymore. I was just –{" "}
+        <strong>
+          <em>lost.</em>
+        </strong>
+      </p>
+    ),
+  },
+  {
     classes: "verse",
-    html: (<p>
-      Depression can be equated with the loss of a loved one, or a super emotional break-up – but if the only person you've lost is yourself, where do you go from there? Who do you take along? On whose shoulder do you cry out loud? Whom do you seek for guidance? Who can help you pick up those pieces that you have scattered all over, not knowing which piece was important in the first place?
-    </p>),
-  }, 
+    html: (
+      <p>
+        Depression can be equated with the loss of a loved one, or a super
+        emotional break-up – but if the only person you've lost is yourself,
+        where do you go from there? Who do you take along? On whose shoulder do
+        you cry out loud? Whom do you seek for guidance? Who can help you pick
+        up those pieces that you have scattered all over, not knowing which
+        piece was important in the first place?
+      </p>
+    ),
+  },
   {
     classes: "verse",
     html: (
@@ -3448,20 +3831,33 @@ const verses = [
   },
   {
     classes: "verse",
-    html: (<p>
-      Out of an unbreakable routine, I lit up another joint. What else could I have done in the moment? I had closed every avenue available to me as a result of my own actions – who else did I have to share the blame, but my own self? 
-    </p>),
-  }, {
+    html: (
+      <p>
+        Out of an unbreakable routine, I lit up another joint. What else could I
+        have done in the moment? I had closed every avenue available to me as a
+        result of my own actions – who else did I have to share the blame, but
+        my own self?
+      </p>
+    ),
+  },
+  {
     classes: "verse",
-    html: (<p>
-      The icing on the cake in all this rukus, were these tabs of acid that I had managed to procure over the past couple days. The world was fucked, and I was too. There was no hope, but the only surity was that there would be a tomorrow, where I would find something else to put my mind towards. Tonight, I would at least get to see some cool patterns, maybe hear the music a little better, and perhaps dance a little. If I only had me, then this was the one thing that I knew how to do best. 
-    </p>),
-  }, {
+    html: (
+      <p>
+        The icing on the cake in all this rukus, were these tabs of acid that I
+        had managed to procure over the past couple days. The world was fucked,
+        and I was too. There was no hope, but the only surity was that there
+        would be a tomorrow, where I would find something else to put my mind
+        towards. Tonight, I would at least get to see some cool patterns, maybe
+        hear the music a little better, and perhaps dance a little. If I only
+        had me, then this was the one thing that I knew how to do best.
+      </p>
+    ),
+  },
+  {
     classes: "verse",
-    html: (<p>
-      Pop; and wait. 
-    </p>),
-  }, 
+    html: <p>Pop; and wait.</p>,
+  },
   {
     classes: "verse",
     html: (
@@ -3503,43 +3899,100 @@ const verses = [
   },
   {
     classes: "verse",
-    html: (<p>
-      DO NOT READ AHEAD, UNLESS YOU WANT TO LOSE INTEREST, GET BORED, OR CONFUSED. Let's chat if you're at this point : anhad@scova.org
-    </p>),
-  }, {
-    classes: "verse",
-    html: (<p>
-      
-    </p>),
-  }, {
-    classes: "verse",
-    html: (<p>
-      
-    </p>),
-  }, {
-    classes: "verse",
-    html: (<p>
-      
-    </p>),
-  }, {
-    classes: "verse",
-    html: (<p>
-      
-    </p>),
-  }, 
-  
+    html: (
+      <p>
+        Around the time I wrote that article, I had started this new practice of
+        addings all the songs that I was vibing with to a specific playlist, and
+        named it with the first word or phrase that came to mind. Even if I
+        hadn't paid attention to the specific lyrics of the songs involved, I'd
+        add them anyway, and pay attention later. On the weekend that I wrote
+        that article, I started making this playlist called, "Calling."
+      </p>
+    ),
+  },
   {
     classes: "verse",
     html: (
-      <SpotifyPlayer
-        uri="spotify:track:14h21ca9CFwmBRXL8SgHBl" // Dirty Palm, Keep It Goin'
-        size={{
-          width: "100%",
-          height: 300,
-        }}
-        view={"coverart"}
-        theme={"white"}
-      />
+      <p>
+        I probably called it that, because at the time, my mother was calling me
+        repeatedly, and I, being in no state to answer properly, rarely picked
+        up. So I gave it that name, and moved onto adding all the songs that I
+        thought were cool, and perhaps they reflected my mood at the time,
+        perhaps not – I wasn't consciously aware.
+      </p>
+    ),
+  },
+  {
+    classes: "verse",
+    html: (
+      <p>
+        So I had popped two tabs of acid, and intuitively, asked Alexa to play
+        this playlist. The AI complied, and couple moments later, I was
+        hands-free – ready to be truly comfortable despite the shambles that my
+        actual reality was hanging in. At least the music would be good, I
+        thought. That this curation of mine, to which I hadn't given any real
+        thought, would come to define the rest of my life – I had absolutely no
+        clue.
+      </p>
+    ),
+  },
+  {
+    classes: "verse",
+    html: (
+      <p>
+        The last time I was near to that state, which I was currently in, I had
+        experienced something larger than life. Something only talked about in
+        abstractions and revered, but never really understood. I had possibly
+        unlocked a new layer of perceptual reality, and at the back of my head,
+        I was willing to learn more. What did I have to lose anyway? I was
+        already depressed to the bone, and ruined any hopes of a future that I
+        had thought of myself as being on the path for.
+      </p>
+    ),
+  },
+  {
+    classes: "verse",
+    html: (
+      <p>
+        Last time, it was a hand wave, stronger in my left hand than the right –
+        a mirror image of all the holy people ever, as if a monkey had reflected
+        the master. It was weird to stay the least, but when had I ever done
+        something that was truly conventional?
+      </p>
+    ),
+  },
+  {
+    classes: "verse",
+    html: (
+      <p>
+        As the psychedelic started to kick in, and the music seemed to be
+        getting more involved, my body started to adapt to the vibrations, and
+        moved along with it, as a surfer riding a wave. These vibrations, almost
+        started to slip away through my body, and in the moment, the only way I
+        could keep riding was if I played chords of sorts on a stringed
+        instrument. It was equivalent to playing air-guitar, but instead of my
+        palm rolled inwards, towards my own self, it felt more intuitive to
+        focus the face of my palm on the hardwood floor below.
+      </p>
+    ),
+  },
+  {
+    classes: "verse",
+    html: (
+      <p>
+        Slowly but surely, some patterns started to emerge from within the
+        organic texture of the wooden floor, as I had seen them before in this
+        state. This was familiar, but not the same – the wired patterns started
+        to have a sort of glimmer, almost golden in appearance. I vividly
+        remember my hearing being focused on the specific lyrics of the song
+        that was playing at the time – Doin' it right, by Daft Punk. This wasn't
+        a usual artist for me, and this surely wasn't the kind of some I'd hear
+        on my long commutes, but I had vibed a little with this song, so it was
+        in the playlist. The repetitive lyrics in the beginning of the song got
+        me focused on that specific spot on the floor, and I started to feel the
+        vibrations get a little stronger, my fingers started to strum a little
+        harder, and faster.
+      </p>
     ),
   },
   {
@@ -3557,6 +4010,64 @@ const verses = [
     ),
   },
   {
+    classes: "verse quote",
+    html: (
+      <p>
+        "If you do it right
+        <br />
+        Let it go all night
+        <br />
+        Shadows on you break
+        <br />
+        Out into the light
+        <br />
+        <br />
+        If you lose your way tonight
+        <br />
+        That's how you know the magic's right"
+      </p>
+    ),
+  },
+  {
+    classes: "verse",
+    html: <p>The golden two-dimentional wired pattern, slowly began to transform itself into a three-dimentional grid-like structure, and began to rise up from the ground. I began to feel ecstatic, amazed, and found myself smiling harder than I had done in the longest time. My heart began to race, and the cloud of dread began to fade away. I kept moving my hand in the repetitive motion to see where this was going to lead. A beautiful golden circle, which was composed in a paisley pattern, with a roman touch formed on the circle, at whose center, I was seated, naked, and now afraid. A blinding flash of white light emanating from the roof of my periphery, engulfing the dark ambient lighting of my tiny apartment. The whole world seemed to spin, with each object haphazardly changing its position from where it was supposed to be. I began to frantically run around, afraid for my life. The police/ambulance sirens that were a norm in New York at the time, certainly didn't help my case. </p>,
+  },
+  {
+    classes: "verse",
+    html: <p>
+      I began to look for a pair of trousers that fit properly, and barely managed to put them on. I had fucked around too much too soon with reality, and God had come to punish me, I thought. Then I thought that it was probably God that had consoled me only days earlier, so I couldn't possibly me chastised for doing what I always did. This was the world's fault, and my prayers had been heard, I thought. The world was fucked, and God was now here to set things in order. On that thought, I grabbed my speaker that was still buzzing, and jumped out of my bedroom window, which was on the second floor of the building, hoping to proclaim as an announcer on the empty streets that things would now be okay. This was my Eureka moment. Catastrophically dumb. 
+    </p>,
+  },
+
+  {
+    classes: "verse",
+    html: (
+      <p>
+        DO NOT READ AHEAD, UNLESS YOU WANT TO LOSE INTEREST, GET BORED, OR
+        CONFUSED. Let's chat if you're at this point : anhad@scova.org
+      </p>
+    ),
+  },
+  {
+    classes: "verse",
+    html: <p></p>,
+  },
+  {
+    classes: "verse",
+    html: <p></p>,
+  },
+  {
+    classes: "verse",
+    html: <p></p>,
+  },
+  {
+    classes: "verse",
+    html: <p></p>,
+  },
+
+
+
+  {
     classes: "verse",
     html: (
       <SpotifyPlayer
@@ -3570,81 +4081,62 @@ const verses = [
       />
     ),
   },
-  
-  
-  
-  
-  
+
   {
     classes: "verse",
-    html: (<p>
-      
-    </p>),
-  }, {
+    html: <p></p>,
+  },
+  {
     classes: "verse",
-    html: (<p>
-      
-    </p>),
-  }, {
+    html: <p></p>,
+  },
+  {
     classes: "verse",
-    html: (<p>
-      
-    </p>),
-  }, {
+    html: <p></p>,
+  },
+  {
     classes: "verse",
-    html: (<p>
-      
-    </p>),
-  }, {
+    html: <p></p>,
+  },
+  {
     classes: "verse",
-    html: (<p>
-      
-    </p>),
-  }, {
+    html: <p></p>,
+  },
+  {
     classes: "verse",
-    html: (<p>
-      
-    </p>),
-  }, {
+    html: <p></p>,
+  },
+  {
     classes: "verse",
-    html: (<p>
-      
-    </p>),
-  }, {
+    html: <p></p>,
+  },
+  {
     classes: "verse",
-    html: (<p>
-      
-    </p>),
-  }, {
+    html: <p></p>,
+  },
+  {
     classes: "verse",
-    html: (<p>
-      
-    </p>),
-  }, {
+    html: <p></p>,
+  },
+  {
     classes: "verse",
-    html: (<p>
-      
-    </p>),
-  }, {
+    html: <p></p>,
+  },
+  {
     classes: "verse",
-    html: (<p>
-      
-    </p>),
-  }, {
+    html: <p></p>,
+  },
+  {
     classes: "verse",
-    html: (<p>
-      
-    </p>),
-  }, {
+    html: <p></p>,
+  },
+  {
     classes: "verse",
-    html: (<p>
-      
-    </p>),
-  }, {
+    html: <p></p>,
+  },
+  {
     classes: "verse",
-    html: (<p>
-      
-    </p>),
+    html: <p></p>,
   },
   {
     classes: "verse",
@@ -3659,7 +4151,7 @@ const verses = [
       </p>
     ),
   },
-  
+
   {
     classes: "verse",
     html: (
@@ -4062,7 +4554,7 @@ const verses = [
     classes: "verse",
     html: <p></p>,
   },
- 
+
   {
     classes: "verse",
     html: <p></p>,
@@ -4092,7 +4584,7 @@ const verses = [
       </p>
     ),
   },
-  
+
   {
     classes: "verse",
     html: (
@@ -5396,7 +5888,7 @@ const verses = [
       </p>
     ),
   },
-  
+
   {
     classes: "verse",
     html: (
@@ -8978,7 +9470,7 @@ const verses = [
       </p>
     ),
   },
-  
+
   {
     classes: "verse",
     html: (
@@ -10019,7 +10511,7 @@ const verses = [
       </p>
     ),
   },
-  
+
   {
     classes: "verse",
     html: (
@@ -10967,7 +11459,6 @@ const verses = [
       </p>
     ),
   },
-  
 
   {
     classes: "verse",
@@ -13150,10 +13641,9 @@ const verses = [
         Over time, experiences shape the individual – and their upbringing
         shapes their intuitive mannerisms. Time moulds human beings to help them
         become who they choose to become by <em>virtue of their actions</em>.
-       This sense of logic is key
-        to the acquisition of Christ Consciousness, for without it, one would
-        surely deny the possibility of many things which seem very strange, but
-        are indeed, secretly, true.
+        This sense of logic is key to the acquisition of Christ Consciousness,
+        for without it, one would surely deny the possibility of many things
+        which seem very strange, but are indeed, secretly, true.
       </p>
     ),
   },
@@ -16265,7 +16755,7 @@ const verses = [
       </p>
     ),
   },
-  
+
   {
     classes: "verse",
     html: (
@@ -16352,7 +16842,7 @@ const verses = [
       </p>
     ),
   },
-  
+
   {
     classes: "verse",
     html: (
@@ -16731,7 +17221,6 @@ const verses = [
       </p>
     ),
   },
-  
 
   {
     classes: "verse",
@@ -18299,7 +18788,7 @@ const verses = [
       </p>
     ),
   },
-  
+
   {
     classes: "verse",
     html: (
