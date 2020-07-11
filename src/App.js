@@ -18,22 +18,24 @@ function App() {
       vi = vi + 1;
       return (
         <tr>
-          <td colSpan="8" style={{ fontWeight: "bolder", textAlign: "left" }}>
-            {vi}
-          </td>
+          
           <td colSpan="42" className={verse.classes} id={vi}>
             {verse.html}
+          </td>
+          <td colSpan="8" style={{ fontWeight: "bolder", textAlign: "left" }}>
+            {vi}
           </td>
         </tr>
       );
     } else {
       return (
         <tr>
-          <td colSpan="8" style={{ fontWeight: "bolder", textAlign: "left" }}>
-            {" "}
-          </td>
+          
           <td colSpan="42" className={verse.classes}>
             {verse.html}
+          </td>
+          <td colSpan="8" style={{ fontWeight: "bolder", textAlign: "left" }}>
+            {" "}
           </td>
         </tr>
       );

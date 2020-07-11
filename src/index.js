@@ -31,7 +31,7 @@ ReactDOM.render(
       <Navbar.Brand className="Navbar-brand">
         <Link to="/home" style={{ color: "black" }}>
         <span class="full-text">Scova Foundation</span>
-        <span class="short-text">Scova Fdn.</span>
+        <span class="short-text">Scova</span>
         </Link>
       </Navbar.Brand>
 

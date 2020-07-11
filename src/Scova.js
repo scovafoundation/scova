@@ -5,8 +5,8 @@ import FacebookPlayer from 'react-facebook-player';
 import SpotifyPlayer from 'react-spotify-player';
 import { FacebookProvider, EmbeddedPost } from 'react-facebook';
 import InstagramEmbed from 'react-instagram-embed';
-import YouTube from 'react-youtube';
 import ReactPlayer from "react-player";
+// import ImageViewer from 'react-simple-image-viewer';
 
 // Images
 import bismillah from "./images/bismillah.png";
@@ -33,6 +33,7 @@ import civilWar from "./images/civilWar.png";
 import sockPuppets from "./images/sockPuppets.png";
 import martaResignation from "./images/martaResignation.png";
 import gottlieb1 from "./images/gottlieb1.png";
+import ritual from "./images/ritual.png";
 
 // Fonts
 import Charter from "charter-webfont";
@@ -932,7 +933,7 @@ const verses = [
     ),
   },
   {
-    classes: "image",
+    classes: "verse image",
     html: <img src={aws} />,
   },
   {
@@ -1956,7 +1957,7 @@ const verses = [
         scenarios in your head, explore alternative strategies and formulate a
         game plan. When you do this exercise, and if you do it very well, you’ll
         realise that the problems really, actually, stem from within your own
-        self and manifest outward into your confine of influence.
+        self and manifest outward into your <strong><em>confine of influence.</em></strong>
       </p>
     ),
   },
@@ -2160,7 +2161,7 @@ const verses = [
           the new dynamic
         </em>{" "}
         of New York City, and of America. I had so desperately wanted to be a
-        part of this galmourous life, of the{" "}
+        part of this glamourous life, of the{" "}
         <em>Land of the Free, and the Home of the Brave,</em> that I had just
         reduced all of my entire upbringing to zero. Doing this, and more,
         hadn't gotten me to a particularly exciting position.
@@ -2470,7 +2471,7 @@ const verses = [
       <p>
         I sent multiple emails like this, and had multiple in-person
         conversations like this, and they all said the same thing –{" "}
-        <em>seek help.</em>
+        <em>seek help.</em>{" "}
         Arguably, it didn't take a genius to figure out that I needed help – I
         used the actual words that "I need help." I asked friends – they were
         the same age as me, so of course they were clueless. How could they know
@@ -2587,7 +2588,7 @@ const verses = [
       <FacebookProvider appId="295988795097494">
         <EmbeddedPost
           href="https://www.facebook.com/anhadarora/posts/10212133203226339"
-          width="600"
+          width="100%"
         />
       </FacebookProvider>
     ),
@@ -2613,7 +2614,7 @@ const verses = [
         be explained by mere chance alone. There was a colloquial working theory
         floated famously by Elon Musk, that all of human reality was just a
         simulation, controlled by higher order beings, much less sinister than
-        the one portrayed in the Matrix Trilogy, but something with a more
+        the one portrayed in the <em>Matrix Trilogy,</em> but something with a more
         apathetic intent, a Grand Experiment, if you will.
       </p>
     ),
@@ -2625,7 +2626,7 @@ const verses = [
         url="https://www.instagram.com/p/BTvvgU2FiNC/?utm_source=ig_web_copy_link"
         containerTagName="div"
         hideCaption={false}
-        maxWidth={320}
+        width="100%"
         align="center"
       />
     ),
@@ -2635,7 +2636,7 @@ const verses = [
     html: (
       <p>
         According to my version of events at the time, America, and its people,
-        were being prepared for a long, unattached war that would undoubtedly
+        were being prepared for a long, unattached war, that would undoubtedly
         encompass most of their allies, and by extension, their declared enemy
         states. To say that I was scared would be the understatement of the
         Millennium – I had started to shake to the bone. Sure, that could also
@@ -2645,7 +2646,7 @@ const verses = [
         <em>
           Either I had stumbled upon the Divine path, or I had definitively
           discovered that the concept of religion itself was a global
-          conspiracy, dudes tripping balls in caves and whatnot
+          conspiracy, led by dudes tripping balls in caves and whatnot
         </em>
         .
       </p>
@@ -2697,7 +2698,7 @@ const verses = [
       <FacebookProvider appId="295988795097494">
         <EmbeddedPost
           href="https://www.facebook.com/anhadarora/posts/10212360541149645"
-          width="600"
+          width="100%"
         />
       </FacebookProvider>
     ),
@@ -2749,7 +2750,7 @@ const verses = [
         url="https://www.instagram.com/p/BT0KQaPFyyu/?utm_source=ig_web_copy_link"
         containerTagName="div"
         hideCaption={false}
-        maxWidth={320}
+        width="100%"
         align="center"
       />
     ),
@@ -2858,7 +2859,7 @@ const verses = [
         url="https://www.instagram.com/p/BUIXviOltSp/?utm_source=ig_web_copy_link"
         containerTagName="div"
         hideCaption={false}
-        maxWidth={320}
+        width="100%"
         align="center"
       />
     ),
@@ -2868,7 +2869,7 @@ const verses = [
     html: (
       <p>
         All I really wanted to do, was enjoy my free time, and I did it in the
-        best was I knew how. Then, was my way truly so great that I had found
+        best way I knew how. Then, was my way truly so great that I had found
         the ultimate respite – the Absolute Truth? Is this what Nanak spent his
         life singing about? Were the 10 gurus, just a closed cult of hedonistic
         nepotists, who passed on the secret to a pleasurable life over
@@ -2886,7 +2887,7 @@ const verses = [
         url="https://www.instagram.com/p/BUQpZs-FigS/?utm_source=ig_web_copy_link"
         containerTagName="div"
         hideCaption={false}
-        maxWidth={320}
+        width="100%"
         align="center"
       />
     ),
@@ -3041,10 +3042,168 @@ const verses = [
     classes: "verse",
     html: (
       <p>
+        In most social situations, especially where drugs and alcohol is
+        involved, most people judge your personality by the <em>vibe</em> you
+        give them in the moment with a thought that goes along the lines of —
+        “Can I kick back, relax, and have a beer with this person?” If yes,
+        you’re in. You are the considered a part of the imaginary group of
+        people that this person would choose to hangout with, if such an
+        opportunity ever arose.
+      </p>
+    ),
+  },
+  {
+    classes: "verse",
+    html: (
+      <p>
+        Even if the social situation has no indication of such a future
+        connection, most people are thinking about it — consciously, or
+        subconsciously. Even if the social setting is such that no possible
+        future connection can be made,{" "}
+        <em>most people just need an excuse to talk</em>.
+      </p>
+    ),
+  },
+  {
+    classes: "verse",
+    html: (
+      <p>
+        Not that talking without purpose is in any way wrong. On the contrary,
+        it is talking without an end-goal or predisposition that often leads to
+        serendipitous understanding – of the situations that you are, and have
+        been in, and about the other person, and by extension, the self.
+      </p>
+    ),
+  },
+  {
+    classes: "verse",
+    html: (
+      <p>
         We were all not the kind to dance all night, and party till the sun came
         up, so we just decided to walk around East Village, in an attempt that
         was reminiscent of a beautiful walking around acid trip that my friend
         partaking in ecstacy with me had had with me a couple months prior.
+      </p>
+    ),
+  },
+  {
+    classes: "verse bible",
+    html: (
+      <p>
+        <em>
+          “Not that which goeth into the mouth defileth a man; <br />
+          but that which cometh out of the mouth, this defileth a man.” <br />
+          (Matthew 15:11)
+        </em>
+      </p>
+    ),
+  },
+  {
+    classes: "verse",
+    html: (
+      <p>
+        I believe, that if you really have to indulge in such a thing, do it out in the open –
+        with other people around you – so they can see who you truly are when
+        your prefrontal cortex has given up a certain amount of control, given
+        the amount of illicit substance currently in your body.
+      </p>
+    ),
+  },
+  {
+    classes: "verse",
+    html: (
+      <p>
+        It is true, that when you relax your senses, your inhibitions, and by
+        extension, your best judgement – you are losing some control to what is,
+        in appearance, separate from the self. You open yourself up in front of
+        this separated entity – make yourself <em>vulnerable</em>, and thus,
+        open to exploitation. In such a situation, the elements of said entity
+        can make <em>you say</em> things you wouldn’t have otherwise, they can
+        make <em>you confess</em> to personal stuff since you are more prone to
+        sharing details that you wouldn’t have otherwise. They can make{" "}
+        <em>you engage </em>in activities that you wouldn’t have otherwise. Life
+        doesn’t get much beyond stupid high-school games.
+      </p>
+    ),
+  },
+  {
+    classes: "verse bible",
+    html: (
+      <p>
+        <em>
+          “Do not ye yet understand, <br />
+          that whatsoever entereth in at the mouth goeth into the belly, <br />
+          and is cast out into the draught? <br />
+          But those things which proceed out of the mouth <br />
+          come forth from the heart; and they defile the man. <br />
+          <br />
+          For out of the heart proceed evil thoughts,
+          <br />
+          murders, adulteries, fornications, <br />
+          thefts, false witness, blasphemies:
+          <br />
+          These are the things which defile a man: <br />
+          but to eat with unwashen hands (hands is a metaphor) defileth not a
+          man.”
+          <br />
+          (Matthew 15:17-20)
+        </em>
+      </p>
+    ),
+  },
+  {
+    classes: "verse",
+    html: (
+      <p>
+        All of us are just expected to do adult things because we have spent so
+        much time LOL-ing around. We are expected to do better, more mature
+        things based on the stuff we have learnt in all our traversal in this
+        spacetime and in this life. Sometimes the actual experience doesn’t
+        really matter, it is just a matter of having spent more time in a
+        situation than the other person that leads most people to think you have
+        more <strong>experience</strong>.
+      </p>
+    ),
+  },
+  {
+    classes: "verse",
+    html: (
+      <p>
+        This is most often true in social situations. <strong><em>A large chunk of all
+        social interation, is really just predicated around an experienced
+        entity being engaged by others with seemingly lesser experience in the domain on which the entity being engaged is seemingly more experienced.</em></strong>{' '}Most of
+        your knowledge <em>about</em>{' '}
+        social situations comes from your family, and this is subconsciously
+        engrained in you, as you have been watching your family in social
+        situations since before you knew the difference between private and
+        public behaviour.
+      </p>
+    ),
+  },
+  {
+    classes: "verse",
+    html: (
+      <p>
+        You also mostly don’t think about acting on this knowledge – it is
+        already a part of your natural mannerisms. Sometimes you work hard to
+        get rid of these behaviours, sometimes you flaunt them knowingly. Your
+        relationship with these mannerisms mostly depends upon your relationship
+        with your family members, particularly the ones who implanted these
+        traits into your persona.
+      </p>
+    ),
+  },
+  {
+    classes: "verse",
+    html: (
+      <p>
+        Family, then, is an important part of who you are, and – if you stay
+        with them long enough – who you eventually become. You can’t discard the
+        influence <em>they have on you (read: nurture)</em>, neither should you
+        discard the behaviours <em>you receive from them (read: nature)</em>. It
+        is <em>always</em> better if you embrace them for what they are, and
+        make the quirks of your family your strengths, rather than focus on them
+        as some sort of disability that needs to be overcome.
       </p>
     ),
   },
@@ -3059,7 +3218,7 @@ const verses = [
         sense of the word. The one in finance was going to work for a major
         multinational bank, the one in tech was going to work for a social media
         behemoth, and the business oriented one was going to take up his
-        position in his family business.
+        position in his family's company.
       </p>
     ),
   },
@@ -3084,7 +3243,7 @@ const verses = [
         I had learnt, I had failed, and I had always gotten the courage to get
         back up, no matter how flailingly. If the summer went well, I would only
         be three months behind the rest of my class, and would've graduated with
-        a double major, that too in the vastly uncommon combination of Computer
+        a double major, that too, in the vastly uncommon combination of Computer
         Science and Psychology. If I played my cards right over the summer, I
         could still land a paying gig in the field of my choice.
       </p>
@@ -3113,9 +3272,9 @@ const verses = [
         support system. Whether it was friends from the same school, or the same
         town, at NYU, or in neighbouring colleges, or visiting repeatedly from
         different citites in the States, or relatives to spend the weekend at,
-        and guide through the bureaucratic complexes that are a major challenge
+        who would aid them, and guide them through the bureaucratic complexes that are a major challenge
         for anyone willing to relocate. Even though my education and living
-        expenses were paid for, I was starting from nothing, a true outsider.
+        expenses were paid for, it was money that wasn't mine, or my parents'. I had read this play by GB Shaw in high-school, about a lowly cockney-London girl being taught the mannerisms and dialect of the London-bourgeoisie – my life had turning out like that – in a very Pygmalion-esque fashion, I knew how to be among, and around all kinds of people, but I knew I didn't belong, at least not yet. In essence, I was starting from nothing, a true outsider.
       </p>
     ),
   },
@@ -3199,13 +3358,257 @@ const verses = [
       <p>
         It is a particularly enervating emotion when you want to be a part of a
         group, yet stay your distinct self. What is one such group? The answer
-        is <em>always religion</em>. Your relationship with God makes you one
-        out of a million others (read: similar) who relate to God in the way
-        that you do, but also, because of your personal relationship with Him,
-        you still remain one in a million (read: unique).
+        is <em>always religion</em>. Your relationship with the universe makes you one out of a million others (read: similar) who relate to this energy in the way that you do, but also, because of your personal relationship with your subjective reality, you still remain one in a million (read: unique).
       </p>
     ),
   },
+
+  
+
+  {
+    classes: "verse",
+    html: (
+      <p>
+        Back to Mussoorie – I was in a different place, a long way from home –
+        deeply entrenched in the mountains. We had little contact with the
+        outside world, and whatever “outings” we had, lasted mere hours in this
+        small hill-station. For the most part, the people you went to school with, became your dorm mates, and since we all slept in the same dorm, we were at times, closer than family. I say this, because family affects you in deep and profound ways, and since I had found myself in a different family, my mannerisms would now adapt to be more associated with my current peers. 
+      </p>
+    ),
+  },
+  {
+    classes: "verse",
+    html: (
+      <p>
+        Perhaps I had to work a little harder to adapt with my speech and personality, because I was always perceived as visually different from what I was <em>supposed</em> to look like – folks in Punjab always called me Nepalese, most strangers in New York thought of me as Mexican, and to those in my
+        boarding school, I was many things, but the major part of my description
+        of them, was Sardar. Really though, whatever they perceived me as,{" "}
+        <em>
+          it was almost never an association of being a different variation of
+          their own self, but almost always a familiar variation of the other.
+        </em>
+      </p>
+    ),
+  },
+  {
+    classes: "verse",
+    html: (
+      <p>
+        Since these new peers were from all over the country, talking to, and
+        interacting with, all of them meant that my accent, and my mannerisms
+        could not be placed to a single location. I picked up different things
+        from different people – as a result, I learnt to be comfortable with all
+        kinds of people. It is really something when you’re a turbaned Indian
+        Sikh kid in a Catholic school of British Colonial era. It was the kind
+        of multicultural experience that would help me later on in college.
+      </p>
+    ),
+  },
+  {
+    classes: "verse",
+    html: (
+      <p>
+        As we grow up, life teaches us a couple things about interacting with
+        other people. First and foremost of them being that there should be a{" "}
+        <em>common medium for interaction</em>, the second being{" "}
+        <em>something to associate with</em> as a dialogue takes place in this
+        common medium of interaction.
+      </p>
+    ),
+  },
+  {
+    classes: "verse bible",
+    html: (
+      <p>
+        <em>
+          “For the congregation of hypocrites shall be desolate, <br />
+          and fire shall consume the tabernacles of bribery.”
+          <br />
+          (Job 15:34)
+        </em>
+      </p>
+    ),
+  },
+  {
+    classes: "verse",
+    html: (
+      <p>
+        When it comes to illicit substances and acts, people don’t even need
+        these two things – they just start conversing over the shared moment in
+        spacetime where they were{" "}
+        <em>both truly equal in their act of acceptance</em> of the world as it
+        was handed to them.
+      </p>
+    ),
+  },
+  {
+    classes: "verse",
+    html: (
+      <p>
+        These conversations, on the surface, might appear to be deep,
+        insightful, or even heartfelt, but unless these two apparently separate
+        beings have interacted with each other in a different setting without
+        said substances, don’t expect the conversation to begin a long-lasting
+        bond of camaraderie.
+      </p>
+    ),
+  },
+  {
+    classes: "verse bible",
+    html: (
+      <p>
+        <em>
+          “They conceive mischief, and bring forth vanity, and their belly
+          prepareth deceit.” <br />
+          (Job 15:35)
+        </em>
+      </p>
+    ),
+  },
+  {
+    classes: "verse",
+    html: (
+      <p>
+        You would think that the association and medium should be enough to a
+        fluid conversation to take place. This is in fact, what conventional
+        wisdom dictates; but in doing so, you are discounting the entire{" "}
+        <em>human element</em> from this interaction.
+      </p>
+    ),
+  },
+  {
+    classes: "verse",
+    html: (
+      <p>
+        Even though human beings require common media to interact over, and
+        common associations to interact about, human beings are much more
+        complex than that. We, as <em>free-floating beings</em> in this
+        universe, have a lot of things going on inside our heads at any given
+        time. Most of us are at different points in our Journey when we interact
+        at a given time, in a given space.{" "}
+        <em>
+          Having the same interaction in a different space leads to different
+          results, and interacting at different times of our Journeys leads to
+          even more different results.
+        </em>
+      </p>
+    ),
+  },
+  {
+    classes: "verse",
+    html: (
+      <p>
+        This is mostly what all friends’ night outs are about. We bond over the
+        simplest things during the <em>early stages</em> of our own Journeys,
+        then we spend time with each other indulging in ungodly acts –
+        interacting in ways that could hardly be perceived as meaningful. In
+        this shared-nothingness, we often drop cues about where we really are in
+        life, and where we really want to be. If those cues are properly picked
+        up in the group, it leads to a sense of bonding where the only
+        expectation is to <em>not be ignored</em>.
+      </p>
+    ),
+  },
+  {
+    classes: "verse",
+    html: (
+      <p>
+        The response given by participating members need not be meaningful,
+        heart-felt, or in most cases – <em>relevant</em>. There just needs to be{" "}
+        <em>a response</em>. A human, always, has to find all the answers to
+        life’s great big questions within the self – because it is only very
+        late in life, do most people realise that all this while they have only
+        been talking to{" "}
+        <em>
+          versions of themselves from a different time, living in a different
+          space
+        </em>
+        .
+      </p>
+    ),
+  },
+  {
+    classes: "verse",
+    html: (
+      <p>
+        There need not always be a proper reply to any personal cue dropped by
+        any member – there just needs to be a reply – an{" "}
+        <em>acknowledgement</em> that the cue has been heard. I say that the
+        reply doesn’t need to be relevant because most of the times, other
+        people in the group aren’t in a position to give the correct answer, and
+        they might never be in that particular situation to know what needs to
+        be known for a person in that position. You could say it is equivalent
+        to talking to a wall, but I would vehemently disagree.{" "}
+        <strong>
+          A wall does not have consciousness, and neither can your voiced
+          opinions flow back into your head when you talk to a wall.
+        </strong>
+      </p>
+    ),
+  },
+
+  {
+    classes: "verse",
+    html: (
+      <p>
+        What I have found is that, when you try to communicate something
+        pertinent to your own life, to another human being, they will almost
+        always, first think about the ideas and situations that your words do
+        not directly address. The thought that they will have in the beginning,
+        will be very tangentially related to what you are trying to say, but
+        their <em>subconscious</em> will pick up on the very cues that you had
+        put in just for the purposes of making a thought coherent for that
+        audience.
+      </p>
+    ),
+  },
+
+  {
+    classes: "verse bible",
+    html: (
+      <p>
+        <em>
+          “And beside all this, between us and you there is a great gulf fixed:
+          <br />
+          so that they which would pass from hence to you cannot; <br />
+          neither can they pass to us, that would come from thence.”
+          <br />
+          (Luke 16:26)
+        </em>
+      </p>
+    ),
+  },
+  {
+    classes: "verse",
+    html: (
+      <p>
+        This thing that you just communicated, is, in your opinion, something
+        very personal that applies to you and you only. The listening audience
+        then, will think about the generalisation of that thought, and how it
+        relates to other human clichés in a similar position. Thereon they will
+        start to think about how that generalisation fits in with their{" "}
+        <em>own perception of the self</em>. If they are really empathetic, only
+        then will they be able to make a connection to someone they associate
+        with. If at all, some <em>breath</em> is still left in their system to
+        ponder and delve deeper, only then, will they be able to make said
+        connection back to you, the human person.
+      </p>
+    ),
+  },
+  {
+    classes: "verse",
+    html: (
+      <p>
+        If you are trying to communicate something that, in your opinion, would
+        apply to a vast generality of beings, they will instantly make the
+        connection to the self, and skip the loop entirely to circle back to{" "}
+        <em>their</em> projection of <em>your</em> human self.
+      </p>
+    ),
+  },
+
+
+
   {
     classes: "verse",
     html: (
@@ -3300,7 +3703,7 @@ const verses = [
         closed, not a single uninvolved bystander was to be seen, every turn we
         took just led to a wall of lynching crowd – cracking windows, and
         burning tyres. My father had to remove his turban, and my sisters were
-        hidden from outside view. God knows what their issue was at the time,
+        hidden from outside view. Who knows what their issue was at the time,
         but years later when I recounted this issue to a Pakistani friend of
         mine, he scoffed "unka roz ka hai, aap hamare ghar aaye, khatirdaari
         karenge" –{" "}
@@ -3333,7 +3736,7 @@ const verses = [
         of the implications of their own actions. I'm absolutely sure, that
         there isn't a single person on this planet, who has not faced
         discrimination – it is the baggage that we inherited, but were not born
-        with. It is time to let that go. We are all the same here. Why don't we
+        with. Isn't it time to let that go? We are all the same here. Why don't we
         treat each other well? What's the point of enemity when all known
         territory has been conquered, and is under some administration? Why is
         it still about us and them, and not just us?
@@ -3348,7 +3751,7 @@ const verses = [
         particular group had no such predispositions to speak of, at least
         superficially. I don't particularly remember the specifics of that night
         (as I do not remember most of my college details), but I do remember the
-        feeling I had when I got back home – <em>emptiness.</em>
+        feeling I had when I got back home – sheer <em>emptiness.</em>
       </p>
     ),
   },
@@ -3380,21 +3783,18 @@ const verses = [
     classes: "verse",
     html: (
       <p>
-        Humans are weak. We try something that gives us relief from the
-        mundaneness of our regular lives – something that gives us a break from
-        our current sense-perception and transfers us into an alternate version
-        of what could be.
-      </p>
+        The part about substituting virtual storylines for actual human experiences from my article was all too real in that moment. I just could not stop my mind from wandering back to this piece that I had written. It was as if, everything I had written in that article, related personally to my own life, and for good reason – I was critiquing my own <em>self</em> in the article, for having wasted so much of my time in this once-in-a-lifetime opportunity of being allowed to study at the cultural epicenter of the world, by staying indoors, and pondering over vagaries, while my actual life had slipped by me in an excruciating instant. 
+        </p>
     ),
   },
   {
     classes: "verse",
     html: (
       <p>
-        In this version, not everything changes – depending on the potency of
-        the drug, much stays the same; but in a very subjective sense – things
-        appear better. Our lives appear better. The sensory overload that we all
-        experience, especially in the modern century, lightens.
+        Humans are weak. We try something that gives us relief from the
+        mundaneness of our regular lives – something that gives us a break from
+        our current sense-perception and transfers us into an alternate version
+        of what could be.In this version, not everything changes – depending on the potency of the drug, much stays the same; but in a very subjective sense – things appear better. Our lives appear better. The sensory overload that we all experience, especially in the modern century, lightens.
       </p>
     ),
   },
@@ -3430,9 +3830,7 @@ const verses = [
         absorb, the food you intake, the flowers you smell – in their true
         essence, they’re all drugs. Doing drugs is not a problem. Taking drugs
         is not a problem. Sure. You cannot survive normally without oxygen, or
-        water. That’s alright. God has meant for it to be that way. God, has
-        also created tobacco. He has also created marijuana. He has given you
-        grapes to ferment wine. The printing press was invented because of a
+        water. That’s alright. Nature has meant for it to be that way. Tobacco is natural, so is marijuana, as are the grapes used to ferment wine. The printing press was invented because of a
         wine enthusiast monk. Most of the great works of human art were done
         under the influence of some sort of drug. Music is a drug. Fruits are
         drugs. Bread is a drug. When your body starts to feel like something is
@@ -3456,7 +3854,7 @@ const verses = [
     classes: "verse",
     html: (
       <p>
-        In that moment, when I got back home, out of habit, I started rolling a
+        In that moment, I was home, and out of habit, I started rolling a
         joint. I was tired to the bone, but I did not want to go to sleep like
         this, at least not depressed again. I was doing so well after my parents
         had left after graduation, that I just did not want to start the vicious
@@ -3472,7 +3870,7 @@ const verses = [
         dread, this loneliness, this emptiness, this feeling that if I were to
         end my life tonight, people wouldn't find out for weeks. I was once
         again, out of touch with my family, and the friends that I had, were
-        busy enough to stay unaware, and given my unexplained absences from
+        busy enough to stay unaware, and given my usual unexplained absences from
         social events, nobody would realise that something had gone awry.
       </p>
     ),
@@ -3541,6 +3939,31 @@ const verses = [
         url="https://www.youtube.com/watch?v=IF6ZN0Wa3tM"
         width="100%"
       />
+    ),
+  },
+  {
+    classes: "demarcator",
+    html: <hr />,
+  },
+  {
+    classes: "chapter-title",
+    html: (
+      <p>
+        3 <br />
+        Calling
+      </p>
+    ),
+  },
+  {
+    classes: "verse title-quote",
+    html: (
+      <p>
+        <em>
+          “Blessed is that servant, whom his lord when he cometh shall find so
+          doing.” <br />
+          (Matthew 24:46)
+        </em>
+      </p>
     ),
   },
   {
@@ -3649,7 +4072,7 @@ const verses = [
     ),
   },
   {
-    classes: "verse",
+    classes: "verse quote",
     html: <p>This time, I replied back, with a "ya, sure."</p>,
   },
   {
@@ -3682,9 +4105,9 @@ const verses = [
     html: (
       <p>
         My masi was in town that weekend, with my cousin sisters, hoping to do
-        some back to school shopping, and finalise some logistics before she
+        some back-to-school shopping, and finalise some logistics before she
         could properly drop off her elder daughter to her boarding school in
-        Ohio. It was a tiring trip for all of us, more so for me I think because
+        Ohio. It was a tiring trip for all of us, more so for me I think, because
         I really did not want to be around family at that point. I was just not
         in the right headspace. Given all that was happening, how could I have
         been?
@@ -3751,9 +4174,19 @@ const verses = [
         point. This was like that, even more hard hitting since this one time in
         college I was so drunk that I just fell face first, and broke two teeth
         in the center of my face. I was so drunk that I couldn't use my hands to
-        break my fall. I wasn't just a metaphor of a disaster, my life was a
-        literal example.
+        break my fall. I had taken the Irish-exit out of this houseparty that I wasn't enjoying at all, somehow ended up in an under-construction apartment complex, come out a window onto the scoffolding, recorded an embarrassing video, gone back into a different apartment, and been kicked out by an unsuspecting old woman. That night was like a weird dream, that leaves you scatter-brained for days, and I had literal proofs of its occurence. I had had way too many nights like that, and so I wasn't just a metaphor of a disaster, my life was a literal example.
       </p>
+    ),
+  },
+  {
+    classes: "verse quote",
+    html: (
+      <FacebookProvider appId="295988795097494">
+        <EmbeddedPost
+          href="https://www.facebook.com/photo/?fbid=10206445255591203&set=a.1587161079949"
+          width="100%"
+        />
+      </FacebookProvider>
     ),
   },
   {
@@ -3781,7 +4214,7 @@ const verses = [
         Where could I go? What could I do? What would I say? How would I start?
         From when would I even begin? If I could have gone back in that moment,
         I would've gone back long ago. My life was a broken mess, and I just did
-        no trust anybody else enough, and revere anybody else enough, to take
+        not trust anybody else enough, and revere anybody else enough, to take
         the time up to pick up the pieces, and present to me a coherent version
         of my self.
       </p>
@@ -3841,12 +4274,17 @@ const verses = [
     ),
   },
   {
+    classes: "verse image",
+    html: (
+      <img src={ritual} />
+    ),
+  },
+  {
     classes: "verse",
     html: (
       <p>
         The icing on the cake in all this ruckus, were these tabs of acid that I
-        had managed to procure over the past couple days. The world was fucked,
-        and I was too. There was no hope, but the only surity was that there
+        had managed to procure over the past couple days. In my mind, the world was fucked, and I was too. There was no hope, but the only surity was that there
         would be a tomorrow, where I would find something else to put my mind
         towards. Tonight, I would at least get to see some cool patterns, maybe
         hear the music a little better, and perhaps dance a little. If I only
@@ -3855,7 +4293,7 @@ const verses = [
     ),
   },
   {
-    classes: "verse",
+    classes: "verse quote",
     html: <p>Pop; and wait.</p>,
   },
   {
@@ -3870,31 +4308,6 @@ const verses = [
         view={"coverart"}
         theme={"white"}
       />
-    ),
-  },
-  {
-    classes: "demarcator",
-    html: <hr />,
-  },
-  {
-    classes: "chapter-title",
-    html: (
-      <p>
-        3 <br />
-        Calling
-      </p>
-    ),
-  },
-  {
-    classes: "verse title-quote",
-    html: (
-      <p>
-        <em>
-          “Blessed is that servant, whom his lord when he cometh shall find so
-          doing.” <br />
-          (Matthew 24:46)
-        </em>
-      </p>
     ),
   },
   {
@@ -3926,8 +4339,7 @@ const verses = [
     classes: "verse",
     html: (
       <p>
-        So I had popped two tabs of acid, and intuitively, asked Alexa to play
-        this playlist. The AI complied, and couple moments later, I was
+        So I had popped two tabs of acid, and intuitively, asked <em>Alexa</em> to play this playlist. The AI complied, and couple moments later, I was
         hands-free – ready to be truly comfortable despite the shambles that my
         actual reality was hanging in. At least the music would be good, I
         thought. That this curation of mine, to which I hadn't given any real
@@ -4068,12 +4480,7 @@ const verses = [
     classes: "verse",
     html: (
       <p>
-        The non-verbal voice said, "leave now" and I took that literally. I
-        grabbed my speaker that was still buzzing, and leaped towards my bedroom
-        window, my apartment being on the second floor of the building, hoping
-        to proclaim as an announcer on the empty streets that things would now
-        be okay – and jumped off. This was my Eureka moment. Catastrophically
-        dumb.
+        The non-verbal voice said, <strong><em>"leave now"</em></strong> and I took that literally. I grabbed my speaker that was still buzzing, and leaped towards my bedroom window, my apartment being on the second floor of the building, hoping to proclaim as an announcer on the empty streets that things would now be okay – and jumped off. This was my Eureka moment. Catastrophically dumb.
       </p>
     ),
   },
@@ -4390,7 +4797,7 @@ const verses = [
       <FacebookProvider appId="295988795097494">
         <EmbeddedPost
           href="https://www.facebook.com/2071080513112802/videos/573899893124700/"
-          width="600"
+          width="100%"
         />
       </FacebookProvider>
     ),
@@ -4460,7 +4867,7 @@ const verses = [
         this is not the first verse in Scova. This surely isn’t the first page.
         So then, why am I rallying against something I myself have just done? Am
         I hypocritical, or did I just want to waste a couple hundred verses just talking
-        about my special self?
+        about my especially loathsome self?
       </p>
     ),
   },
@@ -4524,7 +4931,7 @@ const verses = [
       <FacebookProvider appId="295988795097494">
         <EmbeddedPost
           href="https://www.facebook.com/anhadarora/posts/10212865506893473"
-          width="600"
+          width="100%"
         />
       </FacebookProvider>
     ),
@@ -4719,7 +5126,7 @@ const verses = [
         attention away from them; and because it is so complex, you will not
         perceive the whole picture in a single glance – you have to personally
         keep paying attention to each single detail, as your
-        <em>intuition</em> and
+        <em>intuition</em>{" "} and{" "}
         <em>perception of the self</em> allows for a richer understanding in
         ways you couldn't have arrived at by conscious analysis alone, and in
         ways in which I will never explicitly mention.
@@ -4746,7 +5153,7 @@ const verses = [
         its core, everything you are now reading is a <em>nudge</em>. Where that
         nudge directs you is very subjective, and what you make of it, is
         entirely your interpretation, and yours alone. Do not expect others to
-        latch onto it immediately. Focus on the self for now.
+        latch onto it immediately. Focus on the self for now.{" "}
         <em>
           How you then act upon arriving at a conclusion, from Scova, or life in
           general, is entirely a burden shouldered onto you – as a responsible
@@ -4792,9 +5199,9 @@ const verses = [
         scrutinisation by the ones under the possibility of being affected by
         your actions, disconcertingly so in most cases. This is one of the
         reasons I didn't put Scova out into the world until it was considerably
-        ready. I say
+        ready. I say{" "}
         <em>considerably</em>, because no work ever will be complete in itself.
-        <em>
+        <em>{" "}
           Nothing is a self-contained sandbox, and the more you perceive, the
           more you'll realise that everything is connected, each to the other in
           a self-perpetuating feedback loop as modulated by the Source Himself.
@@ -4818,17 +5225,17 @@ const verses = [
     html: (
       <p>
         In that regard, the Grand Inquisitor always sends a soul in human form,
-        such as myself, to aid the
+        such as myself, to aid the{" "}
         <em>
           cause of all humanity – which is to survive, and hopefully – with
           time, effort, energy, commitment, understanding, and empathy –
-          self-actualise
-        </em>
-        . This soul is intricately entwined into the zeitgeist – both
+          self-actualise.
+        </em>{" "}
+        This soul is intricately entwined into the zeitgeist – both
         metaphorically, and physically. This is done so that this soul lives,
         breathes, acts and behaves in a manner such that the world is an
         inheritance – to be nurtured, guarded, and cultivated. In turn, God
-        protects this soul as His own progeny, as a<em>Father, His Son.</em><strong><em> This soul can function as a prophet, a messenger, a teacher, or the
+        protects this soul as His own progeny, as a{" "}<em>Father, His Son.</em><strong><em> This soul can function as a prophet, a messenger, a teacher, or the
         Messiah. That's contingent on God's will, and this soul's compliance.</em></strong>
       </p>
     ),
@@ -4869,9 +5276,9 @@ const verses = [
         the
         <em> humans Themselves, in tandem with God</em> that would actually
         convey what it really meant to be
-        <em>one with Him</em> – the
+        <em>one with Him</em> – the{" "}
         <em>Guru Granth Sahib</em>, a compilation by a group of people who, over
-        generations, connected with the Source and contributed to this
+        generations, connected with the Source and contributed to this{" "}
         <em>lively</em>, collaborative document. I say lively, not because I
         love poetry, nor do I love the metaphor of the Living Guru – it is the
         literal aspect of the
@@ -4925,17 +5332,16 @@ const verses = [
         remorse, ecstasy, and all the plethora of emotions and sensations in
         between, but in the end it was probably just a frank talk that I needed
         to hear from my own mouth, in my own words, and my own voice that did
-        the trick.
+        the trick.{" "}
         <em>
           I love how I can say the most sane thing, and sound, even to myself,
-          like the most insane person there will be
-        </em>{" "}
-        .
+          like the most insane person there will be.
+        </em>
       </p>
     ),
   },
   {
-    classes: "verse",
+    classes: "verse bible",
     html: (
       <p>
         <em>
@@ -4989,16 +5395,16 @@ const verses = [
       <p>
         I made a promise, and I fully intend to honour it – no matter the
         resistance (internal or otherwise), or the fear of failure. This is my
-        only <em>Purpose</em> in
+        only <em>Purpose</em> in{" "}
         <em>this</em> life. This will be the one thing that will outlast my
-        current lifetime, and
+        current lifetime, and{" "}
         <em>possibly haunt me in the next one(s) </em>(depending on the
         direction in which things progress).
       </p>
     ),
   },
   {
-    classes: "verse",
+    classes: "verse bible",
     html: (
       <p>
         <em>
@@ -6674,7 +7080,7 @@ const verses = [
           videoId={"573899893124700"}
           allowfullscreen={true}
           autoplay={false}
-          width={420}
+          width="100%"
           showText={true}
           showCaptions={true}
         />
@@ -10412,43 +10818,7 @@ const verses = [
       </p>
     ),
   },
-  {
-    classes: "verse",
-    html: (
-      <p>
-        In most social situations, especially where drugs and alcohol is
-        involved, most people judge your personality by the <em>vibe</em> you
-        give them in the moment with a thought that goes along the lines of —
-        “Can I kick back, relax, and have a beer with this person?” If yes,
-        you’re in. You are the considered a part of the imaginary group of
-        people that this person would choose to hangout with, if such an
-        opportunity ever arose.
-      </p>
-    ),
-  },
-  {
-    classes: "verse",
-    html: (
-      <p>
-        Even if the social situation has no indication of such a future
-        connection, most people are thinking about it — consciously, or
-        subconsciously. Even if the social setting is such that no possible
-        future connection can be made,{" "}
-        <em>most people just need an excuse to talk</em>.
-      </p>
-    ),
-  },
-  {
-    classes: "verse",
-    html: (
-      <p>
-        Not that talking without purpose is in any way wrong. On the contrary,
-        it is talking without an end-goal or predisposition that often leads to
-        serendipitous understanding – of the situations that you are, and have
-        been in, and about the other person, and by extension, the self.
-      </p>
-    ),
-  },
+  
   {
     classes: "verse",
     html: (
@@ -10461,139 +10831,7 @@ const verses = [
       </p>
     ),
   },
-  {
-    classes: "verse bible",
-    html: (
-      <p>
-        <em>
-          “Not that which goeth into the mouth defileth a man; <br />
-          but that which cometh out of the mouth, this defileth a man.” <br />
-          (Matthew 15:11)
-        </em>
-      </p>
-    ),
-  },
-  {
-    classes: "verse",
-    html: (
-      <p>
-        If you really have to indulge in such a thing, do it out in the open –
-        with other people around you – so they can see who you truly are when
-        your prefrontal cortex has given up a certain amount of control, given
-        the amount of illicit substance currently in your body.
-      </p>
-    ),
-  },
-  {
-    classes: "verse",
-    html: (
-      <p>
-        It is true, that when you relax your senses, your inhibitions, and by
-        extension, your best judgement – you are losing some control to what is,
-        in appearance, separate from the self. You open yourself up in front of
-        this separated entity – make yourself <em>vulnerable</em>, and thus,
-        open to exploitation. In such a situation, the elements of said entity
-        can make <em>you say</em> things you wouldn’t have otherwise, they can
-        make <em>you confess</em> to personal stuff since you are more prone to
-        sharing details that you wouldn’t have otherwise. They can make{" "}
-        <em>you engage </em>in activities that you wouldn’t have otherwise. Life
-        doesn’t get much beyond stupid high-school games.
-      </p>
-    ),
-  },
-  {
-    classes: "verse bible",
-    html: (
-      <p>
-        <em>
-          “Do not ye yet understand, <br />
-          that whatsoever entereth in at the mouth goeth into the belly, <br />
-          and is cast out into the draught? <br />
-          But those things which proceed out of the mouth <br />
-          come forth from the heart; and they defile the man. <br />
-          <br />
-          For out of the heart proceed evil thoughts,
-          <br />
-          murders, adulteries, fornications, <br />
-          thefts, false witness, blasphemies:
-          <br />
-          These are the things which defile a man: <br />
-          but to eat with unwashen hands (hands is a metaphor) defileth not a
-          man.”
-          <br />
-          (Matthew 15:17-20)
-        </em>
-      </p>
-    ),
-  },
-  {
-    classes: "verse",
-    html: (
-      <p>
-        <strong>Please do wash your hands. </strong>
-      </p>
-    ),
-  },
-  {
-    classes: "verse quran",
-    html: <p>quran sanitation quote</p>,
-  },
-  {
-    classes: "verse",
-    html: (
-      <p>
-        All of us are just expected to do adult things because we have spent so
-        much time LOL-ing around. We are expected to do better, more mature
-        things based on the stuff we have learnt in all our traversal in this
-        spacetime and in this life. Sometimes the actual experience doesn’t
-        really matter, it is just a matter of having spent more time in a
-        situation than the other person that leads most people to think you have
-        more <strong>experience</strong>.
-      </p>
-    ),
-  },
-  {
-    classes: "verse",
-    html: (
-      <p>
-        This is most often true in social situations. A large chuck of all
-        social interation, is really just predicated around an experienced
-        entity being engaged by others with seemingly lesser experience. Most of
-        your knowledge <em>about</em>
-        social situations comes from your family, and this is subconsciously
-        engrained in you, since you have been watching your family in social
-        situations since before you knew the difference between private and
-        public behaviour.
-      </p>
-    ),
-  },
-  {
-    classes: "verse",
-    html: (
-      <p>
-        You also mostly don’t think about acting on this knowledge – it is
-        already a part of your natural mannerisms. Sometimes you work hard to
-        get rid of these behaviours, sometimes you flaunt them knowingly. Your
-        relationship with these mannerisms mostly depends upon your relationship
-        with your family members, particularly the ones who implanted these
-        traits into your persona.
-      </p>
-    ),
-  },
-  {
-    classes: "verse",
-    html: (
-      <p>
-        Family, then, is an important part of who you are, and – if you stay
-        with them long enough – who you eventually become. You can’t discard the
-        influence <em>they have on you (read: nurture)</em>, neither should you
-        discard the behaviours <em>you receive from them (read: nature)</em>. It
-        is <em>always</em> better if you embrace them for what they are, and
-        make the quirks of your family your strengths, rather than focus on them
-        as some sort of disability that needs to be overcome.
-      </p>
-    ),
-  },
+  
   {
     classes: "verse",
     html: (
@@ -10664,196 +10902,7 @@ const verses = [
       </p>
     ),
   },
-  {
-    classes: "verse",
-    html: (
-      <p>
-        Back to Mussoorie – I was in a different place, a long way from home –
-        deeply entrenched in the mountains. We had little contact with the
-        outside world, and whatever “outings” we had, lasted mere hours in this
-        small hill-station.
-      </p>
-    ),
-  },
-  {
-    classes: "verse",
-    html: (
-      <p>
-        For the most part, the people you went to school with, became your dorm
-        mates, and since we all slept in the same dorm, we were at times, closer
-        than family. I say this, because family affects you in deep and profound
-        ways, and since I had found myself in a different family, my mannerisms
-        would now adapt to be more associated with my current peers. Perhaps I
-        had to work a little harder to adapt with my speech and personality,
-        because I was always perceived as visually different from what I was
-        supposed to look like – folks in Punjab always called me Nepalese, most
-        strangers in New York thought of me as Mexican, and to those in my
-        boarding school, I was many things, but the major part of my description
-        of them, was Sardar. Really though, whatever they perceived me as,{" "}
-        <em>
-          it was almost never an association of being a different variation of
-          their own self, but a familiar variation of the other
-        </em>
-        .
-      </p>
-    ),
-  },
-  {
-    classes: "verse",
-    html: (
-      <p>
-        Since these new peers were from all over the country, talking to, and
-        interacting with, all of them meant that my accent, and my mannerisms
-        could not be placed to a single location. I picked up different things
-        from different people – as a result, I learnt to be comfortable with all
-        kinds of people. It is really something when you’re a turbaned Indian
-        Sikh kid in a Catholic school of British Colonial era. It was the kind
-        of multicultural experience that would help me later on in college.
-      </p>
-    ),
-  },
-  {
-    classes: "verse",
-    html: (
-      <p>
-        As we grow up, life teaches us a couple things about interacting with
-        other people. First and foremost of them being that there should be a{" "}
-        <em>common medium for interaction</em>, the second being{" "}
-        <em>something to associate with</em> as a dialogue takes place in this
-        common medium of interaction.
-      </p>
-    ),
-  },
-  {
-    classes: "verse bible",
-    html: (
-      <p>
-        <em>
-          “For the congregation of hypocrites shall be desolate, <br />
-          and fire shall consume the tabernacles of bribery.”
-          <br />
-          (Job 15:34)
-        </em>
-      </p>
-    ),
-  },
-  {
-    classes: "verse",
-    html: (
-      <p>
-        When it comes to illicit substances and acts, people don’t even need
-        these two things – they just start conversing over the shared moment in
-        spacetime where they were{" "}
-        <em>both truly equal in their act of acceptance</em> of the world as it
-        was handed to them.
-      </p>
-    ),
-  },
-  {
-    classes: "verse",
-    html: (
-      <p>
-        These conversations, on the surface, might appear to be deep,
-        insightful, or even heartfelt, but unless these two apparently separate
-        beings have interacted with each other in a different setting without
-        said substances, don’t expect the conversation to begin a long-lasting
-        bond of camaraderie.
-      </p>
-    ),
-  },
-  {
-    classes: "verse bible",
-    html: (
-      <p>
-        <em>
-          “They conceive mischief, and bring forth vanity, and their belly
-          prepareth deceit.” <br />
-          (Job 15:35)
-        </em>
-      </p>
-    ),
-  },
-  {
-    classes: "verse",
-    html: (
-      <p>
-        You would think that the association and medium should be enough to a
-        fluid conversation to take place. This is in fact, what conventional
-        wisdom dictates; but in doing so, you are discounting the entire{" "}
-        <em>human element</em> from this interaction.
-      </p>
-    ),
-  },
-  {
-    classes: "verse",
-    html: (
-      <p>
-        Even though human beings require common media to interact over, and
-        common associations to interact about, human beings are much more
-        complex than that. We, as <em>free-floating beings</em> in this
-        universe, have a lot of things going on inside our heads at any given
-        time. Most of us are at different points in our Journey when we interact
-        at a given time, in a given space.
-        <em>
-          Having the same interaction in a different space leads to different
-          results, and interacting at different times of our Journeys leads to
-          even more different results.
-        </em>
-      </p>
-    ),
-  },
-  {
-    classes: "verse",
-    html: (
-      <p>
-        This is mostly what all friends’ weekends are about. We bond over the
-        simplest things during the <em>early stages</em> of our own Journeys,
-        then we spend time with each other indulging in ungodly acts –
-        interacting in ways that could hardly be perceived as meaningful. In
-        this shared-nothingness, we often drop cues about where we really are in
-        life, and where we really want to be. If those cues are properly picked
-        up in the group, it leads to a sense of bonding where the only
-        expectation is to <em>not be ignored</em>.
-      </p>
-    ),
-  },
-  {
-    classes: "verse",
-    html: (
-      <p>
-        The response given by participating members need not be meaningful,
-        heart-felt, or in most cases – <em>relevant</em>. There just needs to be{" "}
-        <em>a response</em>. A human, always, has to find all the answers to
-        life’s great big questions within the self – because it is only very
-        late in life, do most people realise that all this while they have only
-        been talking to
-        <em>
-          versions of themselves from a different time, living in a different
-          space
-        </em>
-        .
-      </p>
-    ),
-  },
-  {
-    classes: "verse",
-    html: (
-      <p>
-        There need not always be a proper reply to any personal cue dropped by
-        any member – there just needs to be a reply – an{" "}
-        <em>acknowledgement</em> that the cue has been heard. I say that the
-        reply doesn’t need to be relevant because most of the times, other
-        people in the group aren’t in a position to give the correct answer, and
-        they might never be in that particular situation to know what needs to
-        be known for a person in that position. You could say it is equivalent
-        to talking to a wall, but I would vehemently disagree.
-        <strong>
-          A wall does not have consciousness, and neither can your voiced
-          opinions flow back into your head when you talk to a wall.
-        </strong>
-      </p>
-    ),
-  },
+  
   {
     classes: "verse quote",
     html: (
@@ -10865,21 +10914,7 @@ const verses = [
       </p>
     ),
   },
-  {
-    classes: "verse",
-    html: (
-      <p>
-        What I have found is that, when you try to communicate something
-        pertinent to your own life, to another human being, they will almost
-        always, first think about the ideas and situations that your words do
-        not directly address. The thought that they will have in the beginning,
-        will be very tangentially related to what you are trying to say, but
-        their <em>subconscious</em> will pick up on the very cues that you had
-        put in just for the purposes of making a thought coherent for that
-        audience.
-      </p>
-    ),
-  },
+  
   {
     classes: "verse quote",
     html: (
@@ -10888,49 +10923,7 @@ const verses = [
       </p>
     ),
   },
-  {
-    classes: "verse bible",
-    html: (
-      <p>
-        <em>
-          “And beside all this, between us and you there is a great gulf fixed:
-          <br />
-          so that they which would pass from hence to you cannot; <br />
-          neither can they pass to us, that would come from thence.”
-          <br />
-          (Luke 16:26)
-        </em>
-      </p>
-    ),
-  },
-  {
-    classes: "verse",
-    html: (
-      <p>
-        This thing that you just communicated, is, in your opinion, something
-        very personal that applies to you and you only. The listening audience
-        then, will think about the generalisation of that thought, and how it
-        relates to other human clichés in a similar position. Thereon they will
-        start to think about how that generalisation fits in with their{" "}
-        <em>own perception of the self</em>. If they are really empathetic, only
-        then will they be able to make a connection to someone they associate
-        with. If at all, some <em>breath</em> is still left in their system to
-        ponder and delve deeper, only then, will they be able to make said
-        connection back to you, the human person.
-      </p>
-    ),
-  },
-  {
-    classes: "verse",
-    html: (
-      <p>
-        If you are trying to communicate something that, in your opinion, would
-        apply to a vast generality of beings, they will instantly make the
-        connection to the self, and skip the loop entirely to circle back to{" "}
-        <em>their</em> projection of <em>your</em> human self.
-      </p>
-    ),
-  },
+  
   {
     classes: "verse",
     html: (

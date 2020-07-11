@@ -26,9 +26,10 @@ table {
 }
 
 .verse {
-    width: 100%;
-    padding: 2rem;
+    padding-bottom: 2rem;
+    padding-right: 1rem;
     padding-left: 1rem;
+    margin-right: 1rem;
 }
 
 .quran {
@@ -53,7 +54,6 @@ table {
     text-align: center;
     align-items: center;
     padding: 1rem;
-    width: 320px;
 }
 
 .quran em {
@@ -87,7 +87,6 @@ tr {
     text-align: justify;
     font-size: 1.5rem;
     font-family: 'Charter', 'Grad', 'Cheltenham';
-    padding: 1em;
 }
 
 .salutation {
@@ -99,6 +98,14 @@ tr {
     font-size: 7rem;
     color: red;
     text-align: center;
-    opacity: 0.5;
     font-family: 'Charter', 'Grad', 'Cheltenham';
+}
+
+@media (max-width: 640px) {
+    table {
+        table-layout: fixed;
+        max-width: 80%;
+        margin-left: 0;
+        margin-right: 0;
+    }
 }
