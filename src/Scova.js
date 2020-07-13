@@ -64,6 +64,13 @@ const onboarding = [
         <em>To the same souls, and</em>
         <br />
         <em>Expecting me to not go insane.</em>
+        <br />
+        <br />
+        <em>And my Mother on Earth,</em>
+        <br />
+        <em>Who nudges me to prefection,</em>
+        <br />
+        <em>In each waking moment.</em>
       </p>
     ),
   },
