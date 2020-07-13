@@ -1,5 +1,8 @@
 .Home {
     text-align: center;
+    font-size: 1.5rem;
+    font-family: 'Charter', 'Grad', 'Cheltenham';
+    padding: 2rem;
 }
 
 .Home-logo {
@@ -20,13 +23,6 @@ body {
     background-attachment: fixed;
     background-size: cover;
     background-position: center;
-}
-
-p {
-    font-size: 1.5rem;
-    font-family: 'Charter', 'Grad', 'Cheltenham';
-    text-align: center;
-    padding: 2rem;
 }
 
 .Home-header {
