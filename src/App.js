@@ -22,7 +22,7 @@ function App() {
           <td colSpan="42" className={verse.classes} id={vi}>
             {verse.html}
           </td>
-          <td colSpan="8" style={{ fontWeight: "bolder", textAlign: "left" }}>
+          <td colSpan="8" style={{ fontWeight: "bolder", textAlign: "left" , verticalAlign: "middle"}}>
             {vi}
           </td>
         </tr>
@@ -34,7 +34,7 @@ function App() {
           <td colSpan="42" className={verse.classes}>
             {verse.html}
           </td>
-          <td colSpan="8" style={{ fontWeight: "bolder", textAlign: "left" }}>
+          <td colSpan="8" style={{ fontWeight: "bolder", textAlign: "left"  , verticalAlign: "middle"}}>
             {" "}
           </td>
         </tr>
