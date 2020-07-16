@@ -4973,7 +4973,7 @@ const verses = [
           image that God looks at when He <strong>sees</strong> you
         </em>
         . This is not to say that You and Him are one. It definitely does not
-        mean that the face of God is the same as your face. God has not face, or
+        mean that the face of God is the same as your face. God has no face, or
         form. It also does not mean that You and Him are separate. It just means
         that without Him, there is no you – but without you, there will still be
         Him. Your physical body is merely a <em>reflection of the self</em>, and
@@ -4987,7 +4987,7 @@ const verses = [
       <p>
         Sure enough then, God is gender neutral. How can He not be? The tiniest
         of quarks have His presence, as do the most gigantic of heavenly bodies
-        –
+        –{" "}
         <em>
           and all the animated and inanimate entities in between these
           proportions, also conform to the same principle
@@ -5053,7 +5053,7 @@ const verses = [
       <p>
         God doesn't <em>just</em> have a human form – He is <em>the form</em>,
         essentially, all forms there are. Everything you see around you, hear,
-        feel and experience, it's all part of <em>the One</em>.
+        feel and experience, it's all part of <em>the One</em>.{" "}
         <strong>
           Spacetime itself, is just God folding in and out on Himself.
         </strong>{" "}
@@ -5137,7 +5137,7 @@ const verses = [
         the teacher, and a plethora of other revered entities throughout the
         world's history, are all <em>layers of abstractions that represent</em>{" "}
         God in a relatable fashion. You can surely put them in between you and
-        God, if that is the
+        God, if that is the{" "}
         <em>level of burden</em> that you are comfortable with. Then again, do
         you simply accept yourself as a lesser being? Are you not even as
         capable as pieces of paper stitched together with words written in a
@@ -5163,7 +5163,7 @@ const verses = [
         tailored to you alone. If that is the case, then you are finally reading
         the right book, after all the garbage that you have spent your life
         absorbing, this is IT. This is why I'm here, in my spacetime, in the
-        infamous
+        infamous{" "}
         <em>Kalyug –</em> the sad state of affairs on this pale blue dot in the
         magnificent cosmic dance.{" "}
         <strong><em> I'm here for you, and I will make your journey worthwhile.</em></strong>
@@ -5330,7 +5330,7 @@ const verses = [
     ),
   },
   {
-    classes: "verse",
+    classes: "verse quran",
     html: (
       <p>
         أَلَمْ يَكُ نُطْفَةً مِّن مَّنِيٍّ يُمْنَىٰ <br />
@@ -5410,6 +5410,20 @@ const verses = [
   {
     classes: "verse",
     html: (
+      <SpotifyPlayer
+        uri="spotify:track:4F4skIPOcmPAEVQauG3GVB" // Imagine Dragons, Yesterday
+        size={{
+          width: "100%",
+          height: 300,
+        }}
+        view={"coverart"}
+        theme={"white"}
+      />
+    ),
+  },
+  {
+    classes: "verse",
+    html: (
       <p>
         "Our Father in Heaven" is antiquity's version of{" "}
         <em>The Parent in Heaven</em>. People should really have adapted this
@@ -5440,10 +5454,10 @@ const verses = [
         what our deeds were in past lives that we are all in such a deeply
         connected, collective hell. Even though, this is literally almost three
         millennia old knowledge, still, I will clarify for those yet
-        unacquainted – this was one of the very first commandments – "Honour thy father and thy mother: that thy days may be long upon the land which the Lord thy God giveth thee." (Exodus 20:12) It clearly means to give equal stature regardless of gender – to father, as well as to the mother, and to sister, as much to the brother, to son, the same as daughter – and so on an so forth. Why does it mean something different to you? If three thousand years of indoctrination wasn't
+        unacquainted – this was one of the very first commandments –<em> "Honour thy father and thy mother: that thy days may be long upon the land which the Lord thy God giveth thee." (Exodus 20:12) </em>It clearly means to give equal stature regardless of gender – to father, as well as to the mother, and to sister, as much to the brother, to son, the same as daughter – and so on an so forth. Why does it mean something different to you? If three thousand years of indoctrination wasn't
         enough for some of you, I doubt we'll see you in the{" "}
         <em>First Resurrection</em>. You'll most likely have to suffer in Hell a
-        little longer than the first wave – so
+        little longer than the first wave – so{" "}
         <em>God be with you</em>.
       </p>
     ),
@@ -5457,7 +5471,7 @@ const verses = [
         adjectives. To the best of my interpretation, in the moments when I was
         true to my own self<em> –</em> wilfully vulnerable, open to empathy,
         shackle-free and <strong>graciously uninhibited</strong> – I always
-        perceived <em>Him</em> as a Him – because that was me actualising
+        perceived <em>Him</em> as a Him – because that was me actualising{" "}
         <em>my true self, </em>and I could not have done it otherwise
         <em>. God is my Father, and also, my best friend. </em>The idea of God,
         then, is subjective in the sense that He plays different roles for
@@ -5547,7 +5561,7 @@ const verses = [
     ),
   },
   {
-    classes: "verse",
+    classes: "verse quote",
     html: (
       <p>
         <em>This is Your interpretation of the Source – </em>
@@ -5649,7 +5663,7 @@ const verses = [
     ),
   },
   {
-    classes: "verse",
+    classes: "verse bible",
     html: (
       <p>
         <em>
@@ -5681,7 +5695,7 @@ const verses = [
     ),
   },
   {
-    classes: "verse",
+    classes: "verse bible",
     html: (
       <p>
         <em>"And you, be ye fruitful, and multiply; </em>
@@ -5748,7 +5762,7 @@ const verses = [
         busy to engage ourselves in an actual discussion over the expectation of
         the Creator from His Creation. As the Creator of our entire universe, He
         does have that right of expectation over us. If you do not accept that
-        right, that's fine too – if you believe you know more about creation
+        right now, that's fine too – if you believe you know more about creation
         than the Creator Himself. Maybe you think you know more than me. Perhaps
         you do, I will never know. Maybe you have you own interpretation – as
         you should. If you have you own version of events, congratulations, you
@@ -5804,7 +5818,7 @@ const verses = [
     ),
   },
   {
-    classes: "verse",
+    classes: "verse quote",
     html: (
       <p>
         <em>
@@ -5832,7 +5846,7 @@ const verses = [
     ),
   },
   {
-    classes: "verse",
+    classes: "verse bible",
     html: (
       <p>
         <em>
@@ -5865,7 +5879,7 @@ const verses = [
     ),
   },
   {
-    classes: "verse",
+    classes: "verse bible",
     html: (
       <p>
         <em>
@@ -6000,7 +6014,7 @@ const verses = [
         messenger, a prophet, a guide, an incarnation – his only Son to explain
         to mortals living on this rock what the <em>Bible</em>, the
         <em>Quran</em>, the <em>Vedas</em> were all about; that too much time
-        has gone by while too little has been properly explained. Perhaps
+        has gone by while too little has been properly explained. Perhaps{" "}
         <em>that was the intention</em> – to show the effect of the sheer{" "}
         <em>force of decay</em> that takes over when <em>renewal</em> does not
         take place frequently, and properly. Maintenance of any entity is vital
@@ -6034,7 +6048,7 @@ const verses = [
         enough to question the nature of the thing that brought previous
         generations so much abundance, but only gave them confusion and
         discontent? The existence of God in today's times, because of such
-        autocratic and dehumanizing systems, is surely up for discussion – but
+        autocratic and dehumanizing systems, is surely up for discussion – but{" "}
         <strong><em>God still exists, in and outside of time.</em></strong>
       </p>
     ),
@@ -6133,7 +6147,7 @@ const verses = [
     ),
   },
   {
-    classes: "verse",
+    classes: "verse quote",
     html: (
       <p>
         <em>Scova itself, is not a Testament, </em> <br />
@@ -6163,7 +6177,7 @@ const verses = [
         That <em>way</em>, in this spacetime, is Scova. You may ask, that why
         haven't you heard this name in the previous scriptures? To that, I would
         counter, that when a new operating system is announced, does the company
-        announce the version they are going to release
+        announce the version they are going to release{" "}
         <em>after</em> the current version, or do they focus on the currently
         new version that the users should rightly get acclimated with first,
         before they rush onto thinking about what comes after?
@@ -6262,7 +6276,7 @@ const verses = [
         This knowledge, and these thoughts <em>don't always </em>have to do with
         spirituality or the foundation of <em>yet another religion</em>. In many
         cases, religion is merely a byproduct of a life with God. I could say
-        Newton's
+        Newton's{" "}
         <em>Principia Mathematica</em> was also a work of Divine Inspiration
         (you can include Leibniz in the mix if your heart so desires), but that
         probably doesn't bode well with your scientific minded worldview.
@@ -6382,9 +6396,9 @@ const verses = [
         The parable goes, that at the time of{" "}
         <em>Choosing (or The Great Feud)</em>, the <em>souls</em> who couldn't
         recognise God's <em>absolute authority</em> over all the angelic souls –
-        the ones who couldn't make up their minds due to internal dissonance,
+        the ones who couldn't make up their minds due to internal dissonance,{" "}
         <em>were made</em> to live and breathe on this biosphere called Earth –
-        until such time as the Kingdom of God was at hand, and the
+        until such time as the Kingdom of God was at hand, and the{" "}
         <em>final</em> Day of Judgement was nigh. This Qayamat ka din is quite
         the recurrence, haan? You can find references to it in literally every
         scripture that exists, so there is definitely a need to explore it.
@@ -6471,7 +6485,7 @@ const verses = [
           impart the necessary mental constructs to the primitive, simplistic
           people
         </strong>{" "}
-        with whose education you had been tasked with?
+        with whose education you had been tasked with?{" "}
         <strong>That's His command to you.</strong>
       </p>
     ),
@@ -6521,8 +6535,8 @@ const verses = [
         Would you, after having observed people receive all that knowledge and
         still be lost as sheep without a shepherd, not{" "}
         <em>give them another chance</em> by detailing every single thing
-        meticulously, and graphically, and hand over to them the
-        <strong>instructional manual to the proper way</strong> – hoping that
+        meticulously, and graphically, and hand over to them the{" "}
+        <strong>instructional manual to the proper way</strong>{" "}– hoping that
         one day, peace shall prevail by choice or force – so that all could be
         right, and adequately functioning in their world?{" "}
         <strong>Isn't this your only task</strong> in maintaining a worthwhile
@@ -6540,7 +6554,7 @@ const verses = [
         <strong>living your own life for them to see as an example</strong> – so
         that they may be inclined to try for themselves, and taste the{" "}
         <em>manna</em> that He so graciously, benevolently provides? Do you not
-        try to do this in your personal life?
+        try to do this in your personal life?{" "}
         <strong>Aren't all your actions geared to accomplishing this?</strong>
       </p>
     ),
@@ -6584,7 +6598,7 @@ const verses = [
         for the sake of everyone and everything they held dear. They are all
         destined to come back – wearing numerous skins, speaking different
         tongues, and try different approaches to achieve the same end – the
-        Longevity of Happiness. Is that not, just the only worthy goal?
+        Longevity of Happiness. <strong><em>Is that not, just the only worthy goal?</em></strong>
       </p>
     ),
   },
@@ -6605,7 +6619,7 @@ const verses = [
     html: (
       <p>
         We all live, breathe and act like Gods in our own, puny spheres of
-        influence – but we really do not know shit.
+        influence – but we really do not know shit.{" "}
         <strong>
           Some things just come to our mind, and we choose or refuse acting on
           them.
@@ -6615,7 +6629,7 @@ const verses = [
           time.
         </em>{" "}
         Yet, we never really understood. Instead, we mistook them for actual
-        Gods – focusing on the liberties they took in life, yet
+        Gods – focusing on the liberties they took in life, yet{" "}
         <strong>never really understanding the burden</strong> that comes when
         you take liberty.
       </p>
@@ -6672,7 +6686,7 @@ const verses = [
     html: (
       <p>
         God Himself cannot revoke the Natural Law, so He devised a game – the{" "}
-        <em>Game of Life</em>. The objective?
+        <em>Game of Life</em>. The objective?{" "}
         <strong>
           To live, breathe, behave and act as if you were God, and mould your
           world into your own reflection – as He does to You
@@ -6685,7 +6699,7 @@ const verses = [
     ),
   },
   {
-    classes: "verse",
+    classes: "verse bible",
     html: (
       <p>
         <em>
@@ -6724,7 +6738,7 @@ const verses = [
       <p>
         अहम् ब्रह्मास्मि – the Sanskrit aphorism{" "}
         <em>Aha&#7745; Brahm&#257;smi</em> is a cute abstraction of the same
-        that translates to –<em>I am Brahma, I am the Absolute</em>. It is
+        that translates to –{" "}<em>I am Brahma, I am the Absolute</em>. It is
         actually one of the problems with Hinduism. This eclectic collective
         idea of the master Yogi has been around for so long that people really
         have no clue as to what it means. Millennia of conquests and division
@@ -6743,7 +6757,7 @@ const verses = [
         tumultuous times (if you know the true meaning) more than a magical
         mantra that mystically makes all your troubles go away. In a simpler
         time, I would've vaguely mentioned this phrase in the book for some
-        discerning nerd to scout and find peace, but I cannot. Not now.
+        discerning nerd to scout and find peace, but I cannot. Not now.{" "}
         <em>The time for legendary games has passed</em>. This Journey that God
         has put me on, and this narrative that I have since built, does not
         allow room for frivolous pursuits like this anymore. The entirety of the
@@ -6762,7 +6776,7 @@ const verses = [
         passed since the original sin – we grew from single-celled organisms to
         multi-celled, and then grew exponentially complex. It is now, in this
         time, that we are all finally in a state where we can comprehend truly,
-        equally, without, and beyond a shred of doubt – that
+        equally, without, and beyond a shred of doubt – that{" "}
         <em>we aren't Gods</em>. We can't possibly be. Look around you. We
         tried, we have been trying, and God has been guiding us all this time –
         but we still have failed. Kalyug has still come knocking yet again, and
@@ -6776,7 +6790,7 @@ const verses = [
     ),
   },
   {
-    classes: "verse",
+    classes: "verse block-quote",
     html: (
       <p>
         <em>"How did you like playing God?"</em>
@@ -6794,7 +6808,7 @@ const verses = [
     ),
   },
   {
-    classes: "verse",
+    classes: "verse bible",
     html: (
       <p>
         <em>
@@ -6826,20 +6840,19 @@ const verses = [
     ),
   },
   {
-    classes: "verse",
+    classes: "verse quote ",
     html: (
       <p>
         <strong>
           {" "}
           This event, which is set to take place at the the Golden Temple,
-          Amritsar, India, on May 9th, 2032 CE, <br />
-          will be nudged into forward momentum by Yours truly.
+          Amritsar, India, on May 9th, 2032 CE, will be nudged into forward momentum by Yours truly.
         </strong>
       </p>
     ),
   },
   {
-    classes: "verse",
+    classes: "verse quote",
     html: (
       <p>
         <em>I will be prepared. What about you?</em>
@@ -6854,13 +6867,13 @@ const verses = [
         and contentment lasting one millennium. You can find references to this
         in the Bible (Christian and Judaic), the Quran, the Gurbani, Hindu
         scriptures, and yes, of course, in Hitler's thousand year reich. That
-        day will mark the beginning of the Satyug – the
+        day will mark the beginning of the Satyug – the{" "}
         <em>Ever After</em>, where we can all live happily.
       </p>
     ),
   },
   {
-    classes: "verse",
+    classes: "verse quote",
     html: (
       <p>
         <em>
@@ -6875,7 +6888,7 @@ const verses = [
     classes: "verse",
     html: (
       <p>
-        <strong>Too Long; Do Read </strong> –
+        <strong>Too Long; Do Read </strong> –{" "}
         <em>
           our entire reason for existence is our internal dissonance – the how
           and why we act on it, is the ultimate test that we are bound to give
@@ -6890,7 +6903,7 @@ const verses = [
       <p>
         This is probably too soon; perhaps it is at just the right juncture.
         This is a place for shock and awe – but also{" "}
-        <em>reasoned deliberation</em> and
+        <em>reasoned deliberation</em> and{" "}
         <em>sound judgements</em>. To that end, I have now, already told you
         that God exists, and the scriptures are all true. That should've been
         enough for people – but since it wasn't enough for me in the beginning,
@@ -6898,7 +6911,7 @@ const verses = [
         easily. This willingness to surrender doesn't come so easily, so I'll
         earn it. It is for this reason that I have waited so long to reveal
         Scova to the world – my own fate, and the fate of all humanity in the
-        <em>Satyug</em> rests on my, and its perfection –
+        <em>Satyug</em> rests on my, and its perfection –{" "}
         <em>and we are all far from perfection</em>.
       </p>
     ),
@@ -6983,15 +6996,20 @@ const verses = [
       </p>
     ),
   },
+
+
   {
     classes: "verse",
     html: (
       <p>
-        To further understand, and explain logic – it is thus important to
-        understand the <strong>language</strong> by which ‘we’ communicate
-        logic. The phrase, self-configuring self-processing language (SCSPL)
-        comes into light when trying to explain the logic that sentient beings
-        employ when interacting with their environment.
+        Traditionally, in a book such as this, the very first page of the very
+        first chapter is dedicated to a prayer recitation, or an introduction of
+        sorts that underlines the book’s legitimacy to the people that it is
+        meant to address. There’s a description of God’s qualities that a human
+        should imbibe, there’s a mention of the cosmic lineage of the mouthpiece
+        responsible for the story behind the book, or there’s a list of
+        incantations to be said before beginning anything to demonstrate the
+        orator’s respect for the Almighty.
       </p>
     ),
   },
@@ -6999,13 +7017,11 @@ const verses = [
     classes: "verse",
     html: (
       <p>
-        SCSPL is just intellectual jargon to say that the language we use,
-        configures our interaction with elements of our environment – on whose
-        application, some events occur in the surroundings that are then
-        perceived by us – causing us to change and alter our method of
-        interaction so that our{" "}
-        <em>perceptual interpretation of said interaction </em>can influence our
-        understanding of the environment.
+        However, history is proof that this approach does not work. Even still,
+        this is not the first verse in Scova. This surely isn’t the first page.
+        So then, why am I rallying against something I myself have just done? Am
+        I hypocritical, or did I just want to waste a couple hundred verses just
+        talking about my especially loathsome self?
       </p>
     ),
   },
@@ -7013,20 +7029,122 @@ const verses = [
     classes: "verse",
     html: (
       <p>
-        Yes, all these statements fold in on themselves to explain themselves.
-        That’s teleology. You will not learn anything new here – you’ll just
-        learn a new way of doing the same stuff that you were doing before this.
+        The answer is neither. The previous books that were written, didn’t just
+        contain banal salutations, and pointless incantations – certainly not in
+        the very beginning. The authors of the book made God easily accessible
+        by providing you with the most important information in the very
+        beginning. Practicing religious friends of mine have even scoffed at me
+        for even thinking of reading a scripture, any scripture, in its
+        entirety. What a weird thing to discourage. Why wouldn’t you want to
+        read the complete theory of everything? Why wouldn't you want{" "}
+        <strong>God's Word</strong> to tell you the reason for your existence?
       </p>
     ),
   },
+  {
+    classes: "verse",
+    html: (
+      <p>
+        One answer, and one alone – it’s boring; and with good reason too – half
+        the stuff in the book is not meant for a regular person to comprehend.
+        What could a person in the 2nd century CE have done after reading a
+        prophecy for the 21st century? What use did a slave have for laws that
+        governed the master? What was the point of mentioning the bloodline of
+        Abraham, or Noah, or any of the other characters, repeatedly?
+      </p>
+    ),
+  },
+  {
+    classes: "verse",
+    html: (
+      <p>
+        It didn’t matter then, if you started the book with <em>Om</em>,{" "}
+        <em>Ik Onkar</em>, <em>Bismillahirrahmanirrahim</em> or{" "}
+        <em>Our Father</em>– they have all been lead to the same demise –{" "}
+        <em>
+          mechanical performance of outdated rituals in times of
+          socio-politico-cultural decadence which is almost always coupled with
+          an impending economic downfall.
+        </em>
+      </p>
+    ),
+  },
+
+  {
+    classes: "verse",
+    html: (
+      <p>
+        For this reason, I'll try a different approach this time. I'll start
+        with the provocative question, that I was asked, by God, when He
+        kickstarted my <em>Freedom Bootcamp,</em> a crash course in the nature
+        of reality that began roughly around the Independence Day of my
+        then-home-country-to-be, America, which was on the 4th of July, 2017,
+        and ended roughly around the Independence Day of my country-of-birth,
+        India, which was August 15th, 2017. I was taught a great number of
+        things during that time, and was made to unlock a lot of aspects about
+        my own, and everybody else's subjective reality. Scova is an attempt to
+        codify it into a replicable experience, so that my life's Calling might
+        be fulfilled –{" "}
+        <strong>
+          <em>Collective Nirvana.</em>
+        </strong>
+      </p>
+    ),
+  },
+
   {
     classes: "verse quote",
     html: (
+      <FacebookProvider appId="295988795097494">
+        <EmbeddedPost
+          href="https://www.facebook.com/anhadarora/posts/10212865506893473"
+          width="100%"
+        />
+      </FacebookProvider>
+    ),
+  },
+  {
+    classes: "verse quran",
+    html: (
+      <p>
+        وَلَقَدْ كُنتُمْ تَمَنَّوْنَ الْمَوْتَ مِن قَبْلِ أَن تَلْقَوْهُ فَقَدْ
+        رَأَيْتُمُوهُ وَأَنتُمْ تَنظُرُونَ
+        <br />
+        <em>(Quran 3:143) </em>
+      </p>
+    ),
+  },
+  {
+    classes: "verse",
+    html: (
+      <p>
+        A lot of great things happened during the 42 days when I had God to
+        guide me in{" "}
+        <strong>
+          <em>the most</em>
+        </strong>{" "}
+        immersive, all encompassing, complete surrender bootcamp (as a crash
+        course in the nature of life should be). A lot of bad things happened,
+        some more heartbreaking than disappointing, some foolish, some ignorant,
+        some – well they were just plain wrong. Was I completely exhausted and
+        in shock by the end of it? Well, not for a long time – it took a while
+        to really sink in. Did I go completely mental, and have a break from
+        reality? Never. Not even in my worst moments.
+      </p>
+    ),
+  },
+  {
+    classes: "verse bible",
+    html: (
       <p>
         <em>
-          You wanted religion reinvented – this is reinvention.
+          “Who is as the wise man? <br />
+          and who knoweth the interpretation of a thing?
           <br />
-          Nobody ever said this would be easy to traverse.
+          a man’s wisdom maketh his face to shine, <br />
+          and the boldness of his face shall be changed.”
+          <br />
+          (Ecclesiastes 8:1)
         </em>
       </p>
     ),
@@ -7035,13 +7153,15 @@ const verses = [
     classes: "verse",
     html: (
       <p>
-        The way that we understand reality is through our own mind – meaning,
-        that <em>our</em> world can only be explained by <em>our</em> own mind.
-        Yes, people can talk about the world for us a species, but to explain{" "}
-        <em>your own</em> life – <em>your own</em> mindset – <em>your own</em>{" "}
-        way of perceiving situations and things – that can only be explained by
-        using <em>your own</em> mind — <em>your own</em> perceptions to explain{" "}
-        <em>your own</em> reality.
+        All that I remember from that bootcamp was a constant internal warmth in
+        every inch of my bodily self, a constant, everlasting glow on my face,
+        freakishly high metabolism, and no pains in my body – none at all. By
+        the end of this bootcamp, it was as if the boundary of my skin that
+        existed to remind me that my blood and organs were separated from the
+        outside world just did not exist anymore. I had not known true comfort
+        or true emotions of that level, of that intensity before, and I will not
+        have attained that level for a very long time until after the bootcamp.{" "}
+        <strong>That was Heaven</strong>.
       </p>
     ),
   },
@@ -7049,11 +7169,25 @@ const verses = [
     classes: "verse",
     html: (
       <p>
-        In a sense – You are the supreme being <em>in your own mind</em> as
-        there is none but you – and even when there was no matter to reside in,
-        no memories to recall, no information to intake, and by extension,
-        nothing to perceive – there was just you. One moment you weren’t and in
-        the next, you just were. Sound familiar?
+        It’s actually my very selfish reason for doing all this –{" "}
+        <em>I want to be in Heaven too</em>. I was in it for 6 weeks, and not
+        that we have any authority to swear by anything, but I’ll be damned if I
+        said that I didn’t want to be in that state for all my living moments.
+      </p>
+    ),
+  },
+  {
+    classes: "verse quran",
+    html: (
+      <p>
+        لَا يُكَلِّفُ اللَّهُ نَفْسًا إِلَّا وُسْعَهَا ۚ لَهَا مَا كَسَبَتْ
+        وَعَلَيْهَا مَا اكْتَسَبَتْ ۗ رَبَّنَا لَا تُؤَاخِذْنَا إِن نَّسِينَا
+        أَوْ أَخْطَأْنَا ۚ رَبَّنَا وَلَا تَحْمِلْ عَلَيْنَا إِصْرًا كَمَا
+        حَمَلْتَهُ عَلَى الَّذِينَ مِن قَبْلِنَا ۚ رَبَّنَا وَلَا تُحَمِّلْنَا
+        مَا لَا طَاقَةَ لَنَا بِهِ ۖ وَاعْفُ عَنَّا وَاغْفِرْ لَنَا وَارْحَمْنَا
+        ۚ أَنتَ مَوْلَانَا فَانصُرْنَا عَلَى الْقَوْمِ الْكَافِرِينَ
+        <br />
+        <em>(Quran 2:286)</em>
       </p>
     ),
   },
@@ -7061,13 +7195,929 @@ const verses = [
     classes: "verse",
     html: (
       <p>
-        Everything you perceive – goes <em>into</em> you, travels{" "}
-        <em>through</em>
-        you and comes <em>out</em> of you.{" "}
-        <em>You are the informational gateway to your own world.</em> Starting
-        afresh, you and your mind – can be directed to be anything and become
-        anyone. This progress and development, occurs through the recursive
-        perception/introspection paradigm previously defined.
+        This is why, my relationship with God was not something that I wanted to
+        put up in a short article that I posted on the internet, boasted about
+        repeatedly, and then mined for likes and shares. It doesn't help that He
+        has put me in a position where nobody will listen to me anyway, even if
+        I hint (or loudly project) at a possible chance of salvation to all
+        those who encounter me – because I <em>rarely ever</em> do it out of
+        philanthropic intent. I live through Scova, and grow, and adapt, each
+        day.
+        <em> I am to told to not seek</em> validation from any other human
+        being, for <em>I know</em> that I have His. Not many people can make
+        such a statement with such confidence, and rarely ever someone will.{" "}
+      </p>
+    ),
+  },
+  {
+    classes: "verse",
+    html: (
+      <p>
+        Most of the ones who have, didn't really amount to much in their
+        lifetimes anyway. They surely had temporal, worldly success in terms of
+        limited financial security and conditional social validation – but they
+        never truly felt anything different from the ones they were influencing.
+        Sure enough, their misdeeds in one life, did not let them feel whole in
+        that life, neither did it give them an advantage in the next – this, I
+        know for sure. The true prophets, were almost always bizarrely
+        prosecuted and ostracised. The concrete details of my own future in this
+        life too, are hidden from me – which is surely for the best. I do have a
+        guarantee that this will be hardest thing I will ever have done, in all
+        of my lifetimes.
+      </p>
+    ),
+  },
+  {
+    classes: "verse",
+    html: (
+      <p>
+        I am ready to be laughed at, condemned, and ostracised – I did take a
+        pledge to follow through – come what may. Successful or not, influential
+        or not, venerated or not, understood or not, I <em>have been told</em>{" "}
+        that my life will amount to as much as I can humanly handle, and that
+        much is enough for me.
+      </p>
+    ),
+  },
+  {
+    classes: "verse",
+    html: (
+      <p>
+        On the question of what part I am playing in this lifetime, my closing
+        salutations will answer that. On the question of my legitimacy as His
+        mouthpiece – the first part of this Volume, <em>Alethia</em>, intends to
+        answer that. Sometimes addressed to all of humanity, but mostly as an
+        internal monologue – it documents my bachelor life and understandings of
+        my relationship with God, and by extension – the world at large. I was
+        informed of my cosmic legitimacy on my very first encounter with Him,
+        but it took me a while to believe it, to believe in Him, in myself, and
+        to really, understand what was being asked of me, and how
+        <em> He </em>would deliver. Some revelations dawn on me as passing
+        thoughts, some are very conscious sit-downs – but mostly, it is an
+        ongoing dialogue that surpasses linear time as an ongoing discussion
+        across spacetime, tangentially relevant to my internal personal
+        narrative, yet related to all versions of me in a way that cannot be
+        explained by mere chance, or even insightful discernment. My own self
+        did not need much convincing, because God's force is overwhelming, and
+        so, by the time Scova is publicly available in its entirety, I will
+        already have lived a majority of my life fully convinced of my
+        legitimacy –<em> this, also I have been told</em>.
+      </p>
+    ),
+  },
+  {
+    classes: "verse quran",
+    html: (
+      <p>
+        {" "}
+        وَقَالَ لَهُمْ نَبِيُّهُمْ إِنَّ اللَّهَ قَدْ بَعَثَ لَكُمْ طَالُوتَ
+        مَلِكًا ۚ قَالُوا أَنَّىٰ يَكُونُ لَهُ الْمُلْكُ عَلَيْنَا وَنَحْنُ
+        أَحَقُّ بِالْمُلْكِ مِنْهُ وَلَمْ يُؤْتَ سَعَةً مِّنَ الْمَالِ ۚ قَالَ
+        إِنَّ اللَّهَ اصْطَفَاهُ عَلَيْكُمْ وَزَادَهُ بَسْطَةً فِي الْعِلْمِ
+        وَالْجِسْمِ ۖ وَاللَّهُ يُؤْتِي مُلْكَهُ مَن يَشَاءُ ۚ وَاللَّهُ وَاسِعٌ
+        عَلِيمٌ
+        <br />
+        <em>(Quran 2:247)</em>
+      </p>
+    ),
+  },
+  {
+    classes: "verse",
+    html: (
+      <p>
+        If I'm not being entirely clear, don't fret just yet; and if the Devil's
+        Advocate within you is already contemplating a possible argument of
+        predestination versus merit, let me save you the trouble. The entirety
+        of Scova is an attempt to answer just that.
+      </p>
+    ),
+  },
+  {
+    classes: "verse",
+    html: (
+      <p>
+        This whole thing, this journey that I'm bound to take you on, is a three
+        dimensional puzzle, whose pieces fall apart the longer you divert your
+        attention away from them; and because it is so complex, you will not
+        perceive the whole picture in a single glance – you have to personally
+        keep paying attention to each single detail, as your
+        <em>intuition</em> and <em>perception of the self</em> allows for a
+        richer understanding in ways you couldn't have arrived at by conscious
+        analysis alone, and in ways in which I will never explicitly mention.
+      </p>
+    ),
+  },
+  {
+    classes: "verse",
+    html: (
+      <p>
+        Let yourself be guided by your intuition, not fear or insecurity, as you
+        perceptually absorb all the information coursing through your system as
+        you <strong>read Scova by yourself </strong>first, before you go out and
+        preach.
+      </p>
+    ),
+  },
+  {
+    classes: "verse",
+    html: (
+      <p>
+        At times the information will be a subtle clue, but mostly, it will be a
+        literal definition intermingled with personal experience – really, at
+        its core, everything you are now reading is a <em>nudge</em>. Where that
+        nudge directs you is very subjective, and what you make of it, is
+        entirely your interpretation, and yours alone. Do not expect others to
+        latch onto it immediately. Focus on the self for now.{" "}
+        <em>
+          How you then act upon arriving at a conclusion, from Scova, or life in
+          general, is entirely a burden shouldered onto you – as a responsible
+          human being, this is the least that is expected of you. Don't forget
+          to be empathetic.
+        </em>
+      </p>
+    ),
+  },
+  {
+    classes: "verse",
+    html: (
+      <p>
+        The entitled rights of liberty are symbiotic in their relation to the
+        expected responsibilities – if there is a disconnect between the two,
+        anarchy swiftly follows. We surely don't desire such a scenario after
+        millennia of civilisation – otherwise what is the point of anything
+        really? Why were the cavemen even taught how to light a fire?
+      </p>
+    ),
+  },
+  {
+    classes: "verse",
+    html: (
+      <p>
+        In the old days, they didn't do much writing, it was more action, and
+        narration. Bold statements needed to be made, and even bolder actions
+        needed to be executed so that their impact would last for generations.
+        Myths and legends circulated far and wide, and there was much room for
+        error due to the frailties of eye-witness testimony. Now that we have
+        tools that provide little resistance in transcribing thoughts to words,
+        we are in a good place. We could've been in a better place had there
+        been little internal hurdles to jump through to get to a state of pure
+        inspiration, but that's one thing I can leave to God, and in turn, He
+        can guide you in a way that You know best.
+      </p>
+    ),
+  },
+  {
+    classes: "verse",
+    html: (
+      <p>
+        There is also not a lot of leeway now, as every single move, and every
+        click, and every word that is associated with you is under constant
+        scrutinisation by the ones under the possibility of being affected by
+        your actions, disconcertingly so in most cases. This is one of the
+        reasons I didn't put Scova out into the world until it was considerably
+        ready. I say <em>considerably</em>, because no work ever will be
+        complete in itself.
+        <em>
+          {" "}
+          Nothing is a self-contained sandbox, and the more you perceive, the
+          more you'll realise that everything is connected, each to the other in
+          a self-perpetuating feedback loop as modulated by the Source Himself.
+        </em>
+      </p>
+    ),
+  },
+  {
+    classes: "verse quran",
+    html: (
+      <p>
+        وَلِلَّهِ مَا فِي السَّمَاوَاتِ وَمَا فِي الْأَرْضِ ۚ وَإِلَى اللَّهِ
+        تُرْجَعُ الْأُمُورُ
+        <br />
+        <em>(Quran 3:109)</em>
+      </p>
+    ),
+  },
+  {
+    classes: "verse",
+    html: (
+      <p>
+        In that regard, the Grand Inquisitor always sends a soul in human form,
+        such as myself, to aid the{" "}
+        <em>
+          cause of all humanity – which is to survive, and hopefully – with
+          time, effort, energy, commitment, understanding, and empathy –
+          self-actualise.
+        </em>{" "}
+        This soul is intricately entwined into the zeitgeist – both
+        metaphorically, and physically. This is done so that this soul lives,
+        breathes, acts and behaves in a manner such that the world is an
+        inheritance – to be nurtured, guarded, and cultivated. In turn, God
+        protects this soul as His own progeny, as a <em>Father, His Son.</em>
+        <strong>
+          <em>
+            {" "}
+            This soul can function as a prophet, a messenger, a teacher, or the
+            Messiah. That's contingent on God's will, and this soul's
+            compliance.
+          </em>
+        </strong>
+      </p>
+    ),
+  },
+  {
+    classes: "verse",
+    html: (
+      <p>
+        Most of the aforementioned Volumes, and others not mentioned, have not
+        been written by the human who was directly connected to the Source. They
+        were transcribed long after the events had passed, and things were
+        mentioned with the rose-tinted lenses of hindsight. The guys themselves,
+        were so busy living their legends that they had no time to transcribe
+        and make clear all the doubts that would most definitely arise in the
+        minds of the people who had no relation to their spacetime. It is hard,
+        keeping up with God's synchronicity.
+      </p>
+    ),
+  },
+  {
+    classes: "verse quran",
+    html: (
+      <p>
+        كَمَا أَرْسَلْنَا فِيكُمْ رَسُولًا مِّنكُمْ يَتْلُو عَلَيْكُمْ آيَاتِنَا
+        وَيُزَكِّيكُمْ وَيُعَلِّمُكُمُ الْكِتَابَ وَالْحِكْمَةَ وَيُعَلِّمُكُم
+        مَّا لَمْ تَكُونُوا تَعْلَمُونَ
+        <br />
+        <em>(Quran 2:151)</em>
+      </p>
+    ),
+  },
+  {
+    classes: "verse",
+    html: (
+      <p>
+        This is why, there has been just one{" "}
+        <em>religious text of consequence, thus far,</em> that was composed by
+        the
+        <em> humans Themselves, in tandem with God</em> that would actually
+        convey what it really meant to be
+        <em>one with Him</em> – the <em>Guru Granth Sahib</em>, a compilation by
+        a group of people who, over generations, connected with the Source and
+        contributed to this <em>lively</em>, collaborative document. I say
+        lively, not because I love poetry, nor do I love the metaphor of the
+        Living Guru – it is the literal aspect of the
+        <em> living</em> that appeals to me. Why? Read on.
+      </p>
+    ),
+  },
+  {
+    classes: "verse",
+    html: (
+      <p>
+        The traditions associated with that Volume too, are being corrupted, so
+        that only makes me wonder if My efforts will reap the same results – in
+        which case I should just stop writing now. What good is 1000 years in a
+        span of eternity? Well, what good is cleaning when you have to do it
+        again the next day? What good is any task that reoccurs?
+      </p>
+    ),
+  },
+  {
+    classes: "verse bible",
+    html: (
+      <p>
+        <em>"I will declare thy name unto my brethren: </em>
+        <br />
+        <em>
+          in the midst of the congregation will I praise thee."
+          <br />
+          (Psalm 22:22)
+        </em>
+      </p>
+    ),
+  },
+  {
+    classes: "verse",
+    html: (
+      <p>
+        I have wished so many times that I could stop; but I can't. In fact,
+        just a short while before writing this very statement, I was
+        contemplating the same thing, again. Slowly but surely, God talked some
+        sense into me. Like the stern father that He is, He made me realise the
+        importance of what I was doing, and would be doing.
+      </p>
+    ),
+  },
+  {
+    classes: "verse",
+    html: (
+      <p>
+        He had already coddled me, let me run loose, made me feel guilt,
+        remorse, ecstasy, and all the plethora of emotions and sensations in
+        between, but in the end it was probably just a frank talk that I needed
+        to hear from my own mouth, in my own words, and my own voice that did
+        the trick.{" "}
+        <em>
+          I love how I can say the most sane thing, and sound, even to myself,
+          like the most insane person there will be.
+        </em>
+      </p>
+    ),
+  },
+  {
+    classes: "verse bible",
+    html: (
+      <p>
+        <em>
+          "Then Jonah prayed unto the Lord his God out of the fish's belly,{" "}
+          <br />
+          And said, I cried by reason of mine affliction unto the Lord, and he
+          heard me;
+          <br />
+          <br />
+          out of the belly of hell cried I, and thou heardest my voice.
+          <br />
+          For thou hadst cast me into the deep, in the midst of the seas;
+          <br />
+          and the floods compassed me about:
+          <br />
+          all thy billows and thy waves passed over me.
+          <br />
+          <br />
+          Then I said, I am cast out of thy sight; <br />
+          yet I will look again toward thy holy temple.
+          <br />
+          The waters compassed me about, even to the soul: <br />
+          the depth closed me round about, the weeds were wrapped about my head.
+          <br />
+          <br />
+          I went down to the bottoms of the mountains; <br />
+          the earth with her bars was about me for ever: <br />
+          yet hast thou brought up my life from corruption, O Lord my God.
+          <br />
+          <br />
+          When my soul fainted within me I remembered the Lord:
+          <br />
+          and my prayer came in unto thee, into thine holy temple.
+          <br />
+          They that observe lying vanities forsake their own mercy.
+          <br />
+          <br />
+          <strong>
+            But I will sacrifice unto thee with the Voice of Thanksgiving;
+            <br />I will pay that that I have vowed. Salvation is of the Lord."
+          </strong>
+          <br />
+          (Jonah 2:1-9)
+        </em>
+      </p>
+    ),
+  },
+  {
+    classes: "verse",
+    html: (
+      <p>
+        I made a promise, and I fully intend to honour it – no matter the
+        resistance (internal or otherwise), or the fear of failure. This is my
+        only <em>Purpose</em> in <em>this</em> life. This will be the one thing
+        that will outlast my current lifetime, and{" "}
+        <em>possibly haunt me in the next one(s) </em>(depending on the
+        direction in which things progress).
+      </p>
+    ),
+  },
+  {
+    classes: "verse bible",
+    html: (
+      <p>
+        <em>
+          "For destruction from God was a terror to me,
+          <br />
+          and by reason of his highness I could not endure."
+          <br />
+          (Job 31:23)
+        </em>
+      </p>
+    ),
+  },
+  {
+    classes: "verse",
+    html: (
+      <p>
+        That being said, I have written Scova with the intent that it be the
+        most <em>comprehensive</em>, yet
+        <em> scrutable</em> piece of work you have ever encountered. It covers a
+        wide breadth of subjects (almost everything), so naturally, there has
+        not been much time in my life to get into the depth of all things that
+        exist. The most important concepts, and the most scrounging dilemmas
+        have been explored in grave detail – as a work like this demands. Even
+        still, this is still just the tip of the iceberg, as God, if you are
+        worthy, is the gift that keeps on giving the more you ask from Him.
+        <em> The worth is decided by the self, in tandem with God</em>. Would be
+        very unfair if God didn't take your perspective into account now,
+        wouldn't it?
+      </p>
+    ),
+  },
+  {
+    classes: "verse quote",
+    html: (
+      <p>
+        <em>Allah is nothing, if not compassionate.</em>
+      </p>
+    ),
+  },
+  {
+    classes: "verse quote",
+    html: (
+      <p>
+        ਹਮ ਕੁਚਲ ਕੁਚੀਲ ਅਤਿ ਅਭਿਮਾਨੀ ਮਿਲਿ ਸਬਦੇ ਮੈਲੁ ਉਤਾਰੀ ॥੧॥
+        <br />
+        ਸੰਤਹੁ ਗੁਰਮੁਖਿ ਨਾਮਿ ਨਿਸਤਾਰੀ ॥
+        <br />
+        ਸਚਾ ਨਾਮੁ ਵਸਿਆ ਘਟ ਅੰਤਰਿ ਕਰਤੈ ਆਪਿ ਸਵਾਰੀ ॥੧॥ ਰਹਾਉ ॥
+        <br />
+        <em>(Sri Guru Granth Sahib – Page 911)</em>
+      </p>
+    ),
+  },
+  {
+    classes: "verse",
+    html: (
+      <p>
+        Unlike other works, which <em>borrow from the same source</em>,
+        including the ones I have already mentioned, this
+        <strong> Volume</strong> is meant for the
+        <em>entire population of the world (current and future)</em>, not just a
+        sect, not a city, not a country, not a race –
+        <strong> for all sentient life</strong>. It is filled with language that
+        cannot be misinterpreted or mistranslated,
+        <em> if perceived correctly,</em> by the original reader.
+      </p>
+    ),
+  },
+  {
+    classes: "verse quote",
+    html: (
+      <p>
+        <em>Everything is conditional, so pay close attention. </em>
+      </p>
+    ),
+  },
+  {
+    classes: "verse",
+    html: (
+      <p>
+        English is then, probably a poor choice for the{" "}
+        <em>Purposes of Posterity</em>, as the language allows for much
+        vagaries; but this is the language of this time, and there is a reason
+        why I was brought up speaking, reading, and writing this language.
+        <em>
+          {" "}
+          It is precisely for its vagaries that this language is used – if there
+          wasn't any room for reinterpretation, people would start following it
+          mechanically, without purposeful meaning, and in a way that absolves
+          all chances of a newer Me.{" "}
+        </em>
+        So be watchful when humans in the future claim to translate this work in
+        the name of a "regular update." Do let them update it, if English is a
+        dead language by then, but be wary still.
+      </p>
+    ),
+  },
+  {
+    classes: "verse",
+    html: (
+      <p>
+        Yes, Scova is a continuation of all that has come before.{" "}
+        <em>
+          This does not mean that all that has been written before this, is 100%
+          correct.
+        </em>
+      </p>
+    ),
+  },
+  {
+    classes: "verse quote",
+    html: (
+      <p>
+        <em>Almost nothing ever is. </em>
+      </p>
+    ),
+  },
+  {
+    classes: "verse",
+    html: (
+      <p>
+        <em>
+          No static thing can remain relevant across time, hence, this update.
+        </em>{" "}
+        What I really mean to say when I call Scova, a<em> Volume</em> in a set
+        of all the previous books, is that from this point on, you, as a
+        species, should
+        <strong> not have to</strong> read anything written before this time.
+        <strong>
+          {" "}
+          Please do read books other than this one; please read the books quoted
+          in this one, and most importantly, also read other books dealing with
+          other subjects. I can't stress this enough – life cannot be lived by
+          only having read one book.
+        </strong>{" "}
+        The only reason why I have called it a Volume, and not a whole new
+        radical ideology, is for the <em>Purposes of Continuity</em> – so that{" "}
+        <em>readers after my time</em> can have a fuller understanding of{" "}
+        <em>what were the missing pieces in the previous Volumes</em> that led
+        to things being the way they were in my time. That being said, I will
+        not spend any time talking about the current temporal events, as there
+        are other professionals who get fulfilment doing just that.
+      </p>
+    ),
+  },
+  {
+    classes: "verse",
+    html: (
+      <p>
+        As is the nature of life, <em>it goes on</em>. We can only build
+        something new, if there is something old to serve as a roadmap. To be
+        human, is to learn from one's mistakes, and I sure have learnt from
+        mine. If you are already bored, uninterested, or have long judged
+        yourself to be a better person than I, then you should just stop
+        already. We can start the <em>Rapture</em> without you. It is one of the
+        wonders of overpopulation, quite possibly the only one.
+      </p>
+    ),
+  },
+  {
+    classes: "verse",
+    html: (
+      <p>
+        To all those intrigued, just make sure that while, and after, reading
+        all that I have lived and transcribed, you remember that{" "}
+        <strong>
+          this is not your understanding, you are only just a reader, yet. The
+          experiences in Scova are mine alone, but as has been the nature of my
+          life, it is bound to be instantly relatable, in which case – your
+          experiences have found a coherent voice, in a way that your own self
+          has not been able to express so far.
+        </strong>{" "}
+        That is my solace. So thank you for letting me.{" "}
+        <strong>
+          If you don't agree with this voice, feel free to find another.
+        </strong>{" "}
+        There will have been many false prophets before, and in, my time – and
+        all shall fail. So try your luck elsewhere, because
+        <em>laut ke buddhu ghar ko hi aate hai</em>.<em> </em>This will remain
+        your respite, always.
+      </p>
+    ),
+  },
+  {
+    classes: "verse bible",
+    html: (
+      <p>
+        <em>
+          "What I tell you in darkness, that speak ye in light:
+          <br />
+          and what ye hear in the ear, that preach ye upon the housetops."
+          <br />
+          (Matthew 10:27)
+        </em>
+      </p>
+    ),
+  },
+  {
+    classes: "verse",
+    html: (
+      <p>
+        You might be wondering that if this is a book of scripture, then why am
+        I going out of my way to exclude some people whom I haven't personally
+        met? Hasn't religion always been a place for acceptance? Doesn't God
+        love and accept all His children? To that end, I'd say you are right in
+        your initial assumptions, but your approach to get to the conclusion
+        that you have gotten to, is foiled.
+      </p>
+    ),
+  },
+  {
+    classes: "verse",
+    html: (
+      <p>
+        Yes, we are all God's children – in a way that a Creator loves His
+        creation. Yes, God loves you, and His love knows no bounds. How can He?
+        Everybody loves according to their limits, and possibly beyond too – God
+        does not have any limits. Religion too, is a place for acceptance of all
+        beings alike, but
+        <em>religion is established by humans</em>, and humans have limits, so
+        do their constructs. Those limits being clearly defined across spacetime
+        as
+        <em>
+          including only people who may differ in their approaches and
+          demeanours and their vibrance, only so long as they have the same end
+          goal as the collective that is driving their every decision
+        </em>
+        .<strong> Everything is contingent</strong>.
+      </p>
+    ),
+  },
+  {
+    classes: "verse quote",
+    html: (
+      <p>
+        ਬਾਦੀ ਬਿਨਸਹਿ ਸੇਵਕ ਸੇਵਹਿ ਗੁਰ ਕੈ ਹੇਤਿ ਪਿਆਰੀ ॥੨੧॥ <br />
+        ਸੋ ਜੋਗੀ ਤਤੁ ਗਿਆਨੁ ਬੀਚਾਰੇ ਹਉਮੈ ਤ੍ਰਿਸਨਾ ਮਾਰੀ ॥੨੨॥ <br />
+        ਸਤਿਗੁਰੁ ਦਾਤਾ ਤਿਨੈ ਪਛਾਤਾ ਜਿਸ ਨੋ ਕ੍ਰਿਪਾ ਤੁਮਾਰੀ ॥੨੩॥ <br />
+        <em>(Sri Guru Granth Sahib – Page 911)</em>
+      </p>
+    ),
+  },
+  {
+    classes: "verse",
+    html: (
+      <p>
+        To that end, you will find in Scova, a lot that you agree with, and an
+        equal amount of disagreement. You will also find things that you already
+        know in your own peculiar ways, and equally you shall find things that
+        you thought you knew, but did not understand completely. You will find
+        contentment, and an equal amount of dissonance as you peruse the
+        sentences I have spent this lifetime crafting, while trying to
+        coherently convey the thoughts I have been carrying around for all of my
+        eternal life.
+      </p>
+    ),
+  },
+  {
+    classes: "verse",
+    html: (
+      <p>
+        At times you will find some overly simplistic clich&#233;s which will
+        almost always be coupled with abundantly obtuse technicalities that
+        govern your own life. Don't fret. Such is the nature of this work. I did
+        not embark on this journey to codify the Natural Law into a humanly
+        readable, and comprehensible scripture just so you could coast your way
+        through it. You aren't a robot, so don't act like it. That way, you will
+        not be bored – at the very least, I will have done my best to stop you
+        from being bored – because let's be honest, the foremost defining human
+        trait is getting bored with the thing that has already been explained,
+        and exploited to its full potential. There is celebration and joy for a
+        while – but that lasts only as long as the magic of the illusion is
+        still intact.
+      </p>
+    ),
+  },
+  {
+    classes: "verse",
+    html: (
+      <p>
+        This illusion is the boon and bane of your experience with God – some
+        room for secrecy is initially allowed wherein you truly learn about what
+        it is that you are experiencing; but if you keep this up for{" "}
+        <em>longer than needed</em>, it turns to a facade. I could point fingers
+        at every religious and spiritual organisation in the world, and probably
+        take heat for some of them, but I will not – for there is{" "}
+        <em>Qayamat</em>. The moment this illusion starts to briefly crumble and
+        fade into oblivion, as is the nature of things static in time, people
+        very swiftly start to lose "faith" in the thing that has brought them
+        all the happiness, and the progress, and the advancement that led them
+        to self-fruition.
+      </p>
+    ),
+  },
+  {
+    classes: "verse",
+    html: (
+      <p>
+        Adding to that, even though it is abundantly clear, I will still
+        positively affirm a few important disclaimers that need to be made
+        before anything with the potential to cause proper damage is revealed.
+        People have a habit of misinterpreting what is not said.
+      </p>
+    ),
+  },
+  {
+    classes: "verse",
+    html: (
+      <p>
+        First, Scova is <strong>not a call to arms</strong> for people to take
+        to the streets, or worse – invading territories, because of their
+        disenchantment with the status quo. The time for <em>Crusades</em> and{" "}
+        <em>Jihads</em> and <em>Blitzkriegs</em> has passed. We have no need for
+        them anymore, we've already established that we are all the same people.
+        Perfect yourself first, the surroundings will naturally follow.
+      </p>
+    ),
+  },
+  {
+    classes: "verse",
+    html: (
+      <p>
+        Second, this is most definitely <strong>not a seal of approval</strong>{" "}
+        for all the people misleading, on purpose or out of ignorance, the
+        entities for whose well being they were supposedly responsible, because
+        of the writings they read in the books resulting directly out of my
+        previous lives. Scova, however, is a<strong> solution</strong>, and most
+        importantly, an
+        <strong> apology</strong> – this was all a consequence of my doing, and
+        it is only fair that I be the one to undo it. So leave that burden to
+        me.
+      </p>
+    ),
+  },
+  {
+    classes: "verse",
+    html: (
+      <p>
+        Another bit of advice for those proceeding:{" "}
+        <strong>
+          God lets you pick and choose on what it is that you want to implement
+          in your own life, but the moment you start to influence other entities
+          seemingly separate from your own self, there is no if-else – there is
+          just if and only if – you will have to follow it ALL if you want to
+          influence the actions of another soul.
+        </strong>{" "}
+        Influencing in any manner, that is.
+      </p>
+    ),
+  },
+  {
+    classes: "verse",
+    html: (
+      <p>
+        <strong>
+          While influencing, know this too – until and unless you have practiced
+          all that I have preached, and I do mean ALL of it, you are fallible.
+        </strong>{" "}
+        I, myself, didn't garner all this knowledge by basking under the sun. I
+        surely was not born with it.
+      </p>
+    ),
+  },
+  {
+    classes: "verse quote",
+    html: (
+      <p>
+        <em>
+          <strong>I have made all the mistakes firsthand, repeatedly.</strong>
+        </em>
+      </p>
+    ),
+  },
+  {
+    classes: "verse",
+    html: (
+      <p>
+        <em>Understand this too:</em> Any and all clich&#233;s that you have
+        heard about life are true. Abandon all notion that you can avoid
+        clich&#233;s. The best thing you can do, is understand the kind of
+        clich&#233; you currently are; and see how life plays out for such a
+        clich&#233;. If you like your chances, proceed on that path – provided
+        your conscience supports it, and God allows it. You'll know where He
+        stands through your status quo.
+      </p>
+    ),
+  },
+  {
+    classes: "verse",
+    html: (
+      <p>
+        If not, change yourself.
+        <br /> If that doesn't help, change your surroundings.
+        <br /> If that fails too, change your approach to your surroundings.
+      </p>
+    ),
+  },
+  {
+    classes: "verse",
+    html: (
+      <p>
+        <em>The secrets have always been in the clich&#233;s.</em>
+      </p>
+    ),
+  },
+  {
+    classes: "verse",
+    html: (
+      <p>
+        Read this text in its entirety, and immerse yourself in the pictures and
+        insignia while consuming <strong>"the blood of Christ"</strong> under My
+        guidance (this obviously refers to psychedelics), and only then can you
+        hope to have a modicum of <em>Clarity</em> when you perceive this
+        Heaven/Hell dichotomy that most of us categorise as LIFE.
+      </p>
+    ),
+  },
+  {
+    classes: "verse",
+    html: (
+      <p>
+        To that end, understand this too – you are not "supposed" to be anything
+        that you haven't actually decided to become. You could "supposedly" be a
+        lot of things.{" "}
+        <em>
+          Knowing yourself and the situations you could work in – is the first
+          step to realising the things you are going to become.
+        </em>{" "}
+        Do not think for a second that just because you have
+        <em>read</em> the right stuff, that you will feel these things the way I
+        have felt.
+      </p>
+    ),
+  },
+  {
+    classes: "verse quote",
+    html: (
+      <p>
+        <em>
+          Your life is specifically catered to you and you only, but at the same
+          time, we all will almost always end up as clich&#233;s.
+        </em>
+      </p>
+    ),
+  },
+  {
+    classes: "verse",
+    html: (
+      <p>
+        Every clich&#233; unravels into another one. This happens in a way that
+        is <em>personal to you and only you</em>. Nobody else will truly, fully
+        relate to what you have experienced. Someone else's decision in a
+        similar situation might not completely resonate with you if you haven't
+        understood their situation deeply enough.
+      </p>
+    ),
+  },
+  {
+    classes: "verse",
+    html: (
+      <p>
+        On the flip side, somebody with a situation{" "}
+        <em>drastically dissimilar from you on the surface</em> might hold the
+        Key to the Gate you have found yourself standing in front of repeatedly,
+        for a long time. So pay heed to what people around you are saying, and
+        not saying – but understand everything <em>within the context</em> of
+        your own confine.
+      </p>
+    ),
+  },
+  {
+    classes: "verse",
+    html: (
+      <p>
+        <em>
+          The decision to put faith in your interpretation of the situation and
+          assessment of known variables is yours to make, always.
+        </em>{" "}
+        It might be affected by imperceivable factors, but try your best to keep
+        track of the ones you can perceive, and hope for the best – for
+        <em>
+          this is the only freedom we've all got, so you owe it to yourself to
+          hone it properly.
+        </em>
+      </p>
+    ),
+  },
+  {
+    classes: "verse bible",
+    html: (
+      <p>
+        <em>
+          "Believest thou not that I am in the Father, and the Father in me?
+          <br />
+          the words that I speak unto you I speak not of myself:
+          <br />
+          but the Father that dwelleth in me, he doeth the works."
+          <br />
+          (John 14:10)
+        </em>
+      </p>
+    ),
+  },
+  {
+    classes: "verse",
+    html: (
+      <p>
+        The only true decision you will ever make is to find out what kind of a
+        stereotype you were, and what kind of a stereotype you want to be. All
+        the steps in between – you will have to navigate through, throughout
+        your life, <em>almost always listening</em> to what He is trying to tell
+        you, because He is always listening to You. Let this serve as a guide to
+        wander through life in the best way only you could.
+      </p>
+    ),
+  },
+  {
+    classes: "verse",
+    html: (
+      <p>
+        <em>Baaki, Allah maalik hai.</em>
+      </p>
+    ),
+  },
+  {
+    classes: "salutation",
+    html: (
+      <p>
+        – Anhad Singh Arora,
+        <br />
+        <em>Son of God.</em>
       </p>
     ),
   },
@@ -9716,1131 +10766,101 @@ const verses = [
 
 
 
+
+
+  {
+    classes: "verse",
+    html: (
+      <p>
+        To further understand, and explain logic – it is thus important to
+        understand the <strong>language</strong> by which ‘we’ communicate
+        logic. The phrase, self-configuring self-processing language (SCSPL)
+        comes into light when trying to explain the logic that sentient beings
+        employ when interacting with their environment.
+      </p>
+    ),
+  },
+  {
+    classes: "verse",
+    html: (
+      <p>
+        SCSPL is just intellectual jargon to say that the language we use,
+        configures our interaction with elements of our environment – on whose
+        application, some events occur in the surroundings that are then
+        perceived by us – causing us to change and alter our method of
+        interaction so that our{" "}
+        <em>perceptual interpretation of said interaction </em>can influence our
+        understanding of the environment.
+      </p>
+    ),
+  },
+  {
+    classes: "verse",
+    html: (
+      <p>
+        Yes, all these statements fold in on themselves to explain themselves.
+        That’s teleology. You will not learn anything new here – you’ll just
+        learn a new way of doing the same stuff that you were doing before this.
+      </p>
+    ),
+  },
+  {
+    classes: "verse quote",
+    html: (
+      <p>
+        <em>
+          You wanted religion reinvented – this is reinvention.
+          <br />
+          Nobody ever said this would be easy to traverse.
+        </em>
+      </p>
+    ),
+  },
+  {
+    classes: "verse",
+    html: (
+      <p>
+        The way that we understand reality is through our own mind – meaning,
+        that <em>our</em> world can only be explained by <em>our</em> own mind.
+        Yes, people can talk about the world for us a species, but to explain{" "}
+        <em>your own</em> life – <em>your own</em> mindset – <em>your own</em>{" "}
+        way of perceiving situations and things – that can only be explained by
+        using <em>your own</em> mind — <em>your own</em> perceptions to explain{" "}
+        <em>your own</em> reality.
+      </p>
+    ),
+  },
+  {
+    classes: "verse",
+    html: (
+      <p>
+        In a sense – You are the supreme being <em>in your own mind</em> as
+        there is none but you – and even when there was no matter to reside in,
+        no memories to recall, no information to intake, and by extension,
+        nothing to perceive – there was just you. One moment you weren’t and in
+        the next, you just were. Sound familiar?
+      </p>
+    ),
+  },
+  {
+    classes: "verse",
+    html: (
+      <p>
+        Everything you perceive – goes <em>into</em> you, travels{" "}
+        <em>through</em>
+        you and comes <em>out</em> of you.{" "}
+        <em>You are the informational gateway to your own world.</em> Starting
+        afresh, you and your mind – can be directed to be anything and become
+        anyone. This progress and development, occurs through the recursive
+        perception/introspection paradigm previously defined.
+      </p>
+    ),
+  },
+
+
   
 
-  {
-    classes: "verse",
-    html: (
-      <p>
-        Traditionally, in a book such as this, the very first page of the very
-        first chapter is dedicated to a prayer recitation, or an introduction of
-        sorts that underlines the book’s legitimacy to the people that it is
-        meant to address. There’s a description of God’s qualities that a human
-        should imbibe, there’s a mention of the cosmic lineage of the mouthpiece
-        responsible for the story behind the book, or there’s a list of
-        incantations to be said before beginning anything to demonstrate the
-        orator’s respect for the Almighty.
-      </p>
-    ),
-  },
-  {
-    classes: "verse",
-    html: (
-      <p>
-        However, history is proof that this approach does not work. Even still,
-        this is not the first verse in Scova. This surely isn’t the first page.
-        So then, why am I rallying against something I myself have just done? Am
-        I hypocritical, or did I just want to waste a couple hundred verses just
-        talking about my especially loathsome self?
-      </p>
-    ),
-  },
-  {
-    classes: "verse",
-    html: (
-      <p>
-        The answer is neither. The previous books that were written, didn’t just
-        contain banal salutations, and pointless incantations – certainly not in
-        the very beginning. The authors of the book made God easily accessible
-        by providing you with the most important information in the very
-        beginning. Practicing religious friends of mine have even scoffed at me
-        for even thinking of reading a scripture, any scripture, in its
-        entirety. What a weird thing to discourage. Why wouldn’t you want to
-        read the complete theory of everything? Why wouldn't you want{" "}
-        <strong>God's Word</strong> to tell you the reason for your existence?
-      </p>
-    ),
-  },
-  {
-    classes: "verse",
-    html: (
-      <p>
-        One answer, and one alone – it’s boring; and with good reason too – half
-        the stuff in the book is not meant for a regular person to comprehend.
-        What could a person in the 2nd century CE have done after reading a
-        prophecy for the 21st century? What use did a slave have for laws that
-        governed the master? What was the point of mentioning the bloodline of
-        Abraham, or Noah, or any of the other characters, repeatedly?
-      </p>
-    ),
-  },
-  {
-    classes: "verse",
-    html: (
-      <p>
-        It didn’t matter then, if you started the book with <em>Om</em>,{" "}
-        <em>Ik Onkar</em>, <em>Bismillahirrahmanirrahim</em> or{" "}
-        <em>Our Father</em>– they have all been lead to the same demise –{" "}
-        <em>
-          mechanical performance of outdated rituals in times of
-          socio-politico-cultural decadence which is almost always coupled with
-          an impending economic downfall.
-        </em>
-      </p>
-    ),
-  },
 
-  {
-    classes: "verse",
-    html: (
-      <p>
-        For this reason, I'll try a different approach this time. I'll start
-        with the provocative question, that I was asked, by God, when He
-        kickstarted my <em>Freedom Bootcamp,</em> a crash course in the nature
-        of reality that began roughly around the Independence Day of my
-        then-home-country-to-be, America, which was on the 4th of July, 2017,
-        and ended roughly around the Independence Day of my country-of-birth,
-        India, which was August 15th, 2017. I was taught a great number of
-        things during that time, and was made to unlock a lot of aspects about
-        my own, and everybody else's subjective reality. Scova is an attempt to
-        codify it into a replicable experience, so that my life's Calling might
-        be fulfilled –{" "}
-        <strong>
-          <em>Collective Nirvana.</em>
-        </strong>
-      </p>
-    ),
-  },
-
-  {
-    classes: "verse quote",
-    html: (
-      <FacebookProvider appId="295988795097494">
-        <EmbeddedPost
-          href="https://www.facebook.com/anhadarora/posts/10212865506893473"
-          width="100%"
-        />
-      </FacebookProvider>
-    ),
-  },
-  {
-    classes: "verse quran",
-    html: (
-      <p>
-        وَلَقَدْ كُنتُمْ تَمَنَّوْنَ الْمَوْتَ مِن قَبْلِ أَن تَلْقَوْهُ فَقَدْ
-        رَأَيْتُمُوهُ وَأَنتُمْ تَنظُرُونَ
-        <br />
-        <em>(Quran 3:143) </em>
-      </p>
-    ),
-  },
-  {
-    classes: "verse",
-    html: (
-      <p>
-        A lot of great things happened during the 42 days when I had God to
-        guide me in{" "}
-        <strong>
-          <em>the most</em>
-        </strong>{" "}
-        immersive, all encompassing, complete surrender bootcamp (as a crash
-        course in the nature of life should be). A lot of bad things happened,
-        some more heartbreaking than disappointing, some foolish, some ignorant,
-        some – well they were just plain wrong. Was I completely exhausted and
-        in shock by the end of it? Well, not for a long time – it took a while
-        to really sink in. Did I go completely mental, and have a break from
-        reality? Never. Not even in my worst moments.
-      </p>
-    ),
-  },
-  {
-    classes: "verse bible",
-    html: (
-      <p>
-        <em>
-          “Who is as the wise man? <br />
-          and who knoweth the interpretation of a thing?
-          <br />
-          a man’s wisdom maketh his face to shine, <br />
-          and the boldness of his face shall be changed.”
-          <br />
-          (Ecclesiastes 8:1)
-        </em>
-      </p>
-    ),
-  },
-  {
-    classes: "verse",
-    html: (
-      <p>
-        All that I remember from that bootcamp was a constant internal warmth in
-        every inch of my bodily self, a constant, everlasting glow on my face,
-        freakishly high metabolism, and no pains in my body – none at all. By
-        the end of this bootcamp, it was as if the boundary of my skin that
-        existed to remind me that my blood and organs were separated from the
-        outside world just did not exist anymore. I had not known true comfort
-        or true emotions of that level, of that intensity before, and I will not
-        have attained that level for a very long time until after the bootcamp.{" "}
-        <strong>That was Heaven</strong>.
-      </p>
-    ),
-  },
-  {
-    classes: "verse",
-    html: (
-      <p>
-        It’s actually my very selfish reason for doing all this –{" "}
-        <em>I want to be in Heaven too</em>. I was in it for 6 weeks, and not
-        that we have any authority to swear by anything, but I’ll be damned if I
-        said that I didn’t want to be in that state for all my living moments.
-      </p>
-    ),
-  },
-  {
-    classes: "verse quran",
-    html: (
-      <p>
-        لَا يُكَلِّفُ اللَّهُ نَفْسًا إِلَّا وُسْعَهَا ۚ لَهَا مَا كَسَبَتْ
-        وَعَلَيْهَا مَا اكْتَسَبَتْ ۗ رَبَّنَا لَا تُؤَاخِذْنَا إِن نَّسِينَا
-        أَوْ أَخْطَأْنَا ۚ رَبَّنَا وَلَا تَحْمِلْ عَلَيْنَا إِصْرًا كَمَا
-        حَمَلْتَهُ عَلَى الَّذِينَ مِن قَبْلِنَا ۚ رَبَّنَا وَلَا تُحَمِّلْنَا
-        مَا لَا طَاقَةَ لَنَا بِهِ ۖ وَاعْفُ عَنَّا وَاغْفِرْ لَنَا وَارْحَمْنَا
-        ۚ أَنتَ مَوْلَانَا فَانصُرْنَا عَلَى الْقَوْمِ الْكَافِرِينَ
-        <br />
-        <em>(Quran 2:286)</em>
-      </p>
-    ),
-  },
-  {
-    classes: "verse",
-    html: (
-      <p>
-        This is why, my relationship with God was not something that I wanted to
-        put up in a short article that I posted on the internet, boasted about
-        repeatedly, and then mined for likes and shares. It doesn't help that He
-        has put me in a position where nobody will listen to me anyway, even if
-        I hint (or loudly project) at a possible chance of salvation to all
-        those who encounter me – because I <em>rarely ever</em> do it out of
-        philanthropic intent. I live through Scova, and grow, and adapt, each
-        day.
-        <em> I am to told to not seek</em> validation from any other human
-        being, for <em>I know</em> that I have His. Not many people can make
-        such a statement with such confidence, and rarely ever someone will.{" "}
-      </p>
-    ),
-  },
-  {
-    classes: "verse",
-    html: (
-      <p>
-        Most of the ones who have, didn't really amount to much in their
-        lifetimes anyway. They surely had temporal, worldly success in terms of
-        limited financial security and conditional social validation – but they
-        never truly felt anything different from the ones they were influencing.
-        Sure enough, their misdeeds in one life, did not let them feel whole in
-        that life, neither did it give them an advantage in the next – this, I
-        know for sure. The true prophets, were almost always bizarrely
-        prosecuted and ostracised. The concrete details of my own future in this
-        life too, are hidden from me – which is surely for the best. I do have a
-        guarantee that this will be hardest thing I will ever have done, in all
-        of my lifetimes.
-      </p>
-    ),
-  },
-  {
-    classes: "verse",
-    html: (
-      <p>
-        I am ready to be laughed at, condemned, and ostracised – I did take a
-        pledge to follow through – come what may. Successful or not, influential
-        or not, venerated or not, understood or not, I <em>have been told</em>{" "}
-        that my life will amount to as much as I can humanly handle, and that
-        much is enough for me.
-      </p>
-    ),
-  },
-  {
-    classes: "verse",
-    html: (
-      <p>
-        On the question of what part I am playing in this lifetime, my closing
-        salutations will answer that. On the question of my legitimacy as His
-        mouthpiece – the first part of this Volume, <em>Alethia</em>, intends to
-        answer that. Sometimes addressed to all of humanity, but mostly as an
-        internal monologue – it documents my bachelor life and understandings of
-        my relationship with God, and by extension – the world at large. I was
-        informed of my cosmic legitimacy on my very first encounter with Him,
-        but it took me a while to believe it, to believe in Him, in myself, and
-        to really, understand what was being asked of me, and how
-        <em> He </em>would deliver. Some revelations dawn on me as passing
-        thoughts, some are very conscious sit-downs – but mostly, it is an
-        ongoing dialogue that surpasses linear time as an ongoing discussion
-        across spacetime, tangentially relevant to my internal personal
-        narrative, yet related to all versions of me in a way that cannot be
-        explained by mere chance, or even insightful discernment. My own self
-        did not need much convincing, because God's force is overwhelming, and
-        so, by the time Scova is publicly available in its entirety, I will
-        already have lived a majority of my life fully convinced of my
-        legitimacy –<em> this, also I have been told</em>.
-      </p>
-    ),
-  },
-  {
-    classes: "verse quran",
-    html: (
-      <p>
-        {" "}
-        وَقَالَ لَهُمْ نَبِيُّهُمْ إِنَّ اللَّهَ قَدْ بَعَثَ لَكُمْ طَالُوتَ
-        مَلِكًا ۚ قَالُوا أَنَّىٰ يَكُونُ لَهُ الْمُلْكُ عَلَيْنَا وَنَحْنُ
-        أَحَقُّ بِالْمُلْكِ مِنْهُ وَلَمْ يُؤْتَ سَعَةً مِّنَ الْمَالِ ۚ قَالَ
-        إِنَّ اللَّهَ اصْطَفَاهُ عَلَيْكُمْ وَزَادَهُ بَسْطَةً فِي الْعِلْمِ
-        وَالْجِسْمِ ۖ وَاللَّهُ يُؤْتِي مُلْكَهُ مَن يَشَاءُ ۚ وَاللَّهُ وَاسِعٌ
-        عَلِيمٌ
-        <br />
-        <em>(Quran 2:247)</em>
-      </p>
-    ),
-  },
-  {
-    classes: "verse",
-    html: (
-      <p>
-        If I'm not being entirely clear, don't fret just yet; and if the Devil's
-        Advocate within you is already contemplating a possible argument of
-        predestination versus merit, let me save you the trouble. The entirety
-        of Scova is an attempt to answer just that.
-      </p>
-    ),
-  },
-  {
-    classes: "verse",
-    html: (
-      <p>
-        This whole thing, this journey that I'm bound to take you on, is a three
-        dimensional puzzle, whose pieces fall apart the longer you divert your
-        attention away from them; and because it is so complex, you will not
-        perceive the whole picture in a single glance – you have to personally
-        keep paying attention to each single detail, as your
-        <em>intuition</em> and <em>perception of the self</em> allows for a
-        richer understanding in ways you couldn't have arrived at by conscious
-        analysis alone, and in ways in which I will never explicitly mention.
-      </p>
-    ),
-  },
-  {
-    classes: "verse",
-    html: (
-      <p>
-        Let yourself be guided by your intuition, not fear or insecurity, as you
-        perceptually absorb all the information coursing through your system as
-        you <strong>read Scova by yourself </strong>first, before you go out and
-        preach.
-      </p>
-    ),
-  },
-  {
-    classes: "verse",
-    html: (
-      <p>
-        At times the information will be a subtle clue, but mostly, it will be a
-        literal definition intermingled with personal experience – really, at
-        its core, everything you are now reading is a <em>nudge</em>. Where that
-        nudge directs you is very subjective, and what you make of it, is
-        entirely your interpretation, and yours alone. Do not expect others to
-        latch onto it immediately. Focus on the self for now.{" "}
-        <em>
-          How you then act upon arriving at a conclusion, from Scova, or life in
-          general, is entirely a burden shouldered onto you – as a responsible
-          human being, this is the least that is expected of you. Don't forget
-          to be empathetic.
-        </em>
-      </p>
-    ),
-  },
-  {
-    classes: "verse",
-    html: (
-      <p>
-        The entitled rights of liberty are symbiotic in their relation to the
-        expected responsibilities – if there is a disconnect between the two,
-        anarchy swiftly follows. We surely don't desire such a scenario after
-        millennia of civilisation – otherwise what is the point of anything
-        really? Why were the cavemen even taught how to light a fire?
-      </p>
-    ),
-  },
-  {
-    classes: "verse",
-    html: (
-      <p>
-        In the old days, they didn't do much writing, it was more action, and
-        narration. Bold statements needed to be made, and even bolder actions
-        needed to be executed so that their impact would last for generations.
-        Myths and legends circulated far and wide, and there was much room for
-        error due to the frailties of eye-witness testimony. Now that we have
-        tools that provide little resistance in transcribing thoughts to words,
-        we are in a good place. We could've been in a better place had there
-        been little internal hurdles to jump through to get to a state of pure
-        inspiration, but that's one thing I can leave to God, and in turn, He
-        can guide you in a way that You know best.
-      </p>
-    ),
-  },
-  {
-    classes: "verse",
-    html: (
-      <p>
-        There is also not a lot of leeway now, as every single move, and every
-        click, and every word that is associated with you is under constant
-        scrutinisation by the ones under the possibility of being affected by
-        your actions, disconcertingly so in most cases. This is one of the
-        reasons I didn't put Scova out into the world until it was considerably
-        ready. I say <em>considerably</em>, because no work ever will be
-        complete in itself.
-        <em>
-          {" "}
-          Nothing is a self-contained sandbox, and the more you perceive, the
-          more you'll realise that everything is connected, each to the other in
-          a self-perpetuating feedback loop as modulated by the Source Himself.
-        </em>
-      </p>
-    ),
-  },
-  {
-    classes: "verse quran",
-    html: (
-      <p>
-        وَلِلَّهِ مَا فِي السَّمَاوَاتِ وَمَا فِي الْأَرْضِ ۚ وَإِلَى اللَّهِ
-        تُرْجَعُ الْأُمُورُ
-        <br />
-        <em>(Quran 3:109)</em>
-      </p>
-    ),
-  },
-  {
-    classes: "verse",
-    html: (
-      <p>
-        In that regard, the Grand Inquisitor always sends a soul in human form,
-        such as myself, to aid the{" "}
-        <em>
-          cause of all humanity – which is to survive, and hopefully – with
-          time, effort, energy, commitment, understanding, and empathy –
-          self-actualise.
-        </em>{" "}
-        This soul is intricately entwined into the zeitgeist – both
-        metaphorically, and physically. This is done so that this soul lives,
-        breathes, acts and behaves in a manner such that the world is an
-        inheritance – to be nurtured, guarded, and cultivated. In turn, God
-        protects this soul as His own progeny, as a <em>Father, His Son.</em>
-        <strong>
-          <em>
-            {" "}
-            This soul can function as a prophet, a messenger, a teacher, or the
-            Messiah. That's contingent on God's will, and this soul's
-            compliance.
-          </em>
-        </strong>
-      </p>
-    ),
-  },
-  {
-    classes: "verse",
-    html: (
-      <p>
-        Most of the aforementioned Volumes, and others not mentioned, have not
-        been written by the human who was directly connected to the Source. They
-        were transcribed long after the events had passed, and things were
-        mentioned with the rose-tinted lenses of hindsight. The guys themselves,
-        were so busy living their legends that they had no time to transcribe
-        and make clear all the doubts that would most definitely arise in the
-        minds of the people who had no relation to their spacetime. It is hard,
-        keeping up with God's synchronicity.
-      </p>
-    ),
-  },
-  {
-    classes: "verse quran",
-    html: (
-      <p>
-        كَمَا أَرْسَلْنَا فِيكُمْ رَسُولًا مِّنكُمْ يَتْلُو عَلَيْكُمْ آيَاتِنَا
-        وَيُزَكِّيكُمْ وَيُعَلِّمُكُمُ الْكِتَابَ وَالْحِكْمَةَ وَيُعَلِّمُكُم
-        مَّا لَمْ تَكُونُوا تَعْلَمُونَ
-        <br />
-        <em>(Quran 2:151)</em>
-      </p>
-    ),
-  },
-  {
-    classes: "verse",
-    html: (
-      <p>
-        This is why, there has been just one{" "}
-        <em>religious text of consequence, thus far,</em> that was composed by
-        the
-        <em> humans Themselves, in tandem with God</em> that would actually
-        convey what it really meant to be
-        <em>one with Him</em> – the <em>Guru Granth Sahib</em>, a compilation by
-        a group of people who, over generations, connected with the Source and
-        contributed to this <em>lively</em>, collaborative document. I say
-        lively, not because I love poetry, nor do I love the metaphor of the
-        Living Guru – it is the literal aspect of the
-        <em> living</em> that appeals to me. Why? Read on.
-      </p>
-    ),
-  },
-  {
-    classes: "verse",
-    html: (
-      <p>
-        The traditions associated with that Volume too, are being corrupted, so
-        that only makes me wonder if My efforts will reap the same results – in
-        which case I should just stop writing now. What good is 1000 years in a
-        span of eternity? Well, what good is cleaning when you have to do it
-        again the next day? What good is any task that reoccurs?
-      </p>
-    ),
-  },
-  {
-    classes: "verse bible",
-    html: (
-      <p>
-        <em>"I will declare thy name unto my brethren: </em>
-        <br />
-        <em>
-          in the midst of the congregation will I praise thee."
-          <br />
-          (Psalm 22:22)
-        </em>
-      </p>
-    ),
-  },
-  {
-    classes: "verse",
-    html: (
-      <p>
-        I have wished so many times that I could stop; but I can't. In fact,
-        just a short while before writing this very statement, I was
-        contemplating the same thing, again. Slowly but surely, God talked some
-        sense into me. Like the stern father that He is, He made me realise the
-        importance of what I was doing, and would be doing.
-      </p>
-    ),
-  },
-  {
-    classes: "verse",
-    html: (
-      <p>
-        He had already coddled me, let me run loose, made me feel guilt,
-        remorse, ecstasy, and all the plethora of emotions and sensations in
-        between, but in the end it was probably just a frank talk that I needed
-        to hear from my own mouth, in my own words, and my own voice that did
-        the trick.{" "}
-        <em>
-          I love how I can say the most sane thing, and sound, even to myself,
-          like the most insane person there will be.
-        </em>
-      </p>
-    ),
-  },
-  {
-    classes: "verse bible",
-    html: (
-      <p>
-        <em>
-          "Then Jonah prayed unto the Lord his God out of the fish's belly,{" "}
-          <br />
-          And said, I cried by reason of mine affliction unto the Lord, and he
-          heard me;
-          <br />
-          <br />
-          out of the belly of hell cried I, and thou heardest my voice.
-          <br />
-          For thou hadst cast me into the deep, in the midst of the seas;
-          <br />
-          and the floods compassed me about:
-          <br />
-          all thy billows and thy waves passed over me.
-          <br />
-          <br />
-          Then I said, I am cast out of thy sight; <br />
-          yet I will look again toward thy holy temple.
-          <br />
-          The waters compassed me about, even to the soul: <br />
-          the depth closed me round about, the weeds were wrapped about my head.
-          <br />
-          <br />
-          I went down to the bottoms of the mountains; <br />
-          the earth with her bars was about me for ever: <br />
-          yet hast thou brought up my life from corruption, O Lord my God.
-          <br />
-          <br />
-          When my soul fainted within me I remembered the Lord:
-          <br />
-          and my prayer came in unto thee, into thine holy temple.
-          <br />
-          They that observe lying vanities forsake their own mercy.
-          <br />
-          <br />
-          <strong>
-            But I will sacrifice unto thee with the Voice of Thanksgiving;
-            <br />I will pay that that I have vowed. Salvation is of the Lord."
-          </strong>
-          <br />
-          (Jonah 2:1-9)
-        </em>
-      </p>
-    ),
-  },
-  {
-    classes: "verse",
-    html: (
-      <p>
-        I made a promise, and I fully intend to honour it – no matter the
-        resistance (internal or otherwise), or the fear of failure. This is my
-        only <em>Purpose</em> in <em>this</em> life. This will be the one thing
-        that will outlast my current lifetime, and{" "}
-        <em>possibly haunt me in the next one(s) </em>(depending on the
-        direction in which things progress).
-      </p>
-    ),
-  },
-  {
-    classes: "verse bible",
-    html: (
-      <p>
-        <em>
-          "For destruction from God was a terror to me,
-          <br />
-          and by reason of his highness I could not endure."
-          <br />
-          (Job 31:23)
-        </em>
-      </p>
-    ),
-  },
-  {
-    classes: "verse",
-    html: (
-      <p>
-        That being said, I have written Scova with the intent that it be the
-        most <em>comprehensive</em>, yet
-        <em> scrutable</em> piece of work you have ever encountered. It covers a
-        wide breadth of subjects (almost everything), so naturally, there has
-        not been much time in my life to get into the depth of all things that
-        exist. The most important concepts, and the most scrounging dilemmas
-        have been explored in grave detail – as a work like this demands. Even
-        still, this is still just the tip of the iceberg, as God, if you are
-        worthy, is the gift that keeps on giving the more you ask from Him.
-        <em> The worth is decided by the self, in tandem with God</em>. Would be
-        very unfair if God didn't take your perspective into account now,
-        wouldn't it?
-      </p>
-    ),
-  },
-  {
-    classes: "verse quote",
-    html: (
-      <p>
-        <em>Allah is nothing, if not compassionate.</em>
-      </p>
-    ),
-  },
-  {
-    classes: "verse quote",
-    html: (
-      <p>
-        ਹਮ ਕੁਚਲ ਕੁਚੀਲ ਅਤਿ ਅਭਿਮਾਨੀ ਮਿਲਿ ਸਬਦੇ ਮੈਲੁ ਉਤਾਰੀ ॥੧॥
-        <br />
-        ਸੰਤਹੁ ਗੁਰਮੁਖਿ ਨਾਮਿ ਨਿਸਤਾਰੀ ॥
-        <br />
-        ਸਚਾ ਨਾਮੁ ਵਸਿਆ ਘਟ ਅੰਤਰਿ ਕਰਤੈ ਆਪਿ ਸਵਾਰੀ ॥੧॥ ਰਹਾਉ ॥
-        <br />
-        <em>(Sri Guru Granth Sahib – Page 911)</em>
-      </p>
-    ),
-  },
-  {
-    classes: "verse",
-    html: (
-      <p>
-        Unlike other works, which <em>borrow from the same source</em>,
-        including the ones I have already mentioned, this
-        <strong> Volume</strong> is meant for the
-        <em>entire population of the world (current and future)</em>, not just a
-        sect, not a city, not a country, not a race –
-        <strong> for all sentient life</strong>. It is filled with language that
-        cannot be misinterpreted or mistranslated,
-        <em> if perceived correctly,</em> by the original reader.
-      </p>
-    ),
-  },
-  {
-    classes: "verse quote",
-    html: (
-      <p>
-        <em>Everything is conditional, so pay close attention. </em>
-      </p>
-    ),
-  },
-  {
-    classes: "verse",
-    html: (
-      <p>
-        English is then, probably a poor choice for the{" "}
-        <em>Purposes of Posterity</em>, as the language allows for much
-        vagaries; but this is the language of this time, and there is a reason
-        why I was brought up speaking, reading, and writing this language.
-        <em>
-          {" "}
-          It is precisely for its vagaries that this language is used – if there
-          wasn't any room for reinterpretation, people would start following it
-          mechanically, without purposeful meaning, and in a way that absolves
-          all chances of a newer Me.{" "}
-        </em>
-        So be watchful when humans in the future claim to translate this work in
-        the name of a "regular update." Do let them update it, if English is a
-        dead language by then, but be wary still.
-      </p>
-    ),
-  },
-  {
-    classes: "verse",
-    html: (
-      <p>
-        Yes, Scova is a continuation of all that has come before.{" "}
-        <em>
-          This does not mean that all that has been written before this, is 100%
-          correct.
-        </em>
-      </p>
-    ),
-  },
-  {
-    classes: "verse quote",
-    html: (
-      <p>
-        <em>Almost nothing ever is. </em>
-      </p>
-    ),
-  },
-  {
-    classes: "verse",
-    html: (
-      <p>
-        <em>
-          No static thing can remain relevant across time, hence, this update.
-        </em>{" "}
-        What I really mean to say when I call Scova, a<em> Volume</em> in a set
-        of all the previous books, is that from this point on, you, as a
-        species, should
-        <strong> not have to</strong> read anything written before this time.
-        <strong>
-          {" "}
-          Please do read books other than this one; please read the books quoted
-          in this one, and most importantly, also read other books dealing with
-          other subjects. I can't stress this enough – life cannot be lived by
-          only having read one book.
-        </strong>{" "}
-        The only reason why I have called it a Volume, and not a whole new
-        radical ideology, is for the <em>Purposes of Continuity</em> – so that{" "}
-        <em>readers after my time</em> can have a fuller understanding of{" "}
-        <em>what were the missing pieces in the previous Volumes</em> that led
-        to things being the way they were in my time. That being said, I will
-        not spend any time talking about the current temporal events, as there
-        are other professionals who get fulfilment doing just that.
-      </p>
-    ),
-  },
-  {
-    classes: "verse",
-    html: (
-      <p>
-        As is the nature of life, <em>it goes on</em>. We can only build
-        something new, if there is something old to serve as a roadmap. To be
-        human, is to learn from one's mistakes, and I sure have learnt from
-        mine. If you are already bored, uninterested, or have long judged
-        yourself to be a better person than I, then you should just stop
-        already. We can start the <em>Rapture</em> without you. It is one of the
-        wonders of overpopulation, quite possibly the only one.
-      </p>
-    ),
-  },
-  {
-    classes: "verse",
-    html: (
-      <p>
-        To all those intrigued, just make sure that while, and after, reading
-        all that I have lived and transcribed, you remember that{" "}
-        <strong>
-          this is not your understanding, you are only just a reader, yet. The
-          experiences in Scova are mine alone, but as has been the nature of my
-          life, it is bound to be instantly relatable, in which case – your
-          experiences have found a coherent voice, in a way that your own self
-          has not been able to express so far.
-        </strong>{" "}
-        That is my solace. So thank you for letting me.{" "}
-        <strong>
-          If you don't agree with this voice, feel free to find another.
-        </strong>{" "}
-        There will have been many false prophets before, and in, my time – and
-        all shall fail. So try your luck elsewhere, because
-        <em>laut ke buddhu ghar ko hi aate hai</em>.<em> </em>This will remain
-        your respite, always.
-      </p>
-    ),
-  },
-  {
-    classes: "verse bible",
-    html: (
-      <p>
-        <em>
-          "What I tell you in darkness, that speak ye in light:
-          <br />
-          and what ye hear in the ear, that preach ye upon the housetops."
-          <br />
-          (Matthew 10:27)
-        </em>
-      </p>
-    ),
-  },
-  {
-    classes: "verse",
-    html: (
-      <p>
-        You might be wondering that if this is a book of scripture, then why am
-        I going out of my way to exclude some people whom I haven't personally
-        met? Hasn't religion always been a place for acceptance? Doesn't God
-        love and accept all His children? To that end, I'd say you are right in
-        your initial assumptions, but your approach to get to the conclusion
-        that you have gotten to, is foiled.
-      </p>
-    ),
-  },
-  {
-    classes: "verse",
-    html: (
-      <p>
-        Yes, we are all God's children – in a way that a Creator loves His
-        creation. Yes, God loves you, and His love knows no bounds. How can He?
-        Everybody loves according to their limits, and possibly beyond too – God
-        does not have any limits. Religion too, is a place for acceptance of all
-        beings alike, but
-        <em>religion is established by humans</em>, and humans have limits, so
-        do their constructs. Those limits being clearly defined across spacetime
-        as
-        <em>
-          including only people who may differ in their approaches and
-          demeanours and their vibrance, only so long as they have the same end
-          goal as the collective that is driving their every decision
-        </em>
-        .<strong> Everything is contingent</strong>.
-      </p>
-    ),
-  },
-  {
-    classes: "verse quote",
-    html: (
-      <p>
-        ਬਾਦੀ ਬਿਨਸਹਿ ਸੇਵਕ ਸੇਵਹਿ ਗੁਰ ਕੈ ਹੇਤਿ ਪਿਆਰੀ ॥੨੧॥ <br />
-        ਸੋ ਜੋਗੀ ਤਤੁ ਗਿਆਨੁ ਬੀਚਾਰੇ ਹਉਮੈ ਤ੍ਰਿਸਨਾ ਮਾਰੀ ॥੨੨॥ <br />
-        ਸਤਿਗੁਰੁ ਦਾਤਾ ਤਿਨੈ ਪਛਾਤਾ ਜਿਸ ਨੋ ਕ੍ਰਿਪਾ ਤੁਮਾਰੀ ॥੨੩॥ <br />
-        <em>(Sri Guru Granth Sahib – Page 911)</em>
-      </p>
-    ),
-  },
-  {
-    classes: "verse",
-    html: (
-      <p>
-        To that end, you will find in Scova, a lot that you agree with, and an
-        equal amount of disagreement. You will also find things that you already
-        know in your own peculiar ways, and equally you shall find things that
-        you thought you knew, but did not understand completely. You will find
-        contentment, and an equal amount of dissonance as you peruse the
-        sentences I have spent this lifetime crafting, while trying to
-        coherently convey the thoughts I have been carrying around for all of my
-        eternal life.
-      </p>
-    ),
-  },
-  {
-    classes: "verse",
-    html: (
-      <p>
-        At times you will find some overly simplistic clich&#233;s which will
-        almost always be coupled with abundantly obtuse technicalities that
-        govern your own life. Don't fret. Such is the nature of this work. I did
-        not embark on this journey to codify the Natural Law into a humanly
-        readable, and comprehensible scripture just so you could coast your way
-        through it. You aren't a robot, so don't act like it. That way, you will
-        not be bored – at the very least, I will have done my best to stop you
-        from being bored – because let's be honest, the foremost defining human
-        trait is getting bored with the thing that has already been explained,
-        and exploited to its full potential. There is celebration and joy for a
-        while – but that lasts only as long as the magic of the illusion is
-        still intact.
-      </p>
-    ),
-  },
-  {
-    classes: "verse",
-    html: (
-      <p>
-        This illusion is the boon and bane of your experience with God – some
-        room for secrecy is initially allowed wherein you truly learn about what
-        it is that you are experiencing; but if you keep this up for{" "}
-        <em>longer than needed</em>, it turns to a facade. I could point fingers
-        at every religious and spiritual organisation in the world, and probably
-        take heat for some of them, but I will not – for there is{" "}
-        <em>Qayamat</em>. The moment this illusion starts to briefly crumble and
-        fade into oblivion, as is the nature of things static in time, people
-        very swiftly start to lose "faith" in the thing that has brought them
-        all the happiness, and the progress, and the advancement that led them
-        to self-fruition.
-      </p>
-    ),
-  },
-  {
-    classes: "verse",
-    html: (
-      <p>
-        Adding to that, even though it is abundantly clear, I will still
-        positively affirm a few important disclaimers that need to be made
-        before anything with the potential to cause proper damage is revealed.
-        People have a habit of misinterpreting what is not said.
-      </p>
-    ),
-  },
-  {
-    classes: "verse",
-    html: (
-      <p>
-        First, Scova is <strong>not a call to arms</strong> for people to take
-        to the streets, or worse – invading territories, because of their
-        disenchantment with the status quo. The time for <em>Crusades</em> and{" "}
-        <em>Jihads</em> and <em>Blitzkriegs</em> has passed. We have no need for
-        them anymore, we've already established that we are all the same people.
-        Perfect yourself first, the surroundings will naturally follow.
-      </p>
-    ),
-  },
-  {
-    classes: "verse",
-    html: (
-      <p>
-        Second, this is most definitely <strong>not a seal of approval</strong>{" "}
-        for all the people misleading, on purpose or out of ignorance, the
-        entities for whose well being they were supposedly responsible, because
-        of the writings they read in the books resulting directly out of my
-        previous lives. Scova, however, is a<strong> solution</strong>, and most
-        importantly, an
-        <strong> apology</strong> – this was all a consequence of my doing, and
-        it is only fair that I be the one to undo it. So leave that burden to
-        me.
-      </p>
-    ),
-  },
-  {
-    classes: "verse",
-    html: (
-      <p>
-        Another bit of advice for those proceeding:{" "}
-        <strong>
-          God lets you pick and choose on what it is that you want to implement
-          in your own life, but the moment you start to influence other entities
-          seemingly separate from your own self, there is no if-else – there is
-          just if and only if – you will have to follow it ALL if you want to
-          influence the actions of another soul.
-        </strong>{" "}
-        Influencing in any manner, that is.
-      </p>
-    ),
-  },
-  {
-    classes: "verse",
-    html: (
-      <p>
-        <strong>
-          While influencing, know this too – until and unless you have practiced
-          all that I have preached, and I do mean ALL of it, you are fallible.
-        </strong>{" "}
-        I, myself, didn't garner all this knowledge by basking under the sun. I
-        surely was not born with it.
-      </p>
-    ),
-  },
-  {
-    classes: "verse quote",
-    html: (
-      <p>
-        <em>
-          <strong>I have made all the mistakes firsthand, repeatedly.</strong>
-        </em>
-      </p>
-    ),
-  },
-  {
-    classes: "verse",
-    html: (
-      <p>
-        <em>Understand this too:</em> Any and all clich&#233;s that you have
-        heard about life are true. Abandon all notion that you can avoid
-        clich&#233;s. The best thing you can do, is understand the kind of
-        clich&#233; you currently are; and see how life plays out for such a
-        clich&#233;. If you like your chances, proceed on that path – provided
-        your conscience supports it, and God allows it. You'll know where He
-        stands through your status quo.
-      </p>
-    ),
-  },
-  {
-    classes: "verse",
-    html: (
-      <p>
-        If not, change yourself.
-        <br /> If that doesn't help, change your surroundings.
-        <br /> If that fails too, change your approach to your surroundings.
-      </p>
-    ),
-  },
-  {
-    classes: "verse",
-    html: (
-      <p>
-        <em>The secrets have always been in the clich&#233;s.</em>
-      </p>
-    ),
-  },
-  {
-    classes: "verse",
-    html: (
-      <p>
-        Read this text in its entirety, and immerse yourself in the pictures and
-        insignia while consuming <strong>"the blood of Christ"</strong> under My
-        guidance (this obviously refers to psychedelics), and only then can you
-        hope to have a modicum of <em>Clarity</em> when you perceive this
-        Heaven/Hell dichotomy that most of us categorise as LIFE.
-      </p>
-    ),
-  },
-  {
-    classes: "verse",
-    html: (
-      <p>
-        To that end, understand this too – you are not "supposed" to be anything
-        that you haven't actually decided to become. You could "supposedly" be a
-        lot of things.{" "}
-        <em>
-          Knowing yourself and the situations you could work in – is the first
-          step to realising the things you are going to become.
-        </em>{" "}
-        Do not think for a second that just because you have
-        <em>read</em> the right stuff, that you will feel these things the way I
-        have felt.
-      </p>
-    ),
-  },
-  {
-    classes: "verse quote",
-    html: (
-      <p>
-        <em>
-          Your life is specifically catered to you and you only, but at the same
-          time, we all will almost always end up as clich&#233;s.
-        </em>
-      </p>
-    ),
-  },
-  {
-    classes: "verse",
-    html: (
-      <p>
-        Every clich&#233; unravels into another one. This happens in a way that
-        is <em>personal to you and only you</em>. Nobody else will truly, fully
-        relate to what you have experienced. Someone else's decision in a
-        similar situation might not completely resonate with you if you haven't
-        understood their situation deeply enough.
-      </p>
-    ),
-  },
-  {
-    classes: "verse",
-    html: (
-      <p>
-        On the flip side, somebody with a situation{" "}
-        <em>drastically dissimilar from you on the surface</em> might hold the
-        Key to the Gate you have found yourself standing in front of repeatedly,
-        for a long time. So pay heed to what people around you are saying, and
-        not saying – but understand everything <em>within the context</em> of
-        your own confine.
-      </p>
-    ),
-  },
-  {
-    classes: "verse",
-    html: (
-      <p>
-        <em>
-          The decision to put faith in your interpretation of the situation and
-          assessment of known variables is yours to make, always.
-        </em>{" "}
-        It might be affected by imperceivable factors, but try your best to keep
-        track of the ones you can perceive, and hope for the best – for
-        <em>
-          this is the only freedom we've all got, so you owe it to yourself to
-          hone it properly.
-        </em>
-      </p>
-    ),
-  },
-  {
-    classes: "verse bible",
-    html: (
-      <p>
-        <em>
-          "Believest thou not that I am in the Father, and the Father in me?
-          <br />
-          the words that I speak unto you I speak not of myself:
-          <br />
-          but the Father that dwelleth in me, he doeth the works."
-          <br />
-          (John 14:10)
-        </em>
-      </p>
-    ),
-  },
-  {
-    classes: "verse",
-    html: (
-      <p>
-        The only true decision you will ever make is to find out what kind of a
-        stereotype you were, and what kind of a stereotype you want to be. All
-        the steps in between – you will have to navigate through, throughout
-        your life, <em>almost always listening</em> to what He is trying to tell
-        you, because He is always listening to You. Let this serve as a guide to
-        wander through life in the best way only you could.
-      </p>
-    ),
-  },
-  {
-    classes: "verse",
-    html: (
-      <p>
-        <em>Baaki, Allah maalik hai.</em>
-      </p>
-    ),
-  },
-  {
-    classes: "salutation",
-    html: (
-      <p>
-        – Anhad Singh Arora,
-        <br />
-        <em>Son of God.</em>
-      </p>
-    ),
-  },
   
 
   {
