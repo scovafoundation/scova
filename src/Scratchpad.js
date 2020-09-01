@@ -714,42 +714,7 @@ const scratchpad = [
       </p>
     ),
   },
-  {
-    classes: "verse",
-    html: (
-      <p>
-        Here's the thing though – in such a beaurocratic system, not everyone
-        has the time, or the empathy to engage in such a lengthy discussion.
-        Arguably, not every person in the position that I was, is able to
-        coherently conjure up actual words to describe these motions. The point
-        that I'm really trying to make here – is that we are all just, almost
-        always, inadequate. We have to work to perfect ourselves to become our
-        best selves. A 22 year old cannot be the best version of a human –
-        that's a recipe for disaster. You peak too soon, so you spend the rest
-        of your life looking back at the supposed "best" times of your life. The
-        best, should always be what's to come – not what's already gone; because
-        what kind of an existence would that be? Isn't the system of wiping your
-        memories at each birth, but keeping your intuition, fair?
-      </p>
-    ),
-  },
-  {
-    classes: "verse",
-    html: (
-      <p>
-        How are we then set up for failure? How could one possibly fathom this
-        system to be unfair, if it really just wants what's best for us. How is
-        it not generous, compassionate, and innately forgiving? I know how one
-        can fathom – because I was just pondering over it today. I was thinking
-        about why the collective consistently arrives at a place where the
-        decadence of the individual causes a catastrophic collapse of the entire
-        system. If it is so easy, almost natural to act like there are no rules
-        in the Game of Life, and that you can get away with anything as long as
-        nobody living being knows about it, how has the world functioned well
-        enough such that we have managed to persist thus far?
-      </p>
-    ),
-  },
+  
   {
     classes: "verse",
     html: (
