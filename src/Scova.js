@@ -18137,6 +18137,13 @@ const verses = [
       </p>
     ),
   },
+
+  {
+    classes: "demarcator",
+    html: <hr />,
+  },
+
+
   {
     classes: "verse",
     html: (
@@ -18227,6 +18234,12 @@ const verses = [
       </p>
     ),
   },
+
+  {
+    classes: "demarcator",
+    html: <hr />,
+  },
+
   {
     classes: "verse",
     html: (
@@ -19781,6 +19794,42 @@ const verses = [
       </p>
     ),
   },
+
+
+  
+
+
+  {
+    classes: "demarcator",
+    html: <hr />,
+  },
+
+  {
+    classes: "chapter-title",
+    html: (
+      <p>
+        13 <br />
+        Istikharah
+      </p>
+    ),
+  },
+
+
+  {
+    classes: "block-quote",
+    html: (
+      <p>
+        <em>
+          Hey, if you're at this point, and still reading, I'd suggest you to
+          connect with me directly at <strong>anhad@scova.org</strong>, or look
+          me up on any social platforms. Let's chat now, because this will be the last chapter in Alethia, and events have yet to transpire, in real time.
+        </em>
+      </p>
+    ),
+  },
+
+
+
   {
     classes: "verse",
     html: (
