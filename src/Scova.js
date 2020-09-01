@@ -12445,7 +12445,7 @@ const verses = [
     html: (
       <p>
         9 <br />
-        Reacquainted
+        Anathema
       </p>
     ),
   },
@@ -12460,7 +12460,7 @@ const verses = [
     ),
   },
   {
-    classes: "verse",
+    classes: "verse block-quote",
     html: (
       <p>
         <em>It is how you, and others around you, now define You</em>.
@@ -12513,39 +12513,39 @@ const verses = [
       </p>
     ),
   },
-  {
-    classes: "verse",
-    html: (
-      <p>
-        I realise that even while I’m writing this, I know in my heart
-        (metaphorical) that the above paragraph about loops and knots will be
-        misinterpreted. What can I do? I’m only human (for now) and this has
-        been explained to the best of my current abilities.
-      </p>
-    ),
-  },
-  {
-    classes: "verse",
-    html: (
-      <p>
-        Maybe I can do better in a year, or a decade from now – or maybe this is
-        one thing that I’m leaving for my next life. Maybe by that time we will
-        be able to project our thoughts, our visions onto actual physical matter
-        via technology, and then we won’t need psychedelics to get people to
-        really <em>see, and perceive with clarity</em>. What I do know today, is
-        that I could’ve been 100% free of any illicit substance while writing
-        this, but I’m not.
-      </p>
-    ),
-  },
-  {
-    classes: "verse",
-    html: (
-      <p>
-        <em>Still human</em>.
-      </p>
-    ),
-  },
+  // {
+  //   classes: "verse",
+  //   html: (
+  //     <p>
+  //       I realise that even while I’m writing this, I know in my heart
+  //       (metaphorical) that the above paragraph about loops and knots will be
+  //       misinterpreted. What can I do? I’m only human (for now) and this has
+  //       been explained to the best of my current abilities.
+  //     </p>
+  //   ),
+  // },
+  // {
+  //   classes: "verse",
+  //   html: (
+  //     <p>
+  //       Maybe I can do better in a year, or a decade from now – or maybe this is
+  //       one thing that I’m leaving for my next life. Maybe by that time we will
+  //       be able to project our thoughts, our visions onto actual physical matter
+  //       via technology, and then we won’t need psychedelics to get people to
+  //       really <em>see, and perceive with clarity</em>. What I do know today, is
+  //       that I could’ve been 100% free of any illicit substance while writing
+  //       this, but I’m not.
+  //     </p>
+  //   ),
+  // },
+  // {
+  //   classes: "verse",
+  //   html: (
+  //     <p>
+  //       <em>Still human</em>.
+  //     </p>
+  //   ),
+  // },
   {
     classes: "verse",
     html: (
@@ -12614,7 +12614,7 @@ const verses = [
     ),
   },
   {
-    classes: "verse",
+    classes: "verse block-quote",
     html: (
       <p>
         <em>I keep trying, I keep praying, and I keep listening</em>.
@@ -12674,7 +12674,7 @@ const verses = [
     ),
   },
   {
-    classes: "verse",
+    classes: "verse block-quote",
     html: <p>Knowing me, it was probably the easiest answer. Drugs.</p>,
   },
   {
@@ -12810,7 +12810,7 @@ const verses = [
     ),
   },
   {
-    classes: "verse quote",
+    classes: "verse block-quote",
     html: (
       <p>
         <em>Ignorance really is bliss. </em>
@@ -12898,7 +12898,7 @@ const verses = [
     ),
   },
   {
-    classes: "verse quote",
+    classes: "verse block-quote",
     html: (
       <p>
         <strong>
@@ -13006,7 +13006,7 @@ const verses = [
         understood so far) describe multiple states in nature, and can then be
         regarded as detailed instructions from which elements and{" "}
         <em>offsprings</em> of nature cannot deviate. In that respect, they form
-        a<strong>control language</strong> – a universal code – via which nature{" "}
+        a{" "}<strong>control language</strong> – a universal code – via which nature{" "}
         <strong>regulates</strong> the elements and offsprings of nature.
       </p>
     ),
@@ -13055,7 +13055,7 @@ const verses = [
     html: (
       <p>
         One of the things that Science (and religion too) has failed at
-        explaining (or discovering) is this fact:
+        explaining (or discovering) is this fact:{" "}
         <strong>
           Heaven, Hell and Earth exist in the same physical dimensions
         </strong>
@@ -13095,7 +13095,7 @@ const verses = [
     html: (
       <p>
         In Heaven, you will not be scared to look back at Him, you will not be
-        ashamed. That’s how you know you <em>belong</em> in Heaven.
+        ashamed. That’s how you know you <em>belong</em> in Heaven.{" "}
         <strong>
           You can lie to other people about this shame, but you can’t hide it
           from Him
@@ -13152,7 +13152,7 @@ const verses = [
         I wouldn’t say that I have been completely out of Heaven since then,
         it’s just that I haven’t been as far along the spectrum as I would’ve
         liked. Like I said, being a normal human being, living in the normal
-        world, struggling to keep up with the finances and social obligations,
+        world, struggling to keep up with the finances and social obligations,{" "}
         <strong>
           hardly anyone can sustain being in Heaven all the time – unless we all
           are
@@ -13227,8 +13227,8 @@ const verses = [
     html: (
       <p>
         To be in Heaven, you have also got to be a certain level of
-        materialistic. Each thing around you, in your space, should be pretty —
-        <em> to you</em>, but also, it should serve some purpose in the story of
+        materialistic. Each thing around you, in your space, should be pretty —{" "}
+        <em>to you</em>, but also, it should serve some purpose in the story of
         your life. It can’t be stuff you just picked up at the mall because it
         was good looking.
       </p>
@@ -13251,10 +13251,10 @@ const verses = [
       <p>
         Don’t just gather things for the sake of gathering them, or for
         decorating your dwelling for the sole purpose of appearing <em>cool</em>
-        .
+        .{" "}
         <strong>
           Having good things in life doesn’t make you a superior person.
-        </strong>
+        </strong>{" "}
         Neither does having trophies of all your accomplishments make you
         somebody worth talking about.
       </p>
@@ -13277,7 +13277,7 @@ const verses = [
       <p>
         By developing a material attachments to the stuff you own, or have
         collected, or acquired by other means, you are in violation of all that
-        the
+        the{" "}
         <strong>First Axiom of Nirvana</strong> –{" "}
         <em>
           always be ready to part with the stuff you have in your possession
@@ -13318,7 +13318,7 @@ const verses = [
     html: (
       <p>
         Only hold dear those things that have a significance in your own
-        personal story – everything else is irrelevant.
+        personal story – everything else is irrelevant.{" "}
         <strong>
           You should be able to move anywhere, you should be able to work
           anywhere, and you should be able to enjoy yourself everywhere.
@@ -13344,7 +13344,7 @@ const verses = [
       <p>
         Try all of them, find your own sweet spot of functioning within every
         system. Don’t discard a life experience because it has not been tried
-        before; surely never for the reason that it has been prohibited.
+        before; surely never for the reason that it has been prohibited.{" "}
         <strong>
           Try everything for yourself and make your own contribution to the
           prevailing theory about a life experience.
@@ -13510,7 +13510,7 @@ const verses = [
     ),
   },
   {
-    classes: "verse quote",
+    classes: "verse block-quote",
     html: <p>Who isn’t?</p>,
   },
   {
@@ -13564,7 +13564,7 @@ const verses = [
     ),
   },
   {
-    classes: "verse quote",
+    classes: "verse block-quote",
     html: (
       <p>
         <em>Khuda means For Me and By Myself</em>.
@@ -13589,8 +13589,8 @@ const verses = [
       <p>
         Well, you can’t. Not even I have that luxury. Some people build
         companies, some travel the world, some pursue academia, but at 23, I
-        gained Satori, and couldn't transcend into Nirvana. It’s the nature of
-        life – <em>you have to pay attention and keep up</em>.
+        gained Enlightenment, and couldn't transcend into Nirvana. It’s the nature of
+        life –{" "}<em>you have to pay attention and keep up</em>.
       </p>
     ),
   },
@@ -13671,6 +13671,48 @@ const verses = [
       </p>
     ),
   },
+
+  {
+    classes: "demarcator",
+    html: <hr />,
+  },
+
+  {
+    classes: "chapter-title",
+    html: (
+      <p>
+        10 <br />
+        Open
+      </p>
+    ),
+  },
+
+  {
+    classes: "verse title-quote",
+    html: (
+      <p>
+        <em>
+          Is there not an appointed time to man upon earth? <br />
+          are not his days also like the days of an hireling?
+          <br />
+          As a servant earnestly desireth the shadow, <br />
+          and as an hireling looketh for the reward of his work:
+          <br />
+          So am I made to possess months of vanity, <br />
+          and wearisome nights are appointed to me.
+          <br />
+          <br />
+          When I lie down, I say, When shall I arise, and the night be gone?{" "}
+          <br />
+          and I am full of tossings to and fro unto the dawning of the day.
+          <br />
+          (Job 7:1-4)
+        </em>
+      </p>
+    ),
+  },
+
+
   {
     classes: "verse",
     html: (
@@ -15649,20 +15691,8 @@ const verses = [
     ),
   },
 
-  {
-    classes: "demarcator",
-    html: <hr />,
-  },
 
-  {
-    classes: "chapter-title",
-    html: (
-      <p>
-        10 <br />
-        Open
-      </p>
-    ),
-  },
+
 
 
 
