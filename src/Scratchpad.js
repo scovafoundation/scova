@@ -15,48 +15,6 @@ const scratchpad = [
     ),
   },
 
-  
-  
-  
-  
-
-  
-
-  
-
-  
-
-
-
-  
-  
-
-  
-  
-  {
-    classes: "verse bible",
-    html: (
-      <p>
-        <em>
-          Is there not an appointed time to man upon earth? <br />
-          are not his days also like the days of an hireling?
-          <br />
-          As a servant earnestly desireth the shadow, <br />
-          and as an hireling looketh for the reward of his work:
-          <br />
-          So am I made to possess months of vanity, <br />
-          and wearisome nights are appointed to me.
-          <br />
-          <br />
-          When I lie down, I say, When shall I arise, and the night be gone?{" "}
-          <br />
-          and I am full of tossings to and fro unto the dawning of the day.
-          <br />
-          (Job 7:1-4)
-        </em>
-      </p>
-    ),
-  },
 
   {
     classes: "verse",
@@ -73,24 +31,6 @@ const scratchpad = [
     ),
   },
 
-  {
-    classes: "demarcator",
-    html: <hr />,
-  },
-
-  {
-    classes: "chapter-title",
-    html: (
-      <p>
-        5 <br />
-        Born Again (still in editing mode)
-      </p>
-    ),
-  },
-
-
-
-  
 
   {
     classes: "verse",
@@ -443,32 +383,6 @@ const scratchpad = [
     ),
   },
 
-  
-  
-
-  
-  
-  
-  
- 
-
-  
-  {
-    classes: "demarcator",
-    html: <hr />,
-  },
-
-  {
-    classes: "chapter-title",
-    html: (
-      <p>
-        6 <br />
-        Untitled
-      </p>
-    ),
-  },
-
-  
   {
     classes: "verse quote",
     html: (
@@ -481,12 +395,6 @@ const scratchpad = [
     ),
   },
 
-  
-
-  {
-    classes: "verse",
-    html: <p></p>,
-  },
 
   {
     classes: "verse quote",
@@ -656,22 +564,7 @@ const scratchpad = [
   },
   
 
-  {
-    classes: "verse",
-    html: <p></p>,
-  },
-  {
-    classes: "verse",
-    html: <p></p>,
-  },
-  {
-    classes: "verse",
-    html: <p></p>,
-  },
-  {
-    classes: "verse",
-    html: <p></p>,
-  },
+
 
   {
     classes: "verse",
@@ -708,18 +601,6 @@ const scratchpad = [
 
 
   
-  {
-    classes: "verse",
-    html: (
-      <p>
-        This precept is quite valid if your religion-centric mind can get beyond
-        the fact that I just said doing drugs and drinking alcohol – socially –
-        is <em>acceptable</em> (it is still <em>very</em> wrong, but you’ll see
-        why shortly). Mind you, the word I have used is “acceptable.” Like all
-        italicised words in the book, pay special attention.
-      </p>
-    ),
-  },
 
 
 
@@ -735,18 +616,7 @@ const scratchpad = [
       </p>
     ),
   },
-  {
-    classes: "verse",
-    html: (
-      <p>
-        The general goal, as I mentioned in the previous chapter, is to{" "}
-        <em>go with the flow</em> to the best of your abilities, guided by your
-        intuition. That, you could then call destiny, or just the sum of your
-        interactions with space, in time – it’s <em>up to you</em>. As was the
-        case for me at the time – I simply could not have gone with the flow.
-      </p>
-    ),
-  },
+
   {
     classes: "verse quote",
     html: (
@@ -756,55 +626,6 @@ const scratchpad = [
     ),
   },
 
-  
-  {
-    classes: "quote",
-    html: (
-      <p>
-        <strong>*** A YEAR LATER *** </strong>
-      </p>
-    ),
-  },
-  {
-    classes: "verse",
-    html: (
-      <p>
-        While transcribing the addendum, I had a moment of inner reflection – I
-        made a commitment, to myself, and to God, that I will be truly free of
-        any addiction before I proceed any further. It has now been over a year
-        since I made that commitment. I actually did not write anything in all
-        that time – well, not directly into this file anyway.
-      </p>
-    ),
-  },
-  
-  
-
-  {
-    classes: "verse",
-    html: <p>Of course then, I sought professional help.</p>,
-  },
-  {
-    classes: "verse",
-    html: <p></p>,
-  },
-  {
-    classes: "verse",
-    html: <p></p>,
-  },
-  {
-    classes: "verse",
-    html: <p></p>,
-  },
-  {
-    classes: "verse",
-    html: (
-      <p>
-        I wasn't so stupid to say that the system failed me without first trying
-        the system.
-      </p>
-    ),
-  },
 
   {
     classes: "verse",
@@ -996,5 +817,4 @@ const scratchpad = [
     ),
   },
   
-
 ];

@@ -38,7 +38,7 @@ import fractal_equation from "./images/fractal_equation.png";
 import harmony from "./images/harmony.png";
 import emc from "./images/emc.png";
 import jesus from "./images/jesus.png";
-
+import yx3 from "./images/yx3.png";
 // Fonts
 import Charter from "charter-webfont";
 
@@ -12055,6 +12055,19 @@ const verses = [
       </p>
     ),
   },
+
+  {
+    classes: "verse",
+    html: (
+      <p>
+        The best way to form human relationships is to share information in a
+        way that is pertinent to you and in the form that you associate with.
+        Your perception is everything that seems personal to your life. It is
+        always something about you, and occurs with something that you associate
+        with.
+      </p>
+    ),
+  },
   {
     classes: "verse",
     html: (
@@ -12084,6 +12097,21 @@ const verses = [
       </p>
     ),
   },
+
+  {
+    classes: "verse",
+    html: (
+      <p>
+        This precept is quite valid if your religion-centric mind can get beyond
+        the fact that I just said doing drugs and drinking alcohol – socially –
+        is <em>acceptable</em> (it is still <em>very</em> wrong, but you’ll see
+        why shortly). Mind you, the word I have used is “acceptable.” Like all
+        italicised words in the book, pay special attention.
+      </p>
+    ),
+  },
+
+
   {
     classes: "verse",
     html: (
@@ -13659,18 +13687,20 @@ const verses = [
       </p>
     ),
   },
+
+
   {
     classes: "verse",
     html: (
       <p>
-        The best way to form human relationships is to share information in a
-        way that is pertinent to you and in the form that you associate with.
-        Your perception is everything that seems personal to your life. It is
-        always something about you, and occurs with something that you associate
-        with.
+        The general goal, as I mentioned in the previous chapter, is to{" "}
+        <em>go with the flow</em> to the best of your abilities, guided by your
+        intuition. That, you could then call destiny, or just the sum of your
+        interactions with space, in time – it’s <em>up to you</em>. 
       </p>
     ),
   },
+  
 
   {
     classes: "demarcator",
@@ -13714,7 +13744,7 @@ const verses = [
 
 
   {
-    classes: "verse",
+    classes: "verse quote",
     html: (
       <p>
         <strong>
@@ -13805,7 +13835,7 @@ const verses = [
     ),
   },
   {
-    classes: "verse",
+    classes: "verse block-quote",
     html: (
       <p>
         <em>What I had sown millennia ago, I am now reaping in this life. </em>
@@ -13828,7 +13858,7 @@ const verses = [
     ),
   },
   {
-    classes: "verse",
+    classes: "verse block-quote",
     html: (
       <p>
         <em>
@@ -13882,7 +13912,7 @@ const verses = [
       <p>
         Now that I am writing about this, I also realise that no matter what
         kind of political philosophy you align with – Capitalism, Socialism or
-        Authoritarianism, or what have you – you can all agree with this.
+        Authoritarianism, or what have you – you can all agree with this.{" "}
         <strong>
           Do it for yourself, do it for others, or do it because somebody more
           powerful than you warranted this of you – just do it.
@@ -13931,7 +13961,7 @@ const verses = [
       <p>
         It is the true definition of being vulnerable. In such a state, you,
         metaphorically, and literally don’t have your walls up. To be truly
-        perceptive to receiving God’s gifts, you have to break down these walls.
+        perceptive to receiving God’s gifts, you have to break down these walls.{" "}
         <strong>
           You have to break down completely before God can build you back up
           again
@@ -13952,17 +13982,10 @@ const verses = [
     ),
   },
   {
-    classes: "verse",
+    classes: "verse quote",
     html: (
       <p>
-        <em>I have, and I know what the world is currently like. </em>
-      </p>
-    ),
-  },
-  {
-    classes: "verse",
-    html: (
-      <p>
+        I have, and I know what the world is currently like. <br/>
         <strong>
           The world is full of pricks. And I would like for it to not be.
         </strong>
@@ -13989,7 +14012,7 @@ const verses = [
         extension, anything that’s associated with them – in the people of this
         time. I don’t mean for people to self-police themselves and others
         around them about the words they use, and the symbols they paint. It’s
-        much more than that.
+        much more than that.{" "}
         <em>
           It’s about the basic human need of liberty and all that can go wrong
           with having liberties with no boundaries.
@@ -14001,7 +14024,7 @@ const verses = [
     classes: "verse",
     html: (
       <p>
-        As such, <em>partaking in the use of drugs is not inherently wrong</em>.
+        As such, <em>partaking in the use of drugs is not inherently wrong</em>.{" "}
         <em>
           It becomes wrong over time because of unmoderated and incessant abuse
           that cripples a person to the point of not being able to function
@@ -14018,13 +14041,12 @@ const verses = [
       <p>
         I would like for myself to be completely immune to the effects of drugs
         but I am not, <em>I’m still human</em>. I may have witnessed the divine,
-        but that was also kickstarted by a drug.
+        but that was also kickstarted by a drug.{" "}
         <em>
           All the social life I had had before God, and all the major
           intellectual breakthroughs I witnessed during the 42 Days, had been
-          under the influence of some drug
-        </em>{" "}
-        .
+          under the influence of some drug.
+        </em>
       </p>
     ),
   },
@@ -14034,7 +14056,7 @@ const verses = [
       <p>
         I for one, certainly cannot discount the major role that drugs can play
         in one’s intellectual and spiritual journey –{" "}
-        <em>if and only if they are used properly</em>.
+        <em>if and only if they are used properly</em>.{" "}
         <strong>
           Their use has been banned in almost all scriptures because of one
           thing, and one thing only – human weakness.
@@ -14097,12 +14119,12 @@ const verses = [
         This is one of the things that people often don’t get about religion. It
         is not so much about <em>paap</em> or <em>sin –</em> it’s the law of
         karma and your interaction with the strings around you that leads you to
-        the mess that you often find yourself in.
+        the mess that you often find yourself in.{" "}
         <strong>
           It is so intensely inter-related that you really can’t pick and
-          choose.
+          choose.{" "}
         </strong>
-        <em>Believe me, I have tried</em> .
+        <em>Believe me, I have tried.</em>
       </p>
     ),
   },
@@ -14217,7 +14239,7 @@ const verses = [
     ),
   },
   {
-    classes: "verse",
+    classes: "verse block-quote",
     html: (
       <p>
         <strong>So don’t. </strong>
@@ -14271,11 +14293,11 @@ const verses = [
     classes: "verse",
     html: (
       <p>
-        In short,
+        In short,{" "}
         <em>
-          my rituals of Brahma, Vishnu and Mahesh still revolve around a drug
+          my rituals of Brahma, Vishnu and Mahesh still revolve around a drug.{" "}
         </em>
-        . Coming back to India was supposed to change that. Or so I thought.
+        Coming back to India was supposed to change that. Or so I thought.
       </p>
     ),
   },
@@ -14304,12 +14326,12 @@ const verses = [
     classes: "verse",
     html: (
       <p>
-        Like I have always said,
+        Like I have always said,{" "}
         <em>
           drugs are a shortcut to reaching where you could have been if you
-          really deserved to have such a moment
-        </em>{" "}
-        . The more you abuse drugs, the harder it gets for you to achieve that
+          really deserved to have such a moment.{" "}
+        </em>
+        The more you abuse drugs, the harder it gets for you to achieve that
         feeling naturally. You can switch drugs, exchange one for the other, but
         the fact still remains – you are an addict.
       </p>
@@ -14341,7 +14363,7 @@ const verses = [
     ),
   },
   {
-    classes: "verse quote",
+    classes: "verse block-quote",
     html: (
       <p>
         <em>“I am an addict because I will bring humanity to salvation!” </em>
@@ -14408,6 +14430,26 @@ const verses = [
       </p>
     ),
   },
+
+
+  {
+    classes: "demarcator",
+    html: <hr />,
+  },
+
+  {
+    classes: "chapter-title",
+    html: (
+      <p>
+        11 <br />
+        ANHAD
+      </p>
+    ),
+  },
+
+
+
+
   {
     classes: "verse",
     html: (
@@ -14557,7 +14599,7 @@ const verses = [
           Life is best lived, and profoundly understood, when we operate under
           the conditions of optimum uncertainty
         </strong>{" "}
-        – on the fine line between
+        – on the fine line between{" "}
         <em>order and chaos</em>. In that manner, Scova is not something
         entirely different from the works that have preceeded it – but be
         assured, <em>this isn't just more of the same</em>.
@@ -14571,7 +14613,7 @@ const verses = [
         If many of you are able to <strong>follow everything</strong> that I
         will have laid out for you to <strong>pick and choose</strong> from, God
         may even confer upon you a demigod status so that you may rule alongside
-        Monarchs in a Holy Triumvirate,
+        Monarchs in a Holy Triumvirate,{" "}
         <em>with God as your guiding hand</em>. Even better, if you ALL can find
         it within yourselves, to adapt, and overcome, then we will have won the
         Eternal War, with Christ's victory over the Antichrist, all from within
@@ -14658,10 +14700,10 @@ const verses = [
         <em>not feel anything at all</em>, and let nothing bother you as you
         face life’s greatest difficulties. It really is just the opposite in
         actuality – I believe you don’t truly learn the value of life,
-        especially as an intelligent being, unless you have
+        especially as an intelligent being, unless you have{" "}
         <em>
           found a way to live, to survive, when all of your rational mental
-          faculties have already given up on you – while
+          faculties have already given up on you – while{" "}
         </em>
         striving to find your own self, and being that person in the face of all
         the chaotic change that bugs you from within like an asphyxiating
@@ -14685,26 +14727,12 @@ const verses = [
     ),
   },
   {
-    classes: "verse",
+    classes: "verse quote",
     html: (
       <p>
         <strong>Let go of your attachment to meanings.</strong>
-      </p>
-    ),
-  },
-  {
-    classes: "verse",
-    html: (
-      <p>
-        <em>Stop searching for meaning when you take in. </em>
-      </p>
-    ),
-  },
-  {
-    classes: "verse",
-    html: (
-      <p>
-        <em>Just make sure it is meaningful when you give out.</em>
+      <br/>Stop searching for meaning when you take in. <br/>
+      Just make sure it is meaningful when you give out.
       </p>
     ),
   },
@@ -14734,7 +14762,7 @@ const verses = [
     ),
   },
   {
-    classes: "verse",
+    classes: "verse block-quote",
     html: (
       <p>
         <strong>Why can’t it be, as before, the best of both worlds?</strong>
@@ -14778,6 +14806,22 @@ const verses = [
       </p>
     ),
   },
+
+  {
+    classes: "verse",
+    html: (
+      <SpotifyPlayer
+        uri="spotify:track:6Xe9wT5xeZETPwtaP2ynUz" // Avicii, Levels
+        size={{
+          width: "100%",
+          height: 300,
+        }}
+        view={"coverart"}
+        theme={"white"}
+      />
+    ),
+  },
+
   {
     classes: "verse",
     html: (
@@ -14831,12 +14875,12 @@ const verses = [
         something else entirely of it via their interpretation - and even after
         that, they end up implementing something totally different. As if that
         isn't enough, what they make of their execution of their interpretation
-        of <em>the Rhema</em>
+        of <em>the Rhema </em>
         is something else entirely in how they express their understanding of
         said execution. Let’s also not forget the mighty brain, the organ that
         forms neuronal patterns about this whole scenario in its own
         idiosyncratic way, a large part of it being the balance between the
-        person's <em>nature</em> and <em>nurture</em> - which is again
+        person's <em>nature </em>and <em>nurture </em>- which is again
         contingent on the person's own understanding of the self as it lives,
         breathes and evolves with each unit of time - the vibrational pattern of
         which is again contingent on the situational arrangement of the Conduits
@@ -14867,32 +14911,16 @@ const verses = [
       </p>
     ),
   },
+
   {
-    classes: "verse",
-    html: (
-      <p>
-        <em></em>
-        <br />
-      </p>
-    ),
-  },
-  {
-    classes: "verse",
+    classes: "verse quote",
     html: (
       <p>
         <em>
           “‘I believe in Spinoza’s God who reveals himself in the orderly
           harmony of what exists, not in a God who concerns himself with fates
-          and actions of human beings’?”
-        </em>
-      </p>
-    ),
-  },
-  {
-    classes: "verse",
-    html: (
-      <p>
-        <em>(The God Delusion – Page 39, Richard Dawkins)</em>
+          and actions of human beings’?”<br/>
+          (The God Delusion – Page 39, Richard Dawkins)</em>
       </p>
     ),
   },
@@ -14939,11 +14967,11 @@ const verses = [
     html: (
       <p>
         I have already stated that animated knotted string complexes introduce a
-        change in their surroundings
+        change in their surroundings{" "}
         <em>
           via their interpretation of perceptual information that is processed
           through them.
-        </em>
+        </em>{" "}
         I posit a fourth paradigm of thinking – <em>happenstance</em>. It’s the
         most regularly occurring natural phenomena that has gone understudied
         for – well – all of our existence. The <em>Dance of Serendipity</em>{" "}
@@ -14981,16 +15009,7 @@ const verses = [
     ),
   },
   {
-    classes: "verse",
-    html: (
-      <p>
-        <strong></strong>
-        <br />
-      </p>
-    ),
-  },
-  {
-    classes: "verse",
+    classes: "verse quote",
     html: (
       <p>
         <em>
@@ -15037,7 +15056,7 @@ const verses = [
       <p>
         The true measure of Artificial Intellect/Intelligence will be that
         system’s ability to push the limits of intuitive pattern extraction and
-        estimation.
+        estimation.{" "}
         <em>
           Intuition being defined as quick pattern recognition and feedback
           analysis of verbal and nonverbal thoughts.
@@ -15049,10 +15068,7 @@ const verses = [
     classes: "verse",
     html: (
       <p>
-        <strong>True AI is one that would ask the right questions.</strong>
-        <strong>
-          True Sentience is the ability to wander towards the right answers for
-          questions that haven’t yet been asked.
+        <strong>True AI is one that would ask the right questions. True Sentience is the ability to wander towards the right answers for questions that haven’t yet been asked.
         </strong>
       </p>
     ),
@@ -15121,7 +15137,7 @@ const verses = [
       <p>
         <em>
           Didn’t I tell you that even the most basic, and empirical laws of
-          nature thus far discovered would remain intact?
+          nature thus far discovered would remain intact?{" "}
         </em>
         Or did I peel off another layer in the infinity onion? We shall see!
       </p>
@@ -15282,11 +15298,8 @@ const verses = [
         interpretation of the information that is being channeled through them.
         <em>
           The measure of the sentience of such an animated knotted string
-          complex depends on its ability to introduce such changes *
-        </em>
-        <strong>at will*</strong>
-        <em>
-          , irrespective of the information that is being channeled through
+          complex depends on its ability to introduce such changes{" "}
+        <strong>at will</strong>, irrespective of the information that is being channeled through
           them.
         </em>
       </p>
@@ -15318,25 +15331,12 @@ const verses = [
           A sentient being whose behavioral patterns, no matter how methodically
           followed in a regular routine, can be interrupted and thus, altered,
           even in the absence of, perceived or actual, nudge of informational
-          energy coming from a source that is *
-        </em>
-        <strong>not</strong>
-        <em>
-          * separate from its own knotted string complex, experiences
-          serendipity.
+          energy coming from a source that is {" "}<strong>not</strong>{" "}separate from its own knotted string complex, experiences serendipity.
         </em>
       </p>
     ),
   },
-  {
-    classes: "verse",
-    html: (
-      <p>
-        <em></em>
-        <br />
-      </p>
-    ),
-  },
+
   {
     classes: "verse",
     html: (
@@ -15357,7 +15357,7 @@ const verses = [
     classes: "verse",
     html: (
       <p>
-        <em>The question then, is, not how does someone finally quit? </em>
+        <em>The question then, is, not how does someone finally let go? </em>
       </p>
     ),
   },
@@ -15365,7 +15365,7 @@ const verses = [
     classes: "verse",
     html: (
       <p>
-        <em>The question then, is, why has this person not quit already?</em>
+        <em>The question then, is, why has this person not let go already?</em>
       </p>
     ),
   },
@@ -15382,7 +15382,7 @@ const verses = [
     classes: "verse",
     html: (
       <p>
-        Is it the pressure from family that forces you to quit? For a lot of
+        Is it the pressure from family that forces you to quit it? For a lot of
         people this does it.
       </p>
     ),
@@ -15399,7 +15399,7 @@ const verses = [
   {
     classes: "verse",
     html: (
-      <p>What if despite all this, a person cannot bring himself to quit?</p>
+      <p>What if despite all this, a person cannot bring himself to unburden?</p>
     ),
   },
   {
@@ -15420,10 +15420,11 @@ const verses = [
     ),
   },
   {
-    classes: "verse",
+    classes: "verse quran",
     html: (
       <p>
-        <em>(Quran 7:153)</em>
+        وَالَّذِينَ عَمِلُوا السَّيِّئَاتِ ثُمَّ تَابُوا مِن بَعْدِهَا وَآمَنُوا إِنَّ رَبَّكَ مِن بَعْدِهَا لَغَفُورٌ رَّحِيمٌ
+        <br/><em>(Quran 7:153)</em>
       </p>
     ),
   },
@@ -15478,16 +15479,10 @@ const verses = [
     ),
   },
   {
-    classes: "verse",
-    html: <p>Start with Brahma, Easy</p>,
-  },
-  {
-    classes: "verse",
-    html: <p>Then Vishnu, Hardest</p>,
-  },
-  {
-    classes: "verse",
-    html: <p>Then Mahesh. Neutral.</p>,
+    classes: "verse quote",
+    html: (<p>Start with Brahma, Easy<br/>
+    Then Vishnu, Hardest<br/>
+    Then Mahesh. Neutral.</p>),
   },
   {
     classes: "verse",
@@ -15511,7 +15506,7 @@ const verses = [
     ),
   },
   {
-    classes: "verse",
+    classes: "verse block-quote",
     html: (
       <p>
         <em>You can accomplish any task in this manner. </em>
@@ -15606,7 +15601,7 @@ const verses = [
       <p>
         Since I am here, and I have to do the things that I am asked to do, and
         I have to perform the miracles that everybody expects me to perform – I
-        first have to be worthy of holding such a stature. And that’s why I have
+        first have to be worthy of holding such a stature. And that’s why I will have
         had to wait for 15 years before showing up in front of the world.
       </p>
     ),
@@ -15642,7 +15637,7 @@ const verses = [
       <p>
         <em>
           You have to constantly seek this validation from the world and that I
-          believe is the source of all that is wrong in the world.
+          believe is the source of all that is wrong in the world.{" "}
         </em>
         If all the validation that you seek can be provided by God, and the
         result of that validation, good or bad, is reflected in the life that
@@ -15686,7 +15681,7 @@ const verses = [
       <p>
         This is God’s system. It is nothing if not just. One caveat – this
         doesn’t apply to people only looking out for themselves and those that
-        benefit them
+        benefit them.
       </p>
     ),
   },
@@ -15746,7 +15741,7 @@ const verses = [
     ),
   },
   {
-    classes: "verse",
+    classes: "verse block-quote",
     html: (
       <p>
         <em>Isn’t it better to just be an atheist?</em>
@@ -15782,9 +15777,9 @@ const verses = [
       <p>
         <strong>
           In a time of prevailing social decadence, there arises in the
-          collective, a need to switch to Atheism
-        </strong>
-        . If you are confused and upset by this statement, then you are still
+          collective, a need to switch to Atheism.
+        </strong>{" "}
+        If you are confused and upset by this statement, then you are still
         acting with prejudice. To better understand this statement, we have to
         once again, go back to Aristotle. Are you then upset with Atheism, or
         the status quo that makes Atheism an obvious way of belief?
@@ -16152,7 +16147,7 @@ const verses = [
       <p>
         Now why would I state such an absurd thing? I will circle back to this
         in a brief moment, but first, I would like to introduce, the majorly
-        important, but vastly unexplored concept of
+        important, but vastly unexplored concept of{" "}
         <strong>
           Christ Consciousness – the idea that all of us, each and every one of
           us, without exception, contains, within ourselves, the potential, the
@@ -16249,11 +16244,11 @@ const verses = [
     classes: "verse",
     html: (
       <p>
-        In short, you have to
+        In short, you have to{" "}
         <strong>
           live out the preachings, and life of Christ in the Gospel to the
           letter
-        </strong>
+        </strong>{" "}
         for it to be in anyway beneficial to you, as it was to Christ at the
         time. If you commit wholeheartedly to God’s orders, your soul will live
         free, but if you disobey, even the tiniest bit, your body will feel the{" "}
@@ -16349,7 +16344,7 @@ const verses = [
         I’m sure I would’ve been given that chance again, but my life wouldn’t
         have gone on to play out at the magnitude that it will eventually play
         out. As you lose out on those opportunities, less and less of them start
-        coming your way –
+        coming your way –{" "}
         <strong>
           with each successive chance holding less importance in your confine of
           influence than the last one.
@@ -16372,7 +16367,7 @@ const verses = [
     classes: "verse equation",
     html: (
       <p>
-        <img src={"./images/yx3.png"} />
+        <img src={yx3} />
       </p>
     ),
   },
@@ -16397,12 +16392,12 @@ const verses = [
       <p>
         What I meant, when talking about the cubic nature of opportunity
         addition, was that acquisition of Christ Consciousness is not a one time
-        thing –
+        thing –{" "}
         <strong>
           it is deeply rooted in our internal code, and very well observed in
-          other spheres of life
-        </strong>
-        . That is why even though God is infinitely forgiving, you seem to get
+          other spheres of life.
+        </strong>{" "}
+        That is why even though God is infinitely forgiving, you seem to get
         hurt more and more every time you make the same mistake.
       </p>
     ),
@@ -16796,7 +16791,7 @@ const verses = [
         become. They just wanted their little kid – but I was not that kid
         anymore. That kid died. That’s what the whole Born Again experience was
         about. I looked, felt and mostly behaved like that kid because it’s an
-        integral part of this life.
+        integral part of this life.{" "}
         <em>
           Without Anhad’s background, this whole story wouldn’t have made sense
         </em>
@@ -16969,12 +16964,11 @@ const verses = [
         for the better. Thinking that you are superior to your fellow beings
         just because you have read some religious literature puts you at more of
         a disadvantage than others who haven’t. At least they can still plead
-        ignorance when God judges them for their actions.
+        ignorance when God judges them for their actions.{" "}
         <em>
           Ignorance is a certain kind of bliss that you then can’t achieve
-          anymore – knowledge once acquired, cannot be forgotten
+          anymore – knowledge once acquired, cannot be forgotten.
         </em>
-        .
       </p>
     ),
   },
@@ -16984,7 +16978,7 @@ const verses = [
       <p>
         Once you know what the right method is to seek God’s guidance, you can’t
         revert back to the old ways of not talking to Him. If you know that He
-        is always here to offer His help to you –
+        is always here to offer His help to you –{" "}
         <strong>
           why do you, how can you, go about your day without seeking His
           counsel?
@@ -17104,12 +17098,12 @@ const verses = [
     classes: "verse",
     html: (
       <p>
-        I wasn’t looking for God in books,
+        I wasn’t looking for God in books,{" "}
         <strong>
           I was destined to find Him in the most unlikely of places, every
-          single day
-        </strong>
-        . I was only reading to make myself worthy of being called his Son.{" "}
+          single day.
+        </strong>{" "}
+        I was only reading to make myself worthy of being called his Son.{" "}
         <em>There was a difference</em>;<em> </em>but of course, he couldn’t see
         it. So blinded by his own mistakes that he confessed, for the first
         time, to being an atheist who had lost faith in God because he couldn’t
@@ -17170,7 +17164,7 @@ const verses = [
     ),
   },
   {
-    classes: "verse quote",
+    classes: "verse block-quote",
     html: (
       <p>
         <strong>God doesn’t work through intermediaries. </strong>
@@ -17182,10 +17176,10 @@ const verses = [
     html: (
       <p>
         Sure, some people are more ahead in their spiritual Journey than others,
-        and the
+        and the{" "}
         <em>
           ones ahead can certainly guide the one’s not so far ahead in very
-          minute ways
+          minute ways{" "}
         </em>
         – that doesn’t mean you put another human being in between you and your
         Creator, forever.
@@ -17198,7 +17192,7 @@ const verses = [
       <p>
         <em>
           Only I, as the living person that I currently am, have that right, and
-          it’s a right I have to constantly earn.
+          it’s a right I have to constantly earn.{" "}
         </em>
         When I came out to my mother about my true purpose, saying that she was
         shocked would be a massive understatement. It is as if her mind could
@@ -17227,12 +17221,12 @@ const verses = [
     html: (
       <p>
         Sikhs however, cannot interpret a human obtaining such a high stature
-        through life experiences –
+        through life experiences –{" "}
         <em>
           for most of them, the power to comprehend the workings of God stopped
-          with the tenth Sikh Guru
-        </em>
-        , Guru Gobind Singh, when he vested this power in the Holy Book of the
+          with the tenth Sikh Guru,
+        </em>{" "}
+        Guru Gobind Singh, when he vested this power in the Holy Book of the
         Sikhs, Sri Guru Granth Sahib.
       </p>
     ),
@@ -17445,15 +17439,6 @@ const verses = [
     html: <hr />,
   },
 
-  {
-    classes: "chapter-title",
-    html: (
-      <p>
-        11 <br />
-        Absolution
-      </p>
-    ),
-  },
 
 
   {
@@ -17478,12 +17463,12 @@ const verses = [
         and refuse to let you in – the harder the situation becomes. If all
         their limitations are shouldered onto another being; then all they
         really have to choose is – to remain stuck, in going around in empty
-        circles – or actually find some meaning in their existence.
+        circles – or actually find some meaning in their existence.{" "}
         <em>
           I am that being on whose shoulders their troubles can rest, but I
-          require that leap of faith
-        </em>
-        . It was going to be a long time before I could get that from a real
+          require that leap of faith.
+        </em>{" "}
+        It was going to be a long time before I could get that from a real
         person.
       </p>
     ),
@@ -17782,7 +17767,7 @@ const verses = [
     ),
   },
   {
-    classes: "verse quote",
+    classes: "verse block-quote",
     html: (
       <p>
         <em>God is attained from within you</em>. Always.
@@ -17824,7 +17809,7 @@ const verses = [
         time, the world is renewed with an <em>infinite vibration</em>, the{" "}
         <em>Anhad</em> if you will, whose effect can be witnessed in moments of
         true vulnerability, in states of true emotion – in the moments when we
-        are truly <em>open</em>. Rather, it would be more correct to say that
+        are truly <em>open</em>. Rather, it would be more correct to say that{" "}
         <em>
           with each vibration, a unit interval of time is said to have passed.
         </em>
@@ -17847,13 +17832,13 @@ const verses = [
     classes: "verse",
     html: (
       <p>
-        Following that train of thought –
+        Following that train of thought –{" "}
         <em>
           time then, is an instrument that, with the help of God – moulds human
-          beings into the kind of people the want to become
-        </em>
-        , or as God so succinctly put it on the first day of my first lesson
-        with him: "ये दुनिया के उसूल, यूँ ही नहीं है" –{" "}
+          beings into the kind of people the want to become,
+        </em>{" "}
+        or as God so succinctly put it on the first day of my first lesson
+        with him: <strong>"ये दुनिया के उसूल, यूँ ही नहीं है"</strong> –{" "}
         <em>the principles of the world don't exist without reason</em>.
       </p>
     ),
@@ -17900,7 +17885,7 @@ const verses = [
         Knowing yourself and the situations you could work in – is the first
         step to realising the things you are going to become. If an act of yours
         is repeated more than others, it becomes intuitive. You can do that one
-        thing faster than most people because you have an <em>intuitive</em>
+        thing faster than most people because you have an <em>intuitive </em>
         understanding of those concepts.
       </p>
     ),
@@ -17926,18 +17911,35 @@ const verses = [
         comparison with known facts. The absolute truth is still absolute, but
         since we live in our own subjective realities,{" "}
         <strong>
-          <em>your truth</em> is then a subset of the absolute truth
+          <em>your truth</em> is then a subset of the absolute truth.
         </strong>
-        .
       </p>
     ),
   },
+
+  {
+    classes: "demarcator",
+    html: <hr />,
+  },
+
+  {
+    classes: "chapter-title",
+    html: (
+      <p>
+        12 <br />
+        Absolution
+      </p>
+    ),
+  },
+
+
+
   {
     classes: "verse",
     html: (
       <p>
         If we are all engaged in the same activities over repetitive periods of
-        time, and <em>all of us are imperfec</em>t, then, it stands to reason
+        time, and <em>all of us are imperfect</em>, then, it stands to reason
         that going through life, we all, and I sincerely mean ALL of us, pick up
         some repetitive habits that are not beneficial to us in the long term.
       </p>
@@ -18801,7 +18803,7 @@ const verses = [
     classes: "verse",
     html: (
       <p>
-        The chains of temptations hinder the Holy Spirit from entering a
+        The Chains of Temptation hinder the Holy Spirit from entering a
         person’s body and cleansing the soul, and nourishing the tree of life.
         The body, mind, soul and the surroundings are not cleansed, and thus,
         hindered from evolving into something beautiful - from living a life in
@@ -18896,20 +18898,7 @@ const verses = [
       </p>
     ),
   },
-  {
-    classes: "demarcator",
-    html: <hr />,
-  },
 
-  {
-    classes: "chapter-title",
-    html: (
-      <p>
-        12 <br />
-        Clean
-      </p>
-    ),
-  },
   {
     classes: "verse",
     html: (
@@ -18947,30 +18936,17 @@ const verses = [
     ),
   },
   {
-    classes: "verse",
+    classes: "verse bible",
     html: (
       <p>
-        <em>“And he that taketh not his cross, and followeth after me, </em>
+        “And he that taketh not his cross, <br/>
+        and followeth after me, <br/>
+        is not worthy of me.” <br/>
+        (Matthew 10:38)
       </p>
     ),
   },
-  {
-    classes: "verse",
-    html: (
-      <p>
-        <em>is not worthy of me.” (Matthew 10:38)</em>
-      </p>
-    ),
-  },
-  {
-    classes: "verse",
-    html: (
-      <p>
-        <em></em>
-        <br />
-      </p>
-    ),
-  },
+
   {
     classes: "verse",
     html: (
@@ -18981,32 +18957,18 @@ const verses = [
         intention – it was His. I am merely an instrument that He is playing. My
         part in all this? I am allowing Him to play Me as He sees fit. As I have
         stated multiple times before – I just wanted to find a better way to
-        live, and I had found it. If this was the price of a better life, then
-        so be it.
+        live, and I had found it. <strong>If this was the price of a better life, then
+        so be it.</strong>
       </p>
     ),
   },
   {
-    classes: "verse",
+    classes: "verse bible",
     html: (
       <p>
-        <em>“He that findeth his life shall lose it: </em>
-      </p>
-    ),
-  },
-  {
-    classes: "verse",
-    html: (
-      <p>
-        <em>and he that loseth his life for my sake shall find it.” </em>
-      </p>
-    ),
-  },
-  {
-    classes: "verse",
-    html: (
-      <p>
-        <em>(Matthew 10:39)</em>
+        “He that findeth his life shall lose it: <br/>
+        and he that loseth his life for my sake shall find it.” <br/>
+        (Matthew 10:39)
       </p>
     ),
   },
@@ -19072,34 +19034,13 @@ const verses = [
     ),
   },
   {
-    classes: "verse",
+    classes: "verse bible",
     html: (
       <p>
-        <em>“Behold, the LORD maketh the earth empty, </em>
-      </p>
-    ),
-  },
-  {
-    classes: "verse",
-    html: (
-      <p>
-        <em>and maketh it waste, and turneth it upside down, </em>
-      </p>
-    ),
-  },
-  {
-    classes: "verse",
-    html: (
-      <p>
-        <em>and scattereth abroad the inhabitants thereof.” </em>
-      </p>
-    ),
-  },
-  {
-    classes: "verse",
-    html: (
-      <p>
-        <em>(Isaiah 24:1)</em>
+        “Behold, the LORD maketh the earth empty, <br/>
+        and maketh it waste, and turneth it upside down, <br/>
+        and scattereth abroad the inhabitants thereof.” <br/>
+        (Isaiah 24:1)
       </p>
     ),
   },
@@ -19123,58 +19064,21 @@ const verses = [
         that something big was going to be announced on the news, I panicked
         like all the lost humans on this planet did – panic bought the things
         that they would for sure need during a prolonged emergency. For some it
-        was groceries, for others it was alcohol, for many it was drugs – and
+        was groceries, for others it was guns, for many it was drugs – and
         you know which category I fell into.
       </p>
     ),
   },
   {
-    classes: "verse",
+    classes: "verse bible",
     html: (
       <p>
-        <em>“And it shall be, as with the people, so with the priest; </em>
-      </p>
-    ),
-  },
-  {
-    classes: "verse",
-    html: (
-      <p>
-        <em>as with the servant, so with his master; as with the maid, </em>
-      </p>
-    ),
-  },
-  {
-    classes: "verse",
-    html: (
-      <p>
-        <em>so with her mistress; as with the buyer, so with the seller; </em>
-      </p>
-    ),
-  },
-  {
-    classes: "verse",
-    html: (
-      <p>
-        <em>
-          as with the lender, so with the borrower; as with the taker of usury,
-        </em>
-      </p>
-    ),
-  },
-  {
-    classes: "verse",
-    html: (
-      <p>
-        <em>so with the giver of usury to him.”</em>
-      </p>
-    ),
-  },
-  {
-    classes: "verse",
-    html: (
-      <p>
-        <em>(Isaiah 24:2)</em>
+        <em>“And it shall be, as with the people, so with the priest; <br/>
+        as with the servant, so with his master; as with the maid, <br/>
+        so with her mistress; as with the buyer, so with the seller; <br/>
+        as with the lender, so with the borrower; as with the taker of usury,<br/>
+        so with the giver of usury to him.”<br/>
+        (Isaiah 24:2)</em>
       </p>
     ),
   },
@@ -19193,26 +19097,12 @@ const verses = [
     ),
   },
   {
-    classes: "verse",
+    classes: "verse bible",
     html: (
       <p>
-        <em>“The city of confusion is broken down: </em>
-      </p>
-    ),
-  },
-  {
-    classes: "verse",
-    html: (
-      <p>
-        <em>every house is shut up, that no man may come in.”</em>
-      </p>
-    ),
-  },
-  {
-    classes: "verse",
-    html: (
-      <p>
-        <em>(Isaiah 24:10)</em>
+        “The city of confusion is broken down: <br/>
+        every house is shut up, that no man may come in.”<br/>
+        (Isaiah 24:10)
       </p>
     ),
   },
@@ -19228,26 +19118,12 @@ const verses = [
     ),
   },
   {
-    classes: "verse",
+    classes: "verse bible",
     html: (
       <p>
-        <em>“The land shall be utterly emptied, and utterly spoiled: </em>
-      </p>
-    ),
-  },
-  {
-    classes: "verse",
-    html: (
-      <p>
-        <em>for the LORD hath spoken this word.” </em>
-      </p>
-    ),
-  },
-  {
-    classes: "verse",
-    html: (
-      <p>
-        <em>(Isaiah 24:3)</em>
+        “The land shall be utterly emptied, and utterly spoiled: <br/>
+        for the LORD hath spoken this word.” <br/>
+        (Isaiah 24:3)
       </p>
     ),
   },
@@ -19304,40 +19180,11 @@ const verses = [
     ),
   },
   {
-    classes: "verse",
+    classes: "verse bible",
     html: (
       <p>
-        <em>
-          “Seventy weeks are determined upon thy people and upon thy holy city,
-          to finish the transgression, and to make an end of sins,
-        </em>
-      </p>
-    ),
-  },
-  {
-    classes: "verse",
-    html: (
-      <p>
-        <em>
-          and to make reconciliation for iniquity, and to bring in everlasting
-          righteousness, and to seal up the vision and prophecy,
-        </em>
-      </p>
-    ),
-  },
-  {
-    classes: "verse",
-    html: (
-      <p>
-        <em>and to anoint the most Holy.” </em>
-      </p>
-    ),
-  },
-  {
-    classes: "verse",
-    html: (
-      <p>
-        <em>(Daniel 9:24)</em>
+        “Seventy weeks are determined upon thy people and upon thy holy city,
+          to finish the transgression, and to make an end of sins, and to make reconciliation for iniquity, and to bring in everlasting righteousness, and to seal up the vision and prophecy, and to anoint the most Holy.”<br/>(Daniel 9:24)
       </p>
     ),
   },
@@ -19348,10 +19195,7 @@ const verses = [
         On December 31, 2019, a cluster of unidentified viral pneumonia cases
         was reported in Wuhan, China. As the virus spread around the globe, so
         did the panic surrounding it. Nations closed their borders, people were
-        confined to their own homes, businesses shut down and markets closed. In
-        my own country, a strict lockdown was imposed that lasted until May 3rd,
-        2020. This period is exactly 70 weeks. The extent of the lockdown
-        itself? 7 weeks.
+        confined to their own homes, businesses shut down and markets closed.
       </p>
     ),
   },
@@ -19359,20 +19203,12 @@ const verses = [
     classes: "verse",
     html: (
       <p>
-        <em>
+        
           “Know therefore and understand, that from the going forth of the
           commandment to restore and to build Jerusalem unto the Messiah the
           Prince shall be seven weeks, and threescore and two weeks: the street
           shall be built again, and the wall, even in troublous times.”
-        </em>
-      </p>
-    ),
-  },
-  {
-    classes: "verse",
-    html: (
-      <p>
-        <em>(Daniel 9:25)</em>
+        <br/>(Daniel 9:25)
       </p>
     ),
   },
@@ -19385,10 +19221,6 @@ const verses = [
         to US of America.
       </p>
     ),
-  },
-  {
-    classes: "verse",
-    html: <p>&lt;&gt;</p>,
   },
   {
     classes: "verse",
@@ -19471,15 +19303,7 @@ const verses = [
       </p>
     ),
   },
-  {
-    classes: "verse",
-    html: (
-      <p>
-        <em></em>
-        <br />
-      </p>
-    ),
-  },
+
   {
     classes: "verse",
     html: (
@@ -19610,6 +19434,19 @@ const verses = [
       </p>
     ),
   },
+
+
+  {
+    classes: "verse",
+    html: (
+      <p>
+        tdxycfgjvbhkn
+      </p>
+    ),
+  },
+
+
+
   {
     classes: "verse",
     html: (
@@ -19734,15 +19571,7 @@ const verses = [
       </p>
     ),
   },
-  {
-    classes: "verse",
-    html: (
-      <p>
-        <em></em>
-        <br />
-      </p>
-    ),
-  },
+
   {
     classes: "verse",
     html: (
@@ -19761,15 +19590,7 @@ const verses = [
       </p>
     ),
   },
-  {
-    classes: "verse",
-    html: (
-      <p>
-        <em></em>
-        <br />
-      </p>
-    ),
-  },
+
   {
     classes: "verse",
     html: (
