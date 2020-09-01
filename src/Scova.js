@@ -11554,7 +11554,7 @@ const verses = [
     ),
   },
   {
-    classes: "verse quote",
+    classes: "verse block-quote",
     html: (
       <p>
         And also, the fact that <em>I was the Son of God reincarnate. </em>
@@ -11580,7 +11580,7 @@ const verses = [
     classes: "verse",
     html: (
       <p>
-        Turns out, I wasn’t ready to put <em>all this</em> into speakable terms,
+        Turns out, I wasn’t ready to put <em>all of what you've read so far</em> into speakable terms,
         and any attempts to take on a task before arduous preparation almost
         always leads to complementary failures. To that end, God told me to go
         beyond the confine of influence of a single entity, and imbibe the full
@@ -11597,7 +11597,7 @@ const verses = [
         Muslim. How was I to have any remote understanding of this title? Would
         I read? Watch documentaries? Follow saturations of His influence in
         popular culture? I was freely imparted with wisdom during the 42 days
-        that I walked with God, but to
+        that I walked with God, but to{" "}
         <em>be Christ</em>? I was told that all the pain and suffering that I
         had been through until that moment in time, and if I so chose, after
         that moment was solely because of the burden that I was going to be
@@ -11609,9 +11609,9 @@ const verses = [
     classes: "verse",
     html: (
       <p>
-        I was honoured, overwhelmed, ecstatic, shaking to the bone, and on my
+        The first time I was told about this, I was honoured, overwhelmed, ecstatic, shaking to the bone, and on my
         knees – naked and afraid for my own life, and all of a sudden – I was
-        incharge of all this? This shithole of a fiasco that people called life?
+        incharge of everything? This shithole of a fiasco that people called life?
         How was I any better suited, or worthy, or even prepared to be a person
         like that? Before that moment, I hardly believed in His existence (God
         and Christ), so then, what did I have?
@@ -11715,7 +11715,7 @@ const verses = [
       <p>
         This "flow," is not just a means to express something abstract for which
         a better word has not yet been articulated. "Flow," implies fluidity, of
-        something that is not static in nature. Just like a functioning
+        something that is not static in nature. For a functioning
         individual – a normal day, in the life of a usual person needs to
         comprise some working hours, or else they might as well have laid waste
         like discarded furniture. Doing something daily, regularly, repeatedly,
@@ -11770,7 +11770,7 @@ const verses = [
         current knowledge). Your actions, by the virtue of the decisions that
         you make with the space you're in, and the time you're at, mould you
         into the person you want to become. It is then, imperative, that you
-        take coscious control of it; because until you don't – circumstances
+        take conscious control of it; because until you don't – circumstances
         will happen <em>to you</em> that will shape the kind of person you will
         become, but if you pivot, and take control – like occurs in a way such
         that spacetime moulds itself to suit your internal personal narrative.
@@ -11816,7 +11816,7 @@ const verses = [
     html: (
       <p>
         Sentient beings are unique in that way. We are all connected by ongoing
-        traffic lines that I have come to perceive as the <em>Force of Life</em>
+        traffic lines that I have come to perceive as the <em>Force of Life</em>{" "}
         (literal), or more colloquially, the <em>Chi</em>. It is the
         informational energy that forms the <em>perceptual counterpart</em> to
         the material energy flowing in the Strings of Time. I call them{" "}
@@ -11852,7 +11852,7 @@ const verses = [
     ),
   },
   {
-    classes: "verse",
+    classes: "verse block-quote",
     html: <p>Not even I, am allowed that luxury.</p>,
   },
   {
@@ -11862,7 +11862,7 @@ const verses = [
         He might let you fuck around for a while, but as the energy in the
         Strings of Time, and their <em>constant rearrangement </em>keeps the
         world’s entities moving, this short while lasts for a very limited
-        interval before
+        interval before{" "}
         <em>
           the control of the situation goes away from your self and onto the
           next instrument of pertinence
@@ -11930,7 +11930,7 @@ const verses = [
     classes: "verse",
     html: (
       <p>
-        When you are alive,
+        When you are alive,{" "}
         <em>
           you can direct information to and from different parts of this modular
           system
@@ -12029,7 +12029,7 @@ const verses = [
     classes: "verse",
     html: (
       <p>
-        The Force of Life flows <em>via</em> all human beings, and <em>from</em>
+        The Force of Life flows <em>via</em> all human beings, and <em>from</em>{" "}
         the surface of all physical matter. This is why the space that you are
         in, is responsible for the texture in your life. You are constantly
         picking up the Force of Life whenever you interact in any given space.
@@ -12046,7 +12046,7 @@ const verses = [
         What I have found, is that alcohol and <em>most</em> drugs help you
         relax your senses to a limited extent which allows for a much more fluid
         conversation. <em>Mind you</em>, this is a{" "}
-        <strong>limited effect</strong>
+        <strong>limited effect</strong>{" "}
         and holds true only up until a certain threshold, which is{" "}
         <strong>different for everyone</strong>, after which the psychological
         relaxation withers away and the physical relaxation takes over, and all
@@ -12062,7 +12062,7 @@ const verses = [
         So, when it is said that alcohol and other drugs get the participating
         members on the same wavelength as each other, what people really mean is
         that the participating members get on the same{" "}
-        <em>vibrating frequency</em>
+        <em>vibrating frequency</em>{" "}
         as each other – something that would’ve taken arduous bonding time
         without said substance, thus allowing for a more fluid travel of the
         Force of Life, <em>via</em> the speaking individual, <em>through</em>{" "}
@@ -12098,7 +12098,7 @@ const verses = [
     ),
   },
   {
-    classes: "verse quote",
+    classes: "verse block-quote",
     html: (
       <p>
         <em>
@@ -12128,7 +12128,7 @@ const verses = [
         Its <em>intensity</em> depends on the entity you are sharing that
         connection with. This apparently separated entity need not be present
         physically to implant that emotion within you, even the idea of{" "}
-        <em>it</em>
+        <em>it</em>{" "}
         will suffice for you to experience this true emotion.
       </p>
     ),
