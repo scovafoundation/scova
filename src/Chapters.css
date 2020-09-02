@@ -39,6 +39,7 @@ table {
 
 .bible {
     text-align: center;
+    font-style: italic;
 }
 
 .quote {
@@ -81,6 +82,18 @@ table {
     text-align: center;
     font-style: italic bold;
     font-family: 'Charter', 'Grad', 'Cheltenham';
+}
+
+.book-title {
+    font-size: 6rem;
+    text-align: center;
+    font-style: bold;
+    font-family: 'Charter', 'Grad', 'Cheltenham';
+    font-variant: small-caps;
+    color: rgb(51, 13, 13);
+    background-color: rgba(235, 139, 14, 0.22);
+    padding-bottom: 7em;
+    padding-top: 7em;
 }
 
 tr {

@@ -41,9 +41,9 @@ ReactDOM.render(
         <Button href="/book" variant="success">
           Book
         </Button>
-        <Button href="/blog" variant="warning">
+        {/* <Button href="/blog" variant="warning">
           Blog
-        </Button>
+        </Button> */}
       </ButtonGroup>
       </span>
 
@@ -53,9 +53,9 @@ ReactDOM.render(
         <Button href="/book" variant="success">
           Book
         </Button>
-        <Button href="/blog" variant="warning">
+        {/* <Button href="/blog" variant="warning">
           Blog
-        </Button>
+        </Button> */}
       </ButtonGroup>
       </span>
 

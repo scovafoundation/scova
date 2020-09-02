@@ -123,6 +123,15 @@ const onboarding = [
 
 const verses = [
   {
+    classes: "book-title",
+    html: (
+      <p>
+        Part 1: <br/>
+        Alethia
+      </p>
+    ),
+  },
+  {
     classes: "chapter-title",
     html: (
       <p>
@@ -2508,6 +2517,48 @@ const verses = [
       </p>
     ),
   },
+
+
+  {
+    classes: "verse",
+    html: (
+      <p>
+        Here's the thing though – in such a beaurocratic system, not everyone
+        has the time, or the empathy to engage in such a lengthy discussion.
+        Arguably, not every person in the position that I was, is able to
+        coherently conjure up actual words to describe these motions. The point
+        that I'm really trying to make here – is that we are all just, almost
+        always, inadequate. We have to work to perfect ourselves to become our
+        best selves. A 22 year old cannot be the best version of a human –
+        that's a recipe for disaster. You peak too soon, so you spend the rest
+        of your life looking back at the supposed "best" times of your life. The
+        best, should always be what's to come – not what's already gone; because
+        what kind of an existence would that be? Isn't the system of wiping your
+        memories at each birth, but keeping your intuition, fair?
+      </p>
+    ),
+  },
+  {
+    classes: "verse",
+    html: (
+      <p>
+        How are we then set up for failure? How could one possibly fathom this
+        system to be unfair, if it really just wants what's best for us. How is
+        it not generous, compassionate, and innately forgiving? I know how one
+        can fathom – because I was just pondering over it today. I was thinking
+        about why the collective consistently arrives at a place where the
+        decadence of the individual causes a catastrophic collapse of the entire
+        system. If it is so easy, almost natural to act like there are no rules
+        in the Game of Life, and that you can get away with anything as long as
+        nobody living being knows about it, how has the world functioned well
+        enough such that we have managed to persist thus far?
+      </p>
+    ),
+  },
+
+
+
+
   {
     classes: "verse",
     html: (
@@ -10392,9 +10443,7 @@ const verses = [
     classes: "salutation",
     html: (
       <p>
-        – Anhad Singh Arora,
-        <br />
-        <em>Son of God.</em>
+        – Anhad
       </p>
     ),
   },
@@ -17453,6 +17502,21 @@ const verses = [
       </p>
     ),
   },
+
+
+  {
+    classes: "verse bible",
+    html: (
+      <p>
+        “O that one might plead for a man with God, <br/>
+        as a man pleadeth for his neighbour!” <br/>
+        (Job 16:21)
+      </p>
+    ),
+  },
+
+
+
   {
     classes: "verse",
     html: (
@@ -17555,6 +17619,7 @@ const verses = [
     html: (
       <p>
         إِنَّ لَكَ فِي النَّهَارِ سَبْحًا طَوِيلًا <br />
+        وَاذْكُرِ اسْمَ رَبِّكَ وَتَبَتَّلْ إِلَيْهِ تَبْتِيلًا <br/>
         <em>(Quran 73:7-8)</em>
       </p>
     ),
@@ -17918,6 +17983,93 @@ const verses = [
   },
 
   {
+    classes: "verse",
+    html: (
+      <p>
+        A lot of times, it gets confusing – as to whether you are causing your
+        surroundings to happen – or are <em>They</em> making <em>You</em> into
+        something. One thing is for sure though, the more you flow with IT, the
+        more it seems like the path was laid out just for You – as if it were
+        destiny! Is it really destiny if you took all the conscious decisions to
+        move with IT?
+      </p>
+    ),
+  },
+  {
+    classes: "verse",
+    html: (
+      <p>
+        With enough synchronisation between the inside and the outside – time
+        begins to feel like a symphony you are writing with Space in real-time –
+        a wave you are surfing on, using the best of your skills – riding the
+        high tide only as allowed by natural laws.
+      </p>
+    ),
+  },
+  {
+    classes: "verse",
+    html: (
+      <p>
+        There might be other things in play – in the larger system, but you
+        don’t need to concern yourself with them. For the time being, what does
+        your intuition say?
+      </p>
+    ),
+  },
+  {
+    classes: "verse",
+    html: (
+      <p>
+        <em>Are you happy with what you are doing with your surroundings? <br/>
+        If not, change yourself. <br/>
+        If that does not help – change your surroundings. <br/>
+        If all fails, try changing the way you interact with your surroundings.
+        </em>
+      </p>
+    ),
+  },
+  {
+    classes: "verse",
+    html: (
+      <p>
+        Try to constantly build towards the person you want to become. Every
+        decision – every interaction, should build towards the kind of person
+        you want to be. Plan it. Execute it. This is your legacy. These
+        memories, these impressions – market yourself. Put your mind to
+        something, and then go – <em>All In; Don’t Stop. </em>
+      </p>
+    ),
+  },
+
+  {
+    classes: "verse",
+    html: (
+      <p>
+        If you keep your conscience clear and your body calm – and let the
+        strings of time enrich You with the experiences only you could have
+        lived in the place (here) you’re in and the time (now) you’re at on your
+        journey in this life, God will pull you past the mounds of shit that has
+        become current reality, and push You towards the goal only you could
+        then have achieved.
+      </p>
+    ),
+  },
+  {
+    classes: "verse",
+    html: (
+      <p>
+        Follow your instincts moment by moment – take your time, but not too
+        long. There is a reason time keeps going – regardless of who/what you
+        are/become – it is the only way to find meaning – real life events
+        lining up with your personal journey!
+      </p>
+    ),
+  },
+
+
+
+
+  {
     classes: "demarcator",
     html: <hr />,
   },
@@ -17972,7 +18124,7 @@ const verses = [
     classes: "verse",
     html: (
       <p>
-        <em>As a side-note:</em>
+        <em>As a side-note:</em>{" "}
         Wherever possible, refrain from using acronyms. Over time, only the
         shortened word remains but the expansion of its meaning is forgotten.
         This one was too apt to have not been used.
@@ -18007,7 +18159,7 @@ const verses = [
       <p>
         In the eyes of God, however, is is a big problem. You see, when you have
         an addiction, you automatically become an inferior being – in the eyes
-        of God, you are
+        of God, you are{" "}
         <em>
           no better than a lowly animal who loves rolling around in the mud
           because it doesn’t know better
@@ -18050,7 +18202,7 @@ const verses = [
         – don’t blindly dismiss this statement as something coming from an
         antiquated entity that does not trust humans to know their own limits.
         This isn’t the Old Testament where God simply commands –{" "}
-        <em>thou shan’t do drugs</em>. After all these millennia, even we, as
+        <em>thou shan’t do drugs</em>. After all these millennia, even <em>We</em>, as
         the symbiotic unit writing Scova, know that you aren’t going to stop
         just because we said so.
       </p>
@@ -18090,870 +18242,9 @@ const verses = [
       </p>
     ),
   },
-  {
-    classes: "verse quote",
-    html: (
-      <p>
-        <strong>People say that belief in God is a matter of faith. </strong>
-        <br />
-        <strong>It really isn’t. </strong>
-        <br />
-        <strong>God just is. </strong>
-        <br />
-        <strong>He exists. </strong>
-        <br />
-        <strong>And that’s that. </strong>
-      </p>
-    ),
-  },
-  {
-    classes: "verse",
-    html: (
-      <p>
-        What <em>faith</em> really is, is the amount of confidence you have in
-        your interpretation of the Word. Your interpretation could obviously be
-        wrong – you are, just a human. That would mean that your <em>faith</em>{" "}
-        (your interpretation) was misguided, and misplaced. Don’t question all
-        that you are, and all that you believe in. Just that one thing. Let
-        everything else stay stable. I, myself, had let my self-worth waver for
-        this simple reason – for a very long time. As such, we humans put faith
-        in a lot of different things – isn’t it true, alas, it is much worse,
-        that a person can end up believing in anything.
-      </p>
-    ),
-  },
+
+
   
-  {
-    classes: "verse",
-    html: (
-      <p>
-        While writing this chapter, God wanted to chime in for a brief moment,
-        and talk directly to me, instead of the usual{" "}
-        <em>talking to you through me</em>. I had just written about the worst
-        moment of my life for the first time, so this was a very God-esque
-        consolation from His end. This wasn’t the first time that He had spoken
-        directly, nor would it be the last – but this was the first time, where
-        I was actually really ready to type directly as He was dictating.
-      </p>
-    ),
-  },
-
-  {
-    classes: "demarcator",
-    html: <hr />,
-  },
-
-
-  {
-    classes: "verse",
-    html: (
-      <p>
-        <strong>Addendum From God</strong>
-        <br />
-        <br />
-        The fact of the matter is that you do know better Anhad – you always
-        have. You have known yourself to be weak ever since you took your first
-        hit and you liked it. You liked how the core molecules in them made you
-        feel good, in the ceiling of your mouth, and in the back of your head –
-        relieving you of the tension in your head that came with the realisation
-        that you were living a life fundamentally different from most people.
-        <br />
-        <br />
-        This was one way you could fit in, but it was also one that would set
-        you apart from the people you loved most. In the years to come, it would
-        consume you – entrenching itself into the very routines that made you
-        the person you are today.
-        <br />
-        <br />
-        It was the only thing you found that helped you wind down at the end of
-        a long day so that you could have a moment to yourself. It was the only
-        thing you craved after food, before food, during long walks, during
-        quiet moments of reticence, after a strenuous physical activity, after
-        an exhausting mental activity, around other people, alone by yourself,
-        while engaged in an activity that required your attention, and while
-        gazing into the nothingness attentive to nothing in particular.
-        <br />
-        <br />
-        In short, you were it and it was you. You were so possessed by the want
-        of it, that one day your body would need more than just a hit. You would
-        need much more than one. And then even that would not suffice. You
-        switched up. And that was just the beginning of your detachment from Me.
-        Once you discovered drugs that lead you to insightful thoughts and a
-        disconnect from the world – all without doing the work, it seemed like
-        there would be no turning back. You wanted drugs in your system as much
-        as was humanly possible. At times, even more than humanly possible.
-        <br />
-        <br />
-        With each successive hit of the drug, your desire to take more of it
-        only grew. Your social life, your daily routines, all were now focused
-        around the consumption of this drug. And when that was not enough, you
-        switched up to other, more immediately harmful drugs. All this time you
-        have gotten a good reason to explain your drug habits – psychedelics,
-        the final frontier.
-        <br />
-        <br />
-        Without it, you could not have reached Me (<em>or so you think</em>).
-        And without it, you would not have realised all that you have realised;
-        but the fact still remains – after all that you have realised, and after
-        all that you know you are destined to achieve – do you still want this
-        weakness hanging over you wherever you go?
-        <br />
-        <br />
-        What will happens once you have ultimately revealed yourself to the
-        world? Will you be able to hide your secret then? Or will you blatantly
-        go out in front of the entire world and admit to your weakness –
-        something so small, that has kept you on the level of inferior beings
-        that you have despised all your life? Or would you want to be left
-        alone, all by yourself, and continue to live this purposeless life that
-        you have so skilfully created for yourself?
-        <br />
-        <br />
-        You want to the world to leave you alone? This thing that we are doing,
-        it’s happening anyway – with or without you. You’ve already seen that
-        nobody else will ever be up to the mark, and nobody else will have been
-        able to do a better job at it than you –{" "}
-        <em>even the avatars of other souls that weren’t you</em>.
-        <br />
-        <br />
-        Once the big day arrives, you will never, ever be alone again; and if
-        you don’t actively prepare for it, your life will be made a living Hell,
-        in the proportions that even you have not yet seen.
-        <br />
-        <br />
-        I made you want to die,
-        <br />
-        but you know it was the only way –
-        <br />
-        now, I would like to help you.
-        <br />
-        <em>I can help you, if you let me.</em>
-        <br />I will <em>definitely</em> help you;
-        <br />
-        but only if you help yourself first.
-        <br />
-      </p>
-    ),
-  },
-
-  {
-    classes: "demarcator",
-    html: <hr />,
-  },
-
-  {
-    classes: "verse",
-    html: (
-      <p>
-        <em>Did God just tell me, that He’ll help me if I let Him?</em>
-      </p>
-    ),
-  },
-  {
-    classes: "verse",
-    html: (
-      <p>
-        Addiction may have been a disease, but for suffering through it as an
-        adult, for that I was solely responsible.
-      </p>
-    ),
-  },
-  {
-    classes: "verse",
-    html: (
-      <p>
-        It is possible to wean off of any drug, but you have to take the steps
-        yourself – <strong>consistently</strong>. Don’t be scared to fail. It is
-        okay to fail, only if the next time you try quitting, you are much more
-        firm in your resolve. Don’t lie to yourself that you are “cutting back”
-        or that you are a “controlled addict.” <em>There is no such thing</em>.
-      </p>
-    ),
-  },
-  {
-    classes: "verse",
-    html: (
-      <p>
-        You are only lying to yourself, and by extension, to Him. As long as you
-        keep taking a hit of your favourite drug, you are denying yourself of
-        the Holy Spirit. How will it nourish your <em>Tree of Life</em> if you
-        keep blocking the branches of this tree with illicit substances, denying
-        them the sustenance that they so desperately need?
-      </p>
-    ),
-  },
-  {
-    classes: "verse",
-    html: (
-      <p>
-        Addiction made me stoop to that low of a level. I knew I was in the
-        wrong, and I knew that God was watching my every move – yet for some
-        deranged reason, I just couldn’t get myself to improve. At a point, I
-        just gave up on improving. It’s the time when I wished I had a regular
-        life so I could engage in debauchery like everybody else and not have to
-        worry about the consequences.
-      </p>
-    ),
-  },
-  {
-    classes: "verse",
-    html: (
-      <p>
-        I was on my way home from work – alone in the car, I just burst into the
-        loudest cry I have had in a decade – probably worse than the cry on the
-        steps of the church in New York because I was concealed in my car.
-      </p>
-    ),
-  },
-  {
-    classes: "verse",
-    html: (
-      <p>
-        <em>
-          “My face is foul with weeping, and on my eyelids is the shadow of
-          death; Not for any injustice in mine hands: also my prayer is pure.”
-        </em>
-      </p>
-    ),
-  },
-  {
-    classes: "verse",
-    html: (
-      <p>
-        <em>(Job 16:16-17)</em>
-      </p>
-    ),
-  },
-  {
-    classes: "verse",
-    html: (
-      <p>
-        I was listening to songs in my <em>Azaan</em> playlist and just could
-        not stop singing along the words that had once related to my life in the
-        most positive manner, but were now only echoed in my thoughts with
-        negative connotations.
-      </p>
-    ),
-  },
-  {
-    classes: "verse",
-    html: (
-      <p>
-        I had to put up a brave face at home. My family could tell something was
-        wrong, but since God hadn’t instructed them to help me, they couldn’t.
-        We are all puppets dancing to His tune, while he mercilessly holds our
-        strings.
-      </p>
-    ),
-  },
-  {
-    classes: "verse",
-    html: (
-      <p>
-        No matter how much hard work you put into building up your life piece by
-        piece, He will put unsurmountable hurdles in your path. You might see
-        them as unnecessary obstacles in your way, but you just have to trust
-        that he knows what He is doing to you. Others around you will be of no
-        help, once you have asked for His.
-      </p>
-    ),
-  },
-  {
-    classes: "verse",
-    html: (
-      <p>
-        <strong>
-          Be very sure, and confident in your own will power, when you turn
-          towards God – because once you do, there’s no going back.
-        </strong>
-      </p>
-    ),
-  },
-  {
-    classes: "verse",
-    html: (
-      <p>
-        <em>
-          “Therefore as by the offence of one judgment came upon all men to
-          condemnation; even so by the righteousness of one the free gift came
-          upon all men unto justification of life.”
-        </em>
-      </p>
-    ),
-  },
-  {
-    classes: "verse",
-    html: (
-      <p>
-        <em>(Romans 5:18</em>
-        <em> </em>
-        <em>)</em>
-      </p>
-    ),
-  },
-  {
-    classes: "verse",
-    html: (
-      <p>
-        This was my struggle with myself, the scriptures, and addiction. If
-        there was no struggle, you wouldn’t be inclined to believe me, would
-        you? I have seen so much of my life fall apart piece by piece (metaphor)
-        that I just can’t live in this mediocrity anymore.
-      </p>
-    ),
-  },
-  {
-    classes: "verse",
-    html: (
-      <p>
-        <em>I too deserve the best, don’t I? </em>
-      </p>
-    ),
-  },
-
-
-
-  {
-    classes: "verse",
-    html: (
-      <p>
-        <em></em>
-        <br />
-      </p>
-    ),
-  },
-  {
-    classes: "verse",
-    html: (
-      <p>
-        <em>(Quran 5:16)</em>
-      </p>
-    ),
-  },
-  {
-    classes: "verse",
-    html: (
-      <p>
-        The Holy Spirit itself is a drug. Drugs are a shortcut to feeling what
-        you would’ve otherwise felt had you been truly worthy of feeling that
-        emotion in that particular moment. That’s all fine. I have ranted way
-        too long in the course of my life over this line.
-      </p>
-    ),
-  },
-  {
-    classes: "verse",
-    html: (
-      <p>
-        In the meanwhile, I have also been trying to find a substitute for each
-        of my drug habits. Substitute gourmet foods with healthy salads,
-        substitute wilful idleness with exercise, substitute melodious
-        sensations with calming silence, substitute illicit drugs with the Holy
-        Spirit.
-      </p>
-    ),
-  },
-  {
-    classes: "verse",
-    html: (
-      <p>
-        <em>“O that one might plead for a man with God, </em>
-      </p>
-    ),
-  },
-  {
-    classes: "verse",
-    html: (
-      <p>
-        <em>as a man pleadeth for his neighbour!” </em>
-      </p>
-    ),
-  },
-  {
-    classes: "verse",
-    html: (
-      <p>
-        <em>(Job 16:21)</em>
-      </p>
-    ),
-  },
-  {
-    classes: "verse",
-    html: (
-      <p>
-        God is all about if and only if. That’s partly true. God is also about
-        forgiveness and understanding. Why is it that He’s about forgiveness?
-        What is there to be forgiven when all of this is okay? It’s because He’s
-        first and foremost about if and only if.
-      </p>
-    ),
-  },
-  {
-    classes: "verse",
-    html: (
-      <p>
-        There is a very narrow path that one can walk to attain Him. You are
-        allowed digressions from the path, because you have to live your own
-        legend, build your own life in the way that you know best. The texture
-        of a well lived life is only available to those who are willing to
-        wander from the well chartered path. In a time of social decadence then,
-        there is no trailblazing in partaking in the things that everyone finds
-        themselves indulging in. It takes strength, determination, courage, grit
-        and most of all hope – to find your way to Him – to refrain from doing
-        what others do without a single conscious thought.
-      </p>
-    ),
-  },
-  {
-    classes: "verse",
-    html: (
-      <p>
-        Why should you refrain at all? In moments of true devotion, His magic
-        can be witnessed – His inspiration can be received, and His
-        interventions can be understood. All that you are, and all that you will
-        be – is shown to you, and a life is given to you to live in the way that
-        you know best.
-      </p>
-    ),
-  },
-  {
-    classes: "verse",
-    html: (
-      <p>
-        The key here, being you knowing what’s best for you. Devoid of any
-        personal, social, societal preconceptions of what is it that you should
-        be doing, and what it is that you are supposed to become – you know in
-        the deepest trenches of you metaphorical heart some principles to be
-        absolutely true – and given the highest amount of appeasement and
-        bribery and ego-boosting, you will not waver from them.
-      </p>
-    ),
-  },
-  {
-    classes: "verse",
-    html: (
-      <p>
-        At the time of writing this, I will be 26 years old tomorrow. My mom
-        says that I was due to be born on Christmas Day had it not been for a
-        C-section. It’s fitting. We do things differently in this time, and a
-        Christmas birth would’ve been way to obvious and old fashioned.
-      </p>
-    ),
-  },
-  {
-    classes: "verse",
-    html: (
-      <p>
-        Things were good in the old days right? When people feared God – instead
-        of understanding Him. When people kept their women indoors instead of
-        supporting them into becoming a symbiotic whole with them, as equal
-        partners forever in a dance of time. When it wasn’t okay to be
-        Sex-positive but it was okay to have family members the size of a small
-        enterprise. When it wasn’t okay to speak your mind, but it was okay to
-        pelt stones at those who did. When there was no mathematics, no
-        scientific method, no telemetry, just hokum placebo mumbo jumbo.
-      </p>
-    ),
-  },
-
-  {
-    classes: "verse",
-    html: (
-      <p>
-        Here's the thing though – in such a beaurocratic system, not everyone
-        has the time, or the empathy to engage in such a lengthy discussion.
-        Arguably, not every person in the position that I was, is able to
-        coherently conjure up actual words to describe these motions. The point
-        that I'm really trying to make here – is that we are all just, almost
-        always, inadequate. We have to work to perfect ourselves to become our
-        best selves. A 22 year old cannot be the best version of a human –
-        that's a recipe for disaster. You peak too soon, so you spend the rest
-        of your life looking back at the supposed "best" times of your life. The
-        best, should always be what's to come – not what's already gone; because
-        what kind of an existence would that be? Isn't the system of wiping your
-        memories at each birth, but keeping your intuition, fair?
-      </p>
-    ),
-  },
-  {
-    classes: "verse",
-    html: (
-      <p>
-        How are we then set up for failure? How could one possibly fathom this
-        system to be unfair, if it really just wants what's best for us. How is
-        it not generous, compassionate, and innately forgiving? I know how one
-        can fathom – because I was just pondering over it today. I was thinking
-        about why the collective consistently arrives at a place where the
-        decadence of the individual causes a catastrophic collapse of the entire
-        system. If it is so easy, almost natural to act like there are no rules
-        in the Game of Life, and that you can get away with anything as long as
-        nobody living being knows about it, how has the world functioned well
-        enough such that we have managed to persist thus far?
-      </p>
-    ),
-  },
-
-
-
-  {
-    classes: "verse",
-    html: (
-      <p>
-        At the time Gautam walked this earth, online shopping and same-day
-        delivery didn’t exist, so He had to venture out into the woods and beg
-        for alms from nearby villages while He contemplated in silence.
-      </p>
-    ),
-  },
-  {
-    classes: "verse",
-    html: (
-      <p>
-        At the time Christ walked this earth, recording instruments didn’t exist
-        so His walk on water couldn’t be recorded.
-      </p>
-    ),
-  },
-  {
-    classes: "verse",
-    html: (
-      <p>
-        At the time Mohammad walked this earth, the internet didn’t exist so He
-        was forced to choose a successor from amongst the stupid idiots who
-        surrounded Him.
-      </p>
-    ),
-  },
-  {
-    classes: "verse",
-    html: (
-      <p>
-        At the time Nanak walked this earth, airplanes and universal translators
-        didn’t exist so He was confined to the people He could barely
-        communicate with.
-      </p>
-    ),
-  },
-  {
-    classes: "verse",
-    html: (
-      <p>
-        At the time Adolf walked this earth, walls of immigration control didn’t
-        exist so He was forced to purge an entire race of people at an
-        industrial scale.
-      </p>
-    ),
-  },
-  {
-    classes: "verse",
-    html: (
-      <p>
-        Why this unrelated rant? If Gautam’s Nirvana could be attained while
-        existing within the confines of a social world, people wouldn’t be so
-        turned off by the idea of Nirvana.
-      </p>
-    ),
-  },
-  {
-    classes: "verse",
-    html: (
-      <p>
-        If Christ’s Walk on Water was recorded, that would be clear proof that
-        God exists and grants superhuman powers to those who follow His path.
-      </p>
-    ),
-  },
-  {
-    classes: "verse",
-    html: (
-      <p>
-        If Mohammad’s inner circle comprised like-minded individuals from all
-        over the globe, He wouldn’t be restricted to the dumbos who only
-        believed in the power that God gave Him, and not entirely in His
-        teachings. That’s why He left without a clear indication of who would
-        succeed Him.
-      </p>
-    ),
-  },
-  {
-    classes: "verse",
-    html: (
-      <p>
-        If Nanak could travel all over the globe, and have a meal with the most
-        influential people of His time, the world would’ve already united under
-        a single banner without death and destruction that followed His death.
-      </p>
-    ),
-  },
-  {
-    classes: "verse",
-    html: (
-      <p>
-        If Adolf was allowed democratically agreed provisions of imaginary
-        boundaries, He would’ve built His thousand year reich without opposition
-        from those who didn’t fit into His world’s ideals.
-      </p>
-    ),
-  },
-  {
-    classes: "verse",
-    html: (
-      <p>Did I gain Nirvana in the crux of all human activity of my time?</p>
-    ),
-  },
-  {
-    classes: "verse",
-    html: <p>Fuck yeah, I did that.</p>,
-  },
-  {
-    classes: "verse",
-    html: <p>Do I want to walk on water?</p>,
-  },
-  {
-    classes: "verse",
-    html: <p>Fuck yes.</p>,
-  },
-  {
-    classes: "verse",
-    html: (
-      <p>Do I want to leave a better world in the hands of trusted comrades?</p>
-    ),
-  },
-  {
-    classes: "verse",
-    html: <p>Why the fuck not?</p>,
-  },
-  {
-    classes: "verse",
-    html: (
-      <p>
-        Do I want to connect face to face with the beholders of collective power
-        in my time so that I can spread my message from the top down instead of
-        a long and arduous grassroots movement that can only begin with anger,
-        hate, and leave destruction in its wake?
-      </p>
-    ),
-  },
-  {
-    classes: "verse",
-    html: (
-      <p>
-        I’d be fucking stupid if I said I want to raise an army to help spread
-        my message.
-      </p>
-    ),
-  },
-  {
-    classes: "verse",
-    html: (
-      <p>
-        Do I want to leave out people who don’t agree with me, and my
-        interpretation of His word? You’d be a fucking moron to try to talk
-        sense into people who will not succumb to reason alone.
-      </p>
-    ),
-  },
-  {
-    classes: "verse",
-    html: (
-      <p>
-        Of course, all these people were with fault. Who says they weren’t?
-        That’s just the thing. You cannot judge their actions from your
-        perspective of the future that is now your present. Hindsight is always
-        20/20. Is there much to be learnt from their wonders as is from their
-        failures? You’d have to be really fucking stupid to not notice it all in
-        its entirety.
-      </p>
-    ),
-  },
-  {
-    classes: "verse",
-    html: (
-      <p>
-        Couple things to be learnt from the few lines I have just mentioned.
-        <ol>
-          <li>Gaining access to God is easier than you think.</li>
-          <li>
-            Gaining access to the Holy Spirit is pretty fucking neat if it
-            allows for the things that it does.
-          </li>
-          <li>
-            Gaining access to this knowledge comes with a fuck ton of
-            responsibility. You can’t just give it to anyone because of their
-            proximity to you.
-          </li>
-          <li>
-            Granting the everyday person with this access does not have to be a
-            bloody battle.
-          </li>
-          <li>
-            God isn’t accessible to just about anybody. It’s an exclusive club.
-            Choose the members wisely.
-          </li>
-        </ol>
-      </p>
-    ),
-  },
-  {
-    classes: "verse",
-    html: (
-      <p>
-        Then again, what do I know? I only gained access to Him at 23. I have
-        seen Him day and night ever since. Did you see me walking on water in
-        2019? I will one day. Just not now. All of my human life will just be a
-        preparation for steps 2 thru 5.
-      </p>
-    ),
-  },
-  {
-    classes: "verse",
-    html: (
-      <p>
-        That in and of itself is a hard fact to swallow. Had I been just another
-        person, the sage advice of quitting drugs and moving on and never
-        looking back would be rock solid; but I’m not just any person, am I? I
-        am bound to do all the great things that took these super-humans entire
-        lifetimes, and yet they didn’t truly succeed in their missions.
-      </p>
-    ),
-  },
-  {
-    classes: "verse",
-    html: (
-      <p>
-        Maybe they did, in the way that tiny cogs in a gigantic machine work in
-        tandem with each other from obscure locations and at different times so
-        that a strategic whole operation can be completed. I just know that the
-        buck stops with me. I have been trying to swallow this fact for the past
-        two years and I still haven’t quite absorbed it.
-      </p>
-    ),
-  },
-  {
-    classes: "verse",
-    html: (
-      <p>
-        You would think that that society values people who can hold their
-        liquor, or people who can manage to act normal on drugs are cool. That’s
-        simply not the case. Those people have made their heightened sense of
-        awareness their “normal.” They simply will never be at a point where
-        they can be their best, their true self without drugs. Not without a
-        prolonged period of abstinence. Hence Lent. The period of penance, or
-        simply, abstinence from the substances and experiences that hinder
-        people from enjoying heavenly moments in mundane life experiences.
-      </p>
-    ),
-  },
-  {
-    classes: "verse",
-    html: (
-      <p>
-        The story of 40 days of temptation is not just restricted to six weeks
-        alone in the desert. It is a story of isolation in one’s own mind of not
-        being able to stick to God's plan of salvation. Before saving the world,
-        Christ had to save himself.
-      </p>
-    ),
-  },
-  {
-    classes: "verse",
-    html: (
-      <p>
-        The Chains of Temptation hinder the Holy Spirit from entering a
-        person’s body and cleansing the soul, and nourishing the tree of life.
-        The body, mind, soul and the surroundings are not cleansed, and thus,
-        hindered from evolving into something beautiful - from living a life in
-        which not only goals are accomplished, but in which expectations are
-        exceeded. It only leaves the person being capable enough to accomplish
-        tasks, but not rising up to the level of achieving legendary status.
-        It’s not just about accomplishing, but achieving.
-      </p>
-    ),
-  },
-  {
-    classes: "verse",
-    html: (
-      <p>
-        So I tried, and failed, and then I tried again. My struggle with
-        temptations is not just limited to 40 days, but to the 40 years of life
-        that I will have completed before finishing this book. I have to be
-        ready, and it has already been 2 years.
-      </p>
-    ),
-  },
-  {
-    classes: "verse",
-    html: (
-      <p>
-        Days are moving extremely slowly, but years are passing by extremely
-        quickly. 13 more years till I show up in front of the world with all
-        that I have to offer. Improving a single life, our own life, is much
-        harder that improving the life of billions. If I can prove myself of
-        being worthy of controlling my own life, I can be at the helm when I’m
-        shouldered with the life of the entire planet.
-      </p>
-    ),
-  },
-  {
-    classes: "verse",
-    html: (
-      <p>
-        My <em>self-consuming desires</em> eat me from within, but I hope to
-        God, that he gives me the strength, and nourishment to overcome these
-        desires as quickly as is humanly possible.
-      </p>
-    ),
-  },
-  {
-    classes: "verse",
-    html: (
-      <p>
-        Me being sick and tired of my addiction might be the understatement of
-        the Millennium. I was beyond sick, beyond tired, beyond shame, beyond
-        self-loathing, beyond self-hatred. I could kill myself, but things
-        wouldn’t be as easy the next time. All this work, all of this life - all
-        of my Purpose, left unfulfilled.
-      </p>
-    ),
-  },
-  {
-    classes: "verse",
-    html: (
-      <p>
-        I knew this too, that if I could get myself to quit, my life would never
-        be as hard as it was in the moment that I had finally quit. If my
-        legendary tale had to begin somewhere, it would definitely be at the
-        point that I had decided to stop being human. I couldn’t be prone to any
-        fault, however tiny that fault might be.
-      </p>
-    ),
-  },
-  {
-    classes: "verse",
-    html: (
-      <p>
-        I had already mastered all that was mentioned in previous books, my
-        addiction was the only thing God had left for me to deal with on my own
-        time. Everything else can be taught and explained and understood. This
-        has to be lived and suffered through, alone. You pick up this habit
-        against the wishes of God on your own and so, you have to deal with it
-        on your own.
-      </p>
-    ),
-  },
-  {
-    classes: "verse",
-    html: (
-      <p>
-        He can guide you on how to go about it, but you have to walk on the path
-        that He has laid out for you. You can refuse to walk on this path, hold
-        off on following his guidelines for only so long. Time will catch up
-        with you soon enough, so better be ready to quit and build up your life,
-        or hold onto this negative habit and keep living the shit life that you
-        have been living.
-      </p>
-    ),
-  },
-
   {
     classes: "verse",
     html: (
@@ -19128,12 +18419,12 @@ const verses = [
     classes: "verse bible",
     html: (
       <p>
-        <em>“And it shall be, as with the people, so with the priest; <br/>
+        “And it shall be, as with the people, so with the priest; <br/>
         as with the servant, so with his master; as with the maid, <br/>
         so with her mistress; as with the buyer, so with the seller; <br/>
         as with the lender, so with the borrower; as with the taker of usury,<br/>
         so with the giver of usury to him.”<br/>
-        (Isaiah 24:2)</em>
+        (Isaiah 24:2)
       </p>
     ),
   },
@@ -19222,15 +18513,27 @@ const verses = [
       </p>
     ),
   },
+
   {
     classes: "verse",
     html: (
       <p>
-        I had given up all hopes of a normal life, and sacrificed all my vices
-        for the Holy Spirit, and had followed all of God’s commands, and lived
-        the life of Christ to the letter, while being in sync with all my
-        worldly tasks. Did I not then, deserve the <em>legend</em> that I was
-        initially promised?
+        Addiction made me stoop to that low of a level. I knew I was in the
+        wrong, and I knew that God was watching my every move – yet for some
+        deranged reason, I just couldn’t get myself to improve. At a point, I
+        just gave up on improving. It’s the time when I wished I had a regular
+        life so I could engage in debauchery like everybody else and not have to
+        worry about the consequences.
+      </p>
+    ),
+  },
+  {
+    classes: "verse",
+    html: (
+      <p>
+        I was on my way home from work – alone in the car, I just burst into the
+        loudest cry I have had in a decade – probably worse than the cry on the
+        steps of the church in New York because I was concealed in my car.
       </p>
     ),
   },
@@ -19238,8 +18541,9 @@ const verses = [
     classes: "verse bible",
     html: (
       <p>
-        “Seventy weeks are determined upon thy people and upon thy holy city,
-          to finish the transgression, and to make an end of sins, and to make reconciliation for iniquity, and to bring in everlasting righteousness, and to seal up the vision and prophecy, and to anoint the most Holy.”<br/>(Daniel 9:24)
+        “My face is foul with weeping, and on my eyelids is the shadow of
+          death; Not for any injustice in mine hands: also my prayer is pure.”
+        <br/>(Job 16:16-17)
       </p>
     ),
   },
@@ -19247,10 +18551,10 @@ const verses = [
     classes: "verse",
     html: (
       <p>
-        On December 31, 2019, a cluster of unidentified viral pneumonia cases
-        was reported in Wuhan, China. As the virus spread around the globe, so
-        did the panic surrounding it. Nations closed their borders, people were
-        confined to their own homes, businesses shut down and markets closed.
+        I was listening to songs in my <em>Azaan</em> playlist and just could
+        not stop singing along the words that had once related to my life in the
+        most positive manner, but were now only echoed in my thoughts with
+        negative connotations.
       </p>
     ),
   },
@@ -19258,12 +18562,10 @@ const verses = [
     classes: "verse",
     html: (
       <p>
-        
-          “Know therefore and understand, that from the going forth of the
-          commandment to restore and to build Jerusalem unto the Messiah the
-          Prince shall be seven weeks, and threescore and two weeks: the street
-          shall be built again, and the wall, even in troublous times.”
-        <br/>(Daniel 9:25)
+        I had to put up a brave face at home. My family could tell something was
+        wrong, but since God hadn’t instructed them to help me, they couldn’t.
+        We are all puppets dancing to His tune, while he mercilessly holds our
+        strings.
       </p>
     ),
   },
@@ -19271,9 +18573,11 @@ const verses = [
     classes: "verse",
     html: (
       <p>
-        If this wasn’t abundantly clear, there reference to the priority of
-        rebuilding the Street and the Wall, even in these troubled times, points
-        to US of America.
+        No matter how much hard work you put into building up your life piece by
+        piece, He will put unsurmountable hurdles in your path. You might see
+        them as unnecessary obstacles in your way, but you just have to trust
+        that he knows what He is doing to you. Others around you will be of no
+        help, once you have asked for His.
       </p>
     ),
   },
@@ -19281,94 +18585,151 @@ const verses = [
     classes: "verse",
     html: (
       <p>
-        A lot of times, it gets confusing – as to whether you are causing your
-        surroundings to happen – or are <em>They</em> making <em>You</em> into
-        something. One thing is for sure though, the more you flow with IT, the
-        more it seems like the path was laid out just for You – as if it were
-        destiny! Is it really destiny if you took all the conscious decisions to
-        move with IT?
+        <strong>
+          Be very sure, and confident in your own will power, when you turn
+          towards God – because once you do, there’s no going back.
+        </strong>
       </p>
     ),
   },
   {
-    classes: "verse",
+    classes: "verse bible",
     html: (
       <p>
-        With enough synchronisation between the inside and the outside – time
-        begins to feel like a symphony you are writing with Space in real-time –
-        a wave you are surfing on, using the best of your skills – riding the
-        high tide only as allowed by natural laws.
+          “Therefore as by the offence of one judgment came upon all men to
+          condemnation; even so by the righteousness of one the free gift came
+          upon all men unto justification of life.”
+        <br/>(Romans 5:18)
       </p>
     ),
   },
+
+
+
+  ////////////////////////////////////// end of absolution
+  
   {
     classes: "verse",
     html: (
       <p>
-        There might be other things in play – in the larger system, but you
-        don’t need to concern yourself with them. For the time being, what does
-        your intuition say?
+        While writing this chapter, God wanted to chime in for a brief moment,
+        and talk directly to me, instead of the usual{" "}
+        <em>talking to you through me</em>. I had just written about the worst
+        moment of my life for the first time, so this was a very God-esque
+        consolation from His end. This wasn’t the first time that He had spoken
+        directly, nor would it be the last – but this was the first time, where
+        I was actually really ready to type directly as He was dictating.
       </p>
     ),
   },
+
+  {
+    classes: "demarcator",
+    html: <hr />,
+  },
+
+
   {
     classes: "verse",
     html: (
       <p>
-        <em>Are you happy with what you are doing with your surroundings? </em>
+        <strong>Addendum From God</strong>
+        <br />
+        <br />
+        The fact of the matter is that you do know better Anhad – you always
+        have. You have known yourself to be weak ever since you took your first
+        hit and you liked it. You liked how the core molecules in them made you
+        feel good, in the ceiling of your mouth, and in the back of your head –
+        relieving you of the tension in your head that came with the realisation
+        that you were living a life fundamentally different from most people.
+        <br />
+        <br />
+        This was one way you could fit in, but it was also one that would set
+        you apart from the people you loved most. In the years to come, it would
+        consume you – entrenching itself into the very routines that made you
+        the person you are today.
+        <br />
+        <br />
+        It was the only thing you found that helped you wind down at the end of
+        a long day so that you could have a moment to yourself. It was the only
+        thing you craved after food, before food, during long walks, during
+        quiet moments of reticence, after a strenuous physical activity, after
+        an exhausting mental activity, around other people, alone by yourself,
+        while engaged in an activity that required your attention, and while
+        gazing into the nothingness attentive to nothing in particular.
+        <br />
+        <br />
+        In short, you were it and it was you. You were so possessed by the want
+        of it, that one day your body would need more than just a hit. You would
+        need much more than one. And then even that would not suffice. You
+        switched up. And that was just the beginning of your detachment from Me.
+        Once you discovered drugs that lead you to insightful thoughts and a
+        disconnect from the world – all without doing the work, it seemed like
+        there would be no turning back. You wanted drugs in your system as much
+        as was humanly possible. At times, even more than humanly possible.
+        <br />
+        <br />
+        With each successive hit of the drug, your desire to take more of it
+        only grew. Your social life, your daily routines, all were now focused
+        around the consumption of this drug. And when that was not enough, you
+        switched up to other, more immediately harmful drugs. All this time you
+        have gotten a good reason to explain your drug habits – psychedelics,
+        the final frontier.
+        <br />
+        <br />
+        Without it, you could not have reached Me (<em>or so you think</em>).
+        And without it, you would not have realised all that you have realised;
+        but the fact still remains – after all that you have realised, and after
+        all that you know you are destined to achieve – do you still want this
+        weakness hanging over you wherever you go?
+        <br />
+        <br />
+        What will happens once you have ultimately revealed yourself to the
+        world? Will you be able to hide your secret then? Or will you blatantly
+        go out in front of the entire world and admit to your weakness –
+        something so small, that has kept you on the level of inferior beings
+        that you have despised all your life? Or would you want to be left
+        alone, all by yourself, and continue to live this purposeless life that
+        you have so skilfully created for yourself?
+        <br />
+        <br />
+        You want to the world to leave you alone? This thing that we are doing,
+        it’s happening anyway – with or without you. You’ve already seen that
+        nobody else will ever be up to the mark, and nobody else will have been
+        able to do a better job at it than you –{" "}
+        <em>even the avatars of other souls that weren’t you</em>.
+        <br />
+        <br />
+        Once the big day arrives, you will never, ever be alone again; and if
+        you don’t actively prepare for it, your life will be made a living Hell,
+        in the proportions that even you have not yet seen.
+        <br />
+        <br />
+        I made you want to die,
+        <br />
+        but you know it was the only way –
+        <br />
+        now, I would like to help you.
+        <br />
+        <em>I can help you, if you let me.</em>
+        <br />I will <em>definitely</em> help you;
+        <br />
+        but only if you help yourself first.
+        <br />
       </p>
     ),
   },
+
   {
-    classes: "verse",
-    html: (
-      <p>
-        <em>If not, change yourself. </em>
-      </p>
-    ),
-  },
-  {
-    classes: "verse",
-    html: (
-      <p>
-        <em>If that does not help – change your surroundings. </em>
-      </p>
-    ),
-  },
-  {
-    classes: "verse",
-    html: (
-      <p>
-        <em>
-          If all fails, try changing the way you interact with your
-          surroundings.
-        </em>
-      </p>
-    ),
-  },
-  {
-    classes: "verse",
-    html: (
-      <p>
-        Try to constantly build towards the person you want to become. Every
-        decision – every interaction, should build towards the kind of person
-        you want to be. Plan it. Execute it. This is your legacy. These
-        memories, these impressions – market yourself. Put your mind to
-        something, and then go – <em>All In; Don’t Stop. </em>
-      </p>
-    ),
+    classes: "demarcator",
+    html: <hr />,
   },
 
   {
     classes: "verse",
     html: (
       <p>
-        If you keep your conscience clear and your body calm – and let the
-        strings of time enrich You with the experiences only you could have
-        lived in the place (here) you’re in and the time (now) you’re at on your
-        journey in this life, God will pull you past the mounds of shit that has
-        become current reality, and push You towards the goal only you could
-        then have achieved.
+        <em>Did God just tell me, that He’ll help me if I let Him?</em>
       </p>
     ),
   },
@@ -19376,10 +18737,8 @@ const verses = [
     classes: "verse",
     html: (
       <p>
-        Follow your instincts moment by moment – take your time, but not too
-        long. There is a reason time keeps going – regardless of who/what you
-        are/become – it is the only way to find meaning – real life events
-        lining up with your personal journey!
+        Addiction may be a disease, but for suffering through it as an
+        adult, for that, you are solely responsible. Like all things with God, He's pulling the strings, and you are responsible. 
       </p>
     ),
   },
@@ -19387,7 +18746,11 @@ const verses = [
     classes: "verse",
     html: (
       <p>
-        The whole point of this volume was to create an equality of opportunity.
+        It is possible to wean off of any drug, but you have to take the steps
+        yourself – <strong>consistently</strong>. Don’t be scared to fail. It is
+        okay to fail, only if the next time you try quitting, you are much more
+        firm in your resolve. Don’t lie to yourself that you are “cutting back”
+        or that you are a “controlled addict.” <em>There is no such thing</em>.
       </p>
     ),
   },
@@ -19395,97 +18758,11 @@ const verses = [
     classes: "verse",
     html: (
       <p>
-        Because this knowledge has existed in the world as long as language has
-        been around - it was God’s people who taught humans language itself.
-      </p>
-    ),
-  },
-  {
-    classes: "verse",
-    html: (
-      <p>
-        I have, in some ways, tried to gather knowledge from different sources,
-        eclectic even. That has only been to demonstrate the fact that all of
-        what I have now told you, is universal, in that it applies equally to
-        each being, regardless of their backgrounds - socioculturopolitical.
-      </p>
-    ),
-  },
-  {
-    classes: "verse",
-    html: (
-      <p>
-        Education is the silver bullet (metaphor). It is the great equaliser for
-        the masses - regardless of the civilisation’s chosen mode of governance.
-      </p>
-    ),
-  },
-  {
-    classes: "verse",
-    html: (
-      <p>
-        Knowledge, thus far, has been difficult to acquire, and very hard to
-        interpret - both subjectively snd objectively.
-      </p>
-    ),
-  },
-  {
-    classes: "verse",
-    html: (
-      <p>
-        This was why I did it. So that people after my time cannot misconstrue
-        sacred knowledge to suit their own, puny ideals.
-      </p>
-    ),
-  },
-  {
-    classes: "verse",
-    html: (
-      <p>
-        When everyone has access to the same knowledge, from the same source, in
-        the same language, with the same constructs, it becomes that much harder
-        to fool the ignorant collective.
-      </p>
-    ),
-  },
-  {
-    classes: "verse",
-    html: (
-      <p>
-        This also means that their is an equal potential for exploitation at a
-        much grander scale - but to counter that, I will have written Neeti - to
-        make sure that even though I have taken this risk, imparting this
-        knowledge to the entire human populace, I believe there will be an
-        equal, if not more, influence of its counterpart in the cosmic duality.
-      </p>
-    ),
-  },
-  {
-    classes: "verse",
-    html: (
-      <p>
-        And this will, in turn, rightly kickstart, mine, and God’s vision for
-        his Kingdom - that ultimately nudges us, as a collective into the
-        Sata-Yug.
-      </p>
-    ),
-  },
-  {
-    classes: "verse",
-    html: (
-      <p>
-        “...because what use is all the knowledge in the world if you're sitting
-        across from an empty seat at the end of the day?”
-      </p>
-    ),
-  },
-  {
-    classes: "verse",
-    html: (
-      <p>
-        <em>
-          Let God grab a hold of your wrist and guide you onto the right path.
-        </em>
+        You are only lying to yourself, and by extension, to Him. As long as you
+        keep taking a hit of your favourite drug, you are denying yourself of
+        the Holy Spirit. How will it nourish your <em>Tree of Life</em> if you
+        keep blocking the branches of this tree with illicit substances, denying
+        them the sustenance that they so desperately need?
       </p>
     ),
   },
@@ -19495,12 +18772,325 @@ const verses = [
     classes: "verse",
     html: (
       <p>
-        tdxycfgjvbhkn
+        The Holy Spirit itself is a drug. Drugs are a shortcut to feeling what
+        you would’ve otherwise felt had you been truly worthy of feeling that
+        emotion in that particular moment. That’s all fine. I have ranted way
+        too long in the course of my life over this line.
+      </p>
+    ),
+  },
+  {
+    classes: "verse",
+    html: (
+      <p>
+        In the meanwhile, I have also been trying to find a substitute for each
+        of my drug habits. Substitute gourmet foods with healthy salads,
+        substitute wilful idleness with exercise, substitute melodious
+        sensations with calming silence, substitute illicit drugs with the Holy
+        Spirit.
+      </p>
+    ),
+  },
+
+  {
+    classes: "verse",
+    html: (
+      <p>
+        You would think that that society values people who can hold their
+        liquor, or people who can manage to act normal on drugs are cool. That’s
+        simply not the case. Those people have made their heightened sense of
+        awareness their “normal.” They simply will never be at a point where
+        they can be their best, their true self without drugs. Not without a
+        prolonged period of abstinence. Hence Lent. The period of penance, or
+        simply, abstinence from the substances and experiences that hinder
+        people from enjoying heavenly moments in mundane life experiences.
+      </p>
+    ),
+  },
+  {
+    classes: "verse",
+    html: (
+      <p>
+        The story of 40 days of temptation is not just restricted to six weeks
+        alone in the desert. It is a story of isolation in one’s own mind of not
+        being able to stick to God's plan of salvation. Before saving the world,
+        Christ had to save himself.
+      </p>
+    ),
+  },
+  {
+    classes: "verse",
+    html: (
+      <p>
+        The Chains of Temptation hinder the Holy Spirit from entering a
+        person’s body and cleansing the soul, and nourishing the tree of life.
+        The body, mind, soul and the surroundings are not cleansed, and thus,
+        hindered from evolving into something beautiful - from living a life in
+        which not only goals are accomplished, but in which expectations are
+        exceeded. It only leaves the person being capable enough to accomplish
+        tasks, but not rising up to the level of achieving legendary status.
+        It’s not just about accomplishing, but achieving.
+      </p>
+    ),
+  },
+  {
+    classes: "verse",
+    html: (
+      <p>
+        So I tried, and failed, and then I tried again. My struggle with
+        temptations is not just limited to 40 days, but to the 40 years of life
+        that I will have completed before finishing this book. I have to be
+        ready, and it has already been 2 years.
+      </p>
+    ),
+  },
+  {
+    classes: "verse",
+    html: (
+      <p>
+        Days are moving extremely slowly, but years are passing by extremely
+        quickly. 13 more years till I show up in front of the world with all
+        that I have to offer. Improving a single life, our own life, is much
+        harder that improving the life of billions. If I can prove myself of
+        being worthy of controlling my own life, I can be at the helm when I’m
+        shouldered with the life of the entire planet.
+      </p>
+    ),
+  },
+  {
+    classes: "verse",
+    html: (
+      <p>
+        My <em>self-consuming desires</em> eat me from within, but I hope to
+        God, that he gives me the strength, and nourishment to overcome these
+        desires as quickly as is humanly possible.
+      </p>
+    ),
+  },
+  {
+    classes: "verse",
+    html: (
+      <p>
+        Me being sick and tired of my addiction might be the understatement of
+        the Millennium. I was beyond sick, beyond tired, beyond shame, beyond
+        self-loathing, beyond self-hatred. I could kill myself, but things
+        wouldn’t be as easy the next time. All this work, all of this life - all
+        of my Purpose, left unfulfilled.
+      </p>
+    ),
+  },
+  {
+    classes: "verse",
+    html: (
+      <p>
+        I knew this too, that if I could get myself to quit, my life would never
+        be as hard as it was in the moment that I had finally quit. If my
+        legendary tale had to begin somewhere, it would definitely be at the
+        point that I had decided to stop being human. I couldn’t be prone to any
+        fault, however tiny that fault might be.
+      </p>
+    ),
+  },
+  {
+    classes: "verse",
+    html: (
+      <p>
+        I had already mastered all that was mentioned in previous books, my
+        addiction was the only thing God had left for me to deal with on my own
+        time. Everything else can be taught and explained and understood. This
+        has to be lived and suffered through, alone. You pick up this habit
+        against the wishes of God on your own and so, you have to deal with it
+        on your own.
+      </p>
+    ),
+  },
+  {
+    classes: "verse",
+    html: (
+      <p>
+        He can guide you on how to go about it, but you have to walk on the path
+        that He has laid out for you. You can refuse to walk on this path, hold
+        off on following his guidelines for only so long. Time will catch up
+        with you soon enough, so better be ready to quit and build up your life,
+        or hold onto this negative habit and keep living the shit life that you
+        have been living.
       </p>
     ),
   },
 
 
+  {
+    classes: "verse",
+    html: (
+      <p>
+        God is all about if and only if. That’s partly true. God is also about
+        forgiveness and understanding. Why is it that He’s about forgiveness?
+        What is there to be forgiven when all of this is okay? It’s because He’s
+        first and foremost about if and only if.
+      </p>
+    ),
+  },
+  {
+    classes: "verse",
+    html: (
+      <p>
+        There is a very narrow path that one can walk to attain Him. You are
+        allowed digressions from the path, because you have to live your own
+        legend, build your own life in the way that you know best. The texture
+        of a well lived life is only available to those who are willing to
+        wander from the well chartered path. In a time of social decadence then,
+        there is no trailblazing in partaking in the things that everyone finds
+        themselves indulging in. It takes strength, determination, courage, grit
+        and most of all hope – to find your way to Him – to refrain from doing
+        what others do without a single conscious thought.
+      </p>
+    ),
+  },
+  {
+    classes: "verse",
+    html: (
+      <p>
+        Why should you refrain at all? In moments of true devotion, His magic
+        can be witnessed – His inspiration can be received, and His
+        interventions can be understood. All that you are, and all that you will
+        be – is shown to you, and a life is given to you to live in the way that
+        you know best.
+      </p>
+    ),
+  },
+  {
+    classes: "verse",
+    html: (
+      <p>
+        The key here, being you knowing what’s best for you. Devoid of any
+        personal, social, societal preconceptions of what is it that you should
+        be doing, and what it is that you are supposed to become – you know in
+        the deepest trenches of you metaphorical heart some principles to be
+        absolutely true – and given the highest amount of appeasement and
+        bribery and ego-boosting, you will not waver from them.
+      </p>
+    ),
+  },
+  {
+    classes: "verse",
+    html: (
+      <p>
+        At the time of writing this, I will be 26 years old tomorrow. My mom
+        says that I was due to be born on Christmas Day had it not been for a
+        C-section. It’s fitting. We do things differently in this time, and a
+        Christmas birth would’ve been way to obvious and old fashioned.
+      </p>
+    ),
+  },
+  {
+    classes: "verse",
+    html: (
+      <p>
+        Things were good in the old days right? When people feared God – instead
+        of understanding Him. When people kept their women indoors instead of
+        supporting them into becoming a symbiotic whole with them, as equal
+        partners forever in a dance of time. When it wasn’t okay to be
+        Sex-positive but it was okay to have family members the size of a small
+        enterprise. When it wasn’t okay to speak your mind, but it was okay to
+        pelt stones at those who did. When there was no mathematics, no
+        scientific method, no telemetry, just hokum placebo mumbo jumbo.
+      </p>
+    ),
+  },
+
+  {
+    classes: "verse quote",
+    html: (
+      <p>
+        <strong>People say that belief in God is a matter of faith. </strong>
+        <br />
+        <strong>It really isn’t. </strong>
+        <br />
+        <strong>God just is. </strong>
+        <br />
+        <strong>He exists. </strong>
+        <br />
+        <strong>And that’s that. </strong>
+      </p>
+    ),
+  },
+  {
+    classes: "verse",
+    html: (
+      <p>
+        What <em>faith</em> really is, is the amount of confidence you have in
+        your interpretation of the Word. Your interpretation could obviously be
+        wrong – you are, just a human. That would mean that your <em>faith</em>{" "}
+        (your interpretation) was misguided, and misplaced. Don’t question all
+        that you are, and all that you believe in. Just that one thing. Let
+        everything else stay stable. I, myself, had let my self-worth waver for
+        this simple reason – for a very long time. As such, we humans put faith
+        in a lot of different things – isn’t it true, alas, it is much worse,
+        that a person can end up believing in anything.
+      </p>
+    ),
+  },
+  
+
+  {
+    classes: "verse quran",
+    html: (
+      <p>
+        يَهْدِي بِهِ اللَّهُ مَنِ اتَّبَعَ رِضْوَانَهُ سُبُلَ السَّلَامِ وَيُخْرِجُهُم مِّنَ الظُّلُمَاتِ إِلَى النُّورِ بِإِذْنِهِ وَيَهْدِيهِمْ إِلَىٰ صِرَاطٍ مُّسْتَقِيمٍ
+        <br/><em>(Quran 5:16)</em>
+      </p>
+    ),
+  },
+
+
+  {
+    classes: "verse",
+    html: (
+      <p>
+        This was my struggle with myself, the scriptures, and addiction. If
+        there was no struggle, you wouldn’t be inclined to believe me, would
+        you? I have seen so much of my life fall apart piece by piece (metaphor)
+        that I just can’t live in this mediocrity anymore.
+      </p>
+    ),
+  },
+  {
+    classes: "verse",
+    html: (
+      <p>
+        <em>I too deserve the best, don’t I? </em>
+      </p>
+    ),
+  },
+
+
+
+
+
+  {
+    classes: "demarcator",
+    html: <hr />,
+  },
+
+  {
+    classes: "chapter-title",
+    html: (
+      <p>
+        13 <br />
+        Istikharah
+      </p>
+    ),
+  },
+
+  
+  {
+    classes: "verse title-quote",
+    html: (
+      <p>
+        caritas in veritate
+      </p>
+    ),
+  },
 
   {
     classes: "verse",
@@ -19554,18 +19144,10 @@ const verses = [
     ),
   },
   {
-    classes: "verse",
+    classes: "verse block-quote",
     html: (
       <p>
-        <em>“I am the Son of God and my one true Purpose in Life, </em>
-      </p>
-    ),
-  },
-  {
-    classes: "verse",
-    html: (
-      <p>
-        <em>is to guide the people of this time, to the City of Light.”</em>
+        <em>“I am the Son of God and my one true Purpose in Life, is to guide the people of this time, to the City of Light.”</em>
       </p>
     ),
   },
@@ -19575,9 +19157,7 @@ const verses = [
       <p>
         If it sounds like a frantic vagary to you now, believe me, I had no clue
         as to what I had just said. It did however, confirm the non-verbal
-        communication of God from my own Day of Judgement. I was indeed Christ.
-        This was not a fantasy, or a manic delusion – this was indeed real, as
-        had my bootcamp been real, as had my encounter with my future self been
+        communication of God from my own Day of Judgement. I was indeed destined to play the part of Christ in this life. This was not a fantasy, or a manic delusion – this was indeed real, as had my bootcamp been real, as had my encounter with my future self been
         real, as had my Brahma Phase been real, and so was my Shiva Trance – the
         Angels, the Eyes in the Sky and truer still had been the Judgement Days,
         both mine, and of my friend.
@@ -19669,7 +19249,7 @@ const verses = [
     ),
   },
   {
-    classes: "verse",
+    classes: "verse block-quote",
     html: (
       <p>
         <strong>
@@ -19777,7 +19357,7 @@ const verses = [
         talking about it, I am not even trying to get anyone's attention by even
         mentioning these things that I was feeling, and experiencing. What kind
         of a person would I be, if I started to gain social validation, or worse
-        – profit my sob story? What kind of a world would I be contributing
+        – profit from my sob story? What kind of a world would I be contributing
         towards?
       </p>
     ),
@@ -19837,38 +19417,327 @@ const verses = [
     ),
   },
 
-
-  
-
-
   {
     classes: "demarcator",
     html: <hr />,
   },
 
   {
-    classes: "chapter-title",
+    classes: "verse",
     html: (
       <p>
-        13 <br />
-        Istikharah
+        The date was July 13th, 2020 CE. I was in the office when my father told me that a new matchmaker was coming to visit us in a short while. I did not think much of it, for I had already had a couple meetings with these society sanctioned pimps who brokered arranged marriages on, what seemed like, pure whim.
+      </p>
+    ),
+  },
+
+  {
+    classes: "verse",
+    html: (
+      <p>
+        The guy came, talked mostly to my father, and even though I was sitting right there, did not speak to me at all. "He's just a kid," he must've been thinking. I could've just been an obscure fly on the wall, for all he cared. My feelings were a little hurt, as this person was going to represent me in front of my bride-to-be's parents, and he should've been more interested in learning more about me, and not just the imaginary wealth that he thought I was going to inherit from my maternal grandfather.
+      </p>
+    ),
+  },
+
+  {
+    classes: "verse",
+    html: (
+      <p>
+        Sure enough, I did not think much of the guy, as I know he didn't think much of me either. We (my father and him) chatted about all sorts of vagaries, and both the involved parties in that conversation tried to give a fairly good impression of themselves to the other, as all first-impression conversations are bound to proceed. 
+      </p>
+    ),
+  },
+
+  {
+    classes: "verse",
+    html: (
+      <p>
+        I didn't make much of the situation, as I was only in this charade to make my parents happy, and have them assured of the fact that all was well. I too, had assimilated myself in the banalities of life, and was much more focused on the next project at work that my mind had cooked up over the past couple of days. 
+      </p>
+    ),
+  },
+
+  {
+    classes: "verse",
+    html: (
+      <p>
+        As was my routine at the time, I came home early from work, and tried to take a nap before resuming my work on this new project in the quiet solitude of my room that had now turned into a nice workstation, courtesy of the COVID-19 pandemic and the subsequent lockdowns. 
+      </p>
+    ),
+  },
+
+  {
+    classes: "verse",
+    html: (
+      <p>
+        I laid down on my bed, and began to reflect on the conversation that had transpired a couple hours ago. Thinking about the matchmaker, and how he could be an instrument in altering, or perhaps cementing my life's path. I was stoic, almost disinterested in entertaining any possibility that this one was going to be any different from the previous brokers who had taken up the charge of setting up this match. I wondered if matches were truly made in Heaven. Then I began to wonder if I was in Heaven at all, at that instance in spacetime. 
+      </p>
+    ),
+  },
+
+  {
+    classes: "verse",
+    html: (
+      <p>
+        All things considered, I was having a fine time. As was the case for the past three years – it was all just fine. I was about to spiral down the same old track of this whole journey not being as legendary that I had fancied it to be, but my train of thought was interrupted. 
+      </p>
+    ),
+  },
+
+  {
+    classes: "verse",
+    html: (
+      <p>
+        The ceiling of my room began to emanate a golden pattern. Slowly but surely, that paisley pattern began to grow and emerge into the Grid of Strings that once began this whole Journey in the first place. I wasn't scared this time, for I was doing my part – I had been failing, but I had been trying repeatedly. The only thing I hadn't quit was quitting itself. Then, once again, came the non-verbal voice that was once characterised with fear and torment all those years ago, and it said, once again, <strong><em>"This is real. Pay close attention."</em></strong>
       </p>
     ),
   },
 
 
   {
-    classes: "block-quote",
+    classes: "verse",
+    html: (
+      <SpotifyPlayer
+        uri="spotify:track:76EeScTnI2sCjDY0SfEoSb" // Walk The Moon, Work This Body
+        size={{
+          width: "100%",
+          height: 300,
+        }}
+        view={"coverart"}
+        theme={"white"}
+      />
+    ),
+  },
+
+
+  {
+    classes: "verse",
+    html: (
+      <p>
+        At the time Gautam walked this earth, online shopping and same-day
+        delivery didn’t exist, so He had to venture out into the woods and beg
+        for alms from nearby villages while He contemplated in silence. At the time Christ walked this earth, recording instruments didn’t exist so His walk on water couldn’t be recorded. At the time Mohammad walked this earth, the internet didn’t exist so He was forced to choose a successor from amongst the stupid idiots who surrounded Him. At the time Nanak walked this earth, airplanes and universal translators didn’t exist so He was confined to the people He could barely communicate with. At the time Adolf walked this earth, walls of immigration control didn’t exist so He was forced to purge an entire race of people at an industrial scale.
+      </p>
+    ),
+  },
+  {
+    classes: "verse",
+    html: (
+      <p>
+        Why this unrelated rant? If Gautam’s Nirvana could be attained while existing within the confines of a social world, people wouldn’t be so turned off by the idea of Nirvana. If Christ’s Walk on Water was recorded, that would be clear proof that God exists and grants superhuman powers to those who follow His path. If Mohammad’s inner circle comprised like-minded individuals from all over the globe, He wouldn’t be restricted to the dumbos who only believed in the power that God gave Him, and not entirely in His teachings. That’s why He left without a clear indication of who would succeed Him. If Nanak could travel all over the globe, and have a meal with the most influential people of His time, the world would’ve already united under a single banner without death and destruction that followed His death. If Adolf was allowed democratically agreed provisions of imaginary boundaries, He would’ve built His thousand year reich without opposition from those who didn’t fit into His world’s ideals.
+      </p>
+    ),
+  },
+  {
+    classes: "verse",
+    html: (
+      <p>Did I gain Enlightenment in the crux of all human activity of my time? Yes, indeed, I did do that.</p>),
+  },
+  {
+    classes: "verse",
+    html: (<p>Do I want to walk on water? I dream about it, and practice my movements almost everyday.</p>),
+  },
+  {
+    classes: "verse",
+    html: (
+      <p>Do I want to leave a better world in the hands of trusted comrades? It's my only worry on most days.
+        </p>
+    ),
+  },
+  {
+    classes: "verse",
+    html: (
+      <p>
+        Do I want to connect face to face with the beholders of collective power
+        in my time so that I can spread my message from the top down instead of
+        a long and arduous grassroots movement that can only begin with anger,
+        hate, and leave destruction in its wake? I’d be catastrophically stupid if I said I want to raise an army to help spread my message.
+      </p>
+    ),
+  },
+  {
+    classes: "verse",
+    html: (
+      <p>
+        Do I want to leave out people who don’t agree with me, and my
+        interpretation of His word? You’d be a real moron to try to talk
+        sense into people who will not succumb to reason alone.
+      </p>
+    ),
+  },
+  {
+    classes: "verse",
+    html: (
+      <p>
+        Of course, all these people were with fault. Who says they weren’t?
+        That’s just the thing. You cannot judge their actions from your
+        perspective of the future that is now your present. Hindsight is always
+        20/20. Is there much to be learnt from their wonders as is from their
+        failures? You’d have to be really fucking stupid to not notice it all in
+        its entirety.
+      </p>
+    ),
+  },
+  {
+    classes: "verse",
+    html: (
+      <p>
+        Gaining access to God is easier than you think. Gaining access to the Holy Spirit is pretty fucking neat if it allows for the things that it does. Gaining access to this knowledge comes with a fuck ton of responsibility. You can’t just give it to anyone because of their proximity to you. Granting the everyday person with this access does not have to be a bloody battle. God isn’t accessible to just about anybody. It’s an exclusive club. Choose the members wisely. Then again, what do I know? I only gained access to Him at 23. 
+      </p>
+    ),
+  },
+  {
+    classes: "verse",
+    html: (
+      <p>
+        That in and of itself is a hard fact to swallow. Had I been just another
+        person, the sage advice of quitting drugs and moving on and never
+        looking back would be rock solid; but I’m not just any person, am I? I
+        am bound to do all the great things that took these super-humans entire
+        lifetimes, and yet they didn’t truly succeed in their missions.
+      </p>
+    ),
+  },
+  {
+    classes: "verse",
+    html: (
+      <p>
+        Maybe they did, in the way that tiny cogs in a gigantic machine work in
+        tandem with each other from obscure locations and at different times so
+        that a strategic whole operation can be completed. I just know that the
+        buck stops with me. I have been trying to swallow this fact since 2017 and I still haven’t quite absorbed it.
+      </p>
+    ),
+  },
+
+  {
+    classes: "verse",
+    html: (
+      <p>
+        The whole point of this volume was to create an equality of opportunity, because this knowledge has existed in the world as long as language has been around - it was God’s people who taught humans language itself.
+      </p>
+    ),
+  },
+  {
+    classes: "verse",
+    html: (
+      <p>
+        I have, in some ways, tried to gather knowledge from different sources,
+        eclectic even. That has only been to demonstrate the fact that all of
+        what I have now told you, is universal, in that it applies equally to
+        each being, regardless of their backgrounds - socioculturopolitical.
+      </p>
+    ),
+  },
+  {
+    classes: "verse",
+    html: (
+      <p>
+        Education is the silver bullet (metaphor). It is the great equaliser for
+        the masses - regardless of the civilisation’s chosen mode of governance. Knowledge, thus far, has been difficult to acquire, and very hard to interpret - both subjectively snd objectively.
+      </p>
+    ),
+  },
+  {
+    classes: "verse",
+    html: (
+      <p>
+        This was why I did it. So that people after my time cannot misconstrue
+        sacred knowledge to suit their own, puny ideals. When everyone has access to the same knowledge, from the same source, in the same language, with the same constructs, it becomes that much harder to fool the ignorant collective.
+      </p>
+    ),
+  },
+  {
+    classes: "verse",
+    html: (
+      <p>
+        This also means that their is an equal potential for exploitation at a
+        much grander scale - but to counter that, I will have written Neeti - to
+        make sure that even though I have taken this risk, imparting this
+        knowledge to the entire human populace, I believe there will be an
+        equal, if not more, influence of its counterpart in the cosmic duality.
+      </p>
+    ),
+  },
+  {
+    classes: "verse",
+    html: (
+      <p>
+        And this will, in turn, rightly kickstart, mine, and God’s vision for
+        his Kingdom - that ultimately nudges us, as a collective into the
+        Sata-Yug, or as I like to call it – Collective Nirvana.
+      </p>
+    ),
+  },
+
+  {
+    classes: "verse",
+    html: (
+      <p>
+        At the time of this new glimpse in 2020, I had given up all hopes of a normal life, and sacrificed all my vices for the Holy Spirit, and had followed all of God’s commands, and lived the life of Christ to the letter, while being in sync with all my worldly tasks. Did I not then, deserve the <em>legend</em> that I was initially promised? As with everything with God, it wasn't what I had asked for, but it was the best thing I could never have perceived for myself. 
+      </p>
+    ),
+  },
+  {
+    classes: "verse",
+    html: (
+      <p>
+        On December 31, 2019, a cluster of unidentified viral pneumonia cases
+        was reported in Wuhan, China. As the virus spread around the globe, so
+        did the panic surrounding it. Nations closed their borders, people were
+        confined to their own homes, businesses shut down and markets closed.
+      </p>
+    ),
+  },
+  {
+    classes: "verse bible",
+    html: (
+      <p>
+        “Seventy weeks are determined upon thy people and upon thy holy city,
+          to finish the transgression, and to make an end of sins, and to make reconciliation for iniquity, and to bring in everlasting righteousness, and to seal up the vision and prophecy, and to anoint the most Holy.<br/><br/>
+          Know therefore and understand, that from the going forth of the
+          commandment to restore and to build Jerusalem unto the Messiah the
+          Prince shall be seven weeks, and threescore and two weeks: the street
+          shall be built again, and the wall, even in troublous times.”
+        <br/>(Daniel 9:24-25)
+      </p>
+    ),
+  },
+  
+  
+  {
+    classes: "verse",
+    html: (
+      <p>
+        I just know that much bigger events will come into play once this pandemic is old news, and the scriptures are clear on how much time we all have to tie up loose ends in our internal narratives. I, for one, would finally love to have someone by my side, who makes this whole thing worthwhile, because I am today, in the same state I was over three years ago, when I had taken that solemn oath, and sworn myself to this alternate path – alone, in front of a screen, wondering, if there is someone, other than God, who can truly understand what it is that I am feeling, or at the very least, acknowledge me for who I am, without malice or contempt, or any predisposition, and see this work of mine, not as the lonely musings of a depressed human, but as an extention of the Divine, that I have yet to actualise. 
+        
+        </p>
+    ),
+  },
+  {
+    classes: "verse",
+    html: (
+      <p>
+
+        I know she's out there, and that God has a plan for me, because, like He said in 2017, <em>“...what use is all the knowledge in the world if you're sitting across from an empty seat at the end of the day?”</em>
+      </p>
+    ),
+  },
+  {
+    classes: "verse block-quote",
     html: (
       <p>
         <em>
-          Hey, if you're at this point, and still reading, I'd suggest you to
-          connect with me directly at <strong>anhad@scova.org</strong>, or look
-          me up on any social platforms. Let's chat now, because this will be the last chapter in Alethia, and events have yet to transpire, in real time.
+          I'm letting God grab a hold of my wrist and guide me onto the right path, serendipitously.
         </em>
       </p>
     ),
   },
+  
+
+
+  
 
 
 
@@ -19880,13 +19749,24 @@ const verses = [
       </p>
     ),
   },
+  // {
+  //   classes: "salutation",
+  //   html: (
+  //     <p>
+  //       – Anhad Singh Arora,
+  //       <br />
+  //       दत्तात्रेय
+  //     </p>
+  //   ),
+  // },
+
   {
     classes: "salutation",
     html: (
       <p>
         – Anhad Singh Arora,
         <br />
-        दत्तात्रेय
+        <em>Son of God.</em>
       </p>
     ),
   },
@@ -19896,6 +19776,17 @@ const verses = [
     html: <hr />,
   },
 
+
+    {
+    classes: "block-quote",
+    html: (
+      <p>
+        <em>
+          Hi there! You've reached the end of the first half of Scova, which is titled Alethia, and for now, I'm not writing any more of my story, I have yet to live it! The next volume will be called Neeti, and I will begin that after I get married. Until then, if you would like to have a chat, I'd suggest you to connect with me directly at<strong> anhad@scova.org</strong>, or look me up on any social platforms.
+        </em>
+      </p>
+    ),
+  },
 
   
   
