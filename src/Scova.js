@@ -9606,17 +9606,17 @@ const verses = [
       </p>
     ),
   },
-  {
-    classes: "verse quote",
-    html: (
-      <FacebookProvider appId="295988795097494">
-        <EmbeddedPost
-          href="https://www.facebook.com/2071080513112802/videos/573899893124700/"
-          width="100%"
-        />
-      </FacebookProvider>
-    ),
-  },
+  // {
+  //   classes: "verse quote",
+  //   html: (
+  //     <FacebookProvider appId="295988795097494">
+  //       <EmbeddedPost
+  //         href="https://www.facebook.com/2071080513112802/videos/573899893124700/"
+  //         width="100%"
+  //       />
+  //     </FacebookProvider>
+  //   ),
+  // },
 
   {
     classes: "verse",
@@ -9775,7 +9775,7 @@ const verses = [
         dimensional puzzle, whose pieces fall apart the longer you divert your
         attention away from them; and because it is so complex, you will not
         perceive the whole picture in a single glance – you have to personally
-        keep paying attention to each single detail, as your
+        keep paying attention to each single detail, as your{" "}
         <em>intuition</em> and <em>perception of the self</em> allows for a
         richer understanding in ways you couldn't have arrived at by conscious
         analysis alone, and in ways in which I will never explicitly mention.
@@ -9934,7 +9934,7 @@ const verses = [
         <em>religious text of consequence, thus far,</em> that was composed by
         the
         <em> humans Themselves, in tandem with God</em> that would actually
-        convey what it really meant to be
+        convey what it really meant to be{" "}
         <em>one with Him</em> – the <em>Guru Granth Sahib</em>, a compilation by
         a group of people who, over generations, connected with the Source and
         contributed to this <em>lively</em>, collaborative document. I say
@@ -10121,8 +10121,8 @@ const verses = [
       <p>
         Unlike other works, which <em>borrow from the same source</em>,
         including the ones I have already mentioned, this
-        <strong> Volume</strong> is meant for the
-        <em>entire population of the world (current and future)</em>, not just a
+        <strong> Volume </strong>is meant for the
+        <em> entire population of the world (current and future)</em>, not just a
         sect, not a city, not a country, not a race –
         <strong> for all sentient life</strong>. It is filled with language that
         cannot be misinterpreted or mistranslated,
@@ -10239,8 +10239,8 @@ const verses = [
           If you don't agree with this voice, feel free to find another.
         </strong>{" "}
         There will have been many false prophets before, and in, my time – and
-        all shall fail. So try your luck elsewhere, because
-        <em>laut ke buddhu ghar ko hi aate hai</em>.<em> </em>This will remain
+        all shall fail. So try your luck elsewhere, because{" "}
+        <em>laut ke buddhu ghar ko hi aate hai</em>. This will remain
         your respite, always.
       </p>
     ),
@@ -10283,7 +10283,7 @@ const verses = [
         beings alike, but
         <em>religion is established by humans</em>, and humans have limits, so
         do their constructs. Those limits being clearly defined across spacetime
-        as
+        as{" "}
         <em>
           including only people who may differ in their approaches and
           demeanours and their vibrance, only so long as they have the same end
@@ -10460,7 +10460,7 @@ const verses = [
     ),
   },
   {
-    classes: "verse",
+    classes: "verse block-quote",
     html: (
       <p>
         <em>The secrets have always been in the clich&#233;s.</em>
@@ -10491,7 +10491,7 @@ const verses = [
           step to realising the things you are going to become.
         </em>{" "}
         Do not think for a second that just because you have
-        <em>read</em> the right stuff, that you will feel these things the way I
+        <em> read </em>the right stuff, that you will feel these things the way I
         have felt.
       </p>
     ),
@@ -10527,7 +10527,7 @@ const verses = [
         <em>drastically dissimilar from you on the surface</em> might hold the
         Key to the Gate you have found yourself standing in front of repeatedly,
         for a long time. So pay heed to what people around you are saying, and
-        not saying – but understand everything <em>within the context</em> of
+        not saying – but understand everything<em> within the context </em>of
         your own confine.
       </p>
     ),
@@ -10541,7 +10541,7 @@ const verses = [
           assessment of known variables is yours to make, always.
         </em>{" "}
         It might be affected by imperceivable factors, but try your best to keep
-        track of the ones you can perceive, and hope for the best – for
+        track of the ones you can perceive, and hope for the best – for{" "}
         <em>
           this is the only freedom we've all got, so you owe it to yourself to
           hone it properly.
@@ -10654,7 +10654,7 @@ const verses = [
     html: (
       <p>
         Everything you perceive – goes <em>into</em> you, travels{" "}
-        <em>through</em>
+        <em>through</em>{" "}
         you and comes <em>out</em> of you.{" "}
         <em>You are the informational gateway to your own world.</em> Starting
         afresh, you and your mind – can be directed to be anything and become
@@ -10816,7 +10816,7 @@ const verses = [
     classes: "verse",
     html: (
       <p>
-        To that end, I could just end Alethia here stating that
+        To that end, I could just end Alethia here stating that{" "}
         <em>
           the universe operates on the Intelligent Design of Chaos, which is
           only perceptible to the human eye/mind via the illusion of order which
@@ -10855,7 +10855,7 @@ const verses = [
         ways in different scenarios and under different states of mind, but{" "}
         <strong>at the very basic level</strong>, programmatically speaking, the
         physical reality is is a two part composition – the first one comprising
-        the <em>Strings of Time</em> through which energy travels.
+        the <strong><em>Strings of Time</em></strong> through which energy travels.
       </p>
     ),
   },
@@ -10903,7 +10903,7 @@ const verses = [
     ),
   },
   {
-    classes: "verse quote",
+    classes: "verse block-quote",
     html: (
       <p>
         <em>Energy in a definite space equals mass.</em>
@@ -10911,7 +10911,7 @@ const verses = [
     ),
   },
   {
-    classes: "verse block-quote",
+    classes: "verse",
     html: (
       <p>
         So, it turns out, that humanity’s traditional understanding of their
@@ -11023,7 +11023,7 @@ const verses = [
     classes: "verse",
     html: (
       <p>
-        In a similar manner, we conjure a similar proposition:
+        In a similar manner, we conjure a similar proposition:{" "}
         <em>
           the constant rearrangement of the Strings of Time that hold the BIEs
           in this extremely complex system of objective reality, dominate the
@@ -11100,7 +11100,7 @@ const verses = [
       <p>
         A key task in doing all this would be a resolution of paradoxes and
         conceptual inconsistencies that have long been a source of
-        <em>technical debt</em>, hindering us, as a species, to progress to our{" "}
+        <em> technical debt</em>, hindering us, as a species, to progress to our{" "}
         <em>true form – which is innately Divine</em>.
       </p>
     ),
@@ -11209,8 +11209,8 @@ const verses = [
         I didn’t know everything about <em>my self</em> at the time, so I
         naturally assumed that I had met <em>Jesus</em> – the Son who had
         supposedly attained eternal life and was now just passing time, showing
-        up in random places wherever God commanded him to. I was just told on
-        the Day of my Judgement that I was Christ. I took that to mean that
+        up in random places wherever God commanded him to.<em> I was just told on
+        the Day of my Judgement that I was Christ. </em>I took that to mean that
         Christ was simply a state of being – the successful turn of events
         following a Spiritual Emergency.{" "}
         <strong>
@@ -11249,8 +11249,8 @@ const verses = [
         supposed to be sort of <strong>right-of-passage, </strong>from Christ of
         one spacetime to another, where I was to be given the sole
         responsibility of all the tasks, of which I was told, that I would one
-        day <em>have to</em> take up. I didn't have the title then, so I was
-        just referring to this whole journey as one where I'd become Christ.{" "}
+        day <em>have to</em> take up. I hadn't been alotted the "proper title" then, so I was
+        just referring to this whole journey as one where "I'd become Christ," whatever that meant.{" "}
         <em>At least, that was the working theory.</em>
       </p>
     ),
@@ -11292,9 +11292,9 @@ const verses = [
       <p>
         In that moment, God’s voice inside my head said, that this was who I was
         going to become if I stayed the way that I did. I would have{" "}
-        <em>all that it took to be the man</em> – I could <em>look like him</em>
-        and have <em>all the knowledge</em> that he did, but nobody, not even
-        myself, would <em>accept me</em> if I stayed the course in its current
+        <em>all that it took to be the man</em>{" "}– I could{" "}<em>look like him</em>{" "}
+        and have{" "}<em>all the knowledge</em>{" "}that he did, but nobody, not even
+        myself, would{" "}<em>accept me</em>{" "}if I stayed the course in its current
         form.
       </p>
     ),
@@ -11388,7 +11388,7 @@ const verses = [
         an oblivious death and truly start afresh in the next one. Either way,
         your slate will be wiped clean and you’ll know that your karmic balance
         is perfectly equalised. Isn’t that the truly better option? Knowing that
-        what you have, or will have will be the one that you truly deserve? Or
+        the life you have, or will have will be the one that you truly deserve? Or
         would you rather want to give up and make such a huge mistake when
         nearing the end of your penance?
       </p>
@@ -11425,7 +11425,7 @@ const verses = [
         because of the actions of this, or your past life. If it is the because
         of the circumstances in which you were born into, then it is the fault
         of your past self. If it is because of your own actions, then the fault
-        in this is indeed, entirely of your own self. Sure, there were agents of
+        in this is indeed, entirely of your current self. Sure, there were agents of
         change who were instrumental in bringing about your current condition,
         but they weren’t the ones at fault – not with regard to you – at least
         in the Divine Court.
@@ -11442,10 +11442,10 @@ const verses = [
         <em>you had a key part to play in all your suffering</em>. Regarding the
         whole world as a random set of events that just miraculously happened to
         occur without an overseer and without any rules is entirely ignorant, no
-        matter how deplorable, or sympathetic your condition. Of course, if
+        matter how deplorable, or sympathetic your condition. Of course, <strong>if
         other humans start to see your condition as entirely your fault, then
         they are doing more harm to their own self, than they are to you, by
-        hurting your sentiments. You can be sure of that.
+        hurting your sentiments. You can be sure of that.</strong>
       </p>
     ),
   },
@@ -11511,7 +11511,7 @@ const verses = [
     classes: "verse",
     html: (
       <p>
-        There is no human soul, there is no animal soul. There is just one kind
+        There is no human soul, there is no animal soul, and the same applies to all foliage. There is just one kind
         of driving force for all living entities. As far as I have been able to
         observe, the soul moves around in your astral body and only touches your
         human body on the surface of your skin.
