@@ -15173,7 +15173,7 @@ const verses = [
     html: (
       <p>
         See, the thing is, to the best of my knowledge, the ability to{" "}
-        <em>see</em>
+        <em>see</em>{" "}
         the strings and conduits, is only imparted to animated knotted string
         complexes. Unless we, or some other entity, figures out a way to give
         inanimate complexes this ability, we can’t really give machines the
@@ -15309,7 +15309,7 @@ const verses = [
         The ability to renew and regenerate is acquired by{" "}
         <em>serendipitous discipline</em>, and careful practice (for us at
         least). Modern concoctions such as plastic are unique as they age very
-        slowly, making it seem as if they were self nourishing. But I digress.
+        slowly, making it seem as if they were self nourishing; but I digress.
       </p>
     ),
   },
@@ -15321,7 +15321,7 @@ const verses = [
         string complexes transform this energy contained in the Strings of Time?
         An obvious example of plants and photosynthesis comes to mind – but
         that’s too simple and pre-modern to elaborate in this document. We will
-        focus<em>our</em> minds to things which concern us.{" "}
+        focus<em >our</em> minds to things which concern us.{" "}
         <em>Us being animated knotted string organic complexes.</em>
       </p>
     ),
@@ -15443,7 +15443,7 @@ const verses = [
         To simplify, animated knotted string complexes can introduce a change in
         their surroundings via their thoughts and actions depending on their
         interpretation of the information that is being channeled through them.
-        <em>
+        <em>{" "}
           The measure of the sentience of such an animated knotted string
           complex depends on its ability to introduce such changes{" "}
           <strong>at will</strong>, irrespective of the information that is
@@ -15459,12 +15459,12 @@ const verses = [
         This, however, in no way means that a machine that fits aforementioned
         description can be considered sentient because this description, no
         matter how novel, or derivative (depending on your perspective). To
-        really nail down to what I am really thinking here:
+        really nail down to what I am really thinking here:{" "}
         <em>
           If we are all just energy/matter composites – how is it that some of
           us follow predictable patterns and others engage in the dance of
           serendipity?
-        </em>
+        </em>{" "}
         I am going to spend a while on this last italic line as it seems that
         this question will be of prime importance in the coming millennia.
       </p>
@@ -15556,10 +15556,10 @@ const verses = [
     classes: "verse",
     html: (
       <p>
-        Should he just accept himself as a failure, and continue living his life
-        as he always has? That might be an option for somebody else. Not for me.
+        Should this person just accept the self as a failure, and continue living life
+        as the self always has? That might be an option for somebody else. Not for me.
         I know that for all mistakes you make as a human, a physical knot forms
-        in your body via the strings of time. And this knot will get only more
+        in your body via the strings of time; and this knot will get only more
         convoluted as you move on with your life (move <em>in space</em> and{" "}
         <em>through time</em>). It gets tighter the more you hold onto this
         mistake. This knot will then manifest itself in the form of a physical
@@ -15590,7 +15590,7 @@ const verses = [
         regular activities with a drug, and wind down after the day’s work with
         a drug – your daily cycle of birth and death revolves around that drug.
         If such is the case, then you are a long way from achieving unity with
-        God. But don’t worry. You can still be helped, only if you help
+        God. Don’t worry still, you can always be helped, only if you help
         yourself.
       </p>
     ),
@@ -17224,7 +17224,7 @@ const verses = [
         minute when he started to ramble ad infinitum about how I was just
         wasting valuable time, and was running away from this wonderful
         opportunity that my grandfather had given me. He said some very hurtful
-        things about my mental state, about
+        things about my mental state, about{" "}
         <em>
           all of my Journey being a vivid hallucination fuelled by my bipolar
           mind.
@@ -17242,7 +17242,7 @@ const verses = [
         life searching for enlightenment in derivative books that took me away
         from my family, and my work – that was him. I had not accumulated a
         massive debt that would keep me under for over a decade – that was also
-        him. This was the <em>first</em> book that I was reading, AFTER I had
+        him. This was the <em>first</em> book that I was reading on this subject, AFTER I had
         already achieved Satori.
       </p>
     ),
@@ -17268,7 +17268,7 @@ const verses = [
     classes: "verse",
     html: (
       <p>
-        Duh! God is not a theorem that you can memorise and apply mechanically.
+        Duh! God is not a theorem that you can memorise and apply mechanically.{" "}
         <strong>
           He requires complete surrender, and most obviously, and uncorrupted
           motivation
@@ -17462,7 +17462,7 @@ const verses = [
         if only I followed the right path.{" "}
         <em>
           You aren’t supposed to be anything you haven’t decided to become.
-        </em>
+        </em>{" "}
         How could I know what I could become unless I had been shown who I truly
         can be?
       </p>
@@ -17538,9 +17538,8 @@ const verses = [
         closely related to my actual, current life – but almost always,
         performing a ritual was a part of my personal journey with God. Whether
         it was my <em>Brahma Phase</em>, or the time when I was a{" "}
-        <em>Monkey in a Diamond</em>; or the time when I became a{" "}
-        <em>Filmfare</em>
-        Award on the completion of my Journey – I was always learning. Mind you,
+        <em>Monkey in a Diamond</em>; or the time when I received my<em> Pot of Gold </em>
+        on the completion of my Journey – I was always learning. Mind you,
         these vague titles don’t mean a thing to anyone in the world except to
         me, personally – so don’t try to look them up, or take these titles to
         heart – this was for me, and Me, alone.
@@ -17552,12 +17551,11 @@ const verses = [
     html: (
       <p>
         All that which was then written in Alethia, was revealed and explained
-        to me over those 42 Days in the Summer of 2017 in New York City.
+        to me over those 42 Days in the Summer of 2017 in New York City.{" "}
         <em>
-          It just took me the rest of my life to be able to conjure up words to
-          do it any justice
+          It just took me the next three years to be able to conjure up words to
+          do it any justice.
         </em>
-        .
       </p>
     ),
   },
@@ -17581,7 +17579,7 @@ const verses = [
         Imagine my plight, trying to explain this to her through just talk, all
         the while opening up to her about the shitty existence I had occupied
         before being Born Again. In hindsight,{" "}
-        <em>I would also find post-Nirvana Anhad crazy</em>. Hindsight is always
+        <em>I would also find post-Enlightenment Anhad crazy</em>. Hindsight is always
         20/20<em>.</em>
       </p>
     ),
@@ -17675,33 +17673,33 @@ const verses = [
         my family knowing what I now know; and I most certainly would not have
         started the life I have now started. My legend had only just begun, the
         42 Days of 2017 were just the Preface. God helped me realise all this
-        over the week I had started to curse him, and rebel against him. It is
+        over the week I had started to curse Him, and rebel against Him. It is
         true, once God grabs hold of you, He will never let go.{" "}
         <em>This shit is eternal</em>.
       </p>
     ),
   },
-  {
-    classes: "verse",
-    html: (
-      <p>
-        What do I say? God sent me back home under the ruse that I would stay
-        here for 6 months and then move off to some other, “more happening
-        place” where I would continue living my “legend.” It’s been over a year
-        now, and it seems like I will never leave.
-      </p>
-    ),
-  },
-  {
-    classes: "verse",
-    html: (
-      <p>
-        [<em>Update:</em> It has been over two years now, and I’m still here –
-        learning more and more each day, and <em>I don’t want to leave</em>. Not
-        until we reach the <strong>Inflection Point</strong>]
-      </p>
-    ),
-  },
+  // {
+  //   classes: "verse",
+  //   html: (
+  //     <p>
+  //       What do I say? God sent me back home under the ruse that I would stay
+  //       here for 6 months and then move off to some other, “more happening
+  //       place” where I would continue living my “legend.” It’s been over a year
+  //       now, and it seems like I will never leave.
+  //     </p>
+  //   ),
+  // },
+  // {
+  //   classes: "verse",
+  //   html: (
+  //     <p>
+  //       [<em>Update:</em> It has been over two years now, and I’m still here –
+  //       learning more and more each day, and <em>I don’t want to leave</em>. Not
+  //       until we reach the <strong>Inflection Point</strong>]
+  //     </p>
+  //   ),
+  // },
   {
     classes: "verse",
     html: (
@@ -17854,7 +17852,7 @@ const verses = [
         My qualm is with religious people and their misunderstandings about the
         workings of God. In their minds, they are too, their own saviours,{" "}
         <em>as I am my own</em>. They too, have the potential to realise the
-        Christ within themselves, as I have done for myself –{" "}
+        Christ within themselves, as I will have done for myself –{" "}
         <em>as God has made me do it for myself</em>. If ego-centric religious
         people had properly prayed to God, and listened to His commands in each
         moment, they wouldn’t be so frustrated all the time.
@@ -18022,7 +18020,7 @@ const verses = [
     classes: "verse",
     html: (
       <p>
-        For reasons that relate to the{" "}
+        For the{" "}
         <em>actualisation of Christ Consciousness</em>, we are all allotted the
         proper time needed for us to live out our fantasies happily enough to
         fulfil them. If you pay close enough attention, you might just find it
@@ -18935,7 +18933,7 @@ const verses = [
         So I tried, and failed, and then I tried again. My struggle with
         temptations is not just limited to 40 days, but to the 40 years of life
         that I will have completed before finishing this book. I have to be
-        ready, and it has already been 2 years.
+        ready, and it has already been three years.
       </p>
     ),
   },
@@ -18944,7 +18942,7 @@ const verses = [
     html: (
       <p>
         Days are moving extremely slowly, but years are passing by extremely
-        quickly. 13 more years till I show up in front of the world with all
+        quickly. 12 more years till I show up in front of the world with all
         that I have to offer. Improving a single life, our own life, is much
         harder that improving the life of billions. If I can prove myself of
         being worthy of controlling my own life, I can be at the helm when I’m
@@ -19084,7 +19082,7 @@ const verses = [
         of understanding Him. When people kept their women indoors instead of
         supporting them into becoming a symbiotic whole with them, as equal
         partners forever in a dance of time. When it wasn’t okay to be
-        Sex-positive but it was okay to have family members the size of a small
+        sex-positive but it was okay to have family members the size of a small
         enterprise. When it wasn’t okay to speak your mind, but it was okay to
         pelt stones at those who did. When there was no mathematics, no
         scientific method, no telemetry, just hokum placebo mumbo jumbo.
@@ -19157,6 +19155,26 @@ const verses = [
       </p>
     ),
   },
+
+  
+
+
+  {
+    classes: "verse",
+    html: (
+      <SpotifyPlayer
+        uri="spotify:track:134QG8C1qpCiFSY9B8mG2P" // Harold Van Lennep, Liberation
+        size={{
+          width: "100%",
+          height: 300,
+        }}
+        view={"coverart"}
+        theme={"white"}
+      />
+    ),
+  },
+
+
 
   {
     classes: "demarcator",
@@ -19431,9 +19449,9 @@ const verses = [
         that's about the only thing that can get people to live together in
         harmony, and actualise the best versions of themselves, if only it is
         followed by the vigorous training that I received directly from Him.
-        Hence, Scova, the Second Coming, the End of Days, and myself – aligned
+        Hence, Scova, the Second Coming, the End of Days, and myself – <strong><em>aligned
         to a singular purpose, of the highest ideal I could perceive – the act
-        of being Christ, here to actualise the Kingdom of God – for all.
+        of being Christ, here to actualise the Kingdom of God – for all</em></strong>.
         Everything else, you have already read. Just as the scriptures
         prophecied.
       </p>
@@ -19561,7 +19579,7 @@ const verses = [
     html: (
       <p>
         I didn't make much of the situation, as I was only in this charade to
-        make my parents happy, and have them assured of the fact that all was
+        make my parents happy, and have them be assured of the fact that all was
         well. I too, had assimilated myself in the banalities of life, and was
         much more focused on the next project at work that my mind had cooked up
         over the past couple of days.
@@ -19866,6 +19884,11 @@ const verses = [
         thing I could never have perceived for myself.
       </p>
     ),
+  },
+
+{
+    classes: "demarcator",
+    html: <hr />,
   },
   {
     classes: "verse",
