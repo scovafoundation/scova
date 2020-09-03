@@ -12873,7 +12873,8 @@ const verses = [
         nothing to sharpen my focus. It did nothing towards giving me a sense of
         clarity. It also did nothing to relieve any pain of any kind. This time
         it was something that the doctor (the guy who diagnosed me as bipolar)
-        prescribed me to ease me through the nightmare of withdrawal symptoms.
+        prescribed me to ease me through the nightmare of withdrawal symptoms, 
+        courtesy of my stupid college life.
       </p>
     ),
   },
@@ -12929,9 +12930,8 @@ const verses = [
         Each time you break these promises, a knot forms in your body. And we
         all know what knots do. Each time you show your human side – the side
         that is lazy and slacks a lot – a side that breaks promises to self – a
-        knot forms in your body that doesn’t allow time to{" "}
-        <em>flow freely through you</em>
-        (not a metaphor), the longer you keep up the <em>bad</em> behaviour, the
+        knot forms in your body that doesn’t allow <em> time to flow freely through you </em>
+        (not a metaphor), the longer you keep up the<em> bad </em>behaviour, the
         tighter and more convoluted this knot gets.
       </p>
     ),
@@ -13045,12 +13045,12 @@ const verses = [
     classes: "verse",
     html: (
       <p>
-        To expand the definition that I gave in Chapter 1,
+        To expand the definition that I gave previously,{" "}
         <em>
           the universe operates on the Intelligent Design of Chaos, which is
           only perceptible to the human eye/mind via the illusion of order which
           can be seen as the system rapidly self-organises
-          <strong>via the infinite vibration as modulated by God</strong>.
+          <strong> via the infinite vibration as modulated by God</strong>.
         </em>
       </p>
     ),
@@ -13078,8 +13078,8 @@ const verses = [
         <strong>Mandelbrot</strong>, as it reorganises itself, devoid of any
         information. You can almost imagine it as an empty pocket where light,
         sound etc (all information really) does not go, but instead folds around
-        it. It is the only true proof of the presence of God, and is hence seen
-        as God Himself.
+        it. <strong><em>It is the only true proof of the presence of God, and is hence seen
+        as God Himself.</em></strong>
       </p>
     ),
   },
@@ -13098,10 +13098,11 @@ const verses = [
     classes: "verse",
     html: (
       <p>
+        God, being the Grand Inquisitor, and us, as His extensions, are innately curious in nature. 
         To understand the meaning of curiosity, and by development of it –
         intelligence, what we really have to do, is go back to Aristotle – that
         is – do you want to understand what is an intelligent action, or what is
-        the<strong> source and medium</strong> that <em>guides</em> us towards
+        the<strong> source and medium </strong>that<em> guides </em>us towards
         intelligent action?
       </p>
     ),
@@ -13219,8 +13220,8 @@ const verses = [
         whenever you think it may have ended, there will come something so
         starkly ingenious that all that you may have learnt before, could just
         as easily be discarded as a waste of time – but somehow –
-        <em>the previous layers manage to stay intact</em>, to the point that
-        your <strong>belief in the reason for their existence</strong>{" "}
+        <em> the previous layers manage to stay intact</em>, to the point that
+        your<strong> belief in the reason for their existence</strong>{" "}
         strengthens even further.
       </p>
     ),
@@ -13415,7 +13416,7 @@ const verses = [
         To be in Heaven, you have also got to be a certain level of
         materialistic. Each thing around you, in your space, should be pretty —{" "}
         <em>to you</em>, but also, it should serve some purpose in the story of
-        your life. It can’t be stuff you just picked up at the mall because it
+        your life. It can’t just be stuff you just picked up at the mall because it
         was good looking.
       </p>
     ),
@@ -13466,7 +13467,7 @@ const verses = [
         the <strong>First Axiom of Nirvana</strong> –{" "}
         <em>
           always be ready to part with the stuff you have in your possession
-        </em>
+        </em>{" "}
         – because sooner or later, it will be taken away from you – no matter
         your stature in society or your financial security.
       </p>
@@ -13634,9 +13635,9 @@ const verses = [
         been told to express Myself. When I say stuff, it is because it is
         coming from Him – that’s why I can say things in the way I am saying
         them. Nobody – not one person on this planet that is currently alive has
-        the right to say this. I am attuned to my higher self, and as such, the
-        higher self is called upon in sentences where the situation being
-        described is one that pertains to the higher self.
+        the right to say this. I am attuned to my Higher Self, and as such, the
+        Higher Self is called upon in sentences where the situation being
+        described is one that pertains to the Higher Self.
       </p>
     ),
   },
@@ -13685,10 +13686,10 @@ const verses = [
     html: (
       <p>
         Once we understand our faults, it is our moral duty to correct
-        ourselves.
+        ourselves.{" "}
         <em>
           There is no shame in walking back on the path you fought so hard for –
-          there is only shame in not being able to admit you were wrong{" "}
+          there is only shame in not being able to admit you were wrong
         </em>
         . You are only human, of course you are prone to faults.
       </p>
@@ -13726,7 +13727,7 @@ const verses = [
     classes: "verse",
     html: (
       <p>
-        <em>The Lord is my Shepherd, I shall not want</em>– but what I want, He
+        <em>The Lord is my Shepherd, I shall not want </em>– but what I want, He
         freely gives. It’s not so much free in terms of the time and commitment,
         and unwavering belief that He requires – it is free in the way that you
         do not really <em>need</em> the guidance of a third party between you
