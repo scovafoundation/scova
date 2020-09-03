@@ -39,7 +39,7 @@ const scratchpad = [
         On the subject of unrealised, and unfulfilled souls, there is another
         ego-related pattern that makes me uneasy about reintroducing the concept
         of God to the world – that being over-inflated egos in religious people.
-        With atheists, I find it <em>moderately acceptabl</em>e when they make
+        With atheists, I find it <em>moderately acceptable</em> when they make
         ego-centric decisions, <em>for now</em> (before{" "}
         <em>La Resurrezione – the event, not the sculpture</em>) – because in
         their minds, <strong>they are always their own saviours</strong>.
@@ -229,46 +229,7 @@ const scratchpad = [
   },
 
   
-  {
-    classes: "verse",
-    html: (
-      <p>
-        It really is apocalyptically frustrating to have to interpret scriptures
-        not written in one’s native language, not really formally taught to one
-        during childhood years – but only acquired by careful assessment and
-        discernment as an adult. Of course I could be modest here, unassuming
-        even, and say that just because I was allowed a chance to learn from Him
-        directly, that I was able to perceive with clarity what the fuck was
-        going on in life.
-      </p>
-    ),
-  },
-  {
-    classes: "verse",
-    html: (
-      <p>
-        Sure, I could do that – <em>but that would be me playing human</em> –
-        lowering myself to the other person’s standard so that the person next
-        to me, the one listening to me, would not feel bad about themselves.
-        Sure I could very well do that – and it’s solid advice too.
-      </p>
-    ),
-  },
-  {
-    classes: "verse",
-    html: (
-      <p>
-        You really don’t want the other person to cast some verbal stones at you
-        now, do you? You can’t allow that to happen, because as much as you
-        would like to hide, you are nonetheless – not without sin, not without
-        an insecurity in your mind, not one with contentment, and peace and
-        constant internal warmth. Sure, you could have some of these elements
-        some of the time, but not all the time –{" "}
-        <em>surely not all of them, all the time.</em> You are a self-conscious
-        being.
-      </p>
-    ),
-  },
+  
   {
     classes: "verse",
     html: (

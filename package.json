@@ -31,6 +31,7 @@
         "react-soundcloud-embed": "^1.0.3",
         "react-soundcloud-player": "^1.1.1",
         "react-spotify-player": "^1.0.4",
+        "react-twitter-embed": "^3.0.3",
         "react-youtube": "^7.11.2",
         "surge": "^0.21.3"
     },

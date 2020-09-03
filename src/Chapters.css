@@ -52,9 +52,14 @@ table {
 }
 
 .player {
-    text-align: center;
+    /* text-align: center;
     align-items: center;
-    padding: 1rem;
+    padding: 1rem; */
+    align-content: center;
+    align-self: center;
+    width: 100%;
+    /* display: flex; */
+    /* justify-content: center; */
 }
 
 .quran em {
