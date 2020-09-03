@@ -11865,7 +11865,7 @@ const verses = [
         Not without preparation. My complete understanding of a situation, and
         my ability to put it into words was uniquely important to God being able
         to
-        <em>speak through me</em>. Only once had I understood a situation
+        <em> speak through me</em>. Only once had I understood a situation
         completely, could God convey the meaning to another person to the depth
         that I had understood it myself.
       </p>
@@ -11910,11 +11910,11 @@ const verses = [
         superficial, are actually very deeply embedded in the sentient psyche,
         and often require introspection beyond the capacity of an average
         person. I would agree with you on that factor. Like I said, this book is
-        not written for those that have not yet read, or read-but-not-understood
+        written for those that have not yet read, or read-but-not-understood
         the previous volumes. I am writing Alethia for those beings who have
         surpassed all that was taught before, and have still found the world
         lacking. They have observed and understood the nature of things, perhaps
-        more than all their ancestors combined, but have still found something
+        more than all their ancestors combined, but have still not found something
         in life that truly makes it worth their time.
       </p>
     ),
@@ -11946,7 +11946,7 @@ const verses = [
         into the person you want to become. It is then, imperative, that you
         take conscious control of it; because until you don't – circumstances
         will happen <em>to you</em> that will shape the kind of person you will
-        become, but if you pivot, and take control – like occurs in a way such
+        become, but if you pivot, and take control – life occurs in a way such
         that spacetime moulds itself to suit your internal personal narrative.
         Your belief in God, then, is the modulating force that regulates the
         intensity of these alterations.
@@ -12123,7 +12123,7 @@ const verses = [
       <p>
         Until and unless your soul leaves the physical vessel, there exists in
         you, this capacity to interact with this modular system. It is not,
-        then, a far fetched assumption that When your physical form, which is
+        then, a far fetched assumption that when your physical form, which is
         the container vessel for the soul, leaves a physical space, your ability
         to direct information to, and from, different modules of this system
         ceases with time. Given enough time, it becomes as if you were never
@@ -12163,8 +12163,8 @@ const verses = [
         This is the reason human beings like mechanical, almost mindless tasks
         that have a recurrent nature. If it is too simple a task, we outsource
         it to a machine, or delegate it to a subordinate. Why do we let go of a
-        blissful habit? It is because we like a little something called optimum
-        uncertainty to help us keep our attention directed at the task in hand,
+        blissful habit? It is because we like a little something called <strong><em>Optimum
+        Uncertainty</em></strong> to help us keep our attention directed at the task in hand,
         or else, like in everything, <em>the mind wanders</em>.
       </p>
     ),
@@ -12408,7 +12408,7 @@ const verses = [
     html: (
       <p>
         True emotion only occurs when our train of thought is the opposite of
-        the aforementioned paragraph. It requires a level of self-satisfaction
+        the aforementioned verse. It requires a level of self-satisfaction
         that most of us are almost-never in a position of attaining. Of course,
         being with the right people helps our cause, and yes, drugs and alcohol
         do help in <em>briefly experiencing</em> such a state –{" "}
@@ -12451,7 +12451,7 @@ const verses = [
         <em>until any given point in spacetime</em> has always been to find
         mundane reasons to explain the supernatural, and as is the nature of
         Alethia – I always end up using the supernatural to explain the mundane.
-        And as I have stated quite obtusely just a couple paragraphs ago,
+        And as I have stated quite obtusely just a couple verses ago,{" "}
         <em>
           moments of true emotion do not last very long to work well in your
           favour, and if you keep pondering and self-reflecting, much control is
@@ -12535,6 +12535,11 @@ const verses = [
         </strong>
       </p>
     ),
+  },
+
+  {
+    classes: "demarcator",
+    html: <hr />,
   },
 
   {
